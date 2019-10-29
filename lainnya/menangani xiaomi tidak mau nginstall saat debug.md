@@ -1,7 +1,7 @@
 # menangani gak mau install saat debug
 
 
-```html
+```java
 6
 
 check 4 ways:
