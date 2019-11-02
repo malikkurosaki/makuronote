@@ -1,0 +1,12 @@
+# emasil to key
+
+```java
+public static String getGoogleMail() {
+        if (user() != null){
+            String[] eml = user().getEmail().split("@");
+            return eml[0].replaceAll("[^A-Za-z0-9 ]","xxx");
+        }else {
+            return null;
+        }
+    }
+```
