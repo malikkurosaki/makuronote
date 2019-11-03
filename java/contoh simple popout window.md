@@ -1,6 +1,7 @@
 # popout window simple
 
-``java
+```java
+
 public static void ngepopInfo(Context context,View view){
         PopupWindow popupWindow = new PopupWindow(context);
         View layoutNya = LayoutInflater.from(context).inflate(R.layout.hasil_adapter,null);
