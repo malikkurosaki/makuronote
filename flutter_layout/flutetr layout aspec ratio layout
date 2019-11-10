@@ -1,0 +1,31 @@
+# ratio layout flutter
+
+> mmbuat layout fleksibel 
+
+```dart
+ @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return Row(
+      children: <Widget>[
+        Expanded(
+          child: AspectRatio(
+            aspectRatio: 12/6,
+            child: Container(
+              color: Colors.blue,
+            ),
+          ),
+        ),
+        Expanded(
+          child: AspectRatio(
+            aspectRatio: 12/1,
+            child: Container(
+              color: Colors.yellow,
+              child: Text("apa kabarnya"),
+            ),
+          ),
+        )
+      ],
+    );
+    
+```
