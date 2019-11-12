@@ -8,3 +8,7 @@ __mengaktifkan global__
 __Mebersihkan cache__
 
 `pub cache repair`
+
+__flutter build web__
+
+`flutter build web__
