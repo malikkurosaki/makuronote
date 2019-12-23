@@ -15,7 +15,7 @@ Sometimes just restarting your IDE might solve the problem as well.
 
 ```bash
 - flutter clean 
-- rm -rf pubspec.lock .packages .flutter-plugins .build
+- rm -rf pubspec.lock .packages .flutter-plugins .build .pub-cache
 - flutter pub pub cache repair
 - flutter packages get 
 ```
