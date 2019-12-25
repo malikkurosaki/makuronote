@@ -54,5 +54,5 @@ done
 
 ### remote
 
-`git remote add origirn ssh://malik@192.168.190.15/home/malik/repo.git`
+`git remote add origirn ssh://malik@xxx.xxx.xxx/home/malik/repo.git`
 
