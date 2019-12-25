@@ -1,6 +1,6 @@
-# catatan server git 
+# catatan server git  hook
 
-### hook 
+### post-receive
 
 ```bash
 #!/bin/bash
@@ -16,3 +16,15 @@ do
 done
 
 ```
+`chmod +x hooks/post-receive`
+
+
+### post-commit
+
+```bash
+#!/bin/bash
+unset GIT_INDEX_FILE
+git --work-tree=/var/www/html --git-dir=/home/demo/proj/.git checkout -f
+```
+
+`chmod +x .git/hooks/post-commit`
