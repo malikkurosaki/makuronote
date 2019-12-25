@@ -28,3 +28,31 @@ git --work-tree=/var/www/html --git-dir=/home/demo/proj/.git checkout -f
 ```
 
 `chmod +x .git/hooks/post-commit`
+
+
+
+### contoh 
+
+
+
+```bash
+#!/bin/bash
+while read oldrev newrev ref
+do
+    if [[ $ref =~ .*/master$ ]];
+    then
+        echo "Master ref received.  Deploying master branch to production..."
+        git --work-tree=/home/malik/server --git-dir=/home/malik/repo.git checkout -f
+    else
+        echo "Ref $ref successfully received.  Doing nothing: only the master branch may be deployed on this server."
+    fi
+done
+
+
+```
+
+
+### remote
+
+`git remote add origirn ssh://malik@192.168.190.15/home/malik/repo.git`
+
