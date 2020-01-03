@@ -15,5 +15,5 @@ google gojek facebook gk dibuat dengan projek drag and drop, dan itu imposible k
 gelas penuh airnya akan selalu tumpah, 
 
 
-saya tidak akan menjawab pertanyaan `mengapa` saya tidak sedang disidang , dan tidak ada kuwajiban apapun untuk menjawab atau harus menjelaskan , saya akan menjelaskan jika memang saya kira perlu,
+saya tidak akan menjawab pertanyaan `mengapa ` saya tidak sedang disidang , dan tidak ada kuwajiban apapun untuk menjawab atau harus menjelaskan , saya akan menjelaskan jika memang saya kira perlu,
 saya akan menghindari , pernyataan , `memungkinkan tidak ?` , `bisa tidak .. ??` sudah jelas jawabannya pasti ` memungkinkan dan pasti bisa ` saya akan mempertimabangkan jika sesuai dan akan membuangkanya jika tidak sesuai
