@@ -13,3 +13,7 @@ google gojek facebook gk dibuat dengan projek drag and drop, dan itu imposible k
 10. sekali lagi, saya sangat mengharap bantuan berupa saran dan masukan , dan saya sangat bisa dintervensi masalah data karena emang itu bukan ranah saya , dan jangan baper jika saran ui atau ux akan saya keep , bahkan saya tolak jika penjelasannya hanya berdasar menurut saya , jika saya jadi ...? menurut bodohnya saya ...??( malah saya lebih bodoh makanya masih kerja di probus bukan di google ) ,tanpa argument ui dan ux serta riset yang disa di terima logika saya ( be smart gunakan riset dan lihat perkembangan ), saya berharap aplikasi ini bisa benar benar menjadi aplikasi mobile , bukan desktop, itulah tujuan saya dari awal dan saya melakukan riset untuk berkenaan masalah ui dan ux , dan belum fix! dan project masih berjalan dan saya sangat berterimakasih jika ada yg mau memahami perbedaan saran, masukan ,dan interfensi
 
 gelas penuh airnya akan selalu tumpah, 
+
+
+saya tidak akan menjawab pertanyaan `mengapa` saya tidak sedang disidang , dan tidak ada kuwajiban apapun untuk menjawab atau harus menjelaskan , saya akan menjelaskan jika memang saya kira perlu,
+saya akan menghindari , pernyataan , `memungkinkan tidak ?` , `bisa tidak .. ??` sudah jelas jawabannya pasti ` memungkinkan dan pasti bisa ` saya akan mempertimabangkan jika sesuai dan akan membuangkanya jika tidak sesuai
