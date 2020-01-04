@@ -1,5 +1,8 @@
 # presto mobile release note
 
+### mobile version
+> Software lengkap untuk bisnis restoran. Mengutamakan efisiensi bisnis dan kecepatan pemenuhan order.
+
 Probus Restaurant sangat tepat digunakan untuk Anda semua pengelola bisnis resto atau cafe. Dengan memiliki banyak feature, tampilan menarik dan keamanan bertingkat,  PRESTO akan jauh lebih memudahkan Anda dalam mengelola usaha resto atau cafe. PRESTO dirancang untuk memenuhi kinerja operasional sebuah restoran yang sangat efektif dan fleksibel, perangkat lunak kami dapat disesuaikan dengan kebutuhan Anda yang terintegrasi dalam suatu sistem tanpa menimbulkan biaya tinggi. Mengutamakan efisiensi bisnis dan kecepatan pemenuhan order. Menghasilkan peningkatan pelayanan kepada pelanggan serta laporan keuangan dan akuntansi terbaik.
 
 ---
