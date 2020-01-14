@@ -160,6 +160,8 @@
 
 ### login
 > menggunakan table kasir.
+
 >   kd_kasir "user".
+
 >   kd_sandi "password".
 
