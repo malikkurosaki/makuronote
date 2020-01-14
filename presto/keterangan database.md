@@ -75,7 +75,7 @@ __database : DBCRISPYPIZZA__
 | listcost                |
 | listjurnal              |
 | listkode                |
-| listmeja                |
+| listmeja                | <
 | listretur               |
 | listroom                |
 | log_audit               |
@@ -265,6 +265,17 @@ __kasir__
 | dbupdate  | datetime      | YES  |     | 2001-01-01 00:00:00 |       |
 | max_disc  | decimal(10,0) | YES  |     | NULL                |       |
 +-----------+---------------+------+-----+---------------------+-------+
+
+```
+
+__listmeja__
+
+```bash
++-------+-------------+------+-----+---------+-------+
+| Field | Type        | Null | Key | Default | Extra |
++-------+-------------+------+-----+---------+-------+
+| meja  | varchar(20) | NO   | PRI |         |       |
++-------+-------------+------+-----+---------+-------+
 
 ```
 
@@ -536,3 +547,27 @@ kd_kasir "user"
 kd_sandi "password"
 
 ```
+
+
+### alur cerita
+
+1. login menggunakan table kasir
+  - user colom kd_kasir
+  - pass colom kd_sandi
+2. pilih meja menggunakan table listmeja
+  - colom meja
+3. pilih menu dari table product + table listbil + bill
+  - table listbil 
+    - colom pax
+  - table bill 
+    - colom kode_pro
+    - qty
+    - harga_pro
+    - disc_sen
+    - total
+    - note
+    - jamor
+    - waiter
+    
+ 4. save > ke table listbill + bill
+ 5. print ke printer
