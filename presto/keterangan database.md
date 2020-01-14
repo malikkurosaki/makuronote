@@ -159,9 +159,11 @@
 ```
 
 ### login
-> menggunakan table kasir.
+```java
+// menggunakan table kasir
 
->   kd_kasir "user".
+kd_kasir "user"
 
->   kd_sandi "password".
+kd_sandi "password"
 
+```
