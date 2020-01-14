@@ -11,7 +11,7 @@
 | bb_bln                  |
 | beli                    |
 | belidel                 |
-| bill                    |
+| bill                    | <
 | bill_lama               |
 | budget_fo               |
 | cbb                     |
@@ -58,6 +58,7 @@
 | jasa                    |
 | jual                    |
 | kary                    |
+| kasir                   | <
 | kasirfinger             |
 | katagori                |
 | kredit_card             |
@@ -67,7 +68,7 @@
 | list_po                 |
 | list_pr                 |
 | list_sauce              |
-| listbill                |
+| listbill                | <
 | listbill_lama           |
 | listcost                |
 | listjurnal              |
@@ -109,7 +110,7 @@
 | pr                      |
 | printer_order           |
 | procs_priv              |
-| produk                  |
+| produk                  | <
 | produk_adj              |
 | produk_listadj          |
 | produk_listro           |
@@ -153,5 +154,12 @@
 | uplod_file              |
 | usr_gaji                |
 | usr_kary                |
+| waiter                  | <
 ---------------------------
 ```
+
+### login
+> menggunakan table kasir.
+>   kd_kasir "user".
+>   kd_sandi "password".
+
