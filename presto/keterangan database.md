@@ -1,6 +1,8 @@
 # keterangan database
 
-```sql
+__database : DBCRISPYPIZZA__
+
+```bash
 ---------------------------
 | acc_dept                |
 | adj                     |
