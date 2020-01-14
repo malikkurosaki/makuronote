@@ -552,22 +552,22 @@ kd_sandi "password"
 ### alur cerita
 
 1. login menggunakan table kasir
-  - user colom kd_kasir
-  - pass colom kd_sandi
+    - user colom kd_kasir
+    - pass colom kd_sandi
 2. pilih meja menggunakan table listmeja
-  - colom meja
+    - colom meja
 3. pilih menu dari table product + table listbil + bill
-  - table listbil 
-    - colom pax
-  - table bill 
-    - colom kode_pro
-    - qty
-    - harga_pro
-    - disc_sen
-    - total
-    - note
-    - jamor
-    - waiter
+    - table listbil 
+      - colom pax
+    - table bill 
+      - colom kode_pro
+      - qty
+      - harga_pro
+      - disc_sen
+      - total
+      - note
+      - jamor
+      - waiter
     
  4. save > ke table listbill + bill
  5. print ke printer
