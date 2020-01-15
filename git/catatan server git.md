@@ -65,3 +65,26 @@ $ cd project.git
 $ git init --bare
 Initialized empty Git repository in /srv/git/project.git/
 ```
+
+### upload baru
+
+```bash
+# on John's computer
+$ cd myproject
+$ git init
+$ git add .
+$ git commit -m 'initial commit'
+$ git remote add origin git@gitserver:/srv/git/project.git
+$ git push origin master
+```
+
+
+### git hooks
+
+```bash
+malik@probus-dev:~/repo.git$ cd hooks
+malik@probus-dev:~/repo.git/hooks$ ls
+applypatch-msg.sample      post-commit         pre-applypatch.sample  pre-rebase.sample          update.sample
+commit-msg.sample          post-receive        pre-commit.sample      pre-receive.sample
+fsmonitor-watchman.sample  post-update.sample  pre-push.sample        prepare-commit-msg.sample
+```
