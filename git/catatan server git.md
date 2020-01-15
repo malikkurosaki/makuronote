@@ -108,3 +108,6 @@ fsmonitor-watchman.sample  post-update.sample  pre-push.sample        prepare-co
 # chown -R gituser:gituser /opt/jupiter.git
 # chmod -R 770 /opt/jupiter.git
 ```
+
+
+### jika ada peringatan HEAD , coba push aja dl
