@@ -30,9 +30,18 @@ git --work-tree=/var/www/html --git-dir=/home/demo/proj/.git checkout -f
 `chmod +x .git/hooks/post-commit`
 
 
+> contoh post-commit
+
+```bash
+#!/bin/bash
+unset GIT_INDEX_FILE
+git --work-tree=/home/malik/server_node --git-dir=/home/malik/repo.git checkout -f
+```
+
 
 ### contoh 
 
+> contoh post-receive
 
 
 ```bash
