@@ -23,3 +23,24 @@ IdentityFile /home/USER/.ssh/id_rsa2
 Increase MaxAuthTries value on the SSH server in /etc/ssh/sshd_config (not recommended).
 
 ```
+
+
+### restart ssh di osx
+
+```bash
+sudo launchctl stop com.openssh.sshd
+sudo launchctl start com.openssh.sshd
+```
+
+
+### default config ssh
+
+```bash
+
+Host 103.207.97.143
+  HostName 103.207.97.143
+  User malik
+  Port 2222
+  ForwardAgent yes
+  GSSAPIAuthentication no
+```
