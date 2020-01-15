@@ -53,3 +53,9 @@ eval "$(ssh-agent -s)"
 
 ssh-add
 ```
+
+### contoh remote
+
+```bash
+git remote add origin ssh://malik@dev.probussystem.net:2222/~/git_repo/malik.git
+```
