@@ -5,6 +5,15 @@
 
 This situation can be solved by these ways:
 
+// direset duli
+
+greys@xps:~ $ SSH_AUTH_SOCK= 
+greys@xps:~ $ env | grep SSH 
+SSH_AUTH_SOCK= 
+SSH_AGENT_PID=1661
+
+// lanjut
+
 ssh -i /path/to/id_rsa root@host
 Specify Host/IdentityFile pair in /home/USER/.ssh/config .
 Host host
