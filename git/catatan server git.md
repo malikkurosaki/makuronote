@@ -97,3 +97,11 @@ applypatch-msg.sample      post-commit         pre-applypatch.sample  pre-rebase
 commit-msg.sample          post-receive        pre-commit.sample      pre-receive.sample
 fsmonitor-watchman.sample  post-update.sample  pre-push.sample        prepare-commit-msg.sample
 ```
+
+### permisi untuk repo baru
+
+```bash
+# git init --bare /opt/jupiter.git
+# chown -R gituser:gituser /opt/jupiter.git
+# chmod -R 770 /opt/jupiter.git
+```
