@@ -64,6 +64,9 @@ done
 ### remote
 
 `git remote add origirn ssh://malik@xxx.xxx.xxx/home/malik/repo.git`
+```bash
+git remote add origin ssh://malik@dev.probussystem.net:2222/~/git_repo/malik.git
+```
 
 
 ### buat git baru
