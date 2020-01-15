@@ -56,3 +56,12 @@ done
 
 `git remote add origirn ssh://malik@xxx.xxx.xxx/home/malik/repo.git`
 
+
+### buat git baru
+```bash
+$ cd /srv/git
+$ mkdir project.git
+$ cd project.git
+$ git init --bare
+Initialized empty Git repository in /srv/git/project.git/
+```
