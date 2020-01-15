@@ -1,0 +1,16 @@
+# menangani terlau banyak auth ssh
+
+```bash
+"Too many Authentication Failures for user root" means that Your SSH server's MaxAuthTries limit was exceeded. It happens so that Your client is trying to authenticate with all possible keys stored in /home/USER/.ssh/ .
+
+This situation can be solved by these ways:
+
+ssh -i /path/to/id_rsa root@host
+Specify Host/IdentityFile pair in /home/USER/.ssh/config .
+Host host
+IdentityFile /home/USER/.ssh/id_rsa
+Host host2
+IdentityFile /home/USER/.ssh/id_rsa2
+Increase MaxAuthTries value on the SSH server in /etc/ssh/sshd_config (not recommended).
+
+```
