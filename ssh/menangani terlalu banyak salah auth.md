@@ -44,3 +44,12 @@ Host 103.207.97.143
   ForwardAgent yes
   GSSAPIAuthentication no
 ```
+
+
+### tambahan
+
+```bash
+eval "$(ssh-agent -s)"
+
+ssh-add
+```
