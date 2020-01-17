@@ -556,6 +556,7 @@ kd_sandi "password"
     - pass colom kd_sandi
 2. pilih meja menggunakan table listmeja
     - colom meja
+     - lihat table di meja isi ( tempory )
 3. pilih menu dari table product + table listbil + bill
     - table listbil 
       - colom pax
