@@ -580,7 +580,7 @@ kd_sandi "password"
  
  # kode 
  |No|Nama|Ket|
- |-|-|
+ |-|-|-|
  | 1 | ++ | qty x harga x service total x tax|
  | 2 | net | qty x harge - service - tax|
  | 3 | + | qty x harga - service x tax|
