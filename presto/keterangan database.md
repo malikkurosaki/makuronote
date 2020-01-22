@@ -572,3 +572,48 @@ kd_sandi "password"
     
  4. save > ke table listbill + bill
  5. print ke printer
+ 
+ 
+ ### input 
+ - table bill 
+ - table listbill
+ 
+ # kode 
+ |No|Nama|Ket|
+ |-|-|
+ | 1 | ++ | qty x harga x service total x tax|
+ | 2 | net | qty x harge - service - tax|
+ | 3 | + | qty x harga - service x tax|
+ 
+ # table listbill
+ |Nama|ket|contoh|
+ |-|-|-|
+ |nobil|RST tahun bulan tanggal 5 kode unik| RST180808xxxxx|
+ |paidbill|RST tahun bulan tanggal |RST18080800001
+ |kode_out|kode outlet|RST|
+ |pax|jumblah orang|1-9|
+ |tanggal|tanggal transaksi|2018-08-08|
+ |kd_cus|kode customer|dari tabel kostumer jika ada|
+ |kasir|nama kasir dari tabel kasir
+ |stt|status bill transaksi|open void revisi paid close|
+ |disc| diskon presentase| 1-9 % |
+ |discrp| diskon nominal| 10000 |
+ |net|harga yang sudah dikurangi tax service|100.000|
+ |taxrp|nilai tax pajak |-| 
+ |serrp| nilai service| -|
+ |gtotal| jumblah total| 1000000|
+ |total| kali qty aja| -|
+ |groups| groups revenue pendaapatan| diambil dari table outlet|
+ |ccy| matauang | rp dolar|
+ |rate| nilai matauang | lokal|
+ |meja|nomer meja|1-9 takway|
+ |vtax|persentase tax|10.5|
+ |vser| pesentase service | 5|
+ |vts|status | ++ net +|
+ |jam_order| jam order jam serever default 00:00:00|000|
+ |jam_payment|jam payment default 00:00:00|jam server |
+ |ship|sift jadwal waiter|1.morning ambil dari table msift|
+ |mejas|table bayangan sementara|apa|
+ |cdept|office id dari table acc_dept|ok|
+ 
+ 
