@@ -585,6 +585,8 @@ kd_sandi "password"
  | 2 | net | qty x harge - service - tax|
  | 3 | + | qty x harga - service x tax|
  
+ _ambil, dari table outlet_
+ 
  # table listbill
  |Nama|ket|contoh|
  |-|-|-|
