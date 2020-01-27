@@ -588,35 +588,35 @@ kd_sandi "password"
  _ambil, dari table outlet_
  
  # table listbill
- |Nama|ket|contoh|
- |-|-|-|
- |nobil|RST tahun bulan tanggal 5 kode unik| RST180808xxxxx|
- |paidbill|RST tahun bulan tanggal |RST18080800001
- |kode_out|kode outlet|RST|
- |pax|jumblah orang|1-9|
- |tanggal|tanggal transaksi|2018-08-08|
- |kd_cus|kode customer|dari tabel kostumer jika ada|
- |kasir|nama kasir dari tabel kasir
- |stt|status bill transaksi|open void revisi paid close|
- |disc| diskon presentase| 1-9 % |
- |discrp| diskon nominal| 10000 |
- |net|harga yang sudah dikurangi tax service|100.000|
- |taxrp|nilai tax pajak |-| 
- |serrp| nilai service| -|
- |gtotal| jumblah total| 1000000|
- |total| kali qty aja| -|
- |groups| groups revenue pendaapatan| diambil dari table outlet|
- |ccy| matauang | rp dolar|
- |rate| nilai matauang | lokal|
- |meja|nomer meja|1-9 takway|
- |vtax|persentase tax|10.5|
- |vser| pesentase service | 5|
- |vts|status | ++ net +|
- |jam_order| jam order jam serever default 00:00:00|000|
- |jam_payment|jam payment default 00:00:00|jam server |
- |ship|sift jadwal waiter|1.morning ambil dari table msift|
- |mejas|table bayangan sementara|apa|
- |cdept|office id dari table acc_dept|ok|
+ |no|Nama|ket|contoh|
+ |-|-|-|-|
+ |1|nobil|RST tahun bulan tanggal 5 kode unik| RST180808xxxxx|
+ |2|paidbill|RST tahun bulan tanggal |RST18080800001
+ |3|kode_out|kode outlet|RST|
+ |4|pax|jumblah orang|1-9|
+ |5|tanggal|tanggal transaksi|2018-08-08|
+ |6|kd_cus|kode customer|dari tabel kostumer jika ada|
+ |7|kasir|nama kasir dari tabel kasir
+ |8|stt|status bill transaksi|open void revisi paid close|
+ |9|disc| diskon presentase| 1-9 % |
+ |10|discrp| diskon nominal| 10000 |
+ |11|net|harga yang sudah dikurangi tax service|100.000|
+ |12|taxrp|nilai tax pajak |-| 
+ |13|serrp| nilai service| -|
+ |14|gtotal| jumblah total| 1000000|
+ |15|total| kali qty aja| -|
+ |16|groups| groups revenue pendaapatan| diambil dari table outlet|
+ |17|ccy| matauang | rp dolar|
+ |18|rate| nilai matauang | lokal|
+ |19|meja|nomer meja|1-9 takway|
+ |20|vtax|persentase tax|10.5|
+ |21|vser| pesentase service | 5|
+ |22|vts|status | ++ net +|
+ |23|jam_order| jam order jam serever default 00:00:00|000|
+ |24|jam_payment|jam payment default 00:00:00|jam server |
+ |25|ship|sift jadwal waiter|1.morning ambil dari table msift|
+ |26|mejas|table bayangan sementara|apa|
+ |27|cdept|office id dari table acc_dept|ok|
  
  
  
