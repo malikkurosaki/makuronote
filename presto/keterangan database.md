@@ -642,4 +642,4 @@ kd_sandi "password"
  |note|keterangan dari note|tambah keju|
  |cetak|print status print ke kitchen ataupun bar|1 / 0|
  |jamor|jam order|12:00:00|
- |kode_waiter| kode waiter|0011|
+ |kode_waiter| nama waihter|YULIA|
