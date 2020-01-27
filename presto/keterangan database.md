@@ -625,10 +625,11 @@ kd_sandi "password"
  |nama|keterangan|contoh|
  |-|-|-|
  |nobil|RST tahun bulan tanggal 5 kode unik| RST180808xxxxx|
- |urut|12345|pengurutan orderan|
+ |urut|2|pengurutan orderan dari urutan 1 2 3 4 5|
  |kode_out|kode outlet|RST|
  |kode_pro|kode produk ambil dari table produk|RST.001|
  |harga_pro|harganya per item|3.000|
+ |qty|jumblah barangnya|3|
  |disc_sen|discount per item|5|
  |disc_nom|discon nominal rupiah nya|5000|
  |tax|tax pajak rupiah|5000|
