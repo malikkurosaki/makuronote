@@ -619,3 +619,26 @@ kd_sandi "password"
  |cdept|office id dari table acc_dept|ok|
  
  
+ 
+ ### insert table bill
+ 
+ |nama|keterangan|contoh|
+ |-|-|-|
+ |nobil|RST tahun bulan tanggal 5 kode unik| RST180808xxxxx|
+ |urut|12345|pengurutan orderan|
+ |kode_out|kode outlet|RST|
+ |kode_pro|kode produk ambil dari table produk|RST.001|
+ |harga_pro|harganya per item|3.000|
+ |disc_sen|discount per item|5|
+ |disc_nom|discon nominal rupiah nya|5000|
+ |tax|tax pajak rupiah|5000|
+ |ser|servicenya rupiah|2000|
+ |net|netnya rupiah|2000|
+ |gross|total grossnya|4000|
+ |vtax|persentase dari tax|10.5|
+ |vser|percentase dari service|5|
+ |vts|kode nya|++, net ,+|
+ |note|keterangan dari note|tambah keju|
+ |cetak|print status print ke kitchen ataupun bar|1 / 0|
+ |jamor|jam order|12:00:00|
+ |kode_waiter| kode waiter|0011|
