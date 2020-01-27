@@ -622,24 +622,25 @@ kd_sandi "password"
  
  ### insert table bill
  
- |nama|keterangan|contoh|
- |-|-|-|
- |nobil|RST tahun bulan tanggal 5 kode unik| RST180808xxxxx|
- |urut|2|pengurutan orderan dari urutan 1 2 3 4 5|
- |kode_out|kode outlet|RST|
- |kode_pro|kode produk ambil dari table produk|RST.001|
- |harga_pro|harganya per item|3.000|
- |qty|jumblah barangnya|3|
- |disc_sen|discount per item|5|
- |disc_nom|discon nominal rupiah nya|5000|
- |tax|tax pajak rupiah|5000|
- |ser|servicenya rupiah|2000|
- |net|netnya rupiah|2000|
- |gross|total grossnya|4000|
- |vtax|persentase dari tax|10.5|
- |vser|percentase dari service|5|
- |vts|kode nya|++, net ,+|
- |note|keterangan dari note|tambah keju|
- |cetak|print status print ke kitchen ataupun bar|1 / 0|
- |jamor|jam order|12:00:00|
- |kode_waiter| nama waihter|YULIA|
+ |no|nama|keterangan|contoh|
+ |-|-|-|-|
+ |1|nobil|RST tahun bulan tanggal 5 kode unik| RST180808xxxxx|
+ |2|urut|2|pengurutan orderan dari urutan 1 2 3 4 5|
+ |3|kode_out|kode outlet|RST|
+ |4|kode_pro|kode produk ambil dari table produk|RST.001|
+ |5|harga_pro|harganya per item|3.000|
+ |6|qty|jumblah barangnya|3|
+ |7|disc_sen|discount per item|5|
+ |8|disc_nom|discon nominal rupiah nya|5000|
+ |9|tax|tax pajak rupiah|5000|
+ |10|ser|servicenya rupiah|2000|
+ |11|net|netnya rupiah|2000|
+ |12|gross|total grossnya|4000|
+ |13|vtax|persentase dari tax|10.5|
+ |14|vser|percentase dari service|5|
+ |15|vts|kode nya|++, net ,+|
+ |16|note|keterangan dari note|tambah keju|
+ |17|cetak|print status print ke kitchen ataupun bar|1 / 0|
+ |18|jamor|jam order|12:00:00|
+ |19|kode_waiter| nama waihter|YULIA|
+ |20|tanggal|tanggal order|2019-09-09|
