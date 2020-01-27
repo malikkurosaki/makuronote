@@ -596,7 +596,7 @@ kd_sandi "password"
  |4|pax|jumblah orang|1-9|
  |5|tanggal|tanggal transaksi|2018-08-08|
  |6|kd_cus|kode customer|dari tabel kostumer jika ada|
- |7|kasir|nama kasir dari tabel kasir
+ |7|kode_wait|nama waiter dari tabel waiter
  |8|stt|status bill transaksi|open void revisi paid close|
  |9|disc| diskon presentase| 1-9 % |
  |10|discrp| diskon nominal| 10000 |
