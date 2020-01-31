@@ -10,6 +10,8 @@
 
 `npm install pug`
 
+`npm install log-timestamp`
+
 
 ###f implementation
 ```javascript
