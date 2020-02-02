@@ -53,6 +53,14 @@ const db = mysql.createConnection({
  app.get("/",(a,b)=>{
     b.send(`[{"status":"ok"}]`)
   })
+  
+  // atau
+  
+  app.get(`/`,(req,res)=>{
+    res.sendFile("index.html",{
+        root:"views"
+    })
+})
 
 app.get('*',(a,b)=>{
     b.send("kesalahan url")
