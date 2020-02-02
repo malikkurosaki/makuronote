@@ -25,6 +25,7 @@ const PORT = process.env.PORT || 8080
 const mysql = require('mysql')
 const parser = require('body-parser')
 var cors = require('cors')
+const log = require('log-timestamp');
 
 const db = mysql.createConnection({
     host:"localhost",
