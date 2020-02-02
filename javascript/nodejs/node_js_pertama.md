@@ -13,6 +13,9 @@
 `npm install log-timestamp`
 
 
+### langsung
+`npm install express && npm install mysql && npm install cors && npm install body-parser && npm install pug && npm install log-timestamp`
+
 ###f implementation
 ```javascript
 const express = require('express')
