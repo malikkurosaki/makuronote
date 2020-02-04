@@ -12,9 +12,11 @@
 
 `npm install log-timestamp`
 
+`npm install socket.io`
+
 
 ### langsung
-`npm install express && npm install mysql && npm install cors && npm install body-parser && npm install pug && npm install log-timestamp && mkdir -p views && touch views/index.pug && touch absensi_ku.js`
+`npm install express && npm install mysql && npm install cors && npm install body-parser && npm install pug && npm install log-timestamp && npm install socket.io && mkdir -p views && touch views/index.pug && touch absensi_ku.js`
 
 ###f implementation
 ```javascript
