@@ -262,3 +262,17 @@ app.get('*', (a, b) => {
 //     db.query('SELECT 1');
 //   }, 1000);
 ```
+
+
+### manifest xml
+
+```xml
+<application
+        android:name="io.flutter.app.FlutterApplication"
+        android:label="adhara_socket_io_example"
+        android:usesCleartextTraffic="true"
+        android:icon="@mipmap/ic_launcher">
+        <activity
+            android:name=".MainActivity"...>...</activity>
+```
+
