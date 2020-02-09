@@ -60,3 +60,51 @@ On OS X to start/stop/restart MySQL pre 5.7  from the command line:
 
 
 sumber : https://coolestguidesontheplanet.com/start-stop-mysql-from-the-command-line-terminal-osx-linux/
+
+
+
+### update
+
+So none of these things worked for me. I am using the current dmg install of mysql community server. ps shows that all of the most critical parameters normally in my.cnf are passed on the command line, and I couldn't figure out where that was coming from. After doing a full text search of my box I found it in:
+
+`/Library/LaunchDaemons/com.oracle.oss.mysql.mysqld.plist`
+
+So you can either change them there, or take them out so it will actually respect the ones you have in your my.cnf wherever you decided to put it.
+
+Enjoy!
+
+Example of the file info found in that file:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>             <string>com.oracle.oss.mysql.mysqld</string>
+    <key>ProcessType</key>       <string>Interactive</string>
+    <key>Disabled</key>          <false/>
+    <key>RunAtLoad</key>         <true/>
+    <key>KeepAlive</key>         <true/>
+    <key>SessionCreate</key>     <true/>
+    <key>LaunchOnlyOnce</key>    <false/>
+    <key>UserName</key>          <string>_mysql</string>
+    <key>GroupName</key>         <string>_mysql</string>
+    <key>ExitTimeOut</key>       <integer>600</integer>
+    <key>Program</key>           <string>/usr/local/mysql/bin/mysqld</string>
+    <key>ProgramArguments</key>
+        <array>
+            <string>/usr/local/mysql/bin/mysqld</string>
+            <string>--user=_mysql</string>
+            <string>--basedir=/usr/local/mysql</string>
+            <string>--datadir=/usr/local/mysql/data</string>
+            <string>--plugin-dir=/usr/local/mysql/lib/plugin</string>
+            <string>--log-error=/usr/local/mysql/data/mysqld.local.err</string>
+            <string>--pid-file=/usr/local/mysql/data/mysqld.local.pid</string>
+             <string>--keyring-file-data=/usr/local/mysql/keyring/keyring</string>
+             <string>--early-plugin-load=keyring_file=keyring_file.so</string>
+
+        </array>
+    <key>WorkingDirectory</key>  <string>/usr/local/mysql</string>
+</dict>
+</plist>
+```
