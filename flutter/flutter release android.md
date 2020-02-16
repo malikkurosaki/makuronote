@@ -41,6 +41,8 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
+
+// ==================== tambah
 def keystoreProperties = new Properties()
 def keystorePropertiesFile = rootProject.file('key.properties')
 if (keystorePropertiesFile.exists()) {
@@ -67,6 +69,8 @@ android {
         versionName flutterVersionName
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+    
+    // =================== tambah
     signingConfigs {
         release {
             keyAlias keystoreProperties['keyAlias']
@@ -83,6 +87,8 @@ android {
             signingConfig signingConfigs.debug
         }
     }*/
+    
+    // ======================= tambah
     buildTypes {
         release {
             signingConfig signingConfigs.release
