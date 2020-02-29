@@ -1,3 +1,3 @@
 # makuro 
 
-1. 
+1. pembentukan startup aplikasi
