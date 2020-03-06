@@ -46,7 +46,6 @@ probuss-MacBook-Air:prestopos probus$ nodemon
 14. jalankan server pm2 , 'pm2 start prestopos.js'
 ![gambar pm2](https://github.com/unitech/pm2/raw/master/pres/pm2-list.png)
 15. beberapa konponen yang perlu diinstal jika server tidak berjalan semestinya
-16. untuk pengendalian server auto start jika terjadi down atau mati listrik dan sejenisnya [pm2 startup](https://pm2.keymetrics.io/docs/usage/startup/)
 ```bash
 // instalation
 // - npm install express
@@ -58,3 +57,5 @@ probuss-MacBook-Air:prestopos probus$ nodemon
 // - npm install @rodrigogs/mysql-events
 // - npm install pug
 ```
+16. untuk pengendalian server auto start jika terjadi down atau mati listrik dan sejenisnya [pm2 startup](https://pm2.keymetrics.io/docs/usage/startup/)
+
