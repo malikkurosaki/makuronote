@@ -58,4 +58,5 @@ probuss-MacBook-Air:prestopos probus$ nodemon
 // - npm install pug
 ```
 16. untuk pengendalian server auto start jika terjadi down atau mati listrik dan sejenisnya [pm2 startup](https://pm2.keymetrics.io/docs/usage/startup/)
+17. contoh aplikasi apk bisa di download disini [download prestopos.apk](https://drive.google.com/open?id=1ENdJ82sv-003oDaCLfYyz5ohVW82-xYk)
 
