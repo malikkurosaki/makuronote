@@ -77,3 +77,11 @@ https://pub.dev/packages/flutter_email_sender
 
 //flutter expanded colapsed
 https://pub.dev/packages/expandable
+
+// flutter icon
+https://pub.dev/packages/flutter_icons
+
+// chage theme on the fly
+https://pub.dev/packages/dynamic_theme
+
+// todo - smpai page 32
