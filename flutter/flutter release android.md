@@ -1,6 +1,7 @@
 # flutter release android
 
-buat file dalam folder android key.properties
+buat file dalam folder android key.properties dalam folder android
+
 
 ininya
 ```properties
