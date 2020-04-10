@@ -2,6 +2,10 @@
 
 buat file dalam folder android key.properties dalam folder android
 
+```xml
+<uses-permission android:name="android.permission.INTERNET"/>
+```
+
 
 ininya
 ```properties
