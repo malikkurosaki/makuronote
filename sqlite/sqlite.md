@@ -10,4 +10,8 @@ select name from sqlite_master where type="table"
 
 PRAGMA table_info('member');
 
+// hapus table
+
+DROP TABLE IF EXISTS TABLE_NAME;
+
 ```
