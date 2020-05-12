@@ -1,0 +1,31 @@
+```dart
+DropdownButton(
+    hint: Text(value),
+    isExpanded: true,
+    items: listContact.lsUser.map((e) => DropdownMenuItem(
+      child: 
+      Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(e.cName,
+            overflow: TextOverflow.ellipsis,
+            style: TextStyle(
+              fontWeight: FontWeight.bold
+            ),
+          ),
+          Text(e.cEmail,
+            style: TextStyle(
+              fontStyle: FontStyle.italic
+            ),
+          )
+        ],
+      ),
+      value: e,
+    )).toList(),
+    onChanged: (v) {
+      _valueNotifierContact.value = v.cEmail;
+      controllerContact.lsContact.add(v);
+      controllerContact.update();
+    },
+  ),
+```
