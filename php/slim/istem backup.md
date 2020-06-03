@@ -1,5 +1,16 @@
 # istem backup 
 
+```javascript
+{
+    "require": {
+        "slim/slim": "3.*",
+        "slim/twig-view": "^2.0",
+        "simplon/mysql": "^2.2"
+    }
+}
+```
+
+
 ```php
 <?php
 use \Psr\Http\Message\ServerRequestInterface as Request;
