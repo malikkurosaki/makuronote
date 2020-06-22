@@ -40,6 +40,12 @@ $configuration = [
     ],
 ];
 
+$con['notFoundHandler'] = function ($con) {
+    return function ($req, $res) use ($con) {
+        return $con->twig->render($res->withStatus(404),'404.html');
+    };
+};
+
 $con = new Container($configuration);
 $app = new App($con);
 $con = $app->getContainer();
