@@ -289,3 +289,58 @@ _header_
     }
 </style>
 ```
+
+**Admin Controller**
+
+```php
+<?php
+namespace Malik;
+use Psr\Container\ContainerInterface;
+
+class AdminController{
+    protected $con;
+
+    public function __construct(ContainerInterface $con){
+        $this->con = $con;
+    }
+
+    public function admin($req,$res,$args){
+        
+        $param = $args['param'];
+        $ada = \file_exists(__DIR__.'/../views/'.$param.'.html');
+        $ikut = $ada?$param.'.html':'dashboard.html';
+
+        $paket = [
+            'navigasi'=>$this->con->navigasi,
+            'ikut'=>$ikut,
+            'unit'=>$this->con->sql->connect()->fetchRowMany('select * from unit'),
+            'supplier'=>$this->con->sql->connect()->fetchRowMany('select * from supplier')
+        ];
+
+        $navigasi = $this->con->navigasi;;
+        return $this->con->twig->render($res,'admin.html',$paket);
+    }
+
+    public function tambahNavigasi($req,$res){
+        $data = \json_decode($req->getBody(),true);
+        $query = $this->con->sql->connect()->insert('navigasi',$data);
+        return $res->withJson(
+            is_null($query)?
+            ['res'=>false]:['res'=>true]
+        );
+    }
+
+    public function lihatSemuaNavigasi($req,$res){
+        return $res->withJson($this->con->sql->connect()->fetchRowMany('select * from navigasi'));
+    }
+
+    public function hapusNavigasi($req,$res){
+        $data = \json_decode($req->getBody(),true);
+        $query = $this->con->sql->connect()->delete('navigasi',$data);
+        return $res->withJson(
+            is_null($query)?
+            ['req'=>false]:['res'=>true]
+        );
+    }
+}
+```
