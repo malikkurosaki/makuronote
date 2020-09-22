@@ -1,0 +1,37 @@
+# value notifier 
+
+keunggulannya adalah bisa menggunakan statelesswidget dan lebih flexible
+
+class 
+
+```dart
+class Berubah extends ValueNotifier<Map>{
+  Berubah(Map value) : super(value);
+
+  ganti(String apa){
+    value['nama'] = apa;
+    notifyListeners();
+  }
+}
+```
+
+builder
+
+```dart
+ValueListenableBuilder(
+    valueListenable: ya,
+    builder: (context,Map value, child) => Column(
+      children: [
+        Text(ya.value['nama']??"ya"),
+        FlatButton(
+          onPressed: (){
+            ya.ganti("jasi apa");
+          }, 
+          child: Text('tekan')
+        ),
+      ],
+    ),
+  ),
+  
+  ```
+            
