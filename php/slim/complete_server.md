@@ -1,5 +1,261 @@
 # complete server
 
+index.html
+```html
+{% include "header.html" %}
+   <div class=" p-3 bg-light">
+       <div class="display-4">AL-JABAR</div>
+   </div>
+   <div id="dialog"></div>
+
+    <div class="container h-100">
+        {% if res is defined %}
+            {% if res == true %}
+                <a href="/" class="display-3">
+                    <span class="mdi mdi-arrow-left-circle"></span>
+                </a>
+                {% include  halaman %}
+            {% else %}
+                <div class="display-4">halaman kosong</div>
+            {% endif %}
+        {% else %}
+            {% include "home.html" %}
+        {% endif %}
+   
+    </div>
+
+    <script>
+
+    async function theTable(table,id){
+        var tbl = await $.get('/lihat/'+table);
+
+        if(!tbl.res){
+            $(`#${id}`).html(`<button onclick="baruAtauUpdate('new','${table}')" class="btn btn-outline-success px-5 my-1" >new</button>`)
+        }else{
+           
+            var tb = ''
+            tb += `<div class="display-4">${table}</div>`
+            tb += `<div class="d-inline-flex align-items-center">`
+            tb += `<button onclick="baruAtauUpdate('new','${table}',null)" class="btn btn-outline-success px-5 my-1" >new</button>`
+            tb += `<div class="form-inline bg-light px-4"><div class="col-4">search</div><input id="${table}-cari" class="form-control col-8" placeholder="ed : nama"></div>`
+            tb += `<div class="mx-4">Total : ${tbl.data.length} ${table}</div>`
+            tb += `</div>`
+            tb += `<div id="con-table"></div>`
+            $(`#${id}`).html(tb)
+            theTableNya(table,id);
+            $(`#${table}-cari`).keyup(()=>{
+                theTableNya(table,id,$(`#${table}-cari`).val())
+            })
+        }
+
+    }
+
+    async function theTableNya(table,id,kunci){
+
+        var tbl = await $.get('/lihat/'+table);
+        var header = Object.keys(tbl.data[0])
+        /* live search */
+        if(kunci != undefined && kunci != ""){
+            tbl = await $.get('/search/'+table+'/'+kunci);
+            if(!tbl.res){
+              tbl.data = []  
+            }
+        }
+        
+        var tableNya = "";
+        tableNya += `<table class="table table-sm shadow table-hover border">`
+        tableNya += `<tr class="bg-success text-white-50">`
+        tableNya += `<th >action</th>`
+        for(var i = 0;i< header.length;i++){
+            tableNya += `<th>${header[i]}</th>`
+        }
+        tableNya += `</tr>`
+
+        for (var i = 0;i< tbl.data.length;i++){
+            tableNya += `<tr>`
+            tableNya += `
+            <td>
+                <div class="dropdown">
+                    <button class="dropdown-toggle badge-pill border " data-toggle="dropdown" aria-haspopup="true">...</button>
+                    <div class="dropdown-menu p-2 bg-dark" aria-labelledby="dropdownMenuButton">
+                        <btn class="btn btn-danger btn-block disabled" onclick="hapus('${table}','${tbl.data[i].id}')">hapus</btn>
+                        <btn class="btn btn-warning btn-block disabled" onclick="baruAtauUpdate('update','${table}','${encodeURI(JSON.stringify(tbl.data[i].id))}')">update</btn>
+                    </div>
+                </div>
+            </td>`
+            for(var y = 0; y < header.length;y++){
+                tableNya += `<td class="p-2 border-bottom">${header[y] == 'id'?table.split("")[0]+table.split("")[1]+table.split("")[2] +'-000'+tbl.data[i][header[y]]:tbl.data[i][header[y]]}</td>`
+            }
+            
+            tableNya += `</tr>`
+        }
+        tableNya += `</table>`
+        $(`#con-table`).html(tableNya);
+    }
+
+    async function hapus(t,e){
+        if(true){
+            alert('perlu ijin khusus')
+            return;
+        }
+        var paket = {
+            "table": t,
+            "id": e
+        }
+        var hps = await $.post('/hapus',JSON.stringify(paket));
+        if(hps.res){
+            theTable(t,"cst");
+        }
+    }
+
+    async function baruAtauUpdate(jenis,table,id){
+        if(jenis == "update"){
+            alert('perlu ijin khusus')
+            return
+        }
+        let dat = await $.post('/kolom',JSON.stringify({"table": table}));
+        var kun = {}
+        if(jenis == "new"){
+            for(var a of dat){
+                kun[a['nama']] = ""
+            }
+        }else{
+            let upd = await $.get(`/cari/${table}/${JSON.parse(decodeURI(id))}`)
+            kun = upd
+        }
+        
+        delete kun.id;
+        delete kun.tanggal;
+
+        let _kunci = Object.keys(kun)
+        let _val = Object.values(kun)
+
+        var template = ""
+        template += 
+        `
+        <div id="baru-atau-update" role="dialog" aria-hidden="true" class="modal fade">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                <div class="display-4">${table} ${jenis} </div>
+                <div class="bg-light p-3" >
+        `
+        for(var i = 0; i < _kunci.length; i++){
+            template += 
+            `
+            <div class="form-inline p-1">
+                <div class="col-4">${_kunci[i]}</div>
+                <input class="col-8 form-control ${table}-input" value="${_val[i]}">
+            </div>
+            `
+        }
+
+        template += 
+        `
+            <button id="${table}-simpan" class="btn btn-primary align-self-end btn-block mt-5">SIMPAN</button>
+        </div></div></div></div>
+        `
+
+        $('#dialog').html(template)
+
+        $('#baru-atau-update').modal('show')
+
+        $(`#${table}-simpan`).click( async ()=>{
+            var isiNya = $(`.${table}-input`)
+            var thePaket = {}
+            var kosong = false;
+            var hasil = false;
+            thePaket["table"] = table;
+            thePaket['data'] = {}
+            for( var d = 0; d < _kunci.length;d++){
+                thePaket["data"][_kunci[d]] = isiNya[d].value
+                if(isiNya[d].value == "") kosong = true;
+            }
+
+            if(kosong){
+                alert('jangan ada yang kossong')
+                return
+            }
+            
+            if(jenis == "new"){
+                let res = await $.post('/simpan',JSON.stringify(thePaket))
+                //$('#baru-atau-update').modal('hide')
+                if(res.res){
+                    window.location.reload()
+                }
+            }else{
+                thePaket["id"] = JSON.parse(decodeURI(id))
+                let res = await $.post('/update',JSON.stringify(thePaket))
+                //$('#baru-atau-update').modal('hide')
+                if(res.res){
+                    window.location.reload()
+                }
+            }
+
+        })
+        
+    }
+
+    async function formTable(table,id){
+        theTable(table,id);
+        // var lsk = await $.post('/kolom',JSON.stringify(
+        //     {
+        //         "db": database,
+        //         "table": table
+        //     }
+        // ))
+
+        // lsk = lsk.filter(function(el) { return el.nama != "id" && el.nama != "tanggal" });
+        // var template = '<div id="baru-atau-update" role="dialog" aria-hidden="true" class="card modal fade">'
+        // template+= `<div class="modal-dialog" role="document"><div class="modal-content">`
+        // template += `<div class="display-4">Insert ${table}</div>`
+        // template += '<div class="bg-light p-3" >'
+        // for(var i = 0; i < lsk.length; i++){
+        //     template += 
+        //         `
+        //         <div class="form-inline p-2">
+        //             <div class="col-4">${lsk[i]['nama']}</div>
+        //             <input id="${table}-${lsk[i]['nama']}" placeholder="${lsk[i]['nama']} " class="form-control col-8 paket">
+        //         </div>
+        //         `
+        //     }
+        // template += `<button id="${table}-simpan" class="btn btn-primary align-self-end btn-block mt-5">SIMPAN</button>`
+        // template += '</div></div></div></div>'
+        // $(`#${id}`).append(template)
+
+        // /* simpan data */
+        // $(`#${table}-simpan`).click( async ()=>{
+        //     var paket = {}
+        //     var kosong = false;
+        //     for(var x = 0; x < lsk.length;x++){
+        //         if($(`#${table}-${lsk[x]['nama']}`).val() == "") kosong = true;
+        //         paket[lsk[x]['nama']] = $(`#${table}-${lsk[x]['nama']}`).val()
+        //     }
+
+        //     if(kosong){
+        //         alert ('jangan ada yang kosong');
+        //         return;
+        //     }
+        //     var res = await $.post('/simpan',JSON.stringify({"table": table,"data": paket}));
+        //     if(res.res){
+        //         $('.paket').val('')
+        //         $('#baru-atau-update').modal('hide')
+        //         setTimeout(()=>{
+        //             formTable(database,table,id)
+        //         },500)
+        //     }else{
+        //         alert("data gagal disimpan")
+        //     }
+        // })
+
+    }
+        
+
+    </script>
+    
+    {% include "footer.html" %}
+
+```
+
 public/index.php
 
 ```php
