@@ -484,6 +484,85 @@ class Controller{
 }
 ```
 
+
+router bru
+
+index.php
+```php
+<?php
+require __DIR__ .'/../vendor/autoload.php';
+use \Psr\Http\Message\ServerRequestInterface as Request;
+use \Psr\Http\Message\ResponseInterface as Response;
+use \Slim\Container;
+use \Slim\App;
+use \Slim\Views\Twig;
+use \Simplon\Mysql\Mysql;
+use \Simplon\Mysql\PDOConnector;
+
+
+$configuration = [
+    'settings' => [
+        'displayErrorDetails' => true,
+    ],
+];
+
+$con = new Container($configuration);
+$app = new App($con);
+$con = $app->getContainer();
+
+$con['twig'] = function()use ($con){
+    $view = new Twig(__DIR__.'/../views');
+    $router = $con->get('router');
+    $uri = \Slim\Http\Uri::createFromEnvironment(new \Slim\Http\Environment($_SERVER));
+    $view->addExtension(new \Slim\Views\TwigExtension($router, $uri));
+    return $view;
+}; 
+
+$con['local'] = $_SERVER['SERVER_PORT'] == '8080';
+$con['dbName'] = $_SERVER['SERVER_PORT'] == '8080'?"aljabar":"id14869754_aljabar";
+$con['db'] = new \Malik\Database($con);
+
+// controller
+$con['Controller'] = new \Malik\Controller($con);
+
+/* HOME */
+$app->get('[/[halaman[/{apa}]]]','Controller:home');
+$app->get('/developer','Controller:developer');
+
+// controller api rest
+$app->get('/lihat/{table}','Controller:lihat');
+$app->post('/simpan','Controller:simpan');
+$app->post('/update','Controller:update');
+$app->post('/hapus','Controller:hapus');
+$app->post('/table','Controller:table');
+$app->post('/kolom','Controller:kolom');
+$app->get('/cari/{table}/{id}','Controller:cari');
+
+$app->get('/search/{table}/{nama}','Controller:search');
+// cari nama
+$app->get('/cari-nama/{table}/{kunci}','Controller:cariNama');
+
+// buat table
+$app->post('/buat-table','Controller:buatTable');
+$app->post('/hapus-table','Controller:hapusTable');
+$app->post('/tambah-kolom','Controller:tambahKolom');
+$app->post('/hapus-kolom','Controller:hapusKolom');
+
+// gambar
+$app->post('/upload-gambar','Controller:uploadGambar');
+$app->get('/lihat/gambar/{gambar:\w+}','Controller:lihatGambar');
+$app->get('/semua-gambar','Controller:semuaGambar');
+
+
+// router
+// $app->get('/customer','Controller:customer');
+// $app->get('/production','Controller:production');
+// $app->get('/status','Controller:status');
+// $app->get('/invoice','Controller:invoice');
+
+$app->run();
+```
+
 controller/database.php
 
 ```php
