@@ -37,3 +37,19 @@ run git push with -f
 ```
 git push -f origin master
 ```
+
+
+hapus cache
+
+```
+git rm -r --cached .
+```
+
+contoh mengikutkan sebuah folder
+
+```
+!build/
+build/*
+!build/web/
+```
+
