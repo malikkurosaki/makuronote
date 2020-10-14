@@ -7,6 +7,12 @@ open git local config with nano editor
 sudo nano .git/config
 ```
 
+untuk ambah forlder edit di 
+
+```
+.gitignore
+```
+
 
 add your username 
 ```
