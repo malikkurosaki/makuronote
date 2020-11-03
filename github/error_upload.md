@@ -13,6 +13,12 @@ untuk ambah forlder edit di
 .gitignore
 ```
 
+```
+!build/
+build/*
+!build/web/
+```
+
 
 add your username 
 ```
