@@ -21,3 +21,26 @@ __js__
       for(let i of usr) paket[i.name] = i.value
       console.log(paket)
  })
+
+
+### update
+
+```js
+function tambahUser(){
+     const lsUsr = ['nama_depan','nama_belakang','email','password']
+     let con = `<div class="p-3 bg-light">tambah user `
+     for(let u of lsUsr)con += `<input class="usr" name="${u}" placeholder="${u}">`
+     con +=`<button id="tambah-user" class="btn border">SIMPAN</button></div>`
+     return con
+ }
+ $(document.body).append(tambahUser)
+
+ $('INPUT').keydown( e => e.which === 13?$(e.target).next().focus():"");
+ $('#tambah-user').click(() => {
+     const usr = $('.usr')
+     const paket = {}
+     if(usr.val() == "") {alert('no kosong'); return;}
+     for(let i of usr) paket[i.name] = i.value
+     console.log(paket)
+ })
+```
