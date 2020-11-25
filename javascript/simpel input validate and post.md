@@ -21,7 +21,8 @@ __js__
       for(let i of usr) paket[i.name] = i.value
       console.log(paket)
  })
-
+ 
+```
 
 ### update
 
