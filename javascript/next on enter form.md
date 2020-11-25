@@ -9,3 +9,9 @@
             }
         });
 ```
+
+tambahan
+
+````js
+$('INPUT').keydown( e => e.which === 13?$(e.target).next().focus():"");
+```
