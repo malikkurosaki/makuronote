@@ -43,5 +43,6 @@ function tambahUser(){
      if(usr.val() == "") {alert('no kosong'); return;}
      for(let i of usr) paket[i.name] = i.value
      console.log(paket)
+     $('.usr').val('')
  })
 ```
