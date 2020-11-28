@@ -1,5 +1,36 @@
 # server socket io
 
+package.json
+
+```json
+{
+    "name": "malikkurosaki_realtime_server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "malikkurosaki",
+    "license": "ISC",
+    "dependencies": {
+      "express": "4.17.1",
+      "express-async-handler": "1.1.4",
+      "multer": "1.4.2",
+      "sequelize": "6.3.5",
+      "socket.io": "3.0.3",
+      "sqlite": "4.0.15",
+      "body-parser": "1.19.0",
+      "cors": "2.8.5",
+      "auto-load": "3.0.4",
+      "sqlite3": "5.0.0"
+    },
+    "devDependencies": {},
+    "description": ""
+  }
+  
+```
+
 
 index.js
 ```js
