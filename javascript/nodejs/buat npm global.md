@@ -18,7 +18,11 @@
   },
   "keywords": [],
   "author": "malikkurosaki",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+      "colors": "^1.2.1",
+      "lodash": "^4.17.5"
+   }
 }
 ```
 
