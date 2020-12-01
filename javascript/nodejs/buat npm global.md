@@ -38,3 +38,10 @@ console.log("apa kabar");
 4. jalankan perintah "npm link"
 
 udah gitu doang
+
+tambahan
+
+penginstalan selain "npm link"
+
+1. "npm install -g local_dir_path"
+2. "npm install -g ./" jika berada didalam folder
