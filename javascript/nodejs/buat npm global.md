@@ -55,3 +55,9 @@ untuk membut perintah seperti `nodemon --ini itu`
 const arg = process.argv.splice(2);
 console.log(arg);
 ```
+
+mendapatkan curent dir
+
+```js
+console.log(process.cwd())
+```
