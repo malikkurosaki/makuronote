@@ -45,3 +45,13 @@ penginstalan selain "npm link"
 
 1. "npm install -g local_dir_path"
 2. "npm install -g ./" jika berada didalam folder
+
+
+tambahan lagi
+
+untuk membut perintah seperti `nodemon --ini itu`
+
+```js
+const arg = process.argv.splice(2);
+console.log(arg);
+```
