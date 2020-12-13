@@ -99,3 +99,13 @@ class ControllerGambar {
 
 module.exports = { ControllerGambar }
 ```
+form data 
+
+```js
+buffer: {type: "Buffer", data: Array(112762)}
+encoding: "7bit"
+fieldname: "gambar"
+mimetype: "image/png"
+originalname: "gambarnya.png"
+size: 112762
+```
