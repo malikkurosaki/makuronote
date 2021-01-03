@@ -47,3 +47,7 @@ console.log(JSON.stringify(await A.findAll({
 
 __A.hasOne(B)__
 
+kebalikan dari belongTo() , yaitu menaruh kunci a_id pada tabel B
+
+
+
