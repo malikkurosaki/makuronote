@@ -7,20 +7,20 @@ persaratan : memberikan id B kedalam A
 
 
 sediakan kunci b_id pada tabel A
-```json
+```js
 A : {
-...
+nama: "",
 b_id: ""
 }
 
 B{
-...
+name: "",
 }
 ```
 
 
 __output__
-```json
+```js
 A : {
   "id": 1,
   "name": "20j64fk",
