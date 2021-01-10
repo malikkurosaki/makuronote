@@ -15,7 +15,7 @@ keyAlias=malikkurosaki
 storeFile=/Users/probus/Documents/malikkurosaki.jks
 ```
 
-lanjut edit fiile gradle 
+lanjut edit fiile /app/build.gradle 
 
 isinya
 ```gradle
