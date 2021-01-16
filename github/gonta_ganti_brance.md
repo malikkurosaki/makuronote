@@ -19,3 +19,9 @@ jika error paksa dengan
 ```
 git push -f origin gh-pages
 ```
+
+push dr master ke gh-pages
+
+```
+git push origin master:gh-pages
+```
