@@ -30,3 +30,6 @@ Bank : Permata
 Pentransfer : Usada Alami Bagus 
 Jumlah : Rp 2,550,000 
 BD : Angjelia
+
+
+https://cashlez.odoo.com/web#action=297&cids=1&menu_id=171&model=sale.order&view_type=kanban
