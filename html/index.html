@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Firebase Storage</title>
+    </head>
+    <body>
+        <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-storage.js"></script>   
+
+            <h1> contoh firebase mendapatkan list gambar</h1>
+          <!-- tempat dimunculkannya gambar -->
+          <div id="munculkan" style="background-color: darkslategrey; padding: 8px;"></div>
+       
+        <script>
+
+            // config ambil dari pengaturan firebase
+            var firebaseConfig = {
+                apiKey: "AIzaSyAfACNHRoyIvX4nct4juVabZDgwEDKQ6jY",
+                authDomain: "malikkurosaki1985.firebaseapp.com",
+                databaseURL: "https://malikkurosaki1985.firebaseio.com",
+                projectId: "malikkurosaki1985",
+                storageBucket: "malikkurosaki1985.appspot.com",
+                messagingSenderId: "27222609089",
+                appId: "1:27222609089:web:bf85a0777451fb17da9840"
+            };
+
+            // menginstal config 
+            firebase.initializeApp(firebaseConfig);
+
+            // mendapatkan object storage
+            var storage = firebase.storage();
+            var storageRef = storage.ref();
+
+            // memasang kan folder gambar / file
+            var imgRef = storageRef.child('images');
+
+            // memastikan lokasi alamat gambar
+            imgRef.location.bucket = 'malikkurosaki1985.appspot.com';
+
+            // coba ambil data image dari backet proses menunggu sampe selesai
+            ;(async () => {
+                // mendapatkan semua list file / image
+                const gam = await imgRef.listAll();
+
+                // memecah file yang didapat menjadi satuan
+                gam.items.forEach( async (itemRef) => {
+                    // mendapatkan alamat url gambar / file
+                    const b = await itemRef.getDownloadURL()
+
+                    // mendapatkan object container tempat gambar akan dimunculkan
+                    var container = document.getElementById("munculkan");
+
+                    // inject gambar ke container dengan lebar 100px
+                    container.innerHTML += `<img style="width: 100px; padding: 8px" src="${b}">`
+                });
+            })()
+
+        </script>
+        malikkurosaki@2021
+    </body>
+</html>
