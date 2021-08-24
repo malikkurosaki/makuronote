@@ -1,3 +1,12 @@
+### setup ftp 
+
+source : https://www.digitalocean.com/community/tutorials/how-to-set-up-vsftpd-for-a-user-s-directory-on-ubuntu-18-04
+
+### setup ssh 
+
+source : https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-20-04
+
+
 ### setup ip table ubuntu
 
 source: https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-16-04
