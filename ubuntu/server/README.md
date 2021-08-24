@@ -1,5 +1,7 @@
 ### setup ip table ubuntu
 
+source: https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-16-04
+
 `sudo apt-get install ufw`
 
 `sudo ufw allow ssh` or `sudo ufw allow 22`
