@@ -37,3 +37,17 @@ server {
 
 }
 ```
+
+
+permition
+
+sudo chown -R $USER:$USER /var/www/example.com/html
+sudo chown -R $USER:$USER /var/www/test.com/html
+
+sudo chmod -R 755 /var/www
+
+### memantau penggunaan memory
+
+```
+watch -n 5 free -m
+```
