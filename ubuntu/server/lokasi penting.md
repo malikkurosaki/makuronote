@@ -93,3 +93,36 @@ module.exports = {
   }]
 }
 ```
+
+
+```json
+module.exports = {
+    "apps": [{
+        "name": "vue_admin",
+        "script": "serve",
+        "args": ["-s", "dist", "-n"],
+        "instances": "2",
+        "wait_ready": true,
+        "autorestart": false,
+        "max_restarts": 1,
+        "interpreter" : "php",
+        "watch": true,
+        "error_file": "log/err.log",
+        "out_file": "log/out.log",
+        "log_file": "log/combined.log",
+        "time": true
+    }]
+}
+```
+
+module.exports = {
+  apps: [
+    {
+      name: 'NuxtAppName',
+      exec_mode: 'cluster',
+      instances: 'max', // Or a number of instances
+      script: './node_modules/nuxt/bin/nuxt.js',
+      args: 'start'
+    }
+  ]
+}
