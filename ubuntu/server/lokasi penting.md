@@ -115,6 +115,7 @@ module.exports = {
 }
 ```
 
+```js
 module.exports = {
   apps: [
     {
@@ -126,3 +127,4 @@ module.exports = {
     }
   ]
 }
+```
