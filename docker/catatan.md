@@ -27,3 +27,15 @@ docker exec -it nx bash
 docker ps -a
 docker run --name docker-nginx -p 80:80 -d nginx
 ```
+
+### auto restart
+
+```
+run -d --restart unless-stopped -p 8080:80 --name nx  makuro/nx
+```
+
+### commit
+
+```
+docker commit [dockerid] [docker image]
+```
