@@ -21,7 +21,7 @@ module.exports = {
 
 ### version 2
 
-```
+```js
 module.exports = {
   apps: [
     {
