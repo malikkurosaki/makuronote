@@ -55,3 +55,28 @@ import fs from 'fs';
   
 })();
 ```
+
+```js
+"--log-level=3",
+		"--no-default-browser-check",
+		"--disable-site-isolation-trials",
+		"--no-experiments",
+		"--ignore-gpu-blacklist",
+		"--ignore-certificate-errors",
+		"--ignore-certificate-errors-spki-list",
+		"--disable-extensions",
+		"--disable-default-apps",
+		"--enable-features=NetworkService",
+		"--disable-setuid-sandbox",
+		"--no-sandbox",
+		"--disable-infobars",
+		"--window-position=0,0",
+		"--ignore-certifcate-errors",
+		"--ignore-certifcate-errors-spki-list",
+		"--disable-threaded-animation",
+		"--disable-threaded-scrolling",
+		"--disable-histogram-customizer",
+		"--disable-composited-antialiasing",
+		"--disable-dev-shm-usage",
+		"--disable-notifications"
+   ```
