@@ -9,7 +9,7 @@ buat file dalam folder android key.properties dalam folder android
 
 ininya
 ```properties
-storePassword=***
+storePassword=huruf_kecil_semua
 keyPassword=***
 keyAlias=malikkurosaki
 storeFile=/Users/probus/Documents/malikkurosaki.jks
