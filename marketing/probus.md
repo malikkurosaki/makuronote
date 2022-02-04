@@ -1,82 +1,74 @@
-# Probussystem One To All
+# Probussystem
 
-rencana kern menghadapi 2023
-
-
-
-#### disclaimer
-
-Untuk menghadapi situasi di tahun 2023 , sebagai perusahaan yang bergerak dibidang it , kita harus mulai mempersiapkan diri dari sekarang , perkiraan di tahun 2023 pertarungan akan sangat sengit , kompetitor menjamur dan makin banyak karena ada nya pandemi semua arus ekonomi bergerak ke online , tidak hanya kompetitor dari luar pulau kemungkinan yang dari localpun akan menjamur 
+### rencana kerja menghadapi 2023
 
 dikutip dari [bali surga startup bali.bisnis.com 2021](https://bali.bisnis.com/read/20211202/561/1472946/bali-berpotensi-jadi-surga-pelaku-start-up-dunia)
 
 > Kepala Kantor Perwakilan Bank Indonesia Provinsi Bali Trisno Nugroho mengatakan peluang Bali untuk menjadi next silicon valley sangat besar. Terlebih, Bali berhasil meraih peringkat empat dari 34 provinsi di Indonesia dari sisi daya saing digital.
 
-kita sebagai tuan rumah kita boleh bangga , namun sebagai pelaku bisnis kita harusnya bertanya , diposisimanakah kita .. ?
+jika melihat artikel yang terbit pada tahun 2021 tersebut maka sudah seharunya kita bersiap diri untuk pertarungan di 2023, akan banyak competitor ataupun strtup baru yang akan bermunculan
 
-seberapa siapkah kita brsaing dan persiapan apa yang sudah kita miliki ?
+seperti penting tidak penting , tp jika tujuan kita jelas arahnya ini akan sangat sangat penting sekali
 
+### 1 Marketing All Out
 
+semua yang bisa menjadi pijakan untuk marketing akn dicoba dimasuki , tidak terpake hanya pada sosial media , namun segala bidang dan segala aspek , tujuannya adalah untuk melebarkan nama dan memperkenalkan probus agar lebih luas lagi,
+bisa jadi tiktok, ig , youtube .. bahkan mungkin platform platfor yang jarang terdengar dan jarang orang tahu
 
-1. marketing
-2. office
+__target :__
+- pemetaan brand
+- pengenalan prooduct
+- merebut SEO
+- mind maping
 
+__benefit :__
+- nama probus mudah dikenal orang
+- nama probus tidak asing lagi
+- peobus adalah software developer software
+- probus bisa menyediapa apa yang mereka butuhkan
 
+### 2 Website One For All
+disini sasya akan berusaha untuk menghidupkan dan mengaktifkan web kembali , nantinya segala sesuatu kegiatan probus yang bisa dionlinekan akan dionlinekan ,
+termasuk berita dan kegiatan akan diupdate secara berkala
 
-### Marketing
+__target :__
+- merebut seo
+- terlihat profetional
+- terlihat hidup dan aktive
 
-> All Out
-
-dengan totalitas , apapun yang bisa dipasarkan akan dipasarkan apapun yang bisa jadi tempat pemasaran akan dipakai , 
-
-yang kita miliki saat ini mungkin hanya sebatas facebook ,  ig , tweeter , bangaimana dengan tokopedia , buka lapak shopee dan lainnya .. ? seharusnya ini adalah ladang ... untuk kita memasarkan , kesempatan sekecil apapun tidak boleh terbuang , dan kesempatan sekecil apapun harus segera diraih .. marketing bukan hanya bagaimana menjual .. tp bagaimana cara merebut pasar .. memberitahu ke calon calon target bahwa kita ada .. dan kita mampu ..
-
-
-
-whatsappa, facebook , instagram , buka lapak , shopee , tokopedia ... dan lainnya kita akan hadirkan nama probus Disana
-
-__contoh__
-
-![image-20220201111031261](/Users/probus/Library/Application%20Support/typora-user-images/image-20220201111031261.png)
-
-
-
-![image-20220201111357984](/Users/probus/Library/Application%20Support/typora-user-images/image-20220201111357984.png)
-
-
-
-untuk media sosial akan dibagi menjadi 2 kegiatan 
-
-1. marketing penjualan product
-2. kegiatan dan documentasi dan info
-
-dan akn di update seminggu 2x  bisa lebih tergantung unrgenitas dan kebutuhan ...
+__benefit :__
+- mendapatkan kepercayaan custoemer
+- website adalah face didunia maya
 
 
+### 3 Office Go Online
 
-### Office
-
-nanti ditahun 2023 keadaan akan kembali normal , jumblah karyawan kita akan seperti sekarang ? oh tidak justru jangan sampai ... bisa jadi malah menjadi 100 orang atau lebih .. 
-
-nah untuk itu persiapan apa yang sudah kita miliki ? apakah masih sama seperti sekarang ? bakalan gk kebayang ribet dan carut marutnya untuk mengontrol semuanya secara manual untuk itulah saya ingin mencetuskan management office yang baru untuk memanage semua kegiatan office dan karyawan , 
+apa itu one for all , berbeda  dengan cara tradisional yang terbagi kedalam beberpa pintu dan birokrasi saya lebih akan merombaknya ke online solution, semua hal yang berkaitan dengan office dan kegiatannya ada di cloud ,, apapun itu .. termasuk absensi , form cuti .. laporan karyawan .. laporan project .. laporan kunjugan .. semuanya ada di clound dan bisa dibuka 24 jam realtime dari manapun semua terarah pada satu pintu dan datu tujuan
 
 
+1. absensi online
+2. report harian online
+3. meeting mingguan online
+4. meeting bulanan online
+5. form cuti online
+6. form ijin online
+7. for kunjungan online
+8. claim online
+9. dan lainnya jika memungkinkan
 
-> saya tawarkan one for all
+__target :__
+- efesiaensi waktu
+- lebih tepat sasaran
+- koordinasi secara langsung
+- penanganan masalah dengan cepet
 
-apa itu one for all , berbeda  dengan cara tradisional yang terbagi kedalam beberpa pintu dan birokrasi saya lebih akan merombaknya ke online solution, semua hal yang berkaitan dengan office dan kegiatannya ada di cloud ,, apapun itu .. termasuk absensi , form cuti .. laporan karyawan .. laporan project .. laporan kunjugan .. semuanya ada di clound dan bisa dibuka 24 jam realtime dari manapun 
-
-
-
-#### informasi yang lengkap
-
-
-
+__benefit :__
+- semua berkaitan dengan efesiensi waktu dan kecepatan dan ketepatan penanganan dalam suatu permasalahan
 
 
-#### manage pegawai
+#### 4 Employee Program
 
-saalah satu yang menjadi tantangan perusahaan adalah  bagai mana mendapatkan loyalitas dan kedisplinan kerja pegawai .. namun akan saya garis bawahi itu tidak buruk namun lebih bagus kita alihkan keorientasi project , waktu dan target agar bisa lebih maksimal an terarah .. terserah mau gimana ngerjainnya , caranya seperti apa intinya semua bisa diselesaikan dan bisa tepat waktu 
+saalah satu yang menjadi tantangan perusahaan adalah  bagai mana mendapatkan loyalitas dan kedisplinan kerja pegawai .. namun akan saya garis bawahi itu tidak buruk namun lebih bagus kita alihkan keorientasi project , waktu dan target agar bisa lebih maksimal tak trebatas pada cara penngerjaannya tujuaannnya adalah target penyelesaian
 
 
 
