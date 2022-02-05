@@ -146,7 +146,7 @@ termasuk test sicologi dan form akan tersedia secara online , nantinya kita akan
 
 __F. problem bank__
 
-_bank masalah_
+`bank masalah`
 
 nantinya di website probus akan punya search engine sendiri nanun untuk masalah dan penyelesaiannya , pegawai yang berkontribusi membuat artikel bank masalah akan mendapatkan poin , adn poin bisa ditukar dengan uang , 
 
@@ -158,8 +158,8 @@ __G. annual meeting offline__
 
 `meeting offline tahunan`
 
-pembahasan ap yang telah dicapai dan target tahun depannya
-sebelum meeting , di website akan disediakan form meeting , para peserta akan mengisiapa saja yang akan dibaahas .. semua peserta bisa membuka ..dan mendengar penjelasannya 
+pembahasan apa yang telah dicapai dan target tahun depannya
+sebelum meeting , di website akan disediakan form meeting , para peserta akan mengisiapa saja yang akan dibahas  semua peserta bisa membuka dan mendengar penjelasannya 
 
 > pada dasarya project yang saya kerjakan adalah lebih dititik beratkan pada persiapan kita menghadapi 2023, memudahkan pekerjaan pegawai , dan memudahkan management untuk menganalisa data, sehingga mudah untuk bisa mengambil langkah langkah yang diperlukan , baik yang mendesak ataupun yang berjangka panjang, bagaimana sebuah perusaaan mempersiapakan diri dalam perebutan porsi kue , dengan persiapan dari dalam yang lebih matang terukur dan systematis
 
