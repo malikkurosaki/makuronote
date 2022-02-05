@@ -3,15 +3,18 @@
 
 ### 1 Marketing All Out
 
-memungkinkan semua yang bisa menjadi pijakan untuk marketing akn dicoba dimasuki , tidak terpake hanya pada sosial media , namun segala bidang dan segala aspek , tujuannya adalah untuk melebarkan nama dan memperkenalkan probus agar lebih luas lagi,
+`
+Pemasaran adalah aktivitas dan proses menciptakan, mengomunikasikan, menyampaikan, dan mempertukarkan tawaran yang bernilai bagi pelanggan, klien, mitra, dan masyarakat umum. Pemasaran dimulai dengan pemenuhan kebutuhan manusia yang kemudian bertumbuh menjadi keinginan manusia
+`
+
+memungkinkan semua yang bisa menjadi pijakan untuk marketing akan dijadikan media pemasaran , tidak terfokus hanya pada sosial media , namun segala bidang dan segala aspek , tujuannya adalah untuk melebarkan nama dan memperkenalkan probus agar lebih luas lagi,
 bisa jadi tiktok, ig , youtube . bahkan mungkin platform platfor yang jarang terdengar dan jarang orang tahu
 
 __target :__
 
-- pemetaan brand
+- maind brand maping
 - pengenalan prooduct
 - merebut SEO
-- mind maping
 
 __benefit :__
 
@@ -22,6 +25,8 @@ __benefit :__
 - mudah mendapatkan client
 
 ### 2 Website One For All
+
+`Website adalah media promosi yang paling murah, efektif, dan efisien. Dengan website, Anda dapat memberikan informasi mengenai produk, potongan harga, dan lain sebagainya. Dengan begitu, pelanggan Anda dapat menerima informasi dengan cepat dan tepat.`
 
 untuk menghidupkan dan mengaktifkan web kembali , nantinya segala sesuatu kegiatan probus yang bisa online akan diadakan di cloud / secara online ,
 termasuk berita dan kegiatan akan diupdate secara berkala, tidak menutup kemungkinan aktifitas kantor
@@ -105,11 +110,12 @@ target:
 
 benefit:
 
-- mendapatkan loyalitas pegawai secara otomatis
+- mendapatkan loyalitas pegawai
 - project lebih cepat selesai
 - project bisa tersusun rapi
-- documentasi lengkap bahkan tidak akan menyusahkan untuk pegawai yang baru masuk sekalipun
-- pegawai bahagia
+- produktifitas meningkat
+- kesejahtraan pegawai meningkat
+- perusahaan bisa menangani project lebih banyak
 
 saran:
 > dana bisa diambil dari nilai project yang telah `diup` terlebih dahulu , diikutkan  biaya bonus penanganan project , jadi pada dasarnya client lah yang membayar penanganan project hanya dibayarkan melalui perusahaan
@@ -148,11 +154,11 @@ __F. problem bank__
 
 `bank masalah`
 
-nantinya di website probus akan punya search engine sendiri nanun untuk masalah dan penyelesaiannya , pegawai yang berkontribusi membuat artikel bank masalah akan mendapatkan poin , adn poin bisa ditukar dengan uang , 
+nantinya di website probus akan punya search engine sendiri nanun untuk masalah dan penyelesaiannya , pegawai yang berkontribusi membuat artikel bank masalah akan mendapatkan poin
 
 benefit bagis perusahaan:
 
-- bisa menagani serip masalah dengan cepat tiadk perlu nunggu atau saling lempar masalah karena penyelesaiannya sudah ada di bank masalah
+- bisa menagani setiap masalah dengan cepat dan tepat
 
 __G. annual meeting offline__
 
@@ -161,8 +167,10 @@ __G. annual meeting offline__
 pembahasan apa yang telah dicapai dan target tahun depannya
 sebelum meeting , di website akan disediakan form meeting , para peserta akan mengisiapa saja yang akan dibahas  semua peserta bisa membuka dan mendengar penjelasannya 
 
-> pada dasarya project yang saya kerjakan adalah lebih dititik beratkan pada persiapan kita menghadapi 2023, memudahkan pekerjaan pegawai , dan memudahkan management untuk menganalisa data, sehingga mudah untuk bisa mengambil langkah langkah yang diperlukan , baik yang mendesak ataupun yang berjangka panjang, bagaimana sebuah perusaaan mempersiapakan diri dalam perebutan porsi kue , dengan persiapan dari dalam yang lebih matang terukur dan systematis
 
+---
+
+> pada dasarya project yang saya kerjakan adalah lebih dititik beratkan pada persiapan menghadapi 2023,  mempermudah pekerjaan pegawai , dan memudahkan management untuk menganalisa data, sehingga mudah untuk bisa mengambil langkah langkah yang diperlukan , baik yang mendesak ataupun yang berjangka panjang, bagaimana sebuah perusaaan mempersiapakan diri dalam perebutan porsi kue ke sekala yang lebih besar dan luas , dengan persiapan dari dalam yang lebih matang terukur dan sistematis 
 
 
 
