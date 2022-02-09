@@ -7,9 +7,14 @@ kita tersingkir dalam permainan sendiri tergerus kejam nya roda persaingan, atau
 ok kita bisa bilang mau gmn lagi kan keadaan ? ok .. keadaan ... buang buang waktu lebih tepanya .. karena umur gk ngenal namanya keadaan taunya abis terus kaya obat nyamuk bakar
 nunggu waktunya abis
 
+ok jika kamu puas aku out , buang buang waktu ... karena ak mau lebih ada banyak hal yang ingin aku wujutkan 
 
-kita masi bisa dan sepatutnya bisa , bukan bukan harus .. harus bisa
-apa yang menjadikan kita tidak bisa ? ...
+kita ada beberapa sandungan masalah simple sih tp crusial banget 
+
+1. pemasaran 
+  nih kita punya barang bagus dan berkualias , tp kita jualannya didalam gang sempit ok laku .. laku .. jika km punya kesempatan ambil 0 sampe 100 lalu puas diangka 10 sisanya 90 akan jadi pertanyaan .. ? ada banyak yang bisa diusahakan , ada banyak yang masih bisa dilakukan , masih banyak kesempatan
+  
+2. management dan koordinasi 
+  saya tidak sedang mengkritisi , tp ayo 
 
 
-marketing 
