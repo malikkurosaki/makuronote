@@ -18,7 +18,7 @@ __Villa, Resort & Hotel System__
 PROBUS HOTEL INTEGRATED SYSTEM memberikan manfaat yang signifikan dalam banyak aspek perhotelan untuk meningkatkan efisiensi dan profitabilitas operasional Anda sesuai dengan standar operasional hotel dan villa dengan menekankan nilai efektifitas, kemudahan dan keakuratan. 
 Bagusnya lagi semuanya sudah terintegrasi dalam satu paket sistem.
 
-**Fiture: **
+**Fiture :**
 
 - Database Client-server dengan kemampuan Cloud Backup.
 - Fleksibilitas integrasi sistem (resto, pos, dll) sesuai kebutuhan.
