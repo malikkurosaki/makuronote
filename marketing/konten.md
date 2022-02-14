@@ -266,5 +266,96 @@ Probus POS memberikan kemudahan dalam mengelolah toko retail ataupun grosir sepe
 - Laporan Neraca Keuangan
 - Laporan Laba Rugi
 
+# Channel Manager & Booking Engine
+
+Sebuah aplikasi pengelola Saluran Hotel dengan fitur Channel manager, Online Booking Engine, dan Integrasi ke eZee Centrix.
+
+![image](https://user-images.githubusercontent.com/12760538/153799658-3135df6d-2b6f-4308-884c-e7c6761b98bf.png)
+![image](https://user-images.githubusercontent.com/12760538/153799672-6fa5d88f-3969-49df-9de1-ddc84ccc807e.png)
+![image](https://user-images.githubusercontent.com/12760538/153799676-03dc2684-86b4-44e2-be80-8297e8289c85.png)
+![image](https://user-images.githubusercontent.com/12760538/153799692-d5b05974-59db-4328-aedb-e50ccebc8394.png)
+
+**Channel Manager**
+
+Online Booking System adalah sebuah aplikasi pengelola Saluran Hotel dengan fitur Channel manager, Online Booking Engine, dan Integrasi ke eZee Centrix. Probus bermitra dengan eZee Technosys sebagai solusi untuk Channel Manager (eZee Centrix) & Booking Engine (eZee Reservation). Aplikasi ini memanfaatkan teknologi interaktif menyediakan pengguna dengan pengalaman yang sangat interaktif dan user interface . Aplikasi Custom Web juga mentransfer pemrosesan yang diperlukan untuk antarmuka pengguna ke komputer pengguna sementara menjaga pengolahan data pada server aplikasi Web .
+
+**Fitur & Modul**
+
+Satu dashboard untuk mengelola semua distribusi channel manager anda
+Mengelola mikro dan mengatur makro semua saluran distribusi Anda dan dengan sistem respons instan eZee Centrix melacak semuanya dari awal ke waktu pemesanan dari berbagai sumber dari satu dashboard.
+
+**Pembaruan otomatis secara instan di semua saluran**
+
+eZee Centrix memungkinkan Anda untuk memperbarui semua OTA's (Hotel Booking Portals), Global Distribution Systems (GDS), dan halaman situs web hotel. Selanjutnya, setiap perubahan yang dibuat dalam paket dan deskripsi diperbarui seketika.
+
+**Manajemen hasil**
+
+Fitur dari mana anda bisa menggabungkan beberapa faktor seperti jenis ruangan, biaya dan saluran penjualan untuk menciptakan tingkat suku bunga yang fleksibel. Sistem memungkinkan Anda mengatur ketersediaan sesuai dengan aturan yang ditetapkan oleh Anda dengan mempertimbangkan tingkat hunian Anda, memberi Anda keunggulan atas kompetisi dan membuat keputusan cepat di musim tinggi.
+
+**Minimal overbooking**
+
+Hotel Anda tidak akan menghadapi masalah overbooking, seperti eZee Centrix akan segera memperbarui semua saluran dengan direvisi ketersediaan setiap kali ada reservasi dari saluran manapun atau sumber.
+
+**Mempertahankan tingkat paritas tanpa upaya apapun**
+ 
+Pertahankan kontrol total strategi penetapan harga Anda tanpa tingkat paritas masalah dengan eZee Centrix Sistem akan otomatis update perubahan dilakukan dengan kecepatan di semua saluran. Selain itu, tarif juga akan diperbarui di TripAdvisor, Google dan harga lainnya situs perbandingan secara otomatis.
+
+**Pantau persaingan Anda dengan rate spider**
+
+Periksa tingkat pesaing Anda dengan Rate Spider di eZee Centrix, memberi Anda kemampuan untuk mengubah strategi penetapan harga Anda, menurut kondisi pasar untuk memaksimalkan keuntungan.
 
 
+**Mengecek suku bunga dan persediaan saat sedang diluar kantor**
+
+Tidak peduli di mana Anda berada, Anda selalu dapat mengubah tingkat dan inventaris dengan benar dari ponsel Anda seketika dan sistem akan memperbaruinya secara otomatis PMS hotel Anda dan semua saluran yang terhubung.
+
+**Integrasi Lengkap dengan PMS dan Booking Engine**
+
+Terintegrasi dengan Sistem Manajemen Properti (PMS) dan Online Booking Engine yang langsung dan otomatis kirimkan reservasi baru ke PMS dan update daftar reservasi di mesin pemesanan Anda.
+
+**Ditunjuk untuk manajer akunting**
+
+eZee akan menyediakan hotel Anda dengan manajer akun khusus yang akan secara eksklusif melihat akun eZee Centrix Anda. Sebagai titik utama kontak untuk eZee Centrix, manajer akun Anda akan membantu Anda implementasi, komunikasi saluran, dan dukungan lainnya persyaratan yang mungkin Anda miliki
+
+**Memanfaatkan persediaan penuh secara efisien**
+
+eZee Centrix membuatnya sangat mudah untuk mengelola jumlah maksimum inventaris di sejumlah saluran tanpa harus khawatir tentang overbooking dan menghindari kehilangan penjualan. Manajemen yang tepat inventaris di berbagai saluran sangat penting untuk pertumbuhan hotel dan mempertahankan tingkat hunian yang lebih tinggi.
+
+**Pilih saluran yang tepat untuk hotel anda**
+
+Memiliki campuran OTA yang tepat dimana hotel Anda akan terlihat adalah kuncinya untuk hunian yang lebih tinggi dan pertumbuhan konstan. Pakar eZee akan membimbing Anda masuk memilih campuran saluran yang tepat dan menerapkan broadreaching yang luas strategi distribusi online untuk menutupi target pasar Anda.
+
+**Analisis**
+
+Laporan konsolidasi eZee Centrix menunjukkan data real-time yang memungkinkan hotel untuk analisis langsung dan perencanaan strategis yang lebih baik. Sistem mengumpulkan semua data yang relevan dan memungkinkan hotel membuat laporan jumlah pemesanan, pemesanan diterima per saluran, tarif, dll. Semua informasi yang relevan dapat diakses kapan saja dan disajikan dalam format yang mudah dimengerti.
+
+**Booking Engine**
+
+Online Booking System adalah sebuah aplikasi pengelola Saluran Hotel dengan fitur Channel manager, Online Booking Engine, dan Integrasi ke eZee Centrix. Probus bermitra dengan eZee Technosys sebagai solusi untuk Channel Manager (eZee Centrix) & Booking Engine (eZee Reservation). Aplikasi ini memanfaatkan teknologi interaktif menyediakan pengguna dengan pengalaman yang sangat interaktif dan user interface . Aplikasi Custom Web juga mentransfer pemrosesan yang diperlukan untuk antarmuka pengguna ke komputer pengguna sementara menjaga pengolahan data pada server aplikasi Web .
+
+Komputer pengguna dan server aplikasi Web berkomunikasi secara real time , yang berarti data dapat diproses lebih cepat dan lebih mulus tanpa setup stop- and- klik khas dari sebagian besar aplikasi Web. Kami berkerja menggunakan Bahasa pemrograman bebasi php OOP (object oriented programing), mysql dan produksi web aplikasi kami sesuai dengan standart industri masa modern, sehingga mudah di gunakan untuk user.
+
+**Tingkatkan pemesanan anda**
+
+Mudah digunakan dan diandalkan pemesanan teknologi mesin untuk pemesanan langsung. Tampilan grid sederhana ditambah dengan dua klik proses pemesanan akan menarik dan memungkinkan pengunjung untuk memesan langsung dengan milikmu Secara signifikan meningkatkan pemesanan langsung dengan teknologi pemesanan stabil eZee Reservation dan 24X7 mengakses. Selanjutnya, ringkasan pemesanan cepat menunjukkan semua rincian yang relevan di layar yang sama.
+
+**Kebebasan kustomisasi**
+
+Kebebasan untuk menyesuaikan setiap detail agar sesuai dengan situs Anda. Pemesanan eZee mulus dicampur dengan situs web Anda dan setiap detail kecil dapat disesuaikan agar sesuai dengan tampilan dan rasakan. Tambahkan gambar kamar di galeri gambar, peta untuk properti untuk petunjuk yang tepat bagi tamu Anda
+dan plug-in tambahan untuk situs web Anda.
+
+**Menghasilkan pendapatan yang lebih tinggi**
+
+Meningkatkan pendapatan dengan menjual produk dan layanan ekstra. Bangun loyalitas pelanggan yang kuat melalui paket khusus dan biarkan tamu Anda melakukan pemesanan di ponsel mereka saat bepergian Tawarkan para tamu untuk menambahkan produk dan layanan tambahan seperti penjemputan di bandara, Wi-Fi, dll, sehingga meningkat nilai setiap pemesanan Selain itu, integrasi Facebook juga memberi Anda kehadiran di bidang media sosial.
+
+**Go global**
+
+Opsi global memberi Anda kehadiran global. eZee Reservation menawarkan pilihan pilihan seperti multi bahasa dan multi mata uang, yang memberi Anda akses ke tamu di seluruh dunia. Perluas klien Anda ke pasar internasional baru.
+
+
+**Analisis mendalam**
+
+Lacak pergerakan pasar. eZee Reservation menyediakan alat-alat yang memungkinkan Anda untuk memeriksa momentum pasar dan memahami tren. Dapatkan keuntungan yang berbeda dari alat yang seperti laporan komprehensif dan statistik pengunjung yang akan membantu Anda bentuk kampanye pemasaran masa depan. Pengukuran Return on Marketing akan memungkinkan Anda untuk membuat keputusan bisnis yang sehat.
+
+**Multiple user interface**
+Mudah Terpadu Manajemen Perangkat Lunak. eZee Reservation dapat dengan mudah diintegrasikan dengan PMS dan channel manager Anda. Dengan Gateway Pembayaran, tamu Anda akan memiliki banyak pilihan untuk melakukan pembayaran sehingga memudahkan analisis dan catatan keuangan Anda.
