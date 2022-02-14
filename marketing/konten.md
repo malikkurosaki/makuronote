@@ -2,9 +2,12 @@
 
 Solusi yang tepat untuk mengelola usaha Villa, Resort & Hotel dengan jumlah inventory hingga 50 kamar.
 
-![gambabr probus hotel](https://i.postimg.cc/1X1t091h/Screen-Shot-2022-02-14-at-11-47-13.png)
-![gambar dua](http://probuspms.com/site/assets/files/1531/banner_hardware.jpg)
-![gambar 3](http://www.probussystem.com/site/assets/files/1394/1.png)
+![image](https://user-images.githubusercontent.com/12760538/153799514-e3a14aca-841c-46a2-bd00-4e6d9db07bf4.png)
+![image](https://user-images.githubusercontent.com/12760538/153799528-6902583f-3c16-454a-963f-28b5a6db3593.png)
+![image](https://user-images.githubusercontent.com/12760538/153799538-91a57d09-b52f-4837-81ca-5e794055da2e.png)
+![image](https://user-images.githubusercontent.com/12760538/153799544-9ec1f3c5-75ca-4b0d-88f8-dc57e9d6ac3c.png)
+![image](https://user-images.githubusercontent.com/12760538/153799556-d4db751d-fe54-484f-b406-64f0c275ae30.png)
+
 
 _Sistem komprehensif ini membantu meningkatkan bisnis Anda secara efektif sambil mempertahankan kontrol atas semua proses 
 manajemen Anda melalui informasi penting yang didapat dari PROBUS HOTEL INTEGRATED SYSTEM untuk mencapai keseimbangan 
