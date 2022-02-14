@@ -170,7 +170,7 @@ Probus Restaurant sangat tepat digunakan untuk Anda semua pengelola bisnis resto
 - Laporan Neraca Keuangan
 - Laporan Laba Rugi
 
-**Probus POS**
+# Probus POS
 
 ![image](https://user-images.githubusercontent.com/12760538/153798691-dcfed8cf-702f-49e7-8390-ef4630b29db2.png)
 ![image](https://user-images.githubusercontent.com/12760538/153798711-c66169f5-230e-45b8-8c8f-8db1ecd42812.png)
