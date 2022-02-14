@@ -359,3 +359,83 @@ Lacak pergerakan pasar. eZee Reservation menyediakan alat-alat yang memungkinkan
 
 **Multiple user interface**
 Mudah Terpadu Manajemen Perangkat Lunak. eZee Reservation dapat dengan mudah diintegrasikan dengan PMS dan channel manager Anda. Dengan Gateway Pembayaran, tamu Anda akan memiliki banyak pilihan untuk melakukan pembayaran sehingga memudahkan analisis dan catatan keuangan Anda.
+
+
+# Jasa Pembuatan Software
+
+![image](https://user-images.githubusercontent.com/12760538/153804869-aa091494-edd2-4fd7-a5da-3a5830d79df3.png)
+![image](https://user-images.githubusercontent.com/12760538/153804833-fd599244-9a48-421d-b2b4-2f51492bd7f7.png)
+![image](https://user-images.githubusercontent.com/12760538/153804921-992abd57-a55c-44b1-9918-25f7336054f4.png)
+![image](https://user-images.githubusercontent.com/12760538/153805062-18e8c6ac-fd3e-4110-868c-c2f87e9df160.png)
+
+
+Jasa Pembuatan Software untuk sarana penunjang suatu kegiatan kerja untuk perorangan, perusahaan, maupun organisasi. dengan layanan Full Customize dimana program atau software yang kami buat dapat disesuaikan dengan alur atau proses bisnis di perusahaan atau organisasi yang akan menggunkan program atau software tersebut. sehingga tidak terjadi kasus seperti Perusahaan yang harus mengikuti alur kerja atau proses bisnis yang ada didalam program atau software tersebut, dan itulah yang menjadi salah satu nilai plus kami dibandingkan dengan Jasa Pembuatan Program dan Jasa Pembuatan Software lain ataupun program yang sudah dalam bentuk package dan bundling.
+
+Program merupakan investasi jangka panjang bagi sebuah instansi maupun perusahaan, karena dengan program yang sesuai dengan kebutuhan dan alur bisnis perusahaan akan menghasilkan efisiensi biaya, efektifitas kerja, data real time bagi perusahaan, keakuratan data, dan segala suatu hal yang berhubungan dengan data akan terorganisir dengan baik serta dapat menyajikan laporan yang lengkap dan akurat.
+
+Investasi yang anda lakukan akan mengurangi biaya operasional, meningkatkan kepuasan pelanggan dan meningkatkan efisiensi serta efektifitas pegawai. Tentunya hal ini didukung implementasi program yang baik diperusahaan.
+
+**KENAPA MEMILIH PEMBUATAN SOFTWAREDIKAMI ?**
+
+- Memiliki tampilan yang User Friendly
+- Memiliki fitur level hak akses
+- Kebutuhan software maupun sistem bisa di costum sesuai keperluan anda
+- Support Client Server
+- Garansi Perawatan
+- Pelatihan untuk User dan Administrator
+- Jasa Pembuatan Website
+- Pembuatan Aplikasi Android
+- Pembuatan Software Desktop
+- Jasa Optimasi Mesin Pencari
+- Pembuatan Toko Online
+- Jasa Desain Grafis / Logo
+
+**Pembuatan website**
+
+- Domain Gratis , Gratis Nama Domain Selama 1 Tahun ( .Com .Net .Org )
+- Desain website yang ringan, cepat dan responsive. Dapat diakses diberbagai perangkat mulai dari PC, Laptop, Tablet hingga Smartphone
+- Fitur SEO , Harga Paket sudah sekaligus SEO friendly agar web anda di cepat terindeks google
+- Desain website yang premium sehingga membuat website terlihat lebih profesional, menarik dan elegan
+- Menggunakan web hosting terbaik dan terkini dengan fitur-fitur unggulan, seperti: Cloudlinux, Litespeed, cPanel Control Panel, dan banyak lagi
+- Gratis bantuan masalah teknis website dan backup selama menjadi klien kami
+
+**Pembuatan Aplikasi Android**
+
+Anda dapat membuat aplikasi untuk usaha anda,buku digital dan aplikasi lainnya dengan mudah dan murah. Sehingga biaya pembuatan aplikasi yang umumnya mahal bisa diminimalisir.
+
+**KENAPA MEMILIH PEMBUATAN APLIKASI ANDROID DIKAMI ?**
+
+- Pengembangan Aplikasi Mudah dan Murah Anda Dapat mengembangkan Usaha anda dengan mudah melalui aplikasi android dengan biaya murah.
+- Mudah diubah melalui admin panel. Admin dapat dengan mudah memperbarui atau mengedit konten aplikasi tanpa memerlukan pengetahuan khusus.
+- Gratis Tampil Di Playstore Anda tidak perlu repot-repot untuk membuat akun developer, karna kami akan membantu anda untuk menampilkan di playstore
+
+**Kategori Aplikasi Android yang dikerjakan**
+
+- Aplikasi Android Toko Online
+- Aplikasi Android Penjualan ( POS )
+- Aplikasi Android Ojek Online
+- Aplikasi Android Pembayaran Online
+- Aplikasi Android Custom Lainnya
+
+**Jasa Pembuatan Software Desktop**
+
+- Memiliki tampilan yang User Friendly
+- Memiliki fitur level hak akses
+- Kebutuhan software maupun sistem bisa di costum sesuai keperluan anda
+- Garansi Perawatan
+- Support Client Server
+- Pelatihan untuk User dan Administrator
+
+
+**Program dan Software Yang Kami Buat**
+- Software Administrasi
+- Software Inventory
+- Software Administrasi
+- Software Kasir
+- Software Hotel
+- Software Restoran
+- Software Showroom
+- Software Travel Agent
+- dan banyak lagi, serta kami bisa membuatkan software costum sesuai dengan kebutuhan anda. Untuk informasi lebih lanjut silakan hubungi tim kami pada kontak di bawah maupun di atas.
+
+
