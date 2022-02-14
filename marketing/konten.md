@@ -1,4 +1,4 @@
-### PHIS
+# PHIS
 
 Solusi yang tepat untuk mengelola usaha Villa, Resort & Hotel dengan jumlah inventory hingga 50 kamar.
 
@@ -74,9 +74,13 @@ Bagusnya lagi semuanya sudah terintegrasi dalam satu paket sistem.
 - Security Reservasi Must Input No Room
 
 
-### Probus Resto
+# Probus Resto
 
-![gambar presto 1](![image](https://user-images.githubusercontent.com/12760538/153798276-9704b297-4465-463b-9f20-5545bea38627.png)
+![image](https://user-images.githubusercontent.com/12760538/153798800-a018ac79-04e6-4d4f-a081-7af103fb265f.png)
+![image](https://user-images.githubusercontent.com/12760538/153798809-36b934c8-762f-4374-bdd8-8bc0b76c7b01.png)
+![image](https://user-images.githubusercontent.com/12760538/153798828-e182b0b9-ba69-4ec4-9de3-f6ec88797551.png)
+![image](https://user-images.githubusercontent.com/12760538/153798971-e825c3e2-847e-4189-b449-a3c81faf0c0c.png)
+
 
 
 _Software lengkap untuk bisnis restoran. Mengutamakan efisiensi bisnis dan kecepatan pemenuhan order._
@@ -162,3 +166,102 @@ Probus Restaurant sangat tepat digunakan untuk Anda semua pengelola bisnis resto
 - Laporan Neraca Saldo
 - Laporan Neraca Keuangan
 - Laporan Laba Rugi
+
+**Probus POS**
+
+![image](https://user-images.githubusercontent.com/12760538/153798691-dcfed8cf-702f-49e7-8390-ef4630b29db2.png)
+![image](https://user-images.githubusercontent.com/12760538/153798711-c66169f5-230e-45b8-8c8f-8db1ecd42812.png)
+![image](https://user-images.githubusercontent.com/12760538/153798724-d06f3e3c-9ab0-49a2-9516-a01c5e8d9cea.png)
+![image](https://user-images.githubusercontent.com/12760538/153798742-3bd1c774-16f1-4595-9be4-256600ec0257.png)
+![image](https://user-images.githubusercontent.com/12760538/153798753-6015a3ea-8d62-44d4-9e2e-2979a697a504.png)
+
+
+**Retail & Grocery System**
+
+Probus POS memberikan kemudahan dalam mengelolah toko retail ataupun grosir seperti jenis usaha penjualan Mini Market, ATK, Apotik, Baju, Bangunan, Furnitur, Kue dan roti, Handphone, Komputer, pakan ternak dan sejenisnya. Sistem Probus POS & Retail dirancang dengan fitur khusus untuk menangani berbagai kemungkinan transaksi seperti membatalkan pesanan, memindahkan tagihan, tagihan terpisah, tagihan void, tagihan compliment, tagihan diskon, atau tagihan cetak ulang (Re-Print). Disamping itu sistem Probus POS juga otomatis melakukan update data stock yang sudah terjual dan bertambah jika ada pembelian.
+
+**Fitur PPOS**
+
+- Mendukung multi Outlet & Multi Departement
+- SO Berjalan & Inventory Control
+- Integrasi dengan Akunting Sistem
+- Pengaturan Otorisasi User dengan level bertingkat
+- Mendukung Barcode Reader
+- Mendukung Fleksibel Promo
+- Mendukung Kartu member
+- Mendukung pelaporan otomatis melalui email
+- Mendukung Cash Drawer
+- Support IMEI/SN untuk produk elektronik
+- Mendukung SMS Gateway
+
+**Penjualan**
+
+- Transaksi Penjualan
+- Retur Penjualan
+- Open dan Closing shift
+- Mendukung Fasilitas Promo Transaksi
+- Mendukung Master Member / Anggota
+- Mendukung Integrasi SMS gateway (Broadcast SMS)
+- Laporan Transaksi Penjualan
+
+**Stock Control**
+
+- Retur Pembelian
+- Spoil Stock
+- Laporan Spoil
+- Pemesanan Pembelian Barang
+- Penerimaan Pesanan Barang
+- Pembelian Langsung
+- Pemindahan Stok
+- Penyesuaian Stok
+- Laporan Sisa Stock
+
+**Kontrol Harga**
+
+- Master Stok
+- Pengaturan kuantiti awal
+- Pengaturan Harga pokok
+- Pengaturan Harga barang / Supplier
+- Kartu Stok
+- Penyesuaian Stok
+- Flash Cost / HPP
+- Kontrol Barang
+
+**Account Receivable & Payable**
+
+- Saldo awal Piutang
+- Pembayaran Piutang
+- Umur Piutang
+- Mutasi Piutang
+- Kartu Piutang
+- Saldo Awal Hutang
+- Pembayaran Hutang
+- Umur Hutang
+- Mutasi Hutang
+- Kartu Hutang
+
+**Modul-Modul Laporan**
+
+- Daily Sales
+- Report Transaksi
+- Report Best Seller
+- Grafik Penjualan
+- Report Customer
+- Report Fast Moving Stock
+
+**Accounting**
+
+- Setup Master COA
+- Pengaturan Saldo Awal
+- Pengaturan Anggaran Keuangan
+- Management Assets
+- Daftar Jurnal
+- Penyesuaian Jurnal
+- Posting General Ledger
+- Laporan Buku Besar
+- Laporan Neraca Saldo
+- Laporan Neraca Keuangan
+- Laporan Laba Rugi
+
+
+
