@@ -13,7 +13,7 @@ _Sistem komprehensif ini membantu meningkatkan bisnis Anda secara efektif sambil
 manajemen Anda melalui informasi penting yang didapat dari PROBUS HOTEL INTEGRATED SYSTEM untuk mencapai keseimbangan 
 penting antara biaya yang terkandung dan peningkatan standar layanan._
 
-__Villa, Resort & Hotel System__
+__Probus System Villa, Resort & Hotel System__
 
 PROBUS HOTEL INTEGRATED SYSTEM memberikan manfaat yang signifikan dalam banyak aspek perhotelan untuk meningkatkan efisiensi dan profitabilitas operasional Anda sesuai dengan standar operasional hotel dan villa dengan menekankan nilai efektifitas, kemudahan dan keakuratan. 
 Bagusnya lagi semuanya sudah terintegrasi dalam satu paket sistem.
@@ -85,12 +85,11 @@ Bagusnya lagi semuanya sudah terintegrasi dalam satu paket sistem.
 ![image](https://user-images.githubusercontent.com/12760538/153798971-e825c3e2-847e-4189-b449-a3c81faf0c0c.png)
 
 
+Probus Restaurant sangat tepat digunakan untuk Anda semua pengelola bisnis resto atau cafe. Dengan memiliki banyak feature, tampilan menarik dan keamanan bertingkat,  PRESTO akan jauh lebih memudahkan Anda dalam mengelola usaha resto atau cafe. PRESTO dirancang untuk memenuhi kinerja operasional sebuah restoran yang sangat efektif dan fleksibel, perangkat lunak kami dapat disesuaikan dengan kebutuhan Anda yang terintegrasi dalam suatu sistem tanpa menimbulkan biaya tinggi. Mengutamakan efisiensi bisnis dan kecepatan pemenuhan order. Menghasilkan peningkatan pelayanan kepada pelanggan serta laporan keuangan dan akuntansi terbaik.
+
+**Probus Presto Restaurant System**
 
 _Software lengkap untuk bisnis restoran. Mengutamakan efisiensi bisnis dan kecepatan pemenuhan order._
-
-**Restaurant System**
-
-Probus Restaurant sangat tepat digunakan untuk Anda semua pengelola bisnis resto atau cafe. Dengan memiliki banyak feature, tampilan menarik dan keamanan bertingkat,  PRESTO akan jauh lebih memudahkan Anda dalam mengelola usaha resto atau cafe. PRESTO dirancang untuk memenuhi kinerja operasional sebuah restoran yang sangat efektif dan fleksibel, perangkat lunak kami dapat disesuaikan dengan kebutuhan Anda yang terintegrasi dalam suatu sistem tanpa menimbulkan biaya tinggi. Mengutamakan efisiensi bisnis dan kecepatan pemenuhan order. Menghasilkan peningkatan pelayanan kepada pelanggan serta laporan keuangan dan akuntansi terbaik.
 
 **Fitur PRESTO**
 
@@ -179,7 +178,7 @@ Probus Restaurant sangat tepat digunakan untuk Anda semua pengelola bisnis resto
 ![image](https://user-images.githubusercontent.com/12760538/153798753-6015a3ea-8d62-44d4-9e2e-2979a697a504.png)
 
 
-**Retail & Grocery System**
+**Probus Retail & Grocery System**
 
 Probus POS memberikan kemudahan dalam mengelolah toko retail ataupun grosir seperti jenis usaha penjualan Mini Market, ATK, Apotik, Baju, Bangunan, Furnitur, Kue dan roti, Handphone, Komputer, pakan ternak dan sejenisnya. Sistem Probus POS & Retail dirancang dengan fitur khusus untuk menangani berbagai kemungkinan transaksi seperti membatalkan pesanan, memindahkan tagihan, tagihan terpisah, tagihan void, tagihan compliment, tagihan diskon, atau tagihan cetak ulang (Re-Print). Disamping itu sistem Probus POS juga otomatis melakukan update data stock yang sudah terjual dan bertambah jika ada pembelian.
 
