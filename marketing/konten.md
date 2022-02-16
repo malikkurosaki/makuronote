@@ -360,7 +360,7 @@ Lacak pergerakan pasar. eZee Reservation menyediakan alat-alat yang memungkinkan
 Mudah Terpadu Manajemen Perangkat Lunak. eZee Reservation dapat dengan mudah diintegrasikan dengan PMS dan channel manager Anda. Dengan Gateway Pembayaran, tamu Anda akan memiliki banyak pilihan untuk melakukan pembayaran sehingga memudahkan analisis dan catatan keuangan Anda.
 
 
-# Jasa Pembuatan Software
+# Probus System Software House 
 
 ![image](https://user-images.githubusercontent.com/12760538/153804869-aa091494-edd2-4fd7-a5da-3a5830d79df3.png)
 ![image](https://user-images.githubusercontent.com/12760538/153804833-fd599244-9a48-421d-b2b4-2f51492bd7f7.png)
