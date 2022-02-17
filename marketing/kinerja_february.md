@@ -3,8 +3,9 @@
 
 ### tgl 17, feb 2022.
 
-**Favebook**.
+**Facebook**.
 - band 30 hari , teralu banyak menambahkan teman
+- membuat landing page di group peken online buleleng https://www.facebook.com/groups/179791955811894
 
 **tiktok**.
 - https://www.tiktok.com/@probussystem/video/7065513456488680705?is_from_webapp=1&sender_device=pc&web_id7065496271143306753
