@@ -59,7 +59,7 @@
 
 
 ### demo APK
-https://github.com/malikkurosaki/makuronote/raw/master/marketing/files/mobile_report
+[DOWNLOAD APK](https://github.com/malikkurosaki/makuronote/raw/master/marketing/files/mobile_report)
 
 username: admin
 
