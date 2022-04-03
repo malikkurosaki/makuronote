@@ -1,7 +1,11 @@
-```sh
 const { exec } = require('child_process');
+
+/**
+ * 
+ * @param {String} args 
+ * @returns {Promise<{stdout, stderr}>}
+ */
 async function Exec(args)  {
-    console.log("Executing: " + args);
     return new Promise((resolve, reject) => {
         exec(args, (err, stdout, stderr) => {
             if (err) {
@@ -17,4 +21,4 @@ async function Exec(args)  {
 }
 
 module.exports = {Exec}
-```
+
