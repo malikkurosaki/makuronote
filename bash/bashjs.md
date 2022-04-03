@@ -1,3 +1,4 @@
+```sh
 const { exec } = require('child_process');
 
 /**
@@ -21,4 +22,5 @@ async function Exec(args)  {
 }
 
 module.exports = {Exec}
+```
 
