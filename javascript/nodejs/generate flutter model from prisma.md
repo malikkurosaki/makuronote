@@ -1,4 +1,21 @@
 ```js
+function typeNya(data) {
+  if (typeof data === "string") {
+    return "String";
+  } else if (typeof data === "number") {
+    return "int";
+  } else if (typeof data === "boolean") {
+    return "bool";
+  } else if (Array.isArray(data)) {
+    return "List";
+  } else if (data instanceof Object) {
+    return "Map";
+  } else {
+    return "var";
+  }
+}
+
+
 const GenerateBodyStatus = async () => {
   let tables = Object.keys(prisma).filter((x) => !x.includes("_"));
 
