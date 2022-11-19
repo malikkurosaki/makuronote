@@ -246,7 +246,7 @@ export default class _Document extends Document<Prop>{
 ```
 
 ### next.config.js
-```json
+```js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // reactStrictMode: true,
