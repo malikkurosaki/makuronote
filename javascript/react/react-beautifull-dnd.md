@@ -245,7 +245,7 @@ export default class _Document extends Document<Prop>{
 
 ```
 
-### next.config.json
+### next.config.js
 ```json
 /** @type {import('next').NextConfig} */
 const nextConfig = {
