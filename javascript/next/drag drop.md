@@ -1,0 +1,190 @@
+```js
+import Head from 'next/head'
+import { Gantt, Task, EventOption, StylingOption, ViewMode, DisplayOption } from 'gantt-task-react';
+import "gantt-task-react/dist/index.css";
+import { Box, Button, Center, Group, Modal, Text, TextInput } from '@mantine/core';
+import { useEffect, useRef, useState } from 'react';
+import { useDidUpdate, useDisclosure, useShallowEffect } from '@mantine/hooks'
+import { getStartEndDateForProject } from '../util/helper';
+import { ViewSwitcher } from './view-switcher';
+import { IconGripVertical, IconPlus } from '@tabler/icons';
+import ProjectProps from '../models/model_project';
+import AddTask from './add_task';
+import MyTaskProps from '../models/my_task_props';
+import { useForm } from '@mantine/form';
+import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
+
+export default function MyTask({ mainProject }: MyTaskProps) {
+
+  const [tasks, setTasks] = useState<Task[]>([])
+  const [view, setView] = useState<ViewMode>(ViewMode.Day)
+  const [isChecked, setIsChecked] = useState(true)
+  const [openEdit, handleEdit] = useDisclosure(false)
+
+  const listData: ProjectProps["Task"] = []
+
+  const form = useForm({
+    initialValues: {
+      task: listData
+    }
+  })
+
+  let columnWidth = 65;
+
+  useShallowEffect(() => {
+
+    if (view === ViewMode.Year) {
+      columnWidth = 350;
+    } else if (view === ViewMode.Month) {
+      columnWidth = 300;
+    } else if (view === ViewMode.Week) {
+      columnWidth = 250;
+    }
+
+
+  }, [])
+
+  useShallowEffect(() => {
+    let dataTask = [...mainProject.Task]
+    for (let itm of dataTask) {
+
+      itm.start = new Date(itm.start)
+      itm.end = new Date(itm.end)
+    }
+
+    setTasks([...dataTask as any])
+
+
+  }, [])
+
+  const handleTaskChange = (task: Task) => {
+    console.log("On date change Id:" + task.id);
+
+    let newTasks = tasks.map(t => (t.id === task.id ? task : t));
+    if (task.project) {
+      const [start, end] = getStartEndDateForProject(newTasks, task.project);
+      const project = newTasks[newTasks.findIndex(t => t.id === task.project)];
+      if (
+        project.start.getTime() !== start.getTime() ||
+        project.end.getTime() !== end.getTime()
+      ) {
+        const changedProject = { ...project, start, end };
+        newTasks = newTasks.map(t =>
+          t.id === task.project ? changedProject : t
+        );
+      }
+    }
+    setTasks(newTasks);
+  };
+
+  const handleTaskDelete = (task: Task) => {
+    const conf = window.confirm("Are you sure about " + task.name + " ?");
+    if (conf) {
+      setTasks(tasks.filter(t => t.id !== task.id));
+    }
+    return conf;
+  };
+
+  const handleProgressChange = async (task: Task) => {
+    setTasks(tasks.map(t => (t.id === task.id ? task : t)));
+    console.log("On progress change Id:" + task.id);
+  };
+
+  const handleDblClick = (task: Task) => {
+    // alert("On Double Click event Id:" + task.id);
+    form.setFieldValue("task", mainProject.Task)
+
+
+    handleEdit.open()
+  };
+
+  const handleClick = (task: Task) => {
+    // console.log("On Click event Id:" + task.id);
+
+  };
+
+  const handleSelect = (task: Task, isSelected: boolean) => {
+    console.log(task.name + " has " + (isSelected ? "selected" : "unselected"));
+  };
+
+  const handleExpanderClick = (task: Task) => {
+    setTasks(tasks.map(t => (t.id === task.id ? task : t)));
+    console.log("On expander click Id:" + task.id);
+  };
+
+
+  return (
+    <>
+      <Modal size={"auto"} opened={openEdit} title={"edit"} onClose={handleEdit.close}>
+        <DragDropContext
+          onDragEnd={({ destination, source }) =>
+            form.reorderListItem('task', { from: source.index, to: destination!.index })
+          }
+        >
+          <Droppable droppableId="dnd-list" direction="vertical" >
+            {(provided) => (
+              <div {...provided.droppableProps} ref={provided.innerRef}>
+                {/* disini pemisahnya */}
+                {form.values.task.map((_, index) => (
+                  <Draggable key={index} index={index} draggableId={index.toString()} >
+                    {(provided) => (
+                      <Group ref={provided.innerRef} mt="xs" {...provided.draggableProps}>
+                        {/* <Center {...provided.dragHandleProps}>
+                          <IconGripVertical size={18} />
+                        </Center> */}
+                        <Box  {...provided.dragHandleProps} p={"lg"}>
+
+                          <TextInput placeholder={_.name} {...form.getInputProps(`task.${index}.name`)} />
+                        </Box>
+
+
+                      </Group>
+                    )}
+                  </Draggable>
+                ))}
+                {provided.placeholder}
+              </div>
+            )}
+          </Droppable>
+        </DragDropContext>
+        {JSON.stringify(form.values.task.map(e => e.name), null, 2)}
+      </Modal>
+      <Box>
+        <Head>
+          <title>Create Next App</title>
+          <meta name="description" content="Generated by create next app" />
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
+
+        <ViewSwitcher
+          onViewModeChange={viewMode => setView(viewMode)}
+          onViewListChange={setIsChecked}
+          isChecked={isChecked}
+        />
+
+        {/* <Button leftIcon={<IconPlus />}>
+          Add
+        </Button> */}
+        <Group>
+          <AddTask dependencies={[]} projectId={mainProject.id} listTask={mainProject.Task as any} />
+          <Button onClick={() => {
+
+          }} >Update</Button>
+        </Group>
+
+        {tasks.length > 0 && <Gantt tasks={tasks}
+          viewMode={view}
+          onDateChange={handleTaskChange}
+          onDelete={handleTaskDelete}
+          onProgressChange={handleProgressChange}
+          onDoubleClick={handleDblClick}
+          onClick={handleClick}
+          onSelect={handleSelect}
+          onExpanderClick={handleExpanderClick}
+          listCellWidth={isChecked ? "155px" : ""}
+          columnWidth={columnWidth} />}
+      </Box>
+    </>
+  )
+}
+```
