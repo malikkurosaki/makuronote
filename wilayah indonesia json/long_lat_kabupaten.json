@@ -1,0 +1,5432 @@
+[
+  {
+    "nid": 1,
+    "parent_nid": 0,
+    "name": "Provinsi Aceh",
+    "serial": 11,
+    "type": 1,
+    "latitude": 4.695135,
+    "longitude": 96.7493993,
+    "status": 1
+  },
+  {
+    "nid": 2,
+    "parent_nid": 0,
+    "name": "Provinsi Sumatera Utara",
+    "serial": 12,
+    "type": 1,
+    "latitude": 2.1153547,
+    "longitude": 99.5450974,
+    "status": 1
+  },
+  {
+    "nid": 3,
+    "parent_nid": 0,
+    "name": "Provinsi Sumatera Barat",
+    "serial": 13,
+    "type": 1,
+    "latitude": -0.7399397,
+    "longitude": 100.8000051,
+    "status": 1
+  },
+  {
+    "nid": 4,
+    "parent_nid": 0,
+    "name": "Provinsi Riau",
+    "serial": 14,
+    "type": 1,
+    "latitude": 0.2933469,
+    "longitude": 101.7068294,
+    "status": 1
+  },
+  {
+    "nid": 5,
+    "parent_nid": 0,
+    "name": "Provinsi Jambi",
+    "serial": 15,
+    "type": 1,
+    "latitude": -1.4851831,
+    "longitude": 102.4380581,
+    "status": 1
+  },
+  {
+    "nid": 6,
+    "parent_nid": 0,
+    "name": "Provinsi Sumatera Selatan",
+    "serial": 16,
+    "type": 1,
+    "latitude": -3.3194374,
+    "longitude": 103.914399,
+    "status": 1
+  },
+  {
+    "nid": 7,
+    "parent_nid": 0,
+    "name": "Provinsi Bengkulu",
+    "serial": 17,
+    "type": 1,
+    "latitude": -3.5778471,
+    "longitude": 102.3463875,
+    "status": 1
+  },
+  {
+    "nid": 8,
+    "parent_nid": 0,
+    "name": "Provinsi Lampung",
+    "serial": 18,
+    "type": 1,
+    "latitude": -4.5585849,
+    "longitude": 105.4068079,
+    "status": 1
+  },
+  {
+    "nid": 9,
+    "parent_nid": 0,
+    "name": "Provinsi Kepulauan Bangka Belitung",
+    "serial": 19,
+    "type": 1,
+    "latitude": -2.7410513,
+    "longitude": 106.4405872,
+    "status": 1
+  },
+  {
+    "nid": 10,
+    "parent_nid": 0,
+    "name": "Provinsi Kepulauan Riau",
+    "serial": 21,
+    "type": 1,
+    "latitude": 3.9456514,
+    "longitude": 108.1428669,
+    "status": 1
+  },
+  {
+    "nid": 11,
+    "parent_nid": 0,
+    "name": "Provinsi DKI Jakarta",
+    "serial": 31,
+    "type": 1,
+    "latitude": -6.211544,
+    "longitude": 106.845172,
+    "status": 1
+  },
+  {
+    "nid": 12,
+    "parent_nid": 0,
+    "name": "Provinsi Jawa Barat",
+    "serial": 32,
+    "type": 1,
+    "latitude": -7.090911,
+    "longitude": 107.668887,
+    "status": 1
+  },
+  {
+    "nid": 13,
+    "parent_nid": 0,
+    "name": "Provinsi Jawa Tengah",
+    "serial": 33,
+    "type": 1,
+    "latitude": -7.150975,
+    "longitude": 110.1402594,
+    "status": 1
+  },
+  {
+    "nid": 14,
+    "parent_nid": 0,
+    "name": "Provinsi DI Yogyakarta",
+    "serial": 34,
+    "type": 1,
+    "latitude": -7.8753849,
+    "longitude": 110.4262088,
+    "status": 1
+  },
+  {
+    "nid": 15,
+    "parent_nid": 0,
+    "name": "Provinsi Jawa Timur",
+    "serial": 35,
+    "type": 1,
+    "latitude": -7.5360639,
+    "longitude": 112.2384017,
+    "status": 1
+  },
+  {
+    "nid": 16,
+    "parent_nid": 0,
+    "name": "Provinsi Banten",
+    "serial": 36,
+    "type": 1,
+    "latitude": -6.4058172,
+    "longitude": 106.0640179,
+    "status": 1
+  },
+  {
+    "nid": 17,
+    "parent_nid": 0,
+    "name": "Provinsi Bali",
+    "serial": 51,
+    "type": 1,
+    "latitude": -8.4095178,
+    "longitude": 115.188916,
+    "status": 1
+  },
+  {
+    "nid": 18,
+    "parent_nid": 0,
+    "name": "Provinsi Nusa Tenggara Barat",
+    "serial": 52,
+    "type": 1,
+    "latitude": -8.6529334,
+    "longitude": 117.3616476,
+    "status": 1
+  },
+  {
+    "nid": 19,
+    "parent_nid": 0,
+    "name": "Provinsi Nusa Tenggara Timur",
+    "serial": 53,
+    "type": 1,
+    "latitude": -8.6573819,
+    "longitude": 121.0793705,
+    "status": 1
+  },
+  {
+    "nid": 20,
+    "parent_nid": 0,
+    "name": "Provinsi Kalimantan Barat",
+    "serial": 61,
+    "type": 1,
+    "latitude": -0.2787808,
+    "longitude": 111.4752851,
+    "status": 1
+  },
+  {
+    "nid": 21,
+    "parent_nid": 0,
+    "name": "Provinsi Kalimantan Tengah",
+    "serial": 62,
+    "type": 1,
+    "latitude": -1.6814878,
+    "longitude": 113.3823545,
+    "status": 1
+  },
+  {
+    "nid": 22,
+    "parent_nid": 0,
+    "name": "Provinsi Kalimantan Selatan",
+    "serial": 63,
+    "type": 1,
+    "latitude": -3.0926415,
+    "longitude": 115.2837585,
+    "status": 1
+  },
+  {
+    "nid": 23,
+    "parent_nid": 0,
+    "name": "Provinsi Kalimantan Timur",
+    "serial": 64,
+    "type": 1,
+    "latitude": 1.6406296,
+    "longitude": 116.419389,
+    "status": 1
+  },
+  {
+    "nid": 24,
+    "parent_nid": 0,
+    "name": "Provinsi Sulawesi Utara",
+    "serial": 71,
+    "type": 1,
+    "latitude": 0.6246932,
+    "longitude": 123.9750018,
+    "status": 1
+  },
+  {
+    "nid": 25,
+    "parent_nid": 0,
+    "name": "Provinsi Sulawesi Tengah",
+    "serial": 72,
+    "type": 1,
+    "latitude": -1.4300254,
+    "longitude": 121.4456179,
+    "status": 1
+  },
+  {
+    "nid": 26,
+    "parent_nid": 0,
+    "name": "Provinsi Sulawesi Selatan",
+    "serial": 73,
+    "type": 1,
+    "latitude": -3.6687994,
+    "longitude": 119.9740534,
+    "status": 1
+  },
+  {
+    "nid": 27,
+    "parent_nid": 0,
+    "name": "Provinsi Sulawesi Tenggara",
+    "serial": 74,
+    "type": 1,
+    "latitude": -4.14491,
+    "longitude": 122.174605,
+    "status": 1
+  },
+  {
+    "nid": 28,
+    "parent_nid": 0,
+    "name": "Provinsi Gorontalo",
+    "serial": 75,
+    "type": 1,
+    "latitude": 0.6999372,
+    "longitude": 122.4467238,
+    "status": 1
+  },
+  {
+    "nid": 29,
+    "parent_nid": 0,
+    "name": "Provinsi Sulawesi Barat",
+    "serial": 76,
+    "type": 1,
+    "latitude": -2.8441371,
+    "longitude": 119.2320784,
+    "status": 1
+  },
+  {
+    "nid": 30,
+    "parent_nid": 0,
+    "name": "Provinsi Maluku",
+    "serial": 81,
+    "type": 1,
+    "latitude": -3.2384616,
+    "longitude": 130.1452734,
+    "status": 1
+  },
+  {
+    "nid": 31,
+    "parent_nid": 0,
+    "name": "Provinsi Maluku Utara",
+    "serial": 82,
+    "type": 1,
+    "latitude": 1.5709993,
+    "longitude": 127.8087693,
+    "status": 1
+  },
+  {
+    "nid": 32,
+    "parent_nid": 0,
+    "name": "Provinsi Papua Barat",
+    "serial": 91,
+    "type": 1,
+    "latitude": -1.3361154,
+    "longitude": 133.1747162,
+    "status": 1
+  },
+  {
+    "nid": 33,
+    "parent_nid": 0,
+    "name": "Provinsi Papua",
+    "serial": 94,
+    "type": 1,
+    "latitude": -4.269928,
+    "longitude": 138.0803529,
+    "status": 1
+  },
+  {
+    "nid": 562,
+    "parent_nid": 74,
+    "name": "Kota Tangerang Selatan",
+    "serial": 0,
+    "type": 2,
+    "latitude": -6.2888889,
+    "longitude": 106.7180556,
+    "status": 1
+  },
+  {
+    "nid": 821,
+    "parent_nid": 15,
+    "name": "Kabupaten Banyuwangi",
+    "serial": 1501,
+    "type": 2,
+    "latitude": -8.2186111,
+    "longitude": 114.3669444,
+    "status": 1
+  },
+  {
+    "nid": 823,
+    "parent_nid": 15,
+    "name": "Kabupaten Madiun",
+    "serial": 1502,
+    "type": 2,
+    "latitude": -7.627753,
+    "longitude": 111.505483,
+    "status": 1
+  },
+  {
+    "nid": 824,
+    "parent_nid": 15,
+    "name": "Kabupaten Ponorogo",
+    "serial": 1503,
+    "type": 2,
+    "latitude": -7.867827,
+    "longitude": 111.466003,
+    "status": 1
+  },
+  {
+    "nid": 825,
+    "parent_nid": 15,
+    "name": "Kabupaten Magetan",
+    "serial": 1504,
+    "type": 2,
+    "latitude": -7.6493413,
+    "longitude": 111.3381593,
+    "status": 1
+  },
+  {
+    "nid": 826,
+    "parent_nid": 15,
+    "name": "Kabupaten Pacitan",
+    "serial": 1505,
+    "type": 2,
+    "latitude": -8.204614,
+    "longitude": 111.08769,
+    "status": 1
+  },
+  {
+    "nid": 827,
+    "parent_nid": 15,
+    "name": "Kabupaten Ngawi",
+    "serial": 1506,
+    "type": 2,
+    "latitude": -7.38993,
+    "longitude": 111.46193,
+    "status": 1
+  },
+  {
+    "nid": 828,
+    "parent_nid": 15,
+    "name": "Kabupaten Bangkalan",
+    "serial": 1507,
+    "type": 2,
+    "latitude": -7.0306912,
+    "longitude": 112.7450068,
+    "status": 1
+  },
+  {
+    "nid": 829,
+    "parent_nid": 15,
+    "name": "Kabupaten Kediri",
+    "serial": 1508,
+    "type": 2,
+    "latitude": -7.809356,
+    "longitude": 112.032356,
+    "status": 1
+  },
+  {
+    "nid": 830,
+    "parent_nid": 15,
+    "name": "Kabupaten Bondowoso",
+    "serial": 1509,
+    "type": 2,
+    "latitude": -7.917704,
+    "longitude": 113.813483,
+    "status": 1
+  },
+  {
+    "nid": 831,
+    "parent_nid": 15,
+    "name": "Kabupaten Blitar",
+    "serial": 1510,
+    "type": 2,
+    "latitude": -8.1014419,
+    "longitude": 112.162762,
+    "status": 1
+  },
+  {
+    "nid": 832,
+    "parent_nid": 15,
+    "name": "Kabupaten Trenggalek",
+    "serial": 1511,
+    "type": 2,
+    "latitude": -8.05,
+    "longitude": 111.7166667,
+    "status": 1
+  },
+  {
+    "nid": 833,
+    "parent_nid": 15,
+    "name": "Kabupaten Tulungagung",
+    "serial": 1512,
+    "type": 2,
+    "latitude": -8.0666667,
+    "longitude": 111.9,
+    "status": 1
+  },
+  {
+    "nid": 834,
+    "parent_nid": 15,
+    "name": "Kabupaten Nganjuk",
+    "serial": 1513,
+    "type": 2,
+    "latitude": -7.602932,
+    "longitude": 111.901808,
+    "status": 1
+  },
+  {
+    "nid": 835,
+    "parent_nid": 15,
+    "name": "Kabupaten Situbondo",
+    "serial": 1514,
+    "type": 2,
+    "latitude": -7.702534,
+    "longitude": 113.955605,
+    "status": 1
+  },
+  {
+    "nid": 836,
+    "parent_nid": 15,
+    "name": "Kabupaten Malang",
+    "serial": 1515,
+    "type": 2,
+    "latitude": -8.0495643,
+    "longitude": 112.6884549,
+    "status": 1
+  },
+  {
+    "nid": 837,
+    "parent_nid": 15,
+    "name": "Kabupaten Jember",
+    "serial": 1516,
+    "type": 2,
+    "latitude": -8.172357,
+    "longitude": 113.700302,
+    "status": 1
+  },
+  {
+    "nid": 838,
+    "parent_nid": 15,
+    "name": "Kabupaten Sumenep",
+    "serial": 1517,
+    "type": 2,
+    "latitude": -6.9253999,
+    "longitude": 113.9060624,
+    "status": 1
+  },
+  {
+    "nid": 839,
+    "parent_nid": 15,
+    "name": "Kabupaten Pasuruan",
+    "serial": 1518,
+    "type": 2,
+    "latitude": -6.8623098,
+    "longitude": 108.8001936,
+    "status": 1
+  },
+  {
+    "nid": 840,
+    "parent_nid": 15,
+    "name": "Kabupaten Pamekasan",
+    "serial": 1519,
+    "type": 2,
+    "latitude": -7.1666667,
+    "longitude": 113.4666667,
+    "status": 1
+  },
+  {
+    "nid": 841,
+    "parent_nid": 15,
+    "name": "Kabupaten Probolinggo",
+    "serial": 1520,
+    "type": 2,
+    "latitude": -7.753965,
+    "longitude": 113.210675,
+    "status": 1
+  },
+  {
+    "nid": 842,
+    "parent_nid": 15,
+    "name": "Kabupaten Lumajang",
+    "serial": 1521,
+    "type": 2,
+    "latitude": -8.137022,
+    "longitude": 113.226601,
+    "status": 1
+  },
+  {
+    "nid": 843,
+    "parent_nid": 15,
+    "name": "Kabupaten Bojonegoro",
+    "serial": 1522,
+    "type": 2,
+    "latitude": 0.882681,
+    "longitude": 124.4669566,
+    "status": 1
+  },
+  {
+    "nid": 844,
+    "parent_nid": 15,
+    "name": "Kabupaten Tuban",
+    "serial": 1523,
+    "type": 2,
+    "latitude": -8.7493146,
+    "longitude": 115.1711298,
+    "status": 1
+  },
+  {
+    "nid": 845,
+    "parent_nid": 15,
+    "name": "Kabupaten Lamongan",
+    "serial": 1524,
+    "type": 2,
+    "latitude": -7.406153,
+    "longitude": 109.3946794,
+    "status": 1
+  },
+  {
+    "nid": 846,
+    "parent_nid": 15,
+    "name": "Kabupaten Sidoarjo",
+    "serial": 1525,
+    "type": 2,
+    "latitude": -7.4530278,
+    "longitude": 112.7173389,
+    "status": 1
+  },
+  {
+    "nid": 847,
+    "parent_nid": 15,
+    "name": "Kabupaten Sampang",
+    "serial": 1526,
+    "type": 2,
+    "latitude": -7.5782556,
+    "longitude": 109.2058436,
+    "status": 1
+  },
+  {
+    "nid": 848,
+    "parent_nid": 15,
+    "name": "Kabupaten Mojokerto",
+    "serial": 1527,
+    "type": 2,
+    "latitude": -7.488075,
+    "longitude": 112.427027,
+    "status": 1
+  },
+  {
+    "nid": 849,
+    "parent_nid": 15,
+    "name": "Kabupaten Gresik",
+    "serial": 1528,
+    "type": 2,
+    "latitude": -7.15665,
+    "longitude": 112.6555,
+    "status": 1
+  },
+  {
+    "nid": 850,
+    "parent_nid": 15,
+    "name": "Kabupaten Jombang",
+    "serial": 1529,
+    "type": 2,
+    "latitude": -7.5468395,
+    "longitude": 112.2264794,
+    "status": 1
+  },
+  {
+    "nid": 851,
+    "parent_nid": 15,
+    "name": "Kota Mojokerto",
+    "serial": 1530,
+    "type": 2,
+    "latitude": -7.4722222,
+    "longitude": 112.4336111,
+    "status": 1
+  },
+  {
+    "nid": 852,
+    "parent_nid": 15,
+    "name": "Kota Surabaya",
+    "serial": 1531,
+    "type": 2,
+    "latitude": -7.289166,
+    "longitude": 112.734398,
+    "status": 1
+  },
+  {
+    "nid": 853,
+    "parent_nid": 15,
+    "name": "Kota Madiun",
+    "serial": 1532,
+    "type": 2,
+    "latitude": -7.629714,
+    "longitude": 111.513702,
+    "status": 1
+  },
+  {
+    "nid": 854,
+    "parent_nid": 15,
+    "name": "Kota Blitar",
+    "serial": 1533,
+    "type": 2,
+    "latitude": -8.1,
+    "longitude": 112.15,
+    "status": 1
+  },
+  {
+    "nid": 855,
+    "parent_nid": 15,
+    "name": "Kota Malang",
+    "serial": 1534,
+    "type": 2,
+    "latitude": -7.981894,
+    "longitude": 112.626503,
+    "status": 1
+  },
+  {
+    "nid": 856,
+    "parent_nid": 15,
+    "name": "Kota Batu",
+    "serial": 1535,
+    "type": 2,
+    "latitude": -7.8671,
+    "longitude": 112.5239,
+    "status": 1
+  },
+  {
+    "nid": 857,
+    "parent_nid": 15,
+    "name": "Kota Pasuruan",
+    "serial": 1536,
+    "type": 2,
+    "latitude": -7.644872,
+    "longitude": 112.903297,
+    "status": 1
+  },
+  {
+    "nid": 858,
+    "parent_nid": 15,
+    "name": "Kota Kediri",
+    "serial": 1537,
+    "type": 2,
+    "latitude": -7.816895,
+    "longitude": 112.011398,
+    "status": 1
+  },
+  {
+    "nid": 859,
+    "parent_nid": 15,
+    "name": "Kota Probolinggo",
+    "serial": 1538,
+    "type": 2,
+    "latitude": -7.756928,
+    "longitude": 113.211502,
+    "status": 1
+  },
+  {
+    "nid": 925,
+    "parent_nid": 5,
+    "name": "Kabupaten Batanghari",
+    "serial": 501,
+    "type": 2,
+    "latitude": -1.7083922,
+    "longitude": 103.0817903,
+    "status": 1
+  },
+  {
+    "nid": 926,
+    "parent_nid": 5,
+    "name": "Kabupaten Bungo",
+    "serial": 502,
+    "type": 2,
+    "latitude": -1.6401338,
+    "longitude": 101.8891721,
+    "status": 1
+  },
+  {
+    "nid": 927,
+    "parent_nid": 5,
+    "name": "Kabupaten Kerinci",
+    "serial": 503,
+    "type": 2,
+    "latitude": -1.8720467,
+    "longitude": 101.4339148,
+    "status": 1
+  },
+  {
+    "nid": 928,
+    "parent_nid": 5,
+    "name": "Kabupaten Merangin",
+    "serial": 504,
+    "type": 2,
+    "latitude": -2.1752789,
+    "longitude": 101.9804613,
+    "status": 1
+  },
+  {
+    "nid": 929,
+    "parent_nid": 5,
+    "name": "Kabupaten Muaro Jambi",
+    "serial": 505,
+    "type": 2,
+    "latitude": -1.596672,
+    "longitude": 103.615799,
+    "status": 1
+  },
+  {
+    "nid": 930,
+    "parent_nid": 5,
+    "name": "Kabupaten Sarolangun",
+    "serial": 506,
+    "type": 2,
+    "latitude": -2.2654937,
+    "longitude": 102.6905326,
+    "status": 1
+  },
+  {
+    "nid": 931,
+    "parent_nid": 5,
+    "name": "Kabupaten Tanjung Jabung Barat",
+    "serial": 507,
+    "type": 2,
+    "latitude": -1.2332122,
+    "longitude": 103.7984428,
+    "status": 1
+  },
+  {
+    "nid": 932,
+    "parent_nid": 5,
+    "name": "Kabupaten Tanjung Jabung Timur",
+    "serial": 508,
+    "type": 2,
+    "latitude": -1.3291599,
+    "longitude": 103.89973,
+    "status": 1
+  },
+  {
+    "nid": 933,
+    "parent_nid": 5,
+    "name": "Kabupaten Tebo",
+    "serial": 509,
+    "type": 2,
+    "latitude": -1.2592999,
+    "longitude": 102.3463875,
+    "status": 1
+  },
+  {
+    "nid": 934,
+    "parent_nid": 5,
+    "name": "Kota Jambi",
+    "serial": 510,
+    "type": 2,
+    "latitude": -1.596672,
+    "longitude": 103.615799,
+    "status": 1
+  },
+  {
+    "nid": 935,
+    "parent_nid": 5,
+    "name": "Kota Sungai Penuh",
+    "serial": 511,
+    "type": 2,
+    "latitude": -2.06314,
+    "longitude": 101.387199,
+    "status": 1
+  },
+  {
+    "nid": 1326,
+    "parent_nid": 1,
+    "name": "Kabupaten Simeulue",
+    "serial": 1109,
+    "type": 2,
+    "latitude": 2.583333,
+    "longitude": 96.083333,
+    "status": 1
+  },
+  {
+    "nid": 1327,
+    "parent_nid": 1,
+    "name": "Kabupaten Aceh Singkil",
+    "serial": 1102,
+    "type": 2,
+    "latitude": 2.3589459,
+    "longitude": 97.87216,
+    "status": 1
+  },
+  {
+    "nid": 1328,
+    "parent_nid": 1,
+    "name": "Kabupaten Aceh Selatan",
+    "serial": 1101,
+    "type": 2,
+    "latitude": 3.3115056,
+    "longitude": 97.3516558,
+    "status": 1
+  },
+  {
+    "nid": 1329,
+    "parent_nid": 1,
+    "name": "Kabupaten Aceh Tenggara",
+    "serial": 1102,
+    "type": 2,
+    "latitude": 3.3088666,
+    "longitude": 97.6982272,
+    "status": 1
+  },
+  {
+    "nid": 1330,
+    "parent_nid": 1,
+    "name": "Kabupaten Aceh Timur",
+    "serial": 1103,
+    "type": 2,
+    "latitude": 5.255443,
+    "longitude": 95.9885456,
+    "status": 1
+  },
+  {
+    "nid": 1331,
+    "parent_nid": 1,
+    "name": "Kabupaten Aceh Tengah",
+    "serial": 1104,
+    "type": 2,
+    "latitude": 4.4482641,
+    "longitude": 96.8350999,
+    "status": 1
+  },
+  {
+    "nid": 1332,
+    "parent_nid": 1,
+    "name": "Kabupaten Aceh Barat",
+    "serial": 1105,
+    "type": 2,
+    "latitude": 4.4542745,
+    "longitude": 96.1526985,
+    "status": 1
+  },
+  {
+    "nid": 1333,
+    "parent_nid": 1,
+    "name": "Kabupaten Aceh Besar",
+    "serial": 1106,
+    "type": 2,
+    "latitude": 5.4529168,
+    "longitude": 95.4777811,
+    "status": 1
+  },
+  {
+    "nid": 1334,
+    "parent_nid": 1,
+    "name": "Kabupaten Pidie",
+    "serial": 1107,
+    "type": 2,
+    "latitude": 5.0742659,
+    "longitude": 95.940971,
+    "status": 1
+  },
+  {
+    "nid": 1335,
+    "parent_nid": 1,
+    "name": "Kabupaten Bireuen",
+    "serial": 1111,
+    "type": 2,
+    "latitude": 5.18254,
+    "longitude": 96.89005,
+    "status": 1
+  },
+  {
+    "nid": 1336,
+    "parent_nid": 1,
+    "name": "Kabupaten Aceh Utara",
+    "serial": 1108,
+    "type": 2,
+    "latitude": 4.9786331,
+    "longitude": 97.2221421,
+    "status": 1
+  },
+  {
+    "nid": 1337,
+    "parent_nid": 1,
+    "name": "Kabupaten Aceh Barat Daya",
+    "serial": 1112,
+    "type": 2,
+    "latitude": 3.0512643,
+    "longitude": 97.3368031,
+    "status": 1
+  },
+  {
+    "nid": 1338,
+    "parent_nid": 1,
+    "name": "Kabupaten Gayo Lues",
+    "serial": 1113,
+    "type": 2,
+    "latitude": 3.955165,
+    "longitude": 97.3516558,
+    "status": 1
+  },
+  {
+    "nid": 1339,
+    "parent_nid": 1,
+    "name": "Kabupaten Aceh Tamiang",
+    "serial": 1116,
+    "type": 2,
+    "latitude": 4.2328871,
+    "longitude": 98.0028892,
+    "status": 1
+  },
+  {
+    "nid": 1340,
+    "parent_nid": 1,
+    "name": "Kabupaten Nagan Raya",
+    "serial": 1115,
+    "type": 2,
+    "latitude": 4.1248406,
+    "longitude": 96.4929797,
+    "status": 1
+  },
+  {
+    "nid": 1341,
+    "parent_nid": 1,
+    "name": "Kabupaten Aceh Jaya",
+    "serial": 1114,
+    "type": 2,
+    "latitude": 4.7873684,
+    "longitude": 95.6457951,
+    "status": 1
+  },
+  {
+    "nid": 1342,
+    "parent_nid": 1,
+    "name": "Kabupaten Bener Meriah",
+    "serial": 1117,
+    "type": 2,
+    "latitude": 4.7748348,
+    "longitude": 97.0068393,
+    "status": 1
+  },
+  {
+    "nid": 1343,
+    "parent_nid": 1,
+    "name": "Kabupaten Pidie Jaya",
+    "serial": 1118,
+    "type": 2,
+    "latitude": 5.1548063,
+    "longitude": 96.195132,
+    "status": 1
+  },
+  {
+    "nid": 1344,
+    "parent_nid": 1,
+    "name": "Kota Banda Aceh",
+    "serial": 1171,
+    "type": 2,
+    "latitude": 5.55,
+    "longitude": 95.3166667,
+    "status": 1
+  },
+  {
+    "nid": 1345,
+    "parent_nid": 1,
+    "name": "Kota Sabang",
+    "serial": 1172,
+    "type": 2,
+    "latitude": 5.8946929,
+    "longitude": 95.3192982,
+    "status": 1
+  },
+  {
+    "nid": 1346,
+    "parent_nid": 1,
+    "name": "Kota Langsa",
+    "serial": 1174,
+    "type": 2,
+    "latitude": 4.48,
+    "longitude": 97.9633333,
+    "status": 1
+  },
+  {
+    "nid": 1347,
+    "parent_nid": 1,
+    "name": "Kota Lhokseumawe",
+    "serial": 1173,
+    "type": 2,
+    "latitude": 5.1880556,
+    "longitude": 97.1402778,
+    "status": 1
+  },
+  {
+    "nid": 1348,
+    "parent_nid": 1,
+    "name": "Kota Subulussalam",
+    "serial": 1175,
+    "type": 2,
+    "latitude": 2.6449927,
+    "longitude": 98.0165205,
+    "status": 1
+  },
+  {
+    "nid": 1349,
+    "parent_nid": 2,
+    "name": "Kabupaten Nias",
+    "serial": 1204,
+    "type": 2,
+    "latitude": -8.1712591,
+    "longitude": 113.7111274,
+    "status": 1
+  },
+  {
+    "nid": 1350,
+    "parent_nid": 2,
+    "name": "Kabupaten Mandailing Natal",
+    "serial": 1213,
+    "type": 2,
+    "latitude": 0.7432372,
+    "longitude": 99.3673084,
+    "status": 1
+  },
+  {
+    "nid": 1351,
+    "parent_nid": 2,
+    "name": "Kabupaten Tapanuli Selatan",
+    "serial": 1203,
+    "type": 2,
+    "latitude": 1.5774933,
+    "longitude": 99.2785583,
+    "status": 1
+  },
+  {
+    "nid": 1352,
+    "parent_nid": 2,
+    "name": "Kabupaten Tapanuli Tengah",
+    "serial": 1201,
+    "type": 2,
+    "latitude": 1.8493299,
+    "longitude": 98.704075,
+    "status": 1
+  },
+  {
+    "nid": 1353,
+    "parent_nid": 2,
+    "name": "Kabupaten Tapanuli Utara",
+    "serial": 1202,
+    "type": 2,
+    "latitude": 2.0405246,
+    "longitude": 99.1013498,
+    "status": 1
+  },
+  {
+    "nid": 1354,
+    "parent_nid": 2,
+    "name": "Kabupaten Toba Samosir",
+    "serial": 1212,
+    "type": 2,
+    "latitude": 2.3502398,
+    "longitude": 99.2785583,
+    "status": 1
+  },
+  {
+    "nid": 1355,
+    "parent_nid": 2,
+    "name": "Kabupaten Labuhanbatu",
+    "serial": 1210,
+    "type": 2,
+    "latitude": 2.3439863,
+    "longitude": 100.1703257,
+    "status": 1
+  },
+  {
+    "nid": 1356,
+    "parent_nid": 2,
+    "name": "Kabupaten Asahan",
+    "serial": 1209,
+    "type": 2,
+    "latitude": 2.8174722,
+    "longitude": 99.634135,
+    "status": 1
+  },
+  {
+    "nid": 1357,
+    "parent_nid": 2,
+    "name": "Kabupaten Simalungun",
+    "serial": 1208,
+    "type": 2,
+    "latitude": 2.9781612,
+    "longitude": 99.2785583,
+    "status": 1
+  },
+  {
+    "nid": 1358,
+    "parent_nid": 2,
+    "name": "Kabupaten Dairi",
+    "serial": 1211,
+    "type": 2,
+    "latitude": 2.8675801,
+    "longitude": 98.265058,
+    "status": 1
+  },
+  {
+    "nid": 1359,
+    "parent_nid": 2,
+    "name": "Kabupaten Karo",
+    "serial": 1206,
+    "type": 2,
+    "latitude": 3.1052909,
+    "longitude": 98.265058,
+    "status": 1
+  },
+  {
+    "nid": 1360,
+    "parent_nid": 2,
+    "name": "Kabupaten Deli Serdang",
+    "serial": 1207,
+    "type": 2,
+    "latitude": 3.4201802,
+    "longitude": 98.704075,
+    "status": 1
+  },
+  {
+    "nid": 1361,
+    "parent_nid": 2,
+    "name": "Kabupaten Langkat",
+    "serial": 1205,
+    "type": 2,
+    "latitude": 3.8653916,
+    "longitude": 98.3088441,
+    "status": 1
+  },
+  {
+    "nid": 1362,
+    "parent_nid": 2,
+    "name": "Kabupaten Nias Selatan",
+    "serial": 1214,
+    "type": 2,
+    "latitude": 0.7086091,
+    "longitude": 97.8286368,
+    "status": 1
+  },
+  {
+    "nid": 1363,
+    "parent_nid": 2,
+    "name": "Kabupaten Humbang Hasundutan",
+    "serial": 1216,
+    "type": 2,
+    "latitude": 2.1988508,
+    "longitude": 98.5721016,
+    "status": 1
+  },
+  {
+    "nid": 1364,
+    "parent_nid": 2,
+    "name": "Kabupaten Pakpak Bharat",
+    "serial": 1215,
+    "type": 2,
+    "latitude": 2.545786,
+    "longitude": 98.299838,
+    "status": 1
+  },
+  {
+    "nid": 1365,
+    "parent_nid": 2,
+    "name": "Kabupaten Samosir",
+    "serial": 1217,
+    "type": 2,
+    "latitude": 2.5833333,
+    "longitude": 98.8166667,
+    "status": 1
+  },
+  {
+    "nid": 1366,
+    "parent_nid": 2,
+    "name": "Kabupaten Serdang Bedagai",
+    "serial": 1218,
+    "type": 2,
+    "latitude": 3.3371694,
+    "longitude": 99.0571089,
+    "status": 1
+  },
+  {
+    "nid": 1367,
+    "parent_nid": 2,
+    "name": "Kabupaten Batu Bara",
+    "serial": 1219,
+    "type": 2,
+    "latitude": 3.1740979,
+    "longitude": 99.5006143,
+    "status": 1
+  },
+  {
+    "nid": 1368,
+    "parent_nid": 2,
+    "name": "Kabupaten Padang Lawas Utara",
+    "serial": 1220,
+    "type": 2,
+    "latitude": 1.5758644,
+    "longitude": 99.634135,
+    "status": 1
+  },
+  {
+    "nid": 1369,
+    "parent_nid": 2,
+    "name": "Kabupaten Padang Lawas",
+    "serial": 1221,
+    "type": 2,
+    "latitude": 1.1186977,
+    "longitude": 99.8124935,
+    "status": 1
+  },
+  {
+    "nid": 1370,
+    "parent_nid": 2,
+    "name": "Kota Sibolga",
+    "serial": 1273,
+    "type": 2,
+    "latitude": 1.7403745,
+    "longitude": 98.7827988,
+    "status": 1
+  },
+  {
+    "nid": 1371,
+    "parent_nid": 2,
+    "name": "Kota Tanjung Balai",
+    "serial": 1274,
+    "type": 2,
+    "latitude": 2.965122,
+    "longitude": 99.800331,
+    "status": 1
+  },
+  {
+    "nid": 1372,
+    "parent_nid": 2,
+    "name": "Kota Pematang Siantar",
+    "serial": 1272,
+    "type": 2,
+    "latitude": 2.96,
+    "longitude": 99.06,
+    "status": 1
+  },
+  {
+    "nid": 1373,
+    "parent_nid": 2,
+    "name": "Kota Tebing Tinggi",
+    "serial": 1276,
+    "type": 2,
+    "latitude": 3.3856205,
+    "longitude": 99.2009815,
+    "status": 1
+  },
+  {
+    "nid": 1374,
+    "parent_nid": 2,
+    "name": "Kota Medan",
+    "serial": 1271,
+    "type": 2,
+    "latitude": 3.585242,
+    "longitude": 98.6755979,
+    "status": 1
+  },
+  {
+    "nid": 1375,
+    "parent_nid": 2,
+    "name": "Kota Binjai",
+    "serial": 1275,
+    "type": 2,
+    "latitude": 3.594462,
+    "longitude": 98.482246,
+    "status": 1
+  },
+  {
+    "nid": 1376,
+    "parent_nid": 2,
+    "name": "Kota Padangsidimpuan",
+    "serial": 1277,
+    "type": 2,
+    "latitude": 1.380424,
+    "longitude": 99.273972,
+    "status": 1
+  },
+  {
+    "nid": 1377,
+    "parent_nid": 3,
+    "name": "Kabupaten Kepulauan Mentawai",
+    "serial": 1309,
+    "type": 2,
+    "latitude": -1.426001,
+    "longitude": 98.9245343,
+    "status": 1
+  },
+  {
+    "nid": 1378,
+    "parent_nid": 3,
+    "name": "Kabupaten Pesisir Selatan",
+    "serial": 1301,
+    "type": 2,
+    "latitude": -1.7223147,
+    "longitude": 100.8903099,
+    "status": 1
+  },
+  {
+    "nid": 1379,
+    "parent_nid": 3,
+    "name": "Kabupaten Solok",
+    "serial": 1302,
+    "type": 2,
+    "latitude": -0.803027,
+    "longitude": 100.644402,
+    "status": 1
+  },
+  {
+    "nid": 1380,
+    "parent_nid": 3,
+    "name": "Kabupaten Sijunjung",
+    "serial": 1303,
+    "type": 2,
+    "latitude": -0.6881586,
+    "longitude": 100.997658,
+    "status": 1
+  },
+  {
+    "nid": 1381,
+    "parent_nid": 3,
+    "name": "Kabupaten Tanah Datar",
+    "serial": 1304,
+    "type": 2,
+    "latitude": -0.4797043,
+    "longitude": 100.5746224,
+    "status": 1
+  },
+  {
+    "nid": 1382,
+    "parent_nid": 3,
+    "name": "Kabupaten Padang Pariaman",
+    "serial": 1305,
+    "type": 2,
+    "latitude": -0.5546757,
+    "longitude": 100.2151578,
+    "status": 1
+  },
+  {
+    "nid": 1383,
+    "parent_nid": 3,
+    "name": "Kabupaten Agam",
+    "serial": 1306,
+    "type": 2,
+    "latitude": -0.2209392,
+    "longitude": 100.1703257,
+    "status": 1
+  },
+  {
+    "nid": 1384,
+    "parent_nid": 3,
+    "name": "Kabupaten Lima Puluh Kota",
+    "serial": 1307,
+    "type": 2,
+    "latitude": 3.168216,
+    "longitude": 99.4187929,
+    "status": 1
+  },
+  {
+    "nid": 1385,
+    "parent_nid": 3,
+    "name": "Kabupaten Pasaman",
+    "serial": 1308,
+    "type": 2,
+    "latitude": 0.1288752,
+    "longitude": 99.7901781,
+    "status": 1
+  },
+  {
+    "nid": 1386,
+    "parent_nid": 3,
+    "name": "Kabupaten Solok Selatan",
+    "serial": 1311,
+    "type": 2,
+    "latitude": -1.4157329,
+    "longitude": 101.2523792,
+    "status": 1
+  },
+  {
+    "nid": 1387,
+    "parent_nid": 3,
+    "name": "Kabupaten Dharmas Raya",
+    "serial": 1310,
+    "type": 2,
+    "latitude": -1.1120568,
+    "longitude": 101.6157773,
+    "status": 1
+  },
+  {
+    "nid": 1388,
+    "parent_nid": 3,
+    "name": "Kabupaten Pasaman Barat",
+    "serial": 1312,
+    "type": 2,
+    "latitude": 0.2213005,
+    "longitude": 99.634135,
+    "status": 1
+  },
+  {
+    "nid": 1389,
+    "parent_nid": 3,
+    "name": "Kota Padang",
+    "serial": 1371,
+    "type": 2,
+    "latitude": -0.95,
+    "longitude": 100.3530556,
+    "status": 1
+  },
+  {
+    "nid": 1390,
+    "parent_nid": 3,
+    "name": "Kota Solok",
+    "serial": 1372,
+    "type": 2,
+    "latitude": -0.803027,
+    "longitude": 100.644402,
+    "status": 1
+  },
+  {
+    "nid": 1391,
+    "parent_nid": 3,
+    "name": "Kota Sawah Lunto",
+    "serial": 1373,
+    "type": 2,
+    "latitude": -0.6810286,
+    "longitude": 100.7763604,
+    "status": 1
+  },
+  {
+    "nid": 1392,
+    "parent_nid": 3,
+    "name": "Kota Padang Panjang",
+    "serial": 1374,
+    "type": 2,
+    "latitude": -0.470679,
+    "longitude": 100.4059456,
+    "status": 1
+  },
+  {
+    "nid": 1393,
+    "parent_nid": 3,
+    "name": "Kota Bukittinggi",
+    "serial": 1375,
+    "type": 2,
+    "latitude": -0.3055556,
+    "longitude": 100.3691667,
+    "status": 1
+  },
+  {
+    "nid": 1394,
+    "parent_nid": 3,
+    "name": "Kota Payakumbuh",
+    "serial": 1376,
+    "type": 2,
+    "latitude": -0.22887,
+    "longitude": 100.632301,
+    "status": 1
+  },
+  {
+    "nid": 1395,
+    "parent_nid": 3,
+    "name": "Kota Pariaman",
+    "serial": 1377,
+    "type": 2,
+    "latitude": -0.6264389,
+    "longitude": 100.1179574,
+    "status": 1
+  },
+  {
+    "nid": 1396,
+    "parent_nid": 4,
+    "name": "Kabupaten Kuantan Singingi",
+    "serial": 1409,
+    "type": 2,
+    "latitude": -0.4411596,
+    "longitude": 101.5248055,
+    "status": 1
+  },
+  {
+    "nid": 1397,
+    "parent_nid": 4,
+    "name": "Kabupaten Indragiri Hulu",
+    "serial": 1402,
+    "type": 2,
+    "latitude": -0.7361181,
+    "longitude": 102.2547919,
+    "status": 1
+  },
+  {
+    "nid": 1398,
+    "parent_nid": 4,
+    "name": "Kabupaten Indragiri Hilir",
+    "serial": 1404,
+    "type": 2,
+    "latitude": -0.1456733,
+    "longitude": 102.989615,
+    "status": 1
+  },
+  {
+    "nid": 1399,
+    "parent_nid": 4,
+    "name": "Kabupaten Pelalawan",
+    "serial": 1405,
+    "type": 2,
+    "latitude": 0.441415,
+    "longitude": 102.088699,
+    "status": 1
+  },
+  {
+    "nid": 1400,
+    "parent_nid": 4,
+    "name": "Kabupaten S I A K",
+    "serial": 1408,
+    "type": 2,
+    "latitude": -0.789275,
+    "longitude": 113.921327,
+    "status": 1
+  },
+  {
+    "nid": 1401,
+    "parent_nid": 4,
+    "name": "Kabupaten Kampar",
+    "serial": 1401,
+    "type": 2,
+    "latitude": 0.146671,
+    "longitude": 101.1617356,
+    "status": 1
+  },
+  {
+    "nid": 1402,
+    "parent_nid": 4,
+    "name": "Kabupaten Rokan Hulu",
+    "serial": 1406,
+    "type": 2,
+    "latitude": 1.0410934,
+    "longitude": 100.439656,
+    "status": 1
+  },
+  {
+    "nid": 1403,
+    "parent_nid": 4,
+    "name": "Kabupaten Bengkalis",
+    "serial": 1403,
+    "type": 2,
+    "latitude": 1.4897222,
+    "longitude": 102.0797222,
+    "status": 1
+  },
+  {
+    "nid": 1404,
+    "parent_nid": 4,
+    "name": "Kabupaten Rokan Hilir",
+    "serial": 1407,
+    "type": 2,
+    "latitude": 1.6463978,
+    "longitude": 100.8000051,
+    "status": 1
+  },
+  {
+    "nid": 1405,
+    "parent_nid": 4,
+    "name": "Kota Pekanbaru",
+    "serial": 1471,
+    "type": 2,
+    "latitude": 0.5333333,
+    "longitude": 101.45,
+    "status": 1
+  },
+  {
+    "nid": 1406,
+    "parent_nid": 4,
+    "name": "Kota Dumai",
+    "serial": 1472,
+    "type": 2,
+    "latitude": 1.665742,
+    "longitude": 101.447601,
+    "status": 1
+  },
+  {
+    "nid": 1407,
+    "parent_nid": 5,
+    "name": "Kabupaten Kerinci",
+    "serial": 1501,
+    "type": 2,
+    "latitude": -1.697,
+    "longitude": 101.264,
+    "status": 1
+  },
+  {
+    "nid": 1408,
+    "parent_nid": 5,
+    "name": "Kabupaten Merangin",
+    "serial": 1502,
+    "type": 2,
+    "latitude": -2.1752789,
+    "longitude": 101.9804613,
+    "status": 1
+  },
+  {
+    "nid": 1409,
+    "parent_nid": 5,
+    "name": "Kabupaten Sarolangun",
+    "serial": 1503,
+    "type": 2,
+    "latitude": -2.2654937,
+    "longitude": 102.6905326,
+    "status": 1
+  },
+  {
+    "nid": 1410,
+    "parent_nid": 5,
+    "name": "Kabupaten Batang Hari",
+    "serial": 1504,
+    "type": 2,
+    "latitude": -1.7083922,
+    "longitude": 103.0817903,
+    "status": 1
+  },
+  {
+    "nid": 1411,
+    "parent_nid": 5,
+    "name": "Kabupaten Muaro Jambi",
+    "serial": 1505,
+    "type": 2,
+    "latitude": -1.596672,
+    "longitude": 103.615799,
+    "status": 1
+  },
+  {
+    "nid": 1412,
+    "parent_nid": 5,
+    "name": "Kabupaten Tanjung Jabung Timur",
+    "serial": 1507,
+    "type": 2,
+    "latitude": -1.3291599,
+    "longitude": 103.89973,
+    "status": 1
+  },
+  {
+    "nid": 1413,
+    "parent_nid": 5,
+    "name": "Kabupaten Tanjung Jabung Barat",
+    "serial": 1506,
+    "type": 2,
+    "latitude": -1.2332122,
+    "longitude": 103.7984428,
+    "status": 1
+  },
+  {
+    "nid": 1414,
+    "parent_nid": 5,
+    "name": "Kabupaten Tebo",
+    "serial": 1509,
+    "type": 2,
+    "latitude": -1.2592999,
+    "longitude": 102.3463875,
+    "status": 1
+  },
+  {
+    "nid": 1415,
+    "parent_nid": 5,
+    "name": "Kabupaten Bungo",
+    "serial": 1508,
+    "type": 2,
+    "latitude": -1.6401338,
+    "longitude": 101.8891721,
+    "status": 1
+  },
+  {
+    "nid": 1416,
+    "parent_nid": 5,
+    "name": "Kota Jambi",
+    "serial": 1571,
+    "type": 2,
+    "latitude": -1.596672,
+    "longitude": 103.615799,
+    "status": 1
+  },
+  {
+    "nid": 1417,
+    "parent_nid": 6,
+    "name": "Kabupaten Ogan Komering Ulu",
+    "serial": 1601,
+    "type": 2,
+    "latitude": -4.0283486,
+    "longitude": 104.0072348,
+    "status": 1
+  },
+  {
+    "nid": 1418,
+    "parent_nid": 6,
+    "name": "Kabupaten Ogan Komering Ilir",
+    "serial": 1602,
+    "type": 2,
+    "latitude": -3.4559744,
+    "longitude": 105.2194808,
+    "status": 1
+  },
+  {
+    "nid": 1419,
+    "parent_nid": 6,
+    "name": "Kabupaten Muara Enim",
+    "serial": 1603,
+    "type": 2,
+    "latitude": -3.651581,
+    "longitude": 103.770798,
+    "status": 1
+  },
+  {
+    "nid": 1420,
+    "parent_nid": 6,
+    "name": "Kabupaten Lahat",
+    "serial": 1604,
+    "type": 2,
+    "latitude": -3.7863889,
+    "longitude": 103.5427778,
+    "status": 1
+  },
+  {
+    "nid": 1421,
+    "parent_nid": 6,
+    "name": "Kabupaten Musi Rawas",
+    "serial": 1605,
+    "type": 2,
+    "latitude": -2.8625305,
+    "longitude": 102.989615,
+    "status": 1
+  },
+  {
+    "nid": 1422,
+    "parent_nid": 6,
+    "name": "Kabupaten Musi Banyuasin",
+    "serial": 1606,
+    "type": 2,
+    "latitude": -2.5442029,
+    "longitude": 103.7289167,
+    "status": 1
+  },
+  {
+    "nid": 1423,
+    "parent_nid": 6,
+    "name": "Kabupaten Banyu Asin",
+    "serial": 1607,
+    "type": 2,
+    "latitude": -2.6095639,
+    "longitude": 104.7520939,
+    "status": 1
+  },
+  {
+    "nid": 1424,
+    "parent_nid": 6,
+    "name": "Kabupaten Ogan Komering Ulu Selatan",
+    "serial": 1609,
+    "type": 2,
+    "latitude": -4.6681951,
+    "longitude": 104.0072348,
+    "status": 1
+  },
+  {
+    "nid": 1425,
+    "parent_nid": 6,
+    "name": "Kabupaten Ogan Komering Ulu Timur",
+    "serial": 1608,
+    "type": 2,
+    "latitude": -3.8567934,
+    "longitude": 104.7520939,
+    "status": 1
+  },
+  {
+    "nid": 1426,
+    "parent_nid": 6,
+    "name": "Kabupaten Ogan Ilir",
+    "serial": 1610,
+    "type": 2,
+    "latitude": -3.426544,
+    "longitude": 104.6121475,
+    "status": 1
+  },
+  {
+    "nid": 1427,
+    "parent_nid": 6,
+    "name": "Kabupaten Empat Lawang",
+    "serial": 1611,
+    "type": 2,
+    "latitude": -3.7286029,
+    "longitude": 102.8975098,
+    "status": 1
+  },
+  {
+    "nid": 1428,
+    "parent_nid": 6,
+    "name": "Kota Palembang",
+    "serial": 1671,
+    "type": 2,
+    "latitude": -2.9911083,
+    "longitude": 104.7567333,
+    "status": 1
+  },
+  {
+    "nid": 1429,
+    "parent_nid": 6,
+    "name": "Kota Prabumulih",
+    "serial": 1674,
+    "type": 2,
+    "latitude": -3.440956,
+    "longitude": 104.235397,
+    "status": 1
+  },
+  {
+    "nid": 1430,
+    "parent_nid": 6,
+    "name": "Kota Pagar Alam",
+    "serial": 1672,
+    "type": 2,
+    "latitude": -4.03767,
+    "longitude": 103.265297,
+    "status": 1
+  },
+  {
+    "nid": 1431,
+    "parent_nid": 6,
+    "name": "Kota Lubuklinggau",
+    "serial": 1673,
+    "type": 2,
+    "latitude": -3.2966667,
+    "longitude": 102.8616667,
+    "status": 1
+  },
+  {
+    "nid": 1432,
+    "parent_nid": 7,
+    "name": "Kabupaten Bengkulu Selatan",
+    "serial": 1701,
+    "type": 2,
+    "latitude": -4.3248409,
+    "longitude": 103.035694,
+    "status": 1
+  },
+  {
+    "nid": 1433,
+    "parent_nid": 7,
+    "name": "Kabupaten Rejang Lebong",
+    "serial": 1702,
+    "type": 2,
+    "latitude": -3.4548154,
+    "longitude": 102.6675575,
+    "status": 1
+  },
+  {
+    "nid": 1434,
+    "parent_nid": 7,
+    "name": "Kabupaten Bengkulu Utara",
+    "serial": 1703,
+    "type": 2,
+    "latitude": -3.4219555,
+    "longitude": 102.1632718,
+    "status": 1
+  },
+  {
+    "nid": 1435,
+    "parent_nid": 7,
+    "name": "Kabupaten Kaur",
+    "serial": 1704,
+    "type": 2,
+    "latitude": -4.6792278,
+    "longitude": 103.4511768,
+    "status": 1
+  },
+  {
+    "nid": 1436,
+    "parent_nid": 7,
+    "name": "Kabupaten Seluma",
+    "serial": 1705,
+    "type": 2,
+    "latitude": -4.0622929,
+    "longitude": 102.5642261,
+    "status": 1
+  },
+  {
+    "nid": 1437,
+    "parent_nid": 7,
+    "name": "Kabupaten Mukomuko",
+    "serial": 1706,
+    "type": 2,
+    "latitude": -2.5760003,
+    "longitude": 101.1169805,
+    "status": 1
+  },
+  {
+    "nid": 1438,
+    "parent_nid": 7,
+    "name": "Kabupaten Lebong",
+    "serial": 1707,
+    "type": 2,
+    "latitude": -2.992617,
+    "longitude": 104.382202,
+    "status": 1
+  },
+  {
+    "nid": 1439,
+    "parent_nid": 7,
+    "name": "Kabupaten Kepahiang",
+    "serial": 1708,
+    "type": 2,
+    "latitude": -3.651431,
+    "longitude": 102.578201,
+    "status": 1
+  },
+  {
+    "nid": 1440,
+    "parent_nid": 7,
+    "name": "Kota Bengkulu",
+    "serial": 1771,
+    "type": 2,
+    "latitude": -3.7955556,
+    "longitude": 102.2591667,
+    "status": 1
+  },
+  {
+    "nid": 1441,
+    "parent_nid": 8,
+    "name": "Kabupaten Lampung Barat",
+    "serial": 1804,
+    "type": 2,
+    "latitude": -5.1490396,
+    "longitude": 104.1930918,
+    "status": 1
+  },
+  {
+    "nid": 1442,
+    "parent_nid": 8,
+    "name": "Kabupaten Tanggamus",
+    "serial": 1802,
+    "type": 2,
+    "latitude": -5.3027489,
+    "longitude": 104.5655273,
+    "status": 1
+  },
+  {
+    "nid": 1443,
+    "parent_nid": 8,
+    "name": "Kabupaten Lampung Selatan",
+    "serial": 1801,
+    "type": 2,
+    "latitude": -5.5622614,
+    "longitude": 105.5474373,
+    "status": 1
+  },
+  {
+    "nid": 1444,
+    "parent_nid": 8,
+    "name": "Kabupaten Lampung Timur",
+    "serial": 1807,
+    "type": 2,
+    "latitude": -5.1134995,
+    "longitude": 105.6881788,
+    "status": 1
+  },
+  {
+    "nid": 1445,
+    "parent_nid": 8,
+    "name": "Kabupaten Lampung Tengah",
+    "serial": 1802,
+    "type": 2,
+    "latitude": -4.8008086,
+    "longitude": 105.3131185,
+    "status": 1
+  },
+  {
+    "nid": 1446,
+    "parent_nid": 8,
+    "name": "Kabupaten Lampung Utara",
+    "serial": 1803,
+    "type": 2,
+    "latitude": -4.8133905,
+    "longitude": 104.7520939,
+    "status": 1
+  },
+  {
+    "nid": 1447,
+    "parent_nid": 8,
+    "name": "Kabupaten Way Kanan",
+    "serial": 1808,
+    "type": 2,
+    "latitude": -4.4963689,
+    "longitude": 104.5655273,
+    "status": 1
+  },
+  {
+    "nid": 1448,
+    "parent_nid": 8,
+    "name": "Kabupaten Tulangbawang",
+    "serial": 1812,
+    "type": 2,
+    "latitude": -4.3176576,
+    "longitude": 105.5005483,
+    "status": 1
+  },
+  {
+    "nid": 1449,
+    "parent_nid": 8,
+    "name": "Kabupaten Pesawaran",
+    "serial": 1809,
+    "type": 2,
+    "latitude": -5.493245,
+    "longitude": 105.0791228,
+    "status": 1
+  },
+  {
+    "nid": 1450,
+    "parent_nid": 8,
+    "name": "Kota Bandar Lampung",
+    "serial": 1871,
+    "type": 2,
+    "latitude": -5.45,
+    "longitude": 105.2666667,
+    "status": 1
+  },
+  {
+    "nid": 1451,
+    "parent_nid": 8,
+    "name": "Kota Metro",
+    "serial": 1872,
+    "type": 2,
+    "latitude": -5.1166667,
+    "longitude": 105.3,
+    "status": 1
+  },
+  {
+    "nid": 1452,
+    "parent_nid": 9,
+    "name": "Kabupaten Bangka",
+    "serial": 1901,
+    "type": 2,
+    "latitude": -2.2884782,
+    "longitude": 106.0640179,
+    "status": 1
+  },
+  {
+    "nid": 1453,
+    "parent_nid": 9,
+    "name": "Kabupaten Belitung",
+    "serial": 1902,
+    "type": 2,
+    "latitude": -2.8708938,
+    "longitude": 107.9531836,
+    "status": 1
+  },
+  {
+    "nid": 1454,
+    "parent_nid": 9,
+    "name": "Kabupaten Bangka Barat",
+    "serial": 1905,
+    "type": 2,
+    "latitude": -2.2884782,
+    "longitude": 106.0640179,
+    "status": 1
+  },
+  {
+    "nid": 1455,
+    "parent_nid": 9,
+    "name": "Kabupaten Bangka Tengah",
+    "serial": 1904,
+    "type": 2,
+    "latitude": -2.2884782,
+    "longitude": 106.0640179,
+    "status": 1
+  },
+  {
+    "nid": 1456,
+    "parent_nid": 9,
+    "name": "Kabupaten Bangka Selatan",
+    "serial": 1903,
+    "type": 2,
+    "latitude": -2.2884782,
+    "longitude": 106.0640179,
+    "status": 1
+  },
+  {
+    "nid": 1457,
+    "parent_nid": 9,
+    "name": "Kabupaten Belitung Timur",
+    "serial": 1906,
+    "type": 2,
+    "latitude": -2.8708938,
+    "longitude": 107.9531836,
+    "status": 1
+  },
+  {
+    "nid": 1458,
+    "parent_nid": 9,
+    "name": "Kota Pangkal Pinang",
+    "serial": 1971,
+    "type": 2,
+    "latitude": -2.129323,
+    "longitude": 106.109596,
+    "status": 1
+  },
+  {
+    "nid": 1459,
+    "parent_nid": 10,
+    "name": "Kabupaten Karimun",
+    "serial": 2102,
+    "type": 2,
+    "latitude": 1.05,
+    "longitude": 103.3666667,
+    "status": 1
+  },
+  {
+    "nid": 1460,
+    "parent_nid": 10,
+    "name": "Kabupaten Bintan",
+    "serial": 2101,
+    "type": 2,
+    "latitude": 1.0619173,
+    "longitude": 104.5189214,
+    "status": 1
+  },
+  {
+    "nid": 1461,
+    "parent_nid": 10,
+    "name": "Kabupaten Natuna",
+    "serial": 2103,
+    "type": 2,
+    "latitude": 3.9329945,
+    "longitude": 108.1812242,
+    "status": 1
+  },
+  {
+    "nid": 1462,
+    "parent_nid": 10,
+    "name": "Kabupaten Lingga",
+    "serial": 2104,
+    "type": 2,
+    "latitude": -0.1627686,
+    "longitude": 104.6354631,
+    "status": 1
+  },
+  {
+    "nid": 1463,
+    "parent_nid": 10,
+    "name": "Kota Batam",
+    "serial": 2171,
+    "type": 2,
+    "latitude": 1.0456264,
+    "longitude": 104.0304535,
+    "status": 1
+  },
+  {
+    "nid": 1464,
+    "parent_nid": 10,
+    "name": "Kota Tanjung Pinang",
+    "serial": 2172,
+    "type": 2,
+    "latitude": 0.9179205,
+    "longitude": 104.446464,
+    "status": 1
+  },
+  {
+    "nid": 1465,
+    "parent_nid": 11,
+    "name": "Kabupaten Kepulauan Seribu",
+    "serial": 3101,
+    "type": 2,
+    "latitude": -5.7985266,
+    "longitude": 106.5071982,
+    "status": 1
+  },
+  {
+    "nid": 1466,
+    "parent_nid": 11,
+    "name": "Kota Jakarta Selatan",
+    "serial": 3174,
+    "type": 2,
+    "latitude": -6.332973,
+    "longitude": 106.807915,
+    "status": 1
+  },
+  {
+    "nid": 1467,
+    "parent_nid": 11,
+    "name": "Kota Jakarta Timur",
+    "serial": 3175,
+    "type": 2,
+    "latitude": -6.211544,
+    "longitude": 106.845172,
+    "status": 1
+  },
+  {
+    "nid": 1468,
+    "parent_nid": 11,
+    "name": "Kota Jakarta Pusat",
+    "serial": 3171,
+    "type": 2,
+    "latitude": -6.211544,
+    "longitude": 106.845172,
+    "status": 1
+  },
+  {
+    "nid": 1469,
+    "parent_nid": 11,
+    "name": "Kota Jakarta Barat",
+    "serial": 3173,
+    "type": 2,
+    "latitude": -6.211544,
+    "longitude": 106.845172,
+    "status": 1
+  },
+  {
+    "nid": 1470,
+    "parent_nid": 11,
+    "name": "Kota Jakarta Utara",
+    "serial": 3172,
+    "type": 2,
+    "latitude": -6.211544,
+    "longitude": 106.845172,
+    "status": 1
+  },
+  {
+    "nid": 1471,
+    "parent_nid": 12,
+    "name": "Kabupaten Bogor",
+    "serial": 3201,
+    "type": 2,
+    "latitude": -6.6,
+    "longitude": 106.8,
+    "status": 1
+  },
+  {
+    "nid": 1472,
+    "parent_nid": 12,
+    "name": "Kabupaten Sukabumi",
+    "serial": 3202,
+    "type": 2,
+    "latitude": -6.92405,
+    "longitude": 106.922203,
+    "status": 1
+  },
+  {
+    "nid": 1473,
+    "parent_nid": 12,
+    "name": "Kabupaten Cianjur",
+    "serial": 3203,
+    "type": 2,
+    "latitude": -6.8172531,
+    "longitude": 107.1307289,
+    "status": 1
+  },
+  {
+    "nid": 1474,
+    "parent_nid": 12,
+    "name": "Kabupaten Bandung",
+    "serial": 3204,
+    "type": 2,
+    "latitude": -6.9147444,
+    "longitude": 107.6098111,
+    "status": 1
+  },
+  {
+    "nid": 1475,
+    "parent_nid": 12,
+    "name": "Kabupaten Garut",
+    "serial": 3205,
+    "type": 2,
+    "latitude": -7.227906,
+    "longitude": 107.908699,
+    "status": 1
+  },
+  {
+    "nid": 1476,
+    "parent_nid": 12,
+    "name": "Kabupaten Tasikmalaya",
+    "serial": 3206,
+    "type": 2,
+    "latitude": -7.327954,
+    "longitude": 108.214104,
+    "status": 1
+  },
+  {
+    "nid": 1477,
+    "parent_nid": 12,
+    "name": "Kabupaten Ciamis",
+    "serial": 3207,
+    "type": 2,
+    "latitude": -7.3333333,
+    "longitude": 108.35,
+    "status": 1
+  },
+  {
+    "nid": 1478,
+    "parent_nid": 12,
+    "name": "Kabupaten Kuningan",
+    "serial": 3208,
+    "type": 2,
+    "latitude": -6.9833333,
+    "longitude": 108.4833333,
+    "status": 1
+  },
+  {
+    "nid": 1479,
+    "parent_nid": 12,
+    "name": "Kabupaten Cirebon",
+    "serial": 3209,
+    "type": 2,
+    "latitude": -6.715534,
+    "longitude": 108.564003,
+    "status": 1
+  },
+  {
+    "nid": 1480,
+    "parent_nid": 12,
+    "name": "Kabupaten Majalengka",
+    "serial": 3210,
+    "type": 2,
+    "latitude": -6.8531026,
+    "longitude": 108.2258897,
+    "status": 1
+  },
+  {
+    "nid": 1481,
+    "parent_nid": 12,
+    "name": "Kabupaten Sumedang",
+    "serial": 3211,
+    "type": 2,
+    "latitude": 0.6095949,
+    "longitude": 110.0330554,
+    "status": 1
+  },
+  {
+    "nid": 1482,
+    "parent_nid": 12,
+    "name": "Kabupaten Indramayu",
+    "serial": 3212,
+    "type": 2,
+    "latitude": -6.336315,
+    "longitude": 108.325104,
+    "status": 1
+  },
+  {
+    "nid": 1483,
+    "parent_nid": 12,
+    "name": "Kabupaten Subang",
+    "serial": 3213,
+    "type": 2,
+    "latitude": -6.569361,
+    "longitude": 107.752403,
+    "status": 1
+  },
+  {
+    "nid": 1484,
+    "parent_nid": 12,
+    "name": "Kabupaten Purwakarta",
+    "serial": 3214,
+    "type": 2,
+    "latitude": -6.5386806,
+    "longitude": 107.4499404,
+    "status": 1
+  },
+  {
+    "nid": 1485,
+    "parent_nid": 12,
+    "name": "Kabupaten Karawang",
+    "serial": 3215,
+    "type": 2,
+    "latitude": -6.3227303,
+    "longitude": 107.3375791,
+    "status": 1
+  },
+  {
+    "nid": 1486,
+    "parent_nid": 12,
+    "name": "Kabupaten Bekasi",
+    "serial": 3216,
+    "type": 2,
+    "latitude": -6.2333333,
+    "longitude": 107,
+    "status": 1
+  },
+  {
+    "nid": 1487,
+    "parent_nid": 12,
+    "name": "Kabupaten Bandung Barat",
+    "serial": 3217,
+    "type": 2,
+    "latitude": -6.8937121,
+    "longitude": 107.4321959,
+    "status": 1
+  },
+  {
+    "nid": 1488,
+    "parent_nid": 12,
+    "name": "Kota Bogor",
+    "serial": 3271,
+    "type": 2,
+    "latitude": -6.6,
+    "longitude": 106.8,
+    "status": 1
+  },
+  {
+    "nid": 1489,
+    "parent_nid": 12,
+    "name": "Kota Sukabumi",
+    "serial": 3272,
+    "type": 2,
+    "latitude": -6.92405,
+    "longitude": 106.922203,
+    "status": 1
+  },
+  {
+    "nid": 1490,
+    "parent_nid": 12,
+    "name": "Kota Bandung",
+    "serial": 3273,
+    "type": 2,
+    "latitude": -6.9147444,
+    "longitude": 107.6098111,
+    "status": 1
+  },
+  {
+    "nid": 1491,
+    "parent_nid": 12,
+    "name": "Kota Cirebon",
+    "serial": 3274,
+    "type": 2,
+    "latitude": -6.715534,
+    "longitude": 108.564003,
+    "status": 1
+  },
+  {
+    "nid": 1492,
+    "parent_nid": 12,
+    "name": "Kota Bekasi",
+    "serial": 3275,
+    "type": 2,
+    "latitude": -6.2333333,
+    "longitude": 107,
+    "status": 1
+  },
+  {
+    "nid": 1493,
+    "parent_nid": 12,
+    "name": "Kota Depok",
+    "serial": 3276,
+    "type": 2,
+    "latitude": -6.39,
+    "longitude": 106.83,
+    "status": 1
+  },
+  {
+    "nid": 1494,
+    "parent_nid": 12,
+    "name": "Kota Cimahi",
+    "serial": 3277,
+    "type": 2,
+    "latitude": -6.880239,
+    "longitude": 107.5355,
+    "status": 1
+  },
+  {
+    "nid": 1495,
+    "parent_nid": 12,
+    "name": "Kota Tasikmalaya",
+    "serial": 3278,
+    "type": 2,
+    "latitude": -7.327954,
+    "longitude": 108.214104,
+    "status": 1
+  },
+  {
+    "nid": 1496,
+    "parent_nid": 12,
+    "name": "Kota Banjar",
+    "serial": 3279,
+    "type": 2,
+    "latitude": -7.3666667,
+    "longitude": 108.5333333,
+    "status": 1
+  },
+  {
+    "nid": 1497,
+    "parent_nid": 13,
+    "name": "Kabupaten Cilacap",
+    "serial": 3301,
+    "type": 2,
+    "latitude": -7.733333,
+    "longitude": 109,
+    "status": 1
+  },
+  {
+    "nid": 1498,
+    "parent_nid": 13,
+    "name": "Kabupaten Banyumas",
+    "serial": 3302,
+    "type": 2,
+    "latitude": -7.4832133,
+    "longitude": 109.140438,
+    "status": 1
+  },
+  {
+    "nid": 1499,
+    "parent_nid": 13,
+    "name": "Kabupaten Purbalingga",
+    "serial": 3303,
+    "type": 2,
+    "latitude": -7.390747,
+    "longitude": 109.3638,
+    "status": 1
+  },
+  {
+    "nid": 1500,
+    "parent_nid": 13,
+    "name": "Kabupaten Banjarnegara",
+    "serial": 3304,
+    "type": 2,
+    "latitude": -7.402706,
+    "longitude": 109.681396,
+    "status": 1
+  },
+  {
+    "nid": 1501,
+    "parent_nid": 13,
+    "name": "Kabupaten Kebumen",
+    "serial": 3305,
+    "type": 2,
+    "latitude": -7.678682,
+    "longitude": 109.656502,
+    "status": 1
+  },
+  {
+    "nid": 1502,
+    "parent_nid": 13,
+    "name": "Kabupaten Purworejo",
+    "serial": 3306,
+    "type": 2,
+    "latitude": -7.709731,
+    "longitude": 110.008003,
+    "status": 1
+  },
+  {
+    "nid": 1503,
+    "parent_nid": 13,
+    "name": "Kabupaten Wonosobo",
+    "serial": 3307,
+    "type": 2,
+    "latitude": -7.362109,
+    "longitude": 109.899399,
+    "status": 1
+  },
+  {
+    "nid": 1504,
+    "parent_nid": 13,
+    "name": "Kabupaten Magelang",
+    "serial": 3308,
+    "type": 2,
+    "latitude": -7.481253,
+    "longitude": 110.213799,
+    "status": 1
+  },
+  {
+    "nid": 1505,
+    "parent_nid": 13,
+    "name": "Kabupaten Boyolali",
+    "serial": 3309,
+    "type": 2,
+    "latitude": -7.523819,
+    "longitude": 110.595901,
+    "status": 1
+  },
+  {
+    "nid": 1506,
+    "parent_nid": 13,
+    "name": "Kabupaten Klaten",
+    "serial": 3310,
+    "type": 2,
+    "latitude": -7.711687,
+    "longitude": 110.595497,
+    "status": 1
+  },
+  {
+    "nid": 1507,
+    "parent_nid": 13,
+    "name": "Kabupaten Sukoharjo",
+    "serial": 3311,
+    "type": 2,
+    "latitude": -7.6808818,
+    "longitude": 110.8195292,
+    "status": 1
+  },
+  {
+    "nid": 1508,
+    "parent_nid": 13,
+    "name": "Kabupaten Wonogiri",
+    "serial": 3312,
+    "type": 2,
+    "latitude": -7.817782,
+    "longitude": 110.920601,
+    "status": 1
+  },
+  {
+    "nid": 1509,
+    "parent_nid": 13,
+    "name": "Kabupaten Karanganyar",
+    "serial": 3313,
+    "type": 2,
+    "latitude": -7.5961111,
+    "longitude": 110.9508333,
+    "status": 1
+  },
+  {
+    "nid": 1510,
+    "parent_nid": 13,
+    "name": "Kabupaten Sragen",
+    "serial": 3314,
+    "type": 2,
+    "latitude": -7.430229,
+    "longitude": 111.021301,
+    "status": 1
+  },
+  {
+    "nid": 1511,
+    "parent_nid": 13,
+    "name": "Kabupaten Grobogan",
+    "serial": 3315,
+    "type": 2,
+    "latitude": -7.0217194,
+    "longitude": 110.9625854,
+    "status": 1
+  },
+  {
+    "nid": 1512,
+    "parent_nid": 13,
+    "name": "Kabupaten Blora",
+    "serial": 3316,
+    "type": 2,
+    "latitude": -6.95,
+    "longitude": 111.4166667,
+    "status": 1
+  },
+  {
+    "nid": 1513,
+    "parent_nid": 13,
+    "name": "Kabupaten Rembang",
+    "serial": 3317,
+    "type": 2,
+    "latitude": -6.71124,
+    "longitude": 111.345299,
+    "status": 1
+  },
+  {
+    "nid": 1514,
+    "parent_nid": 13,
+    "name": "Kabupaten Pati",
+    "serial": 3318,
+    "type": 2,
+    "latitude": -6.751338,
+    "longitude": 111.038002,
+    "status": 1
+  },
+  {
+    "nid": 1515,
+    "parent_nid": 13,
+    "name": "Kabupaten Kudus",
+    "serial": 3319,
+    "type": 2,
+    "latitude": -6.804087,
+    "longitude": 110.838203,
+    "status": 1
+  },
+  {
+    "nid": 1516,
+    "parent_nid": 13,
+    "name": "Kabupaten Jepara",
+    "serial": 3320,
+    "type": 2,
+    "latitude": -6.5596059,
+    "longitude": 110.6717,
+    "status": 1
+  },
+  {
+    "nid": 1517,
+    "parent_nid": 13,
+    "name": "Kabupaten Demak",
+    "serial": 3321,
+    "type": 2,
+    "latitude": -6.888115,
+    "longitude": 110.639297,
+    "status": 1
+  },
+  {
+    "nid": 1518,
+    "parent_nid": 13,
+    "name": "Kabupaten Semarang",
+    "serial": 3322,
+    "type": 2,
+    "latitude": -6.9666667,
+    "longitude": 110.4166667,
+    "status": 1
+  },
+  {
+    "nid": 1519,
+    "parent_nid": 13,
+    "name": "Kabupaten Temanggung",
+    "serial": 3323,
+    "type": 2,
+    "latitude": -7.316669,
+    "longitude": 110.174797,
+    "status": 1
+  },
+  {
+    "nid": 1520,
+    "parent_nid": 13,
+    "name": "Kabupaten Kendal",
+    "serial": 3324,
+    "type": 2,
+    "latitude": -6.919686,
+    "longitude": 110.205597,
+    "status": 1
+  },
+  {
+    "nid": 1521,
+    "parent_nid": 13,
+    "name": "Kabupaten Batang",
+    "serial": 3325,
+    "type": 2,
+    "latitude": -6.8941111,
+    "longitude": 109.7234519,
+    "status": 1
+  },
+  {
+    "nid": 1522,
+    "parent_nid": 13,
+    "name": "Kabupaten Pekalongan",
+    "serial": 3326,
+    "type": 2,
+    "latitude": -6.882887,
+    "longitude": 109.669998,
+    "status": 1
+  },
+  {
+    "nid": 1523,
+    "parent_nid": 13,
+    "name": "Kabupaten Pemalang",
+    "serial": 3327,
+    "type": 2,
+    "latitude": -6.884234,
+    "longitude": 109.377998,
+    "status": 1
+  },
+  {
+    "nid": 1524,
+    "parent_nid": 13,
+    "name": "Kabupaten Tegal",
+    "serial": 3328,
+    "type": 2,
+    "latitude": -6.8666667,
+    "longitude": 109.1333333,
+    "status": 1
+  },
+  {
+    "nid": 1525,
+    "parent_nid": 13,
+    "name": "Kabupaten Brebes",
+    "serial": 3329,
+    "type": 2,
+    "latitude": -6.8833333,
+    "longitude": 109.05,
+    "status": 1
+  },
+  {
+    "nid": 1526,
+    "parent_nid": 13,
+    "name": "Kota Magelang",
+    "serial": 3371,
+    "type": 2,
+    "latitude": -7.481253,
+    "longitude": 110.213799,
+    "status": 1
+  },
+  {
+    "nid": 1527,
+    "parent_nid": 13,
+    "name": "Kota Surakarta",
+    "serial": 3372,
+    "type": 2,
+    "latitude": -7.5666667,
+    "longitude": 110.8166667,
+    "status": 1
+  },
+  {
+    "nid": 1528,
+    "parent_nid": 13,
+    "name": "Kota Salatiga",
+    "serial": 3373,
+    "type": 2,
+    "latitude": -7.302328,
+    "longitude": 110.4729,
+    "status": 1
+  },
+  {
+    "nid": 1529,
+    "parent_nid": 13,
+    "name": "Kota Semarang",
+    "serial": 3374,
+    "type": 2,
+    "latitude": -6.9666667,
+    "longitude": 110.4166667,
+    "status": 1
+  },
+  {
+    "nid": 1530,
+    "parent_nid": 13,
+    "name": "Kota Pekalongan",
+    "serial": 3375,
+    "type": 2,
+    "latitude": -6.882887,
+    "longitude": 109.669998,
+    "status": 1
+  },
+  {
+    "nid": 1531,
+    "parent_nid": 13,
+    "name": "Kota Tegal",
+    "serial": 3376,
+    "type": 2,
+    "latitude": -6.8666667,
+    "longitude": 109.1333333,
+    "status": 1
+  },
+  {
+    "nid": 1532,
+    "parent_nid": 14,
+    "name": "Kabupaten Kulon Progo",
+    "serial": 3401,
+    "type": 2,
+    "latitude": -7.8266798,
+    "longitude": 110.1640846,
+    "status": 1
+  },
+  {
+    "nid": 1533,
+    "parent_nid": 14,
+    "name": "Kabupaten Bantul",
+    "serial": 3402,
+    "type": 2,
+    "latitude": -7.8846111,
+    "longitude": 110.3341111,
+    "status": 1
+  },
+  {
+    "nid": 1534,
+    "parent_nid": 14,
+    "name": "Kabupaten Gunung Kidul",
+    "serial": 3403,
+    "type": 2,
+    "latitude": -8.0305091,
+    "longitude": 110.6168921,
+    "status": 1
+  },
+  {
+    "nid": 1536,
+    "parent_nid": 14,
+    "name": "Kota Yogyakarta",
+    "serial": 3471,
+    "type": 2,
+    "latitude": -7.797224,
+    "longitude": 110.368797,
+    "status": 1
+  },
+  {
+    "nid": 1537,
+    "parent_nid": 16,
+    "name": "Kabupaten Pandeglang",
+    "serial": 3601,
+    "type": 2,
+    "latitude": -6.314835,
+    "longitude": 106.103897,
+    "status": 1
+  },
+  {
+    "nid": 1538,
+    "parent_nid": 16,
+    "name": "Kabupaten Lebak",
+    "serial": 3602,
+    "type": 2,
+    "latitude": -6.5643956,
+    "longitude": 106.2522143,
+    "status": 1
+  },
+  {
+    "nid": 1539,
+    "parent_nid": 16,
+    "name": "Kabupaten Tangerang",
+    "serial": 3603,
+    "type": 2,
+    "latitude": -6.1783056,
+    "longitude": 106.6318889,
+    "status": 1
+  },
+  {
+    "nid": 1540,
+    "parent_nid": 16,
+    "name": "Kabupaten Serang",
+    "serial": 3604,
+    "type": 2,
+    "latitude": -6.12009,
+    "longitude": 106.150299,
+    "status": 1
+  },
+  {
+    "nid": 1541,
+    "parent_nid": 16,
+    "name": "Kota Tangerang",
+    "serial": 3671,
+    "type": 2,
+    "latitude": -6.1783056,
+    "longitude": 106.6318889,
+    "status": 1
+  },
+  {
+    "nid": 1542,
+    "parent_nid": 16,
+    "name": "Kota Cilegon",
+    "serial": 3672,
+    "type": 2,
+    "latitude": -6.0169825,
+    "longitude": 106.040506,
+    "status": 1
+  },
+  {
+    "nid": 1543,
+    "parent_nid": 16,
+    "name": "Kota Serang",
+    "serial": 3673,
+    "type": 2,
+    "latitude": -6.12009,
+    "longitude": 106.150299,
+    "status": 1
+  },
+  {
+    "nid": 1544,
+    "parent_nid": 17,
+    "name": "Kabupaten Jembrana",
+    "serial": 5101,
+    "type": 2,
+    "latitude": -8.361852,
+    "longitude": 114.6418,
+    "status": 1
+  },
+  {
+    "nid": 1545,
+    "parent_nid": 17,
+    "name": "Kabupaten Tabanan",
+    "serial": 5102,
+    "type": 2,
+    "latitude": -8.544516,
+    "longitude": 115.119797,
+    "status": 1
+  },
+  {
+    "nid": 1546,
+    "parent_nid": 17,
+    "name": "Kabupaten Badung",
+    "serial": 5103,
+    "type": 2,
+    "latitude": -8.5819296,
+    "longitude": 115.1770586,
+    "status": 1
+  },
+  {
+    "nid": 1547,
+    "parent_nid": 17,
+    "name": "Kabupaten Gianyar",
+    "serial": 5104,
+    "type": 2,
+    "latitude": -8.544185,
+    "longitude": 115.3255,
+    "status": 1
+  },
+  {
+    "nid": 1548,
+    "parent_nid": 17,
+    "name": "Kabupaten Klungkung",
+    "serial": 5105,
+    "type": 2,
+    "latitude": -8.5389222,
+    "longitude": 115.4045111,
+    "status": 1
+  },
+  {
+    "nid": 1549,
+    "parent_nid": 17,
+    "name": "Kabupaten Bangli",
+    "serial": 5106,
+    "type": 2,
+    "latitude": -8.454303,
+    "longitude": 115.354897,
+    "status": 1
+  },
+  {
+    "nid": 1550,
+    "parent_nid": 17,
+    "name": "Kabupaten Karang Asem",
+    "serial": 5107,
+    "type": 2,
+    "latitude": -6.3996057,
+    "longitude": 108.0503042,
+    "status": 1
+  },
+  {
+    "nid": 1551,
+    "parent_nid": 17,
+    "name": "Kabupaten Buleleng",
+    "serial": 5108,
+    "type": 2,
+    "latitude": -8.113831,
+    "longitude": 115.126999,
+    "status": 1
+  },
+  {
+    "nid": 1552,
+    "parent_nid": 17,
+    "name": "Kota Denpasar",
+    "serial": 5171,
+    "type": 2,
+    "latitude": -8.65629,
+    "longitude": 115.222099,
+    "status": 1
+  },
+  {
+    "nid": 1553,
+    "parent_nid": 18,
+    "name": "Kabupaten Lombok Barat",
+    "serial": 5201,
+    "type": 2,
+    "latitude": -8.6464599,
+    "longitude": 116.1123078,
+    "status": 1
+  },
+  {
+    "nid": 1554,
+    "parent_nid": 18,
+    "name": "Kabupaten Lombok Tengah",
+    "serial": 5202,
+    "type": 2,
+    "latitude": -8.694623,
+    "longitude": 116.2777073,
+    "status": 1
+  },
+  {
+    "nid": 1555,
+    "parent_nid": 18,
+    "name": "Kabupaten Lombok Timur",
+    "serial": 5203,
+    "type": 2,
+    "latitude": -8.5134471,
+    "longitude": 116.5609857,
+    "status": 1
+  },
+  {
+    "nid": 1556,
+    "parent_nid": 18,
+    "name": "Kabupaten Sumbawa",
+    "serial": 5204,
+    "type": 2,
+    "latitude": -8.6529334,
+    "longitude": 117.3616476,
+    "status": 1
+  },
+  {
+    "nid": 1557,
+    "parent_nid": 18,
+    "name": "Kabupaten Dompu",
+    "serial": 5205,
+    "type": 2,
+    "latitude": -8.4966318,
+    "longitude": 118.4747173,
+    "status": 1
+  },
+  {
+    "nid": 1558,
+    "parent_nid": 18,
+    "name": "Kabupaten Bima",
+    "serial": 5206,
+    "type": 2,
+    "latitude": -8.460566,
+    "longitude": 118.727402,
+    "status": 1
+  },
+  {
+    "nid": 1559,
+    "parent_nid": 18,
+    "name": "Kabupaten Sumbawa Barat",
+    "serial": 5207,
+    "type": 2,
+    "latitude": -8.9292907,
+    "longitude": 116.8910342,
+    "status": 1
+  },
+  {
+    "nid": 1560,
+    "parent_nid": 18,
+    "name": "Kota Mataram",
+    "serial": 5271,
+    "type": 2,
+    "latitude": -8.5833333,
+    "longitude": 116.1166667,
+    "status": 1
+  },
+  {
+    "nid": 1561,
+    "parent_nid": 18,
+    "name": "Kota Bima",
+    "serial": 5272,
+    "type": 2,
+    "latitude": -8.460566,
+    "longitude": 118.727402,
+    "status": 1
+  },
+  {
+    "nid": 1562,
+    "parent_nid": 19,
+    "name": "Kabupaten Sumba Barat",
+    "serial": 5312,
+    "type": 2,
+    "latitude": -9.6548326,
+    "longitude": 119.3947135,
+    "status": 1
+  },
+  {
+    "nid": 1563,
+    "parent_nid": 19,
+    "name": "Kabupaten Sumba Timur",
+    "serial": 5311,
+    "type": 2,
+    "latitude": -9.9802103,
+    "longitude": 120.3435506,
+    "status": 1
+  },
+  {
+    "nid": 1564,
+    "parent_nid": 19,
+    "name": "Kabupaten Kupang",
+    "serial": 5301,
+    "type": 2,
+    "latitude": -10.1833333,
+    "longitude": 123.5833333,
+    "status": 1
+  },
+  {
+    "nid": 1565,
+    "parent_nid": 19,
+    "name": "Kabupaten Timor Tengah Selatan",
+    "serial": 5302,
+    "type": 2,
+    "latitude": -9.7762816,
+    "longitude": 124.4198243,
+    "status": 1
+  },
+  {
+    "nid": 1566,
+    "parent_nid": 19,
+    "name": "Kabupaten Timor Tengah Utara",
+    "serial": 5303,
+    "type": 2,
+    "latitude": -9.4522647,
+    "longitude": 124.597132,
+    "status": 1
+  },
+  {
+    "nid": 1567,
+    "parent_nid": 19,
+    "name": "Kabupaten Belu",
+    "serial": 5304,
+    "type": 2,
+    "latitude": -9.4125796,
+    "longitude": 124.9506625,
+    "status": 1
+  },
+  {
+    "nid": 1568,
+    "parent_nid": 19,
+    "name": "Kabupaten Alor",
+    "serial": 5305,
+    "type": 2,
+    "latitude": -8.2754027,
+    "longitude": 124.7298765,
+    "status": 1
+  },
+  {
+    "nid": 1569,
+    "parent_nid": 19,
+    "name": "Kabupaten Lembata",
+    "serial": 5313,
+    "type": 2,
+    "latitude": -8.4719075,
+    "longitude": 123.4831906,
+    "status": 1
+  },
+  {
+    "nid": 1570,
+    "parent_nid": 19,
+    "name": "Kabupaten Flores Timur",
+    "serial": 5306,
+    "type": 2,
+    "latitude": -8.3130942,
+    "longitude": 122.9663018,
+    "status": 1
+  },
+  {
+    "nid": 1571,
+    "parent_nid": 19,
+    "name": "Kabupaten Sikka",
+    "serial": 5307,
+    "type": 2,
+    "latitude": -8.6766175,
+    "longitude": 122.1291843,
+    "status": 1
+  },
+  {
+    "nid": 1572,
+    "parent_nid": 19,
+    "name": "Kabupaten Ende",
+    "serial": 5308,
+    "type": 2,
+    "latitude": -8.854053,
+    "longitude": 121.654198,
+    "status": 1
+  },
+  {
+    "nid": 1573,
+    "parent_nid": 19,
+    "name": "Kabupaten Ngada",
+    "serial": 5309,
+    "type": 2,
+    "latitude": -8.7430424,
+    "longitude": 120.9876321,
+    "status": 1
+  },
+  {
+    "nid": 1574,
+    "parent_nid": 19,
+    "name": "Kabupaten Manggarai",
+    "serial": 5310,
+    "type": 2,
+    "latitude": -8.6796987,
+    "longitude": 120.3896651,
+    "status": 1
+  },
+  {
+    "nid": 1575,
+    "parent_nid": 19,
+    "name": "Kabupaten Rote Ndao",
+    "serial": 5314,
+    "type": 2,
+    "latitude": -10.7386421,
+    "longitude": 123.1239049,
+    "status": 1
+  },
+  {
+    "nid": 1576,
+    "parent_nid": 19,
+    "name": "Kabupaten Manggarai Barat",
+    "serial": 5315,
+    "type": 2,
+    "latitude": -8.6688149,
+    "longitude": 120.0665236,
+    "status": 1
+  },
+  {
+    "nid": 1577,
+    "parent_nid": 19,
+    "name": "Kabupaten Sumba Tengah",
+    "serial": 5317,
+    "type": 2,
+    "latitude": -9.4879226,
+    "longitude": 119.6962677,
+    "status": 1
+  },
+  {
+    "nid": 1578,
+    "parent_nid": 19,
+    "name": "Kabupaten Sumba Barat Daya",
+    "serial": 5318,
+    "type": 2,
+    "latitude": -9.539139,
+    "longitude": 119.1390642,
+    "status": 1
+  },
+  {
+    "nid": 1579,
+    "parent_nid": 19,
+    "name": "Kabupaten Nagekeo",
+    "serial": 5316,
+    "type": 2,
+    "latitude": -8.6753545,
+    "longitude": 121.3084088,
+    "status": 1
+  },
+  {
+    "nid": 1580,
+    "parent_nid": 19,
+    "name": "Kabupaten Manggarai Timur",
+    "serial": 5319,
+    "type": 2,
+    "latitude": -8.6206712,
+    "longitude": 120.6199895,
+    "status": 1
+  },
+  {
+    "nid": 1581,
+    "parent_nid": 19,
+    "name": "Kota Kupang",
+    "serial": 5371,
+    "type": 2,
+    "latitude": -10.1833333,
+    "longitude": 123.5833333,
+    "status": 1
+  },
+  {
+    "nid": 1582,
+    "parent_nid": 20,
+    "name": "Kabupaten Sambas",
+    "serial": 6101,
+    "type": 2,
+    "latitude": 1.361328,
+    "longitude": 109.309998,
+    "status": 1
+  },
+  {
+    "nid": 1583,
+    "parent_nid": 20,
+    "name": "Kabupaten Bengkayang",
+    "serial": 6107,
+    "type": 2,
+    "latitude": 0.8209729,
+    "longitude": 109.477699,
+    "status": 1
+  },
+  {
+    "nid": 1584,
+    "parent_nid": 20,
+    "name": "Kabupaten Landak",
+    "serial": 6108,
+    "type": 2,
+    "latitude": 0.4237287,
+    "longitude": 109.7591675,
+    "status": 1
+  },
+  {
+    "nid": 1585,
+    "parent_nid": 20,
+    "name": "Kabupaten Pontianak",
+    "serial": 6102,
+    "type": 2,
+    "latitude": -0.022523,
+    "longitude": 109.330307,
+    "status": 1
+  },
+  {
+    "nid": 1586,
+    "parent_nid": 20,
+    "name": "Kabupaten Sanggau",
+    "serial": 6103,
+    "type": 2,
+    "latitude": 0.119275,
+    "longitude": 110.597298,
+    "status": 1
+  },
+  {
+    "nid": 1587,
+    "parent_nid": 20,
+    "name": "Kabupaten Ketapang",
+    "serial": 6104,
+    "type": 2,
+    "latitude": -1.859098,
+    "longitude": 109.971901,
+    "status": 1
+  },
+  {
+    "nid": 1588,
+    "parent_nid": 20,
+    "name": "Kabupaten Sintang",
+    "serial": 6105,
+    "type": 2,
+    "latitude": 0.080238,
+    "longitude": 111.495499,
+    "status": 1
+  },
+  {
+    "nid": 1589,
+    "parent_nid": 20,
+    "name": "Kabupaten Kapuas Hulu",
+    "serial": 6106,
+    "type": 2,
+    "latitude": -0.7931004,
+    "longitude": 113.9060624,
+    "status": 1
+  },
+  {
+    "nid": 1590,
+    "parent_nid": 20,
+    "name": "Kabupaten Sekadau",
+    "serial": 6109,
+    "type": 2,
+    "latitude": 0.015637,
+    "longitude": 110.888603,
+    "status": 1
+  },
+  {
+    "nid": 1591,
+    "parent_nid": 20,
+    "name": "Kabupaten Melawi",
+    "serial": 6110,
+    "type": 2,
+    "latitude": -0.7000681,
+    "longitude": 111.6660725,
+    "status": 1
+  },
+  {
+    "nid": 1592,
+    "parent_nid": 20,
+    "name": "Kabupaten Kayong Utara",
+    "serial": 6111,
+    "type": 2,
+    "latitude": -0.9225877,
+    "longitude": 110.0449662,
+    "status": 1
+  },
+  {
+    "nid": 1593,
+    "parent_nid": 20,
+    "name": "Kabupaten Kubu Raya",
+    "serial": 6112,
+    "type": 2,
+    "latitude": -0.3533938,
+    "longitude": 109.4735066,
+    "status": 1
+  },
+  {
+    "nid": 1594,
+    "parent_nid": 20,
+    "name": "Kota Pontianak",
+    "serial": 6171,
+    "type": 2,
+    "latitude": -0.022523,
+    "longitude": 109.330307,
+    "status": 1
+  },
+  {
+    "nid": 1595,
+    "parent_nid": 20,
+    "name": "Kota Singkawang",
+    "serial": 6172,
+    "type": 2,
+    "latitude": 0.908795,
+    "longitude": 108.984596,
+    "status": 1
+  },
+  {
+    "nid": 1596,
+    "parent_nid": 21,
+    "name": "Kabupaten Kotawaringin Barat",
+    "serial": 6201,
+    "type": 2,
+    "latitude": -6.1961131,
+    "longitude": 106.8630174,
+    "status": 1
+  },
+  {
+    "nid": 1597,
+    "parent_nid": 21,
+    "name": "Kabupaten Kotawaringin Timur",
+    "serial": 6202,
+    "type": 2,
+    "latitude": -6.1952992,
+    "longitude": 106.8630737,
+    "status": 1
+  },
+  {
+    "nid": 1598,
+    "parent_nid": 21,
+    "name": "Kabupaten Kapuas",
+    "serial": 6203,
+    "type": 2,
+    "latitude": -0.0459972,
+    "longitude": 110.1313251,
+    "status": 1
+  },
+  {
+    "nid": 1599,
+    "parent_nid": 21,
+    "name": "Kabupaten Barito Selatan",
+    "serial": 6204,
+    "type": 2,
+    "latitude": -1.875943,
+    "longitude": 114.8092691,
+    "status": 1
+  },
+  {
+    "nid": 1600,
+    "parent_nid": 21,
+    "name": "Kabupaten Barito Utara",
+    "serial": 6205,
+    "type": 2,
+    "latitude": -0.9587136,
+    "longitude": 115.094045,
+    "status": 1
+  },
+  {
+    "nid": 1601,
+    "parent_nid": 21,
+    "name": "Kabupaten Sukamara",
+    "serial": 6208,
+    "type": 2,
+    "latitude": -2.6267517,
+    "longitude": 111.2368084,
+    "status": 1
+  },
+  {
+    "nid": 1602,
+    "parent_nid": 21,
+    "name": "Kabupaten Lamandau",
+    "serial": 6209,
+    "type": 2,
+    "latitude": -1.9269166,
+    "longitude": 111.1891151,
+    "status": 1
+  },
+  {
+    "nid": 1603,
+    "parent_nid": 21,
+    "name": "Kabupaten Seruyan",
+    "serial": 6207,
+    "type": 2,
+    "latitude": -3.0123467,
+    "longitude": 112.4291464,
+    "status": 1
+  },
+  {
+    "nid": 1604,
+    "parent_nid": 21,
+    "name": "Kabupaten Katingan",
+    "serial": 6206,
+    "type": 2,
+    "latitude": -0.9758379,
+    "longitude": 112.8105512,
+    "status": 1
+  },
+  {
+    "nid": 1605,
+    "parent_nid": 21,
+    "name": "Kabupaten Pulang Pisau",
+    "serial": 6211,
+    "type": 2,
+    "latitude": -2.6849607,
+    "longitude": 113.9536466,
+    "status": 1
+  },
+  {
+    "nid": 1606,
+    "parent_nid": 21,
+    "name": "Kabupaten Gunung Mas",
+    "serial": 6210,
+    "type": 2,
+    "latitude": -6.7052778,
+    "longitude": 106.9913889,
+    "status": 1
+  },
+  {
+    "nid": 1607,
+    "parent_nid": 21,
+    "name": "Kabupaten Barito Timur",
+    "serial": 6213,
+    "type": 2,
+    "latitude": -2.0123999,
+    "longitude": 115.188916,
+    "status": 1
+  },
+  {
+    "nid": 1608,
+    "parent_nid": 21,
+    "name": "Kabupaten Murung Raya",
+    "serial": 6212,
+    "type": 2,
+    "latitude": -0.1362171,
+    "longitude": 114.3341432,
+    "status": 1
+  },
+  {
+    "nid": 1609,
+    "parent_nid": 21,
+    "name": "Kota Palangka Raya",
+    "serial": 6271,
+    "type": 2,
+    "latitude": -2.21,
+    "longitude": 113.92,
+    "status": 1
+  },
+  {
+    "nid": 1610,
+    "parent_nid": 22,
+    "name": "Kabupaten Tanah Laut",
+    "serial": 6301,
+    "type": 2,
+    "latitude": -3.7694047,
+    "longitude": 114.8092691,
+    "status": 1
+  },
+  {
+    "nid": 1611,
+    "parent_nid": 22,
+    "name": "Kabupaten Kota Baru",
+    "serial": 6302,
+    "type": 2,
+    "latitude": -6.332973,
+    "longitude": 106.807915,
+    "status": 1
+  },
+  {
+    "nid": 1612,
+    "parent_nid": 22,
+    "name": "Kabupaten Banjar",
+    "serial": 6303,
+    "type": 2,
+    "latitude": -7.3666667,
+    "longitude": 108.5333333,
+    "status": 1
+  },
+  {
+    "nid": 1613,
+    "parent_nid": 22,
+    "name": "Kabupaten Barito Kuala",
+    "serial": 6304,
+    "type": 2,
+    "latitude": -3.0714738,
+    "longitude": 114.6667939,
+    "status": 1
+  },
+  {
+    "nid": 1614,
+    "parent_nid": 22,
+    "name": "Kabupaten Tapin",
+    "serial": 6305,
+    "type": 2,
+    "latitude": -2.9160746,
+    "longitude": 115.0465991,
+    "status": 1
+  },
+  {
+    "nid": 1615,
+    "parent_nid": 22,
+    "name": "Kabupaten Hulu Sungai Selatan",
+    "serial": 6306,
+    "type": 2,
+    "latitude": -2.7662681,
+    "longitude": 115.2363408,
+    "status": 1
+  },
+  {
+    "nid": 1616,
+    "parent_nid": 22,
+    "name": "Kabupaten Hulu Sungai Tengah",
+    "serial": 6307,
+    "type": 2,
+    "latitude": -2.6153162,
+    "longitude": 115.5207358,
+    "status": 1
+  },
+  {
+    "nid": 1617,
+    "parent_nid": 22,
+    "name": "Kabupaten Hulu Sungai Utara",
+    "serial": 6308,
+    "type": 2,
+    "latitude": -2.4421225,
+    "longitude": 115.188916,
+    "status": 1
+  },
+  {
+    "nid": 1618,
+    "parent_nid": 22,
+    "name": "Kabupaten Tabalong",
+    "serial": 6309,
+    "type": 2,
+    "latitude": -1.864302,
+    "longitude": 115.5681084,
+    "status": 1
+  },
+  {
+    "nid": 1619,
+    "parent_nid": 22,
+    "name": "Kabupaten Tanah Bumbu",
+    "serial": 6310,
+    "type": 2,
+    "latitude": -3.4512244,
+    "longitude": 115.5681084,
+    "status": 1
+  },
+  {
+    "nid": 1620,
+    "parent_nid": 22,
+    "name": "Kabupaten Balangan",
+    "serial": 6311,
+    "type": 2,
+    "latitude": -2.3260425,
+    "longitude": 115.6154732,
+    "status": 1
+  },
+  {
+    "nid": 1621,
+    "parent_nid": 22,
+    "name": "Kota Banjarmasin",
+    "serial": 6371,
+    "type": 2,
+    "latitude": -3.328499,
+    "longitude": 114.589203,
+    "status": 1
+  },
+  {
+    "nid": 1622,
+    "parent_nid": 22,
+    "name": "Kota Banjar Baru",
+    "serial": 6372,
+    "type": 2,
+    "latitude": -3.4666667,
+    "longitude": 114.75,
+    "status": 1
+  },
+  {
+    "nid": 1623,
+    "parent_nid": 23,
+    "name": "Kabupaten Paser",
+    "serial": 6401,
+    "type": 2,
+    "latitude": -1.7175266,
+    "longitude": 115.9467997,
+    "status": 1
+  },
+  {
+    "nid": 1624,
+    "parent_nid": 23,
+    "name": "Kabupaten Kutai Barat",
+    "serial": 6407,
+    "type": 2,
+    "latitude": 0.1353881,
+    "longitude": 115.094045,
+    "status": 1
+  },
+  {
+    "nid": 1625,
+    "parent_nid": 23,
+    "name": "Kabupaten Kutai Kartanegara",
+    "serial": 6402,
+    "type": 2,
+    "latitude": -0.1336655,
+    "longitude": 116.6081653,
+    "status": 1
+  },
+  {
+    "nid": 1626,
+    "parent_nid": 23,
+    "name": "Kabupaten Kutai Timur",
+    "serial": 6408,
+    "type": 2,
+    "latitude": 0.9433774,
+    "longitude": 116.9852422,
+    "status": 1
+  },
+  {
+    "nid": 1627,
+    "parent_nid": 23,
+    "name": "Kabupaten Berau",
+    "serial": 6403,
+    "type": 2,
+    "latitude": 2.0450883,
+    "longitude": 117.3616476,
+    "status": 1
+  },
+  {
+    "nid": 1628,
+    "parent_nid": 23,
+    "name": "Kabupaten Malinau",
+    "serial": 6406,
+    "type": 2,
+    "latitude": 3.584221,
+    "longitude": 116.647797,
+    "status": 1
+  },
+  {
+    "nid": 1629,
+    "parent_nid": 23,
+    "name": "Kabupaten Bulungan",
+    "serial": 6404,
+    "type": 2,
+    "latitude": 2.9042476,
+    "longitude": 116.9852422,
+    "status": 1
+  },
+  {
+    "nid": 1630,
+    "parent_nid": 23,
+    "name": "Kabupaten Nunukan",
+    "serial": 6405,
+    "type": 2,
+    "latitude": 4.0609227,
+    "longitude": 117.666952,
+    "status": 1
+  },
+  {
+    "nid": 1631,
+    "parent_nid": 23,
+    "name": "Kabupaten Penajam Paser Utara",
+    "serial": 6409,
+    "type": 2,
+    "latitude": -1.2917094,
+    "longitude": 116.5137964,
+    "status": 1
+  },
+  {
+    "nid": 1632,
+    "parent_nid": 23,
+    "name": "Kabupaten Tana Tidung",
+    "serial": 6410,
+    "type": 2,
+    "latitude": 3.551869,
+    "longitude": 117.0794082,
+    "status": 1
+  },
+  {
+    "nid": 1633,
+    "parent_nid": 23,
+    "name": "Kota Balikpapan",
+    "serial": 6471,
+    "type": 2,
+    "latitude": -1.2635389,
+    "longitude": 116.8278833,
+    "status": 1
+  },
+  {
+    "nid": 1634,
+    "parent_nid": 23,
+    "name": "Kota Samarinda",
+    "serial": 6472,
+    "type": 2,
+    "latitude": -0.502183,
+    "longitude": 117.153801,
+    "status": 1
+  },
+  {
+    "nid": 1635,
+    "parent_nid": 23,
+    "name": "Kota Tarakan",
+    "serial": 6473,
+    "type": 2,
+    "latitude": 3.3,
+    "longitude": 117.6333333,
+    "status": 1
+  },
+  {
+    "nid": 1636,
+    "parent_nid": 23,
+    "name": "Kota Bontang",
+    "serial": 6474,
+    "type": 2,
+    "latitude": 0.1333333,
+    "longitude": 117.5,
+    "status": 1
+  },
+  {
+    "nid": 1637,
+    "parent_nid": 24,
+    "name": "Kabupaten Bolaang Mongondow",
+    "serial": 7101,
+    "type": 2,
+    "latitude": 0.6870994,
+    "longitude": 124.0641419,
+    "status": 1
+  },
+  {
+    "nid": 1638,
+    "parent_nid": 24,
+    "name": "Kabupaten Minahasa",
+    "serial": 7102,
+    "type": 2,
+    "latitude": 1,
+    "longitude": 124.5833333,
+    "status": 1
+  },
+  {
+    "nid": 1639,
+    "parent_nid": 24,
+    "name": "Kabupaten Kepulauan Sangihe",
+    "serial": 7103,
+    "type": 2,
+    "latitude": 3.5303212,
+    "longitude": 125.5438967,
+    "status": 1
+  },
+  {
+    "nid": 1640,
+    "parent_nid": 24,
+    "name": "Kabupaten Kepulauan Talaud",
+    "serial": 7104,
+    "type": 2,
+    "latitude": 4.092,
+    "longitude": 126.768,
+    "status": 1
+  },
+  {
+    "nid": 1641,
+    "parent_nid": 24,
+    "name": "Kabupaten Minahasa Selatan",
+    "serial": 7105,
+    "type": 2,
+    "latitude": 1.0946773,
+    "longitude": 124.4641848,
+    "status": 1
+  },
+  {
+    "nid": 1642,
+    "parent_nid": 24,
+    "name": "Kabupaten Minahasa Utara",
+    "serial": 7106,
+    "type": 2,
+    "latitude": 1.5327973,
+    "longitude": 124.994751,
+    "status": 1
+  },
+  {
+    "nid": 1643,
+    "parent_nid": 24,
+    "name": "Kabupaten Bolaang Mongondow Utara",
+    "serial": 7108,
+    "type": 2,
+    "latitude": 0.818691,
+    "longitude": 123.5280072,
+    "status": 1
+  },
+  {
+    "nid": 1644,
+    "parent_nid": 24,
+    "name": "Kabupaten Siau Tagulandang Biaro",
+    "serial": 7109,
+    "type": 2,
+    "latitude": 2.345964,
+    "longitude": 125.4124355,
+    "status": 1
+  },
+  {
+    "nid": 1645,
+    "parent_nid": 24,
+    "name": "Kabupaten Minahasa Tenggara",
+    "serial": 7107,
+    "type": 2,
+    "latitude": 1.0278551,
+    "longitude": 124.7298765,
+    "status": 1
+  },
+  {
+    "nid": 1646,
+    "parent_nid": 24,
+    "name": "Kota Manado",
+    "serial": 7171,
+    "type": 2,
+    "latitude": 1.4917014,
+    "longitude": 124.842843,
+    "status": 1
+  },
+  {
+    "nid": 1647,
+    "parent_nid": 24,
+    "name": "Kota Bitung",
+    "serial": 7172,
+    "type": 2,
+    "latitude": 1.4553529,
+    "longitude": 125.204697,
+    "status": 1
+  },
+  {
+    "nid": 1648,
+    "parent_nid": 24,
+    "name": "Kota Tomohon",
+    "serial": 7173,
+    "type": 2,
+    "latitude": 1.3234131,
+    "longitude": 124.8384504,
+    "status": 1
+  },
+  {
+    "nid": 1649,
+    "parent_nid": 24,
+    "name": "Kota Kotamobagu",
+    "serial": 7174,
+    "type": 2,
+    "latitude": 0.7333333,
+    "longitude": 124.3166667,
+    "status": 1
+  },
+  {
+    "nid": 1650,
+    "parent_nid": 25,
+    "name": "Kabupaten Banggai Kepulauan",
+    "serial": 7207,
+    "type": 2,
+    "latitude": -1.6408137,
+    "longitude": 123.5504076,
+    "status": 1
+  },
+  {
+    "nid": 1651,
+    "parent_nid": 25,
+    "name": "Kabupaten Banggai",
+    "serial": 7201,
+    "type": 2,
+    "latitude": -1.6408137,
+    "longitude": 123.5504076,
+    "status": 1
+  },
+  {
+    "nid": 1652,
+    "parent_nid": 25,
+    "name": "Kabupaten Morowali",
+    "serial": 7206,
+    "type": 2,
+    "latitude": -2.3003072,
+    "longitude": 121.5370003,
+    "status": 1
+  },
+  {
+    "nid": 1653,
+    "parent_nid": 25,
+    "name": "Kabupaten Poso",
+    "serial": 7202,
+    "type": 2,
+    "latitude": -1.391922,
+    "longitude": 120.766998,
+    "status": 1
+  },
+  {
+    "nid": 1654,
+    "parent_nid": 25,
+    "name": "Kabupaten Donggala",
+    "serial": 7203,
+    "type": 2,
+    "latitude": -0.4233155,
+    "longitude": 119.8352303,
+    "status": 1
+  },
+  {
+    "nid": 1655,
+    "parent_nid": 25,
+    "name": "Kabupaten Toli-Toli",
+    "serial": 7204,
+    "type": 2,
+    "latitude": 0.8768231,
+    "longitude": 120.7579834,
+    "status": 1
+  },
+  {
+    "nid": 1656,
+    "parent_nid": 25,
+    "name": "Kabupaten Buol",
+    "serial": 7205,
+    "type": 2,
+    "latitude": 0.9695452,
+    "longitude": 121.3541631,
+    "status": 1
+  },
+  {
+    "nid": 1657,
+    "parent_nid": 25,
+    "name": "Kabupaten Parigi Moutong",
+    "serial": 7208,
+    "type": 2,
+    "latitude": 0.5817607,
+    "longitude": 120.8039474,
+    "status": 1
+  },
+  {
+    "nid": 1658,
+    "parent_nid": 25,
+    "name": "Kabupaten Tojo Una-Una",
+    "serial": 7209,
+    "type": 2,
+    "latitude": -1.098757,
+    "longitude": 121.5370003,
+    "status": 1
+  },
+  {
+    "nid": 1659,
+    "parent_nid": 25,
+    "name": "Kota Palu",
+    "serial": 7271,
+    "type": 2,
+    "latitude": -0.898583,
+    "longitude": 119.850601,
+    "status": 1
+  },
+  {
+    "nid": 1660,
+    "parent_nid": 26,
+    "name": "Kabupaten Selayar",
+    "serial": 7301,
+    "type": 2,
+    "latitude": -6,
+    "longitude": 120.5,
+    "status": 1
+  },
+  {
+    "nid": 1661,
+    "parent_nid": 26,
+    "name": "Kabupaten Bulukumba",
+    "serial": 7302,
+    "type": 2,
+    "latitude": -5.4329368,
+    "longitude": 120.2051096,
+    "status": 1
+  },
+  {
+    "nid": 1662,
+    "parent_nid": 26,
+    "name": "Kabupaten Bantaeng",
+    "serial": 7303,
+    "type": 2,
+    "latitude": -5.5169316,
+    "longitude": 120.0202964,
+    "status": 1
+  },
+  {
+    "nid": 1663,
+    "parent_nid": 26,
+    "name": "Kabupaten Jeneponto",
+    "serial": 7304,
+    "type": 2,
+    "latitude": -5.554579,
+    "longitude": 119.6730939,
+    "status": 1
+  },
+  {
+    "nid": 1664,
+    "parent_nid": 26,
+    "name": "Kabupaten Takalar",
+    "serial": 7305,
+    "type": 2,
+    "latitude": -5.4162493,
+    "longitude": 119.4875668,
+    "status": 1
+  },
+  {
+    "nid": 1665,
+    "parent_nid": 26,
+    "name": "Kabupaten Gowa",
+    "serial": 7306,
+    "type": 2,
+    "latitude": -5.3102888,
+    "longitude": 119.742604,
+    "status": 1
+  },
+  {
+    "nid": 1666,
+    "parent_nid": 26,
+    "name": "Kabupaten Sinjai",
+    "serial": 7307,
+    "type": 2,
+    "latitude": -5.2171961,
+    "longitude": 120.112735,
+    "status": 1
+  },
+  {
+    "nid": 1667,
+    "parent_nid": 26,
+    "name": "Kabupaten Maros",
+    "serial": 7309,
+    "type": 2,
+    "latitude": -4.94695,
+    "longitude": 119.578903,
+    "status": 1
+  },
+  {
+    "nid": 1668,
+    "parent_nid": 26,
+    "name": "Kabupaten Pangkajene Dan Kepulauan",
+    "serial": 7310,
+    "type": 2,
+    "latitude": -4.805035,
+    "longitude": 119.5571677,
+    "status": 1
+  },
+  {
+    "nid": 1669,
+    "parent_nid": 26,
+    "name": "Kabupaten Barru",
+    "serial": 7311,
+    "type": 2,
+    "latitude": -4.4172651,
+    "longitude": 119.6730939,
+    "status": 1
+  },
+  {
+    "nid": 1670,
+    "parent_nid": 26,
+    "name": "Kabupaten Bone",
+    "serial": 7308,
+    "type": 2,
+    "latitude": -2.083333,
+    "longitude": 120.216667,
+    "status": 1
+  },
+  {
+    "nid": 1671,
+    "parent_nid": 26,
+    "name": "Kabupaten Soppeng",
+    "serial": 7312,
+    "type": 2,
+    "latitude": -4.3518541,
+    "longitude": 119.9277947,
+    "status": 1
+  },
+  {
+    "nid": 1672,
+    "parent_nid": 26,
+    "name": "Kabupaten Wajo",
+    "serial": 7313,
+    "type": 2,
+    "latitude": -4.022229,
+    "longitude": 120.0665236,
+    "status": 1
+  },
+  {
+    "nid": 1673,
+    "parent_nid": 26,
+    "name": "Kabupaten Sidenreng Rappang",
+    "serial": 7314,
+    "type": 2,
+    "latitude": -3.7738981,
+    "longitude": 120.0202964,
+    "status": 1
+  },
+  {
+    "nid": 1674,
+    "parent_nid": 26,
+    "name": "Kabupaten Pinrang",
+    "serial": 7315,
+    "type": 2,
+    "latitude": -3.793071,
+    "longitude": 119.6408,
+    "status": 1
+  },
+  {
+    "nid": 1675,
+    "parent_nid": 26,
+    "name": "Kabupaten Enrekang",
+    "serial": 7316,
+    "type": 2,
+    "latitude": -3.563128,
+    "longitude": 119.7612,
+    "status": 1
+  },
+  {
+    "nid": 1676,
+    "parent_nid": 26,
+    "name": "Kabupaten Luwu",
+    "serial": 7317,
+    "type": 2,
+    "latitude": -3.3052214,
+    "longitude": 120.2512728,
+    "status": 1
+  },
+  {
+    "nid": 1677,
+    "parent_nid": 26,
+    "name": "Kabupaten Tana Toraja",
+    "serial": 7318,
+    "type": 2,
+    "latitude": -3.0753003,
+    "longitude": 119.742604,
+    "status": 1
+  },
+  {
+    "nid": 1678,
+    "parent_nid": 26,
+    "name": "Kabupaten Luwu Utara",
+    "serial": 7322,
+    "type": 2,
+    "latitude": -2.2690446,
+    "longitude": 119.9740534,
+    "status": 1
+  },
+  {
+    "nid": 1679,
+    "parent_nid": 26,
+    "name": "Kabupaten Luwu Timur",
+    "serial": 7324,
+    "type": 2,
+    "latitude": -2.5825518,
+    "longitude": 121.1710389,
+    "status": 1
+  },
+  {
+    "nid": 1680,
+    "parent_nid": 26,
+    "name": "Kota Makassar",
+    "serial": 7371,
+    "type": 2,
+    "latitude": -5.1333333,
+    "longitude": 119.4166667,
+    "status": 1
+  },
+  {
+    "nid": 1681,
+    "parent_nid": 26,
+    "name": "Kota Pare-Pare",
+    "serial": 7372,
+    "type": 2,
+    "latitude": -4.0166667,
+    "longitude": 119.6236111,
+    "status": 1
+  },
+  {
+    "nid": 1682,
+    "parent_nid": 26,
+    "name": "Kota Palopo",
+    "serial": 7373,
+    "type": 2,
+    "latitude": -3,
+    "longitude": 120.2,
+    "status": 1
+  },
+  {
+    "nid": 1683,
+    "parent_nid": 27,
+    "name": "Kabupaten Buton",
+    "serial": 7404,
+    "type": 2,
+    "latitude": -5.3096355,
+    "longitude": 122.9888319,
+    "status": 1
+  },
+  {
+    "nid": 1684,
+    "parent_nid": 27,
+    "name": "Kabupaten Muna",
+    "serial": 7403,
+    "type": 2,
+    "latitude": -4.901629,
+    "longitude": 122.6277455,
+    "status": 1
+  },
+  {
+    "nid": 1685,
+    "parent_nid": 27,
+    "name": "Kabupaten Konawe",
+    "serial": 7402,
+    "type": 2,
+    "latitude": -3.9380432,
+    "longitude": 122.0837445,
+    "status": 1
+  },
+  {
+    "nid": 1686,
+    "parent_nid": 27,
+    "name": "Kabupaten Kolaka",
+    "serial": 7401,
+    "type": 2,
+    "latitude": -4.049665,
+    "longitude": 121.593803,
+    "status": 1
+  },
+  {
+    "nid": 1687,
+    "parent_nid": 27,
+    "name": "Kabupaten Konawe Selatan",
+    "serial": 7405,
+    "type": 2,
+    "latitude": -4.2027915,
+    "longitude": 122.4467238,
+    "status": 1
+  },
+  {
+    "nid": 1688,
+    "parent_nid": 27,
+    "name": "Kabupaten Bombana",
+    "serial": 7406,
+    "type": 2,
+    "latitude": -4.6543462,
+    "longitude": 121.9017954,
+    "status": 1
+  },
+  {
+    "nid": 1689,
+    "parent_nid": 27,
+    "name": "Kabupaten Wakatobi",
+    "serial": 7407,
+    "type": 2,
+    "latitude": -5.3264442,
+    "longitude": 123.5951925,
+    "status": 1
+  },
+  {
+    "nid": 1690,
+    "parent_nid": 27,
+    "name": "Kabupaten Kolaka Utara",
+    "serial": 7408,
+    "type": 2,
+    "latitude": -3.1347227,
+    "longitude": 121.1710389,
+    "status": 1
+  },
+  {
+    "nid": 1691,
+    "parent_nid": 27,
+    "name": "Kabupaten Buton Utara",
+    "serial": 7410,
+    "type": 2,
+    "latitude": -4.7023424,
+    "longitude": 123.0338767,
+    "status": 1
+  },
+  {
+    "nid": 1692,
+    "parent_nid": 27,
+    "name": "Kabupaten Konawe Utara",
+    "serial": 7409,
+    "type": 2,
+    "latitude": -3.3803291,
+    "longitude": 122.0837445,
+    "status": 1
+  },
+  {
+    "nid": 1693,
+    "parent_nid": 27,
+    "name": "Kota Kendari",
+    "serial": 7471,
+    "type": 2,
+    "latitude": -3.972201,
+    "longitude": 122.5149028,
+    "status": 1
+  },
+  {
+    "nid": 1694,
+    "parent_nid": 27,
+    "name": "Kota Bau-Bau",
+    "serial": 7472,
+    "type": 2,
+    "latitude": -5.46667,
+    "longitude": 122.633,
+    "status": 1
+  },
+  {
+    "nid": 1695,
+    "parent_nid": 28,
+    "name": "Kabupaten Boalemo",
+    "serial": 7502,
+    "type": 2,
+    "latitude": 0.7013419,
+    "longitude": 122.2653887,
+    "status": 1
+  },
+  {
+    "nid": 1696,
+    "parent_nid": 28,
+    "name": "Kabupaten Gorontalo",
+    "serial": 7501,
+    "type": 2,
+    "latitude": 0.5333333,
+    "longitude": 123.0666667,
+    "status": 1
+  },
+  {
+    "nid": 1697,
+    "parent_nid": 28,
+    "name": "Kabupaten Pohuwato",
+    "serial": 7504,
+    "type": 2,
+    "latitude": 0.7055278,
+    "longitude": 121.7195459,
+    "status": 1
+  },
+  {
+    "nid": 1698,
+    "parent_nid": 28,
+    "name": "Kabupaten Bone Bolango",
+    "serial": 7503,
+    "type": 2,
+    "latitude": 0.5657885,
+    "longitude": 123.3486147,
+    "status": 1
+  },
+  {
+    "nid": 1699,
+    "parent_nid": 28,
+    "name": "Kabupaten Gorontalo Utara",
+    "serial": 7505,
+    "type": 2,
+    "latitude": 0.9252647,
+    "longitude": 122.4920088,
+    "status": 1
+  },
+  {
+    "nid": 1700,
+    "parent_nid": 28,
+    "name": "Kota Gorontalo",
+    "serial": 7571,
+    "type": 2,
+    "latitude": 0.5333333,
+    "longitude": 123.0666667,
+    "status": 1
+  },
+  {
+    "nid": 1701,
+    "parent_nid": 29,
+    "name": "Kabupaten Majene",
+    "serial": 7605,
+    "type": 2,
+    "latitude": -3.0297251,
+    "longitude": 118.9062794,
+    "status": 1
+  },
+  {
+    "nid": 1702,
+    "parent_nid": 29,
+    "name": "Kabupaten Polewali Mandar",
+    "serial": 7604,
+    "type": 2,
+    "latitude": -3.3419323,
+    "longitude": 119.1390642,
+    "status": 1
+  },
+  {
+    "nid": 1703,
+    "parent_nid": 29,
+    "name": "Kabupaten Mamasa",
+    "serial": 7603,
+    "type": 2,
+    "latitude": -2.960135,
+    "longitude": 119.368202,
+    "status": 1
+  },
+  {
+    "nid": 1704,
+    "parent_nid": 29,
+    "name": "Kabupaten Mamuju",
+    "serial": 7602,
+    "type": 2,
+    "latitude": -2.7293364,
+    "longitude": 118.9295737,
+    "status": 1
+  },
+  {
+    "nid": 1705,
+    "parent_nid": 29,
+    "name": "Kabupaten Mamuju Utara",
+    "serial": 7601,
+    "type": 2,
+    "latitude": -1.5264542,
+    "longitude": 119.5107708,
+    "status": 1
+  },
+  {
+    "nid": 1706,
+    "parent_nid": 30,
+    "name": "Kabupaten Maluku Tenggara Barat",
+    "serial": 8103,
+    "type": 2,
+    "latitude": -7.5322642,
+    "longitude": 131.3611121,
+    "status": 1
+  },
+  {
+    "nid": 1707,
+    "parent_nid": 30,
+    "name": "Kabupaten Maluku Tenggara",
+    "serial": 8102,
+    "type": 2,
+    "latitude": -5.7512455,
+    "longitude": 132.7271587,
+    "status": 1
+  },
+  {
+    "nid": 1708,
+    "parent_nid": 30,
+    "name": "Kabupaten Maluku Tengah",
+    "serial": 8101,
+    "type": 2,
+    "latitude": -3.0166501,
+    "longitude": 129.4864411,
+    "status": 1
+  },
+  {
+    "nid": 1709,
+    "parent_nid": 30,
+    "name": "Kabupaten Buru Selatan",
+    "serial": 8109,
+    "type": 2,
+    "latitude": -3.3927754,
+    "longitude": 126.7819505,
+    "status": 1
+  },
+  {
+    "nid": 1710,
+    "parent_nid": 30,
+    "name": "Kabupaten Kepulauan Aru",
+    "serial": 8107,
+    "type": 2,
+    "latitude": -6.1946502,
+    "longitude": 134.5501935,
+    "status": 1
+  },
+  {
+    "nid": 1711,
+    "parent_nid": 30,
+    "name": "Kabupaten Seram Bagian Barat",
+    "serial": 8106,
+    "type": 2,
+    "latitude": -3.1271575,
+    "longitude": 128.4008357,
+    "status": 1
+  },
+  {
+    "nid": 1712,
+    "parent_nid": 30,
+    "name": "Kabupaten Seram Bagian Timur",
+    "serial": 8105,
+    "type": 2,
+    "latitude": -3.4150761,
+    "longitude": 130.390488,
+    "status": 1
+  },
+  {
+    "nid": 1713,
+    "parent_nid": 30,
+    "name": "Kota Ambon",
+    "serial": 8171,
+    "type": 2,
+    "latitude": -3.65607,
+    "longitude": 128.166419,
+    "status": 1
+  },
+  {
+    "nid": 1714,
+    "parent_nid": 30,
+    "name": "KotaTual",
+    "serial": 8172,
+    "type": 2,
+    "latitude": -5.640851,
+    "longitude": 132.7475093,
+    "status": 1
+  },
+  {
+    "nid": 1715,
+    "parent_nid": 31,
+    "name": "Kabupaten Halmahera Barat",
+    "serial": 8201,
+    "type": 2,
+    "latitude": 1.3121235,
+    "longitude": 128.4849923,
+    "status": 1
+  },
+  {
+    "nid": 1716,
+    "parent_nid": 31,
+    "name": "Kabupaten Halmahera Tengah",
+    "serial": 8202,
+    "type": 2,
+    "latitude": 1.3121235,
+    "longitude": 128.4849923,
+    "status": 1
+  },
+  {
+    "nid": 1717,
+    "parent_nid": 31,
+    "name": "Kabupaten Kepulauan Sula",
+    "serial": 8205,
+    "type": 2,
+    "latitude": -1.8666667,
+    "longitude": 125.3666667,
+    "status": 1
+  },
+  {
+    "nid": 1718,
+    "parent_nid": 31,
+    "name": "Kabupaten Halmahera Selatan",
+    "serial": 8204,
+    "type": 2,
+    "latitude": 1.3121235,
+    "longitude": 128.4849923,
+    "status": 1
+  },
+  {
+    "nid": 1719,
+    "parent_nid": 31,
+    "name": "Kabupaten Halmahera Utara",
+    "serial": 8203,
+    "type": 2,
+    "latitude": 1.3121235,
+    "longitude": 128.4849923,
+    "status": 1
+  },
+  {
+    "nid": 1720,
+    "parent_nid": 31,
+    "name": "Kabupaten Halmahera Timur",
+    "serial": 8206,
+    "type": 2,
+    "latitude": 1.3121235,
+    "longitude": 128.4849923,
+    "status": 1
+  },
+  {
+    "nid": 1721,
+    "parent_nid": 31,
+    "name": "Kota Ternate",
+    "serial": 8271,
+    "type": 2,
+    "latitude": 0.7833333,
+    "longitude": 127.3666667,
+    "status": 1
+  },
+  {
+    "nid": 1722,
+    "parent_nid": 31,
+    "name": "Kota Tidore Kepulauan",
+    "serial": 8272,
+    "type": 2,
+    "latitude": 0.6833333,
+    "longitude": 127.4,
+    "status": 1
+  },
+  {
+    "nid": 1723,
+    "parent_nid": 32,
+    "name": "Kabupaten Fakfak",
+    "serial": 9203,
+    "type": 2,
+    "latitude": -2.885237,
+    "longitude": 132.2658282,
+    "status": 1
+  },
+  {
+    "nid": 1724,
+    "parent_nid": 32,
+    "name": "Kabupaten Kaimana",
+    "serial": 9208,
+    "type": 2,
+    "latitude": -3.660925,
+    "longitude": 133.774506,
+    "status": 1
+  },
+  {
+    "nid": 1725,
+    "parent_nid": 32,
+    "name": "Kabupaten Teluk Wondama",
+    "serial": 9207,
+    "type": 2,
+    "latitude": -2.8551699,
+    "longitude": 134.3236557,
+    "status": 1
+  },
+  {
+    "nid": 1726,
+    "parent_nid": 32,
+    "name": "Kabupaten Teluk Bintuni",
+    "serial": 9206,
+    "type": 2,
+    "latitude": -1.9056848,
+    "longitude": 133.329466,
+    "status": 1
+  },
+  {
+    "nid": 1727,
+    "parent_nid": 32,
+    "name": "Kabupaten Manokwari",
+    "serial": 9202,
+    "type": 2,
+    "latitude": -0.8614531,
+    "longitude": 134.0620421,
+    "status": 1
+  },
+  {
+    "nid": 1728,
+    "parent_nid": 32,
+    "name": "Kabupaten Sorong Selatan",
+    "serial": 9204,
+    "type": 2,
+    "latitude": -0.8666667,
+    "longitude": 131.25,
+    "status": 1
+  },
+  {
+    "nid": 1729,
+    "parent_nid": 32,
+    "name": "Kota Sorong",
+    "serial": 9271,
+    "type": 2,
+    "latitude": -0.8666667,
+    "longitude": 131.25,
+    "status": 1
+  },
+  {
+    "nid": 1730,
+    "parent_nid": 32,
+    "name": "Kabupaten Raja Ampat",
+    "serial": 9205,
+    "type": 2,
+    "latitude": -1.0915151,
+    "longitude": 130.8778586,
+    "status": 1
+  },
+  {
+    "nid": 1731,
+    "parent_nid": 32,
+    "name": "Kabupaten Sorong",
+    "serial": 9201,
+    "type": 2,
+    "latitude": -0.8666667,
+    "longitude": 131.25,
+    "status": 1
+  },
+  {
+    "nid": 1732,
+    "parent_nid": 33,
+    "name": "Kabupaten Merauke",
+    "serial": 9101,
+    "type": 2,
+    "latitude": -8.4960406,
+    "longitude": 140.3945527,
+    "status": 1
+  },
+  {
+    "nid": 1733,
+    "parent_nid": 33,
+    "name": "Kabupaten Jayawijaya",
+    "serial": 9102,
+    "type": 2,
+    "latitude": -4.0004481,
+    "longitude": 138.7995122,
+    "status": 1
+  },
+  {
+    "nid": 1734,
+    "parent_nid": 33,
+    "name": "Kabupaten Jayapura",
+    "serial": 9103,
+    "type": 2,
+    "latitude": -2.533,
+    "longitude": 140.717,
+    "status": 1
+  },
+  {
+    "nid": 1735,
+    "parent_nid": 33,
+    "name": "Kabupaten Nabire",
+    "serial": 9104,
+    "type": 2,
+    "latitude": -3.5095462,
+    "longitude": 135.7520985,
+    "status": 1
+  },
+  {
+    "nid": 1736,
+    "parent_nid": 33,
+    "name": "Kabupaten Kepulauan Yapen",
+    "serial": 9105,
+    "type": 2,
+    "latitude": -1.7469359,
+    "longitude": 136.1709012,
+    "status": 1
+  },
+  {
+    "nid": 1737,
+    "parent_nid": 33,
+    "name": "Kabupaten Biak Numfor",
+    "serial": 9106,
+    "type": 2,
+    "latitude": -1.0381022,
+    "longitude": 135.9800848,
+    "status": 1
+  },
+  {
+    "nid": 1738,
+    "parent_nid": 33,
+    "name": "Kabupaten Paniai",
+    "serial": 9108,
+    "type": 2,
+    "latitude": -3.7876441,
+    "longitude": 136.3624686,
+    "status": 1
+  },
+  {
+    "nid": 1739,
+    "parent_nid": 33,
+    "name": "Kabupaten Puncak Jaya",
+    "serial": 9107,
+    "type": 2,
+    "latitude": -4.0836111,
+    "longitude": 137.1847222,
+    "status": 1
+  },
+  {
+    "nid": 1740,
+    "parent_nid": 33,
+    "name": "Kabupaten Mimika",
+    "serial": 9109,
+    "type": 2,
+    "latitude": -4.4553223,
+    "longitude": 137.1362125,
+    "status": 1
+  },
+  {
+    "nid": 1741,
+    "parent_nid": 33,
+    "name": "Kabupaten Boven Digoel",
+    "serial": 9116,
+    "type": 2,
+    "latitude": -5.7400018,
+    "longitude": 140.3481835,
+    "status": 1
+  },
+  {
+    "nid": 1742,
+    "parent_nid": 33,
+    "name": "Kabupaten Mappi",
+    "serial": 9117,
+    "type": 2,
+    "latitude": -7.102232,
+    "longitude": 139.396393,
+    "status": 1
+  },
+  {
+    "nid": 1743,
+    "parent_nid": 33,
+    "name": "Kabupaten Asmat",
+    "serial": 9118,
+    "type": 2,
+    "latitude": -5.0573958,
+    "longitude": 138.3988186,
+    "status": 1
+  },
+  {
+    "nid": 1744,
+    "parent_nid": 33,
+    "name": "Kabupaten Yahukimo",
+    "serial": 9113,
+    "type": 2,
+    "latitude": -4.4939717,
+    "longitude": 139.5279996,
+    "status": 1
+  },
+  {
+    "nid": 1745,
+    "parent_nid": 33,
+    "name": "Kabupaten Pegunungan Bintang",
+    "serial": 9112,
+    "type": 2,
+    "latitude": -4.5589872,
+    "longitude": 140.5135589,
+    "status": 1
+  },
+  {
+    "nid": 1746,
+    "parent_nid": 33,
+    "name": "Kabupaten Tolikara",
+    "serial": 9114,
+    "type": 2,
+    "latitude": -3.481132,
+    "longitude": 138.4787258,
+    "status": 1
+  },
+  {
+    "nid": 1747,
+    "parent_nid": 33,
+    "name": "Kabupaten Sarmi",
+    "serial": 9110,
+    "type": 2,
+    "latitude": -1.868727,
+    "longitude": 138.743607,
+    "status": 1
+  },
+  {
+    "nid": 1748,
+    "parent_nid": 33,
+    "name": "Kabupaten Keerom",
+    "serial": 9111,
+    "type": 2,
+    "latitude": -3.3449536,
+    "longitude": 140.7624493,
+    "status": 1
+  },
+  {
+    "nid": 1749,
+    "parent_nid": 33,
+    "name": "Kabupaten Waropen",
+    "serial": 9115,
+    "type": 2,
+    "latitude": -2.8435717,
+    "longitude": 136.670534,
+    "status": 1
+  },
+  {
+    "nid": 1750,
+    "parent_nid": 33,
+    "name": "Kabupaten Supiori",
+    "serial": 9119,
+    "type": 2,
+    "latitude": -0.7295099,
+    "longitude": 135.6385125,
+    "status": 1
+  },
+  {
+    "nid": 1751,
+    "parent_nid": 33,
+    "name": "Kabupaten Mamberamo Raya",
+    "serial": 9120,
+    "type": 2,
+    "latitude": -2.5331255,
+    "longitude": 137.7637565,
+    "status": 1
+  },
+  {
+    "nid": 1752,
+    "parent_nid": 33,
+    "name": "Kota Jayapura",
+    "serial": 9171,
+    "type": 2,
+    "latitude": -2.533,
+    "longitude": 140.717,
+    "status": 1
+  },
+  {
+    "nid": 1753,
+    "parent_nid": 2,
+    "name": "Kabupaten Labuhanbatu Utara",
+    "serial": 1223,
+    "type": 2,
+    "latitude": 2.3465638,
+    "longitude": 99.8124935,
+    "status": 1
+  },
+  {
+    "nid": 1754,
+    "parent_nid": 2,
+    "name": "Kabupaten Labuhanbatu Selatan",
+    "serial": 1222,
+    "type": 2,
+    "latitude": 1.8799353,
+    "longitude": 100.1703257,
+    "status": 1
+  },
+  {
+    "nid": 1756,
+    "parent_nid": 2,
+    "name": "Kabupaten Nias Utara",
+    "serial": 1224,
+    "type": 2,
+    "latitude": 1.1255279,
+    "longitude": 97.5247243,
+    "status": 1
+  },
+  {
+    "nid": 1757,
+    "parent_nid": 2,
+    "name": "Kabupaten Nias Barat",
+    "serial": 1225,
+    "type": 2,
+    "latitude": 1.1255279,
+    "longitude": 97.5247243,
+    "status": 1
+  },
+  {
+    "nid": 1758,
+    "parent_nid": 2,
+    "name": "Kota Gunungsitoli",
+    "serial": 1278,
+    "type": 2,
+    "latitude": 1.281964,
+    "longitude": 97.61594,
+    "status": 1
+  },
+  {
+    "nid": 1759,
+    "parent_nid": 4,
+    "name": "Kabupaten Kepulauan Meranti",
+    "serial": 1410,
+    "type": 2,
+    "latitude": 0.9208765,
+    "longitude": 102.6675575,
+    "status": 1
+  },
+  {
+    "nid": 1760,
+    "parent_nid": 5,
+    "name": "Kota Sungai Penuh",
+    "serial": 1572,
+    "type": 2,
+    "latitude": -2.06314,
+    "longitude": 101.387199,
+    "status": 1
+  },
+  {
+    "nid": 1761,
+    "parent_nid": 7,
+    "name": "Kabupaten Bengkulu Tengah",
+    "serial": 1709,
+    "type": 2,
+    "latitude": -3.7955556,
+    "longitude": 102.2591667,
+    "status": 1
+  },
+  {
+    "nid": 1762,
+    "parent_nid": 8,
+    "name": "Kabupaten Tulangbawang Barat",
+    "serial": 1806,
+    "type": 2,
+    "latitude": -4.5256967,
+    "longitude": 105.0791228,
+    "status": 1
+  },
+  {
+    "nid": 1763,
+    "parent_nid": 8,
+    "name": "Kabupaten Pringsewu",
+    "serial": 1810,
+    "type": 2,
+    "latitude": -5.3539884,
+    "longitude": 104.9622498,
+    "status": 1
+  },
+  {
+    "nid": 1764,
+    "parent_nid": 8,
+    "name": "Kabupaten Mesuji",
+    "serial": 1811,
+    "type": 2,
+    "latitude": -4.0044783,
+    "longitude": 105.3131185,
+    "status": 1
+  },
+  {
+    "nid": 1765,
+    "parent_nid": 10,
+    "name": "Kabupaten Lingga",
+    "serial": 2104,
+    "type": 2,
+    "latitude": -0.1627686,
+    "longitude": 104.6354631,
+    "status": 1
+  },
+  {
+    "nid": 1766,
+    "parent_nid": 10,
+    "name": "Kabupaten Anambas",
+    "serial": 2105,
+    "type": 2,
+    "latitude": 3.1055459,
+    "longitude": 105.6537231,
+    "status": 1
+  },
+  {
+    "nid": 1767,
+    "parent_nid": 14,
+    "name": "Kabupaten Sleman",
+    "serial": 3404,
+    "type": 2,
+    "latitude": -7.716165,
+    "longitude": 110.335403,
+    "status": 1
+  },
+  {
+    "nid": 1768,
+    "parent_nid": 16,
+    "name": "Kota Tangerang Selatan",
+    "serial": 3674,
+    "type": 2,
+    "latitude": -6.2888889,
+    "longitude": 106.7180556,
+    "status": 1
+  },
+  {
+    "nid": 1769,
+    "parent_nid": 18,
+    "name": "Kabupaten Lombok Utara",
+    "serial": 5208,
+    "type": 2,
+    "latitude": -8.3739076,
+    "longitude": 116.2777073,
+    "status": 1
+  },
+  {
+    "nid": 1770,
+    "parent_nid": 19,
+    "name": "Kabupaten Sabu Raijua",
+    "serial": 5302,
+    "type": 2,
+    "latitude": -10.5541116,
+    "longitude": 121.8334868,
+    "status": 1
+  },
+  {
+    "nid": 1771,
+    "parent_nid": 24,
+    "name": "Kabupaten Bolang Mongondow Timur",
+    "serial": 7110,
+    "type": 2,
+    "latitude": 0.7152651,
+    "longitude": 124.4641848,
+    "status": 1
+  },
+  {
+    "nid": 1772,
+    "parent_nid": 24,
+    "name": "Kabupaten Bolang Mongondow Selatan",
+    "serial": 7111,
+    "type": 2,
+    "latitude": 0.4053215,
+    "longitude": 123.8411288,
+    "status": 1
+  },
+  {
+    "nid": 1773,
+    "parent_nid": 25,
+    "name": "Kabupaten Sigi",
+    "serial": 7210,
+    "type": 2,
+    "latitude": -1.3834127,
+    "longitude": 120.0665236,
+    "status": 1
+  },
+  {
+    "nid": 1774,
+    "parent_nid": 26,
+    "name": "Kabupaten Toraja Utara",
+    "serial": 7326,
+    "type": 2,
+    "latitude": -2.8621942,
+    "longitude": 119.8352303,
+    "status": 1
+  },
+  {
+    "nid": 1775,
+    "parent_nid": 30,
+    "name": "Kabupaten Maluku Barat Daya",
+    "serial": 8108,
+    "type": 2,
+    "latitude": -7.7851588,
+    "longitude": 126.3498097,
+    "status": 1
+  },
+  {
+    "nid": 1776,
+    "parent_nid": 30,
+    "name": "Kabupaten Buru",
+    "serial": 8104,
+    "type": 2,
+    "latitude": -3.3927754,
+    "longitude": 126.7819505,
+    "status": 1
+  },
+  {
+    "nid": 1778,
+    "parent_nid": 31,
+    "name": "Kabupaten Pulau Morota",
+    "serial": 8207,
+    "type": 2,
+    "latitude": 2.3656672,
+    "longitude": 128.4008357,
+    "status": 1
+  },
+  {
+    "nid": 1789,
+    "parent_nid": 32,
+    "name": "Kabupaten Tambrauw",
+    "serial": 9209,
+    "type": 2,
+    "latitude": -0.781856,
+    "longitude": 132.3938375,
+    "status": 1
+  },
+  {
+    "nid": 1790,
+    "parent_nid": 32,
+    "name": "Kabupaten Maybat",
+    "serial": 9210,
+    "type": 2,
+    "latitude": 3.1472,
+    "longitude": 101.6997,
+    "status": 1
+  },
+  {
+    "nid": 1791,
+    "parent_nid": 33,
+    "name": "Kabupaten Memberamo Tengah",
+    "serial": 9121,
+    "type": 2,
+    "latitude": -2.3745692,
+    "longitude": 138.3190276,
+    "status": 1
+  },
+  {
+    "nid": 1792,
+    "parent_nid": 33,
+    "name": "Kabupaten Yalimo",
+    "serial": 9122,
+    "type": 2,
+    "latitude": -3.7852847,
+    "longitude": 139.4466005,
+    "status": 1
+  },
+  {
+    "nid": 1793,
+    "parent_nid": 33,
+    "name": "Kabupaten Lanny Jaya",
+    "serial": 9123,
+    "type": 2,
+    "latitude": -3.971033,
+    "longitude": 138.3190276,
+    "status": 1
+  },
+  {
+    "nid": 1794,
+    "parent_nid": 33,
+    "name": "Kabupaten Nduga",
+    "serial": 9124,
+    "type": 2,
+    "latitude": -4.4069496,
+    "longitude": 138.2393528,
+    "status": 1
+  },
+  {
+    "nid": 1795,
+    "parent_nid": 33,
+    "name": "Kabupaten Puncak",
+    "serial": 9125,
+    "type": 2,
+    "latitude": -6.7125476,
+    "longitude": 106.9542425,
+    "status": 1
+  },
+  {
+    "nid": 1796,
+    "parent_nid": 33,
+    "name": "Kabupaten Dogiyai",
+    "serial": 9126,
+    "type": 2,
+    "latitude": -4.0193872,
+    "longitude": 135.9610446,
+    "status": 1
+  },
+  {
+    "nid": 1797,
+    "parent_nid": 33,
+    "name": "Kabupaten Intan Jaya",
+    "serial": 9127,
+    "type": 2,
+    "latitude": -3.5076422,
+    "longitude": 136.7478493,
+    "status": 1
+  },
+  {
+    "nid": 1798,
+    "parent_nid": 33,
+    "name": "Kabupaten Deiyai",
+    "serial": 9128,
+    "type": 2,
+    "latitude": -4.0974893,
+    "longitude": 136.4393054,
+    "status": 1
+  }
+]
