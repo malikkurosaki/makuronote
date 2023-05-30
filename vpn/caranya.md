@@ -47,6 +47,8 @@ set_var EASYRSA_SSL_CONF        "$EASYRSA/openssl-easyrsa.cnf"
 set_var EASYRSA_DIGEST          "sha256"
 Silahkan Anda sesuaikan pada baris yang saya beri kotak merah, atau Anda biarkan saja juga tidak apa-apa.
 
+![gambar](edit vars.png)
+
 Cara Install OpenVPN di VPS Debian 10 64 bit
 
 
