@@ -490,5 +490,11 @@ export default function useUser({
 SESSION_SECRET="1234567890"
 ```
 
+### .env.development / .env.production
+
+```env
+SECRET_COOKIE_PASSWORD=2gyZ3GDw3LHZQKDhPmPDL3sjREVRXPr8
+```
+
 
 
