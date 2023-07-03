@@ -483,5 +483,12 @@ export default function useUser({
 }
 ```
 
+### .env
+
+```env
+# SESSION SECRET
+SESSION_SECRET="1234567890"
+```
+
 
 
