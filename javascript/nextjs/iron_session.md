@@ -1,3 +1,10 @@
+install 
+
+```bash
+yarn add iron-session
+```
+
+
 ### pages/login.tsx
 ```tsx
 import React, { useState } from 'react'
