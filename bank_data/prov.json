@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "name": "Aceh"
+  },
+  {
+    "id": 2,
+    "name": "Bali"
+  },
+  {
+    "id": 3,
+    "name": "Kapulauan Bangka Belitung"
+  },
+  {
+    "id": 4,
+    "name": "Banten"
+  },
+  {
+    "id": 5,
+    "name": "Bengkulu"
+  },
+  {
+    "id": 6,
+    "name": "Jawa Tengah"
+  },
+  {
+    "id": 7,
+    "name": "Kalimantan Tengah"
+  },
+  {
+    "id": 8,
+    "name": "Sulawesi Tengah"
+  },
+  {
+    "id": 9,
+    "name": "Jawa Timur"
+  },
+  {
+    "id": 10,
+    "name": "Kalimantan Timur"
+  },
+  {
+    "id": 11,
+    "name": "Nusa Tenggara Timur"
+  },
+  {
+    "id": 12,
+    "name": "Gorontalo"
+  },
+  {
+    "id": 13,
+    "name": "DKI Jakarta"
+  },
+  {
+    "id": 14,
+    "name": "Jambi"
+  },
+  {
+    "id": 15,
+    "name": "Lampung"
+  },
+  {
+    "id": 16,
+    "name": "Maluku"
+  },
+  {
+    "id": 17,
+    "name": "Kalimantan Utara"
+  },
+  {
+    "id": 18,
+    "name": "Maluku Utara"
+  },
+  {
+    "id": 19,
+    "name": "Sulawesi Utara"
+  },
+  {
+    "id": 20,
+    "name": "Sumatera Utara"
+  },
+  {
+    "id": 21,
+    "name": "Papua"
+  },
+  {
+    "id": 22,
+    "name": "Riau"
+  },
+  {
+    "id": 23,
+    "name": "Kapulauan Riau"
+  },
+  {
+    "id": 24,
+    "name": "Sulawesi Tenggara"
+  },
+  {
+    "id": 25,
+    "name": "Kalimantan Selatan"
+  },
+  {
+    "id": 26,
+    "name": "Sulawesi Selatan"
+  },
+  {
+    "id": 27,
+    "name": "Sumatera Selatan"
+  },
+  {
+    "id": 28,
+    "name": "Jawa Barat"
+  },
+  {
+    "id": 29,
+    "name": "Kalimantan Barat"
+  },
+  {
+    "id": 30,
+    "name": "Nusa Tenggara Barat"
+  },
+  {
+    "id": 31,
+    "name": "Papua Barat"
+  },
+  {
+    "id": 32,
+    "name": "Sulawesi Barat"
+  },
+  {
+    "id": 33,
+    "name": "Sumatera Barat"
+  },
+  {
+    "id": 34,
+    "name": "Daerah Istimewa Yogyakarta"
+  },
+  {
+    "id": 35,
+    "name": "Papua Selatan"
+  },
+  {
+    "id": 36,
+    "name": "Papua Tengah"
+  },
+  {
+    "id": 37,
+    "name": "Papua Pegunungan"
+  },
+  {
+    "id": 38,
+    "name": "Papua  Barat Daya"
+  }
+]
