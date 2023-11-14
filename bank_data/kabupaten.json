@@ -1,0 +1,3330 @@
+[
+ {
+   "Kode Kemendagri": 11.12,
+   "Kabupaten": "Kabupaten Aceh Barat Daya",
+   "Provinsi": "Aceh",
+   "Ibu Kota": "Blangpidie",
+   "Kecamatan": 9,
+   "Kelurahan/Desa": 152
+ },
+ {
+   "Kode Kemendagri": 11.05,
+   "Kabupaten": "Kabupaten Aceh Barat",
+   "Provinsi": "Aceh",
+   "Ibu Kota": "Meulaboh",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 321
+ },
+ {
+   "Kode Kemendagri": 11.06,
+   "Kabupaten": "Kabupaten Aceh Besar",
+   "Provinsi": "Aceh",
+   "Ibu Kota": "Kota Jantho",
+   "Kecamatan": 23,
+   "Kelurahan/Desa": 609
+ },
+ {
+   "Kode Kemendagri": 11.14,
+   "Kabupaten": "Kabupaten Aceh Jaya",
+   "Provinsi": "Aceh",
+   "Ibu Kota": "Calang",
+   "Kecamatan": 9,
+   "Kelurahan/Desa": 172
+ },
+ {
+   "Kode Kemendagri": 11.01,
+   "Kabupaten": "Kabupaten Aceh Selatan",
+   "Provinsi": "Aceh",
+   "Ibu Kota": "Tapak Tuan",
+   "Kecamatan": 18,
+   "Kelurahan/Desa": 260
+ },
+ {
+   "Kode Kemendagri": 11.1,
+   "Kabupaten": "Kabupaten Aceh Singkil",
+   "Provinsi": "Aceh",
+   "Ibu Kota": "Singkil",
+   "Kecamatan": 11,
+   "Kelurahan/Desa": 116
+ },
+ {
+   "Kode Kemendagri": 11.16,
+   "Kabupaten": "Kabupaten Aceh Tamiang",
+   "Provinsi": "Aceh",
+   "Ibu Kota": "Karang Baru",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 128
+ },
+ {
+   "Kode Kemendagri": 11.04,
+   "Kabupaten": "Kabupaten Aceh Tengah",
+   "Provinsi": "Aceh",
+   "Ibu Kota": "Takengon",
+   "Kecamatan": 14,
+   "Kelurahan/Desa": 295
+ },
+ {
+   "Kode Kemendagri": 11.02,
+   "Kabupaten": "Kabupaten Aceh Tenggara",
+   "Provinsi": "Aceh",
+   "Ibu Kota": "Kutacane",
+   "Kecamatan": 16,
+   "Kelurahan/Desa": 385
+ },
+ {
+   "Kode Kemendagri": 11.03,
+   "Kabupaten": "Kabupaten Aceh Timur",
+   "Provinsi": "Aceh",
+   "Ibu Kota": "Idi Rayeuk",
+   "Kecamatan": 24,
+   "Kelurahan/Desa": 513
+ },
+ {
+   "Kode Kemendagri": 11.08,
+   "Kabupaten": "Kabupaten Aceh Utara",
+   "Provinsi": "Aceh",
+   "Ibu Kota": "Lhoksukon",
+   "Kecamatan": 27,
+   "Kelurahan/Desa": 852
+ },
+ {
+   "Kode Kemendagri": 13.06,
+   "Kabupaten": "Kabupaten Agam",
+   "Provinsi": "Sumatera Barat",
+   "Ibu Kota": "Lubuk Basung",
+   "Kecamatan": 16,
+   "Kelurahan/Desa": 82
+ },
+ {
+   "Kode Kemendagri": 53.05,
+   "Kabupaten": "Kabupaten Alor",
+   "Provinsi": "Nusa Tenggara Timur",
+   "Ibu Kota": "Kalabahi",
+   "Kecamatan": 17,
+   "Kelurahan/Desa": 175
+ },
+ {
+   "Kode Kemendagri": 12.09,
+   "Kabupaten": "Kabupaten Asahan",
+   "Provinsi": "Sumatera Utara",
+   "Ibu Kota": "Kisaran",
+   "Kecamatan": 25,
+   "Kelurahan/Desa": 204
+ },
+ {
+   "Kode Kemendagri": 91.18,
+   "Kabupaten": "Kabupaten Asmat",
+   "Provinsi": "Papua Selatan",
+   "Ibu Kota": "Agats",
+   "Kecamatan": 19,
+   "Kelurahan/Desa": 221
+ },
+ {
+   "Kode Kemendagri": 51.03,
+   "Kabupaten": "Kabupaten Badung",
+   "Provinsi": "Bali",
+   "Ibu Kota": "Mengwi",
+   "Kecamatan": 6,
+   "Kelurahan/Desa": 62
+ },
+ {
+   "Kode Kemendagri": 63.11,
+   "Kabupaten": "Kabupaten Balangan",
+   "Provinsi": "Kalimantan Selatan",
+   "Ibu Kota": "Paringin",
+   "Kecamatan": 8,
+   "Kelurahan/Desa": 157
+ },
+ {
+   "Kode Kemendagri": 32.17,
+   "Kabupaten": "Kabupaten Bandung Barat",
+   "Provinsi": "Jawa Barat",
+   "Ibu Kota": "Ngamprah",
+   "Kecamatan": 16,
+   "Kelurahan/Desa": 165
+ },
+ {
+   "Kode Kemendagri": 32.04,
+   "Kabupaten": "Kabupaten Bandung",
+   "Provinsi": "Jawa Barat",
+   "Ibu Kota": "Soreang",
+   "Kecamatan": 31,
+   "Kelurahan/Desa": 280
+ },
+ {
+   "Kode Kemendagri": 72.01,
+   "Kabupaten": "Kabupaten Banggai",
+   "Provinsi": "Sulawesi Tengah",
+   "Ibu Kota": "Luwuk",
+   "Kecamatan": 23,
+   "Kelurahan/Desa": 337
+ },
+ {
+   "Kode Kemendagri": 72.07,
+   "Kabupaten": "Kabupaten Banggai Kepulauan",
+   "Provinsi": "Sulawesi Tengah",
+   "Ibu Kota": "Salakan",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 144
+ },
+ {
+   "Kode Kemendagri": 72.11,
+   "Kabupaten": "Kabupaten Banggai Laut",
+   "Provinsi": "Sulawesi Tengah",
+   "Ibu Kota": "Banggai",
+   "Kecamatan": 7,
+   "Kelurahan/Desa": 66
+ },
+ {
+   "Kode Kemendagri": 19.05,
+   "Kabupaten": "Kabupaten Bangka Barat",
+   "Provinsi": "Kepulauan Bangka Belitung",
+   "Ibu Kota": "Mentok, Bangka Barat",
+   "Kecamatan": 6,
+   "Kelurahan/Desa": 64
+ },
+ {
+   "Kode Kemendagri": 19.03,
+   "Kabupaten": "Kabupaten Bangka Selatan",
+   "Provinsi": "Kepulauan Bangka Belitung",
+   "Ibu Kota": "Toboali, Bangka Selatan",
+   "Kecamatan": 8,
+   "Kelurahan/Desa": 53
+ },
+ {
+   "Kode Kemendagri": 19.04,
+   "Kabupaten": "Kabupaten Bangka Tengah",
+   "Provinsi": "Kepulauan Bangka Belitung",
+   "Ibu Kota": "Koba, Bangka Tengah",
+   "Kecamatan": 6,
+   "Kelurahan/Desa": 63
+ },
+ {
+   "Kode Kemendagri": 19.01,
+   "Kabupaten": "Kabupaten Bangka",
+   "Provinsi": "Kepulauan Bangka Belitung",
+   "Ibu Kota": "Sungai Liat",
+   "Kecamatan": 8,
+   "Kelurahan/Desa": 81
+ },
+ {
+   "Kode Kemendagri": 35.26,
+   "Kabupaten": "Kabupaten Bangkalan",
+   "Provinsi": "Jawa Timur",
+   "Ibu Kota": "Bangkalan",
+   "Kecamatan": 18,
+   "Kelurahan/Desa": 281
+ },
+ {
+   "Kode Kemendagri": 51.06,
+   "Kabupaten": "Kabupaten Bangli",
+   "Provinsi": "Bali",
+   "Ibu Kota": "Bangli",
+   "Kecamatan": 4,
+   "Kelurahan/Desa": 72
+ },
+ {
+   "Kode Kemendagri": 63.03,
+   "Kabupaten": "Kabupaten Banjar",
+   "Provinsi": "Kalimantan Selatan",
+   "Ibu Kota": "Martapura",
+   "Kecamatan": 20,
+   "Kelurahan/Desa": 290
+ },
+ {
+   "Kode Kemendagri": 33.04,
+   "Kabupaten": "Kabupaten Banjarnegara",
+   "Provinsi": "Jawa Tengah",
+   "Ibu Kota": "Banjarnegara",
+   "Kecamatan": 20,
+   "Kelurahan/Desa": 278
+ },
+ {
+   "Kode Kemendagri": 73.03,
+   "Kabupaten": "Kabupaten Bantaeng",
+   "Provinsi": "Sulawesi Selatan",
+   "Ibu Kota": "Bantaeng",
+   "Kecamatan": 8,
+   "Kelurahan/Desa": 67
+ },
+ {
+   "Kode Kemendagri": 34.02,
+   "Kabupaten": "Kabupaten Bantul",
+   "Provinsi": "Yogyakarta",
+   "Ibu Kota": "Kecamatan Bantul",
+   "Kecamatan": 17,
+   "Kelurahan/Desa": 75
+ },
+ {
+   "Kode Kemendagri": 16.07,
+   "Kabupaten": "Kabupaten Banyuasin",
+   "Provinsi": "Sumatera Selatan",
+   "Ibu Kota": "Pangkalan Balai",
+   "Kecamatan": 19,
+   "Kelurahan/Desa": 304
+ },
+ {
+   "Kode Kemendagri": 33.02,
+   "Kabupaten": "Kabupaten Banyumas",
+   "Provinsi": "Jawa Tengah",
+   "Ibu Kota": "Purwokerto",
+   "Kecamatan": 27,
+   "Kelurahan/Desa": 331
+ },
+ {
+   "Kode Kemendagri": 35.1,
+   "Kabupaten": "Kabupaten Banyuwangi",
+   "Provinsi": "Jawa Timur",
+   "Ibu Kota": "Banyuwangi",
+   "Kecamatan": 25,
+   "Kelurahan/Desa": 217
+ },
+ {
+   "Kode Kemendagri": 63.04,
+   "Kabupaten": "Kabupaten Barito Kuala",
+   "Provinsi": "Kalimantan Selatan",
+   "Ibu Kota": "Marabahan",
+   "Kecamatan": 17,
+   "Kelurahan/Desa": 201
+ },
+ {
+   "Kode Kemendagri": 62.04,
+   "Kabupaten": "Kabupaten Barito Selatan",
+   "Provinsi": "Kalimantan Tengah",
+   "Ibu Kota": "Buntok",
+   "Kecamatan": 6,
+   "Kelurahan/Desa": 93
+ },
+ {
+   "Kode Kemendagri": 62.13,
+   "Kabupaten": "Kabupaten Barito Timur",
+   "Provinsi": "Kalimantan Tengah",
+   "Ibu Kota": "Tamiang",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 103
+ },
+ {
+   "Kode Kemendagri": 62.05,
+   "Kabupaten": "Kabupaten Barito Utara",
+   "Provinsi": "Kalimantan Tengah",
+   "Ibu Kota": "Muara Teweh",
+   "Kecamatan": 9,
+   "Kelurahan/Desa": 103
+ },
+ {
+   "Kode Kemendagri": 73.11,
+   "Kabupaten": "Kabupaten Barru",
+   "Provinsi": "Sulawesi Selatan",
+   "Ibu Kota": "Barru",
+   "Kecamatan": 7,
+   "Kelurahan/Desa": 55
+ },
+ {
+   "Kode Kemendagri": 33.25,
+   "Kabupaten": "Kabupaten Batang",
+   "Provinsi": "Jawa Tengah",
+   "Ibu Kota": "Batang",
+   "Kecamatan": 15,
+   "Kelurahan/Desa": 248
+ },
+ {
+   "Kode Kemendagri": 15.04,
+   "Kabupaten": "Kabupaten Batanghari",
+   "Provinsi": "Jambi",
+   "Ibu Kota": "Muara Bulian",
+   "Kecamatan": 8,
+   "Kelurahan/Desa": 124
+ },
+ {
+   "Kode Kemendagri": 12.19,
+   "Kabupaten": "Kabupaten Batubara",
+   "Provinsi": "Sumatera Utara",
+   "Ibu Kota": "Limapuluh",
+   "Kecamatan": 7,
+   "Kelurahan/Desa": 151
+ },
+ {
+   "Kode Kemendagri": 32.16,
+   "Kabupaten": "Kabupaten Bekasi",
+   "Provinsi": "Jawa Barat",
+   "Ibu Kota": "Cikarang",
+   "Kecamatan": 23,
+   "Kelurahan/Desa": 187
+ },
+ {
+   "Kode Kemendagri": 19.06,
+   "Kabupaten": "Kabupaten Belitung Timur",
+   "Provinsi": "Kepulauan Bangka Belitung",
+   "Ibu Kota": "Manggar, Belitung Timur",
+   "Kecamatan": 7,
+   "Kelurahan/Desa": 39
+ },
+ {
+   "Kode Kemendagri": 19.02,
+   "Kabupaten": "Kabupaten Belitung",
+   "Provinsi": "Kepulauan Bangka Belitung",
+   "Ibu Kota": "Tanjung Pandan",
+   "Kecamatan": 5,
+   "Kelurahan/Desa": 49
+ },
+ {
+   "Kode Kemendagri": 53.04,
+   "Kabupaten": "Kabupaten Belu",
+   "Provinsi": "Nusa Tenggara Timur",
+   "Ibu Kota": "Atambua",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 81
+ },
+ {
+   "Kode Kemendagri": 11.17,
+   "Kabupaten": "Kabupaten Bener Meriah",
+   "Provinsi": "Aceh",
+   "Ibu Kota": "Simpang Tiga Redelong",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 232
+ },
+ {
+   "Kode Kemendagri": 14.03,
+   "Kabupaten": "Kabupaten Bengkalis",
+   "Provinsi": "Riau",
+   "Ibu Kota": "Bengkalis",
+   "Kecamatan": 11,
+   "Kelurahan/Desa": 155
+ },
+ {
+   "Kode Kemendagri": 61.07,
+   "Kabupaten": "Kabupaten Bengkayang",
+   "Provinsi": "Kalimantan Barat",
+   "Ibu Kota": "Bengkayang",
+   "Kecamatan": 17,
+   "Kelurahan/Desa": 124
+ },
+ {
+   "Kode Kemendagri": 17.01,
+   "Kabupaten": "Kabupaten Bengkulu Selatan",
+   "Provinsi": "Bengkulu",
+   "Ibu Kota": "Kota Manna",
+   "Kecamatan": 11,
+   "Kelurahan/Desa": 158
+ },
+ {
+   "Kode Kemendagri": 17.09,
+   "Kabupaten": "Kabupaten Bengkulu Tengah",
+   "Provinsi": "Bengkulu",
+   "Ibu Kota": "Karang Tinggi",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 143
+ },
+ {
+   "Kode Kemendagri": 17.03,
+   "Kabupaten": "Kabupaten Bengkulu Utara",
+   "Provinsi": "Bengkulu",
+   "Ibu Kota": "Arga Makmur",
+   "Kecamatan": 19,
+   "Kelurahan/Desa": 220
+ },
+ {
+   "Kode Kemendagri": 64.03,
+   "Kabupaten": "Kabupaten Berau",
+   "Provinsi": "Kalimantan Timur",
+   "Ibu Kota": "Tanjungredep",
+   "Kecamatan": 13,
+   "Kelurahan/Desa": 110
+ },
+ {
+   "Kode Kemendagri": 91.06,
+   "Kabupaten": "Kabupaten Biak Numfor",
+   "Provinsi": "Papua",
+   "Ibu Kota": "Biak",
+   "Kecamatan": 19,
+   "Kelurahan/Desa": 268
+ },
+ {
+   "Kode Kemendagri": 52.06,
+   "Kabupaten": "Kabupaten Bima",
+   "Provinsi": "Nusa Tenggara Barat",
+   "Ibu Kota": "Raba",
+   "Kecamatan": 18,
+   "Kelurahan/Desa": 191
+ },
+ {
+   "Kode Kemendagri": 21.01,
+   "Kabupaten": "Kabupaten Bintan",
+   "Provinsi": "Kepulauan Riau",
+   "Ibu Kota": "Bandar Seri Bentan",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 51
+ },
+ {
+   "Kode Kemendagri": 11.11,
+   "Kabupaten": "Kabupaten Bireuen",
+   "Provinsi": "Aceh",
+   "Ibu Kota": "Bireuen",
+   "Kecamatan": 17,
+   "Kelurahan/Desa": 609
+ },
+ {
+   "Kode Kemendagri": 35.05,
+   "Kabupaten": "Kabupaten Blitar",
+   "Provinsi": "Jawa Timur",
+   "Ibu Kota": "Kanigoro",
+   "Kecamatan": 22,
+   "Kelurahan/Desa": 248
+ },
+ {
+   "Kode Kemendagri": 33.16,
+   "Kabupaten": "Kabupaten Blora",
+   "Provinsi": "Jawa Tengah",
+   "Ibu Kota": "Blora",
+   "Kecamatan": 16,
+   "Kelurahan/Desa": 295
+ },
+ {
+   "Kode Kemendagri": 75.02,
+   "Kabupaten": "Kabupaten Boalemo",
+   "Provinsi": "Gorontalo",
+   "Ibu Kota": "Marisa/Tilamuta",
+   "Kecamatan": 7,
+   "Kelurahan/Desa": 82
+ },
+ {
+   "Kode Kemendagri": 32.01,
+   "Kabupaten": "Kabupaten Bogor",
+   "Provinsi": "Jawa Barat",
+   "Ibu Kota": "Cibinong",
+   "Kecamatan": 40,
+   "Kelurahan/Desa": 435
+ },
+ {
+   "Kode Kemendagri": 35.22,
+   "Kabupaten": "Kabupaten Bojonegoro",
+   "Provinsi": "Jawa Timur",
+   "Ibu Kota": "Bojonegoro",
+   "Kecamatan": 28,
+   "Kelurahan/Desa": 430
+ },
+ {
+   "Kode Kemendagri": 71.01,
+   "Kabupaten": "Kabupaten Bolaang Mongondow",
+   "Provinsi": "Sulawesi Utara",
+   "Ibu Kota": "Kotamobagu",
+   "Kecamatan": 15,
+   "Kelurahan/Desa": 202
+ },
+ {
+   "Kode Kemendagri": 71.11,
+   "Kabupaten": "Kabupaten Bolaang Mongondow Selatan",
+   "Provinsi": "Sulawesi Utara",
+   "Ibu Kota": "Bolaang Uki",
+   "Kecamatan": 7,
+   "Kelurahan/Desa": 81
+ },
+ {
+   "Kode Kemendagri": 71.1,
+   "Kabupaten": "Kabupaten Bolaang Mongondow Timur",
+   "Provinsi": "Sulawesi Utara",
+   "Ibu Kota": "Tutuyan",
+   "Kecamatan": 7,
+   "Kelurahan/Desa": 81
+ },
+ {
+   "Kode Kemendagri": 71.08,
+   "Kabupaten": "Kabupaten Bolaang Mongondow Utara",
+   "Provinsi": "Sulawesi Utara",
+   "Ibu Kota": "Boroko",
+   "Kecamatan": 6,
+   "Kelurahan/Desa": 107
+ },
+ {
+   "Kode Kemendagri": 74.06,
+   "Kabupaten": "Kabupaten Bombana",
+   "Provinsi": "Sulawesi Tenggara",
+   "Ibu Kota": "Rumbia",
+   "Kecamatan": 22,
+   "Kelurahan/Desa": 143
+ },
+ {
+   "Kode Kemendagri": 35.11,
+   "Kabupaten": "Kabupaten Bondowoso",
+   "Provinsi": "Jawa Timur",
+   "Ibu Kota": "Bondowoso",
+   "Kecamatan": 23,
+   "Kelurahan/Desa": 219
+ },
+ {
+   "Kode Kemendagri": 75.03,
+   "Kabupaten": "Kabupaten Bone Bolango",
+   "Provinsi": "Gorontalo",
+   "Ibu Kota": "Suwawa",
+   "Kecamatan": 18,
+   "Kelurahan/Desa": 165
+ },
+ {
+   "Kode Kemendagri": 73.08,
+   "Kabupaten": "Kabupaten Bone",
+   "Provinsi": "Sulawesi Selatan",
+   "Ibu Kota": "Watampone",
+   "Kecamatan": 27,
+   "Kelurahan/Desa": 372
+ },
+ {
+   "Kode Kemendagri": 91.16,
+   "Kabupaten": "Kabupaten Boven Digoel",
+   "Provinsi": "Papua Selatan",
+   "Ibu Kota": "Tanah Merah",
+   "Kecamatan": 20,
+   "Kelurahan/Desa": 112
+ },
+ {
+   "Kode Kemendagri": 33.09,
+   "Kabupaten": "Kabupaten Boyolali",
+   "Provinsi": "Jawa Tengah",
+   "Ibu Kota": "Boyolali",
+   "Kecamatan": 19,
+   "Kelurahan/Desa": 267
+ },
+ {
+   "Kode Kemendagri": 33.29,
+   "Kabupaten": "Kabupaten Brebes",
+   "Provinsi": "Jawa Tengah",
+   "Ibu Kota": "Brebes, Bumiayu",
+   "Kecamatan": 17,
+   "Kelurahan/Desa": 297
+ },
+ {
+   "Kode Kemendagri": 51.08,
+   "Kabupaten": "Kabupaten Buleleng",
+   "Provinsi": "Bali",
+   "Ibu Kota": "Singaraja",
+   "Kecamatan": 9,
+   "Kelurahan/Desa": 148
+ },
+ {
+   "Kode Kemendagri": 73.02,
+   "Kabupaten": "Kabupaten Bulukumba",
+   "Provinsi": "Sulawesi Selatan",
+   "Ibu Kota": "Bulukumba",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 136
+ },
+ {
+   "Kode Kemendagri": 65.01,
+   "Kabupaten": "Kabupaten Bulungan",
+   "Provinsi": "Kalimantan Utara",
+   "Ibu Kota": "Tanjungselor",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 81
+ },
+ {
+   "Kode Kemendagri": 15.08,
+   "Kabupaten": "Kabupaten Bungo",
+   "Provinsi": "Jambi",
+   "Ibu Kota": "Muara Bungo",
+   "Kecamatan": 17,
+   "Kelurahan/Desa": 153
+ },
+ {
+   "Kode Kemendagri": 72.05,
+   "Kabupaten": "Kabupaten Buol",
+   "Provinsi": "Sulawesi Tengah",
+   "Ibu Kota": "Buol",
+   "Kecamatan": 11,
+   "Kelurahan/Desa": 115
+ },
+ {
+   "Kode Kemendagri": 81.09,
+   "Kabupaten": "Kabupaten Buru Selatan",
+   "Provinsi": "Maluku",
+   "Ibu Kota": "Namrole",
+   "Kecamatan": 6,
+   "Kelurahan/Desa": 79
+ },
+ {
+   "Kode Kemendagri": 81.04,
+   "Kabupaten": "Kabupaten Buru",
+   "Provinsi": "Maluku",
+   "Ibu Kota": "Namlea",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 82
+ },
+ {
+   "Kode Kemendagri": 74.04,
+   "Kabupaten": "Kabupaten Buton",
+   "Provinsi": "Sulawesi Tenggara",
+   "Ibu Kota": "Pasarwajo",
+   "Kecamatan": 7,
+   "Kelurahan/Desa": 95
+ },
+ {
+   "Kode Kemendagri": 74.15,
+   "Kabupaten": "Kabupaten Buton Selatan",
+   "Provinsi": "Sulawesi Tenggara",
+   "Ibu Kota": "Batauga",
+   "Kecamatan": 7,
+   "Kelurahan/Desa": 70
+ },
+ {
+   "Kode Kemendagri": 74.14,
+   "Kabupaten": "Kabupaten Buton Tengah",
+   "Provinsi": "Sulawesi Tenggara",
+   "Ibu Kota": "Labungkari",
+   "Kecamatan": 7,
+   "Kelurahan/Desa": 77
+ },
+ {
+   "Kode Kemendagri": 74.1,
+   "Kabupaten": "Kabupaten Buton Utara",
+   "Provinsi": "Sulawesi Tenggara",
+   "Ibu Kota": "Buranga",
+   "Kecamatan": 6,
+   "Kelurahan/Desa": 90
+ },
+ {
+   "Kode Kemendagri": 32.07,
+   "Kabupaten": "Kabupaten Ciamis",
+   "Provinsi": "Jawa Barat",
+   "Ibu Kota": "Ciamis",
+   "Kecamatan": 27,
+   "Kelurahan/Desa": 265
+ },
+ {
+   "Kode Kemendagri": 32.03,
+   "Kabupaten": "Kabupaten Cianjur",
+   "Provinsi": "Jawa Barat",
+   "Ibu Kota": "Cianjur",
+   "Kecamatan": 32,
+   "Kelurahan/Desa": 361
+ },
+ {
+   "Kode Kemendagri": 33.01,
+   "Kabupaten": "Kabupaten Cilacap",
+   "Provinsi": "Jawa Tengah",
+   "Ibu Kota": "Cilacap",
+   "Kecamatan": 24,
+   "Kelurahan/Desa": 284
+ },
+ {
+   "Kode Kemendagri": 32.09,
+   "Kabupaten": "Kabupaten Cirebon",
+   "Provinsi": "Jawa Barat",
+   "Ibu Kota": "Sumber",
+   "Kecamatan": 40,
+   "Kelurahan/Desa": 424
+ },
+ {
+   "Kode Kemendagri": 12.11,
+   "Kabupaten": "Kabupaten Dairi",
+   "Provinsi": "Sumatera Utara",
+   "Ibu Kota": "Sidikalang",
+   "Kecamatan": 15,
+   "Kelurahan/Desa": 169
+ },
+ {
+   "Kode Kemendagri": 91.28,
+   "Kabupaten": "Kabupaten Deiyai",
+   "Provinsi": "Papua Tengah",
+   "Ibu Kota": "Tigi",
+   "Kecamatan": 5,
+   "Kelurahan/Desa": 67
+ },
+ {
+   "Kode Kemendagri": 12.07,
+   "Kabupaten": "Kabupaten Deli Serdang",
+   "Provinsi": "Sumatera Utara",
+   "Ibu Kota": "Lubuk Pakam",
+   "Kecamatan": 22,
+   "Kelurahan/Desa": 394
+ },
+ {
+   "Kode Kemendagri": 33.21,
+   "Kabupaten": "Kabupaten Demak",
+   "Provinsi": "Jawa Tengah",
+   "Ibu Kota": "Demak",
+   "Kecamatan": 14,
+   "Kelurahan/Desa": 249
+ },
+ {
+   "Kode Kemendagri": 13.1,
+   "Kabupaten": "Kabupaten Dharmasraya",
+   "Provinsi": "Sumatera Barat",
+   "Ibu Kota": "Pulau Punjung",
+   "Kecamatan": 11,
+   "Kelurahan/Desa": 52
+ },
+ {
+   "Kode Kemendagri": 91.26,
+   "Kabupaten": "Kabupaten Dogiyai",
+   "Provinsi": "Papua Tengah",
+   "Ibu Kota": "Kigamani",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 79
+ },
+ {
+   "Kode Kemendagri": 52.05,
+   "Kabupaten": "Kabupaten Dompu",
+   "Provinsi": "Nusa Tenggara Barat",
+   "Ibu Kota": "Dompu",
+   "Kecamatan": 8,
+   "Kelurahan/Desa": 81
+ },
+ {
+   "Kode Kemendagri": 72.03,
+   "Kabupaten": "Kabupaten Donggala",
+   "Provinsi": "Sulawesi Tengah",
+   "Ibu Kota": "Donggala",
+   "Kecamatan": 16,
+   "Kelurahan/Desa": 167
+ },
+ {
+   "Kode Kemendagri": 16.11,
+   "Kabupaten": "Kabupaten Empat Lawang",
+   "Provinsi": "Sumatera Selatan",
+   "Ibu Kota": "Tebing Tinggi",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 156
+ },
+ {
+   "Kode Kemendagri": 53.08,
+   "Kabupaten": "Kabupaten Ende",
+   "Provinsi": "Nusa Tenggara Timur",
+   "Ibu Kota": "Ende",
+   "Kecamatan": 21,
+   "Kelurahan/Desa": 278
+ },
+ {
+   "Kode Kemendagri": 73.16,
+   "Kabupaten": "Kabupaten Enrekang",
+   "Provinsi": "Sulawesi Selatan",
+   "Ibu Kota": "Enrekang",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 129
+ },
+ {
+   "Kode Kemendagri": 92.03,
+   "Kabupaten": "Kabupaten Fakfak",
+   "Provinsi": "Papua Barat",
+   "Ibu Kota": "Fakfak",
+   "Kecamatan": 17,
+   "Kelurahan/Desa": 149
+ },
+ {
+   "Kode Kemendagri": 53.06,
+   "Kabupaten": "Kabupaten Flores Timur",
+   "Provinsi": "Nusa Tenggara Timur",
+   "Ibu Kota": "Larantuka",
+   "Kecamatan": 19,
+   "Kelurahan/Desa": 250
+ },
+ {
+   "Kode Kemendagri": 32.05,
+   "Kabupaten": "Kabupaten Garut",
+   "Provinsi": "Jawa Barat",
+   "Ibu Kota": "Garut",
+   "Kecamatan": 42,
+   "Kelurahan/Desa": 441
+ },
+ {
+   "Kode Kemendagri": 11.13,
+   "Kabupaten": "Kabupaten Gayo Lues",
+   "Provinsi": "Aceh",
+   "Ibu Kota": "Blang Kejeren",
+   "Kecamatan": 11,
+   "Kelurahan/Desa": 136
+ },
+ {
+   "Kode Kemendagri": 51.04,
+   "Kabupaten": "Kabupaten Gianyar",
+   "Provinsi": "Bali",
+   "Ibu Kota": "Gianyar",
+   "Kecamatan": 7,
+   "Kelurahan/Desa": 70
+ },
+ {
+   "Kode Kemendagri": 75.05,
+   "Kabupaten": "Kabupaten Gorontalo Utara",
+   "Provinsi": "Gorontalo",
+   "Ibu Kota": "Kwandang",
+   "Kecamatan": 11,
+   "Kelurahan/Desa": 123
+ },
+ {
+   "Kode Kemendagri": 75.01,
+   "Kabupaten": "Kabupaten Gorontalo",
+   "Provinsi": "Gorontalo",
+   "Ibu Kota": "Gorontalo",
+   "Kecamatan": 19,
+   "Kelurahan/Desa": 205
+ },
+ {
+   "Kode Kemendagri": 73.06,
+   "Kabupaten": "Kabupaten Gowa",
+   "Provinsi": "Sulawesi Selatan",
+   "Ibu Kota": "Sungguminasa",
+   "Kecamatan": 18,
+   "Kelurahan/Desa": 167
+ },
+ {
+   "Kode Kemendagri": 35.25,
+   "Kabupaten": "Kabupaten Gresik",
+   "Provinsi": "Jawa Timur",
+   "Ibu Kota": "Gresik",
+   "Kecamatan": 18,
+   "Kelurahan/Desa": 356
+ },
+ {
+   "Kode Kemendagri": 33.15,
+   "Kabupaten": "Kabupaten Grobogan",
+   "Provinsi": "Jawa Tengah",
+   "Ibu Kota": "Purwodadi",
+   "Kecamatan": 19,
+   "Kelurahan/Desa": 280
+ },
+ {
+   "Kode Kemendagri": 34.03,
+   "Kabupaten": "Kabupaten Gunung Kidul",
+   "Provinsi": "Yogyakarta",
+   "Ibu Kota": "Kecamatan Wonosari",
+   "Kecamatan": 18,
+   "Kelurahan/Desa": 144
+ },
+ {
+   "Kode Kemendagri": 62.1,
+   "Kabupaten": "Kabupaten Gunung Mas",
+   "Provinsi": "Kalimantan Tengah",
+   "Ibu Kota": "Kuala Kurun",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 127
+ },
+ {
+   "Kode Kemendagri": 82.01,
+   "Kabupaten": "Kabupaten Halmahera Barat",
+   "Provinsi": "Maluku Utara",
+   "Ibu Kota": "Jailolo",
+   "Kecamatan": 8,
+   "Kelurahan/Desa": 169
+ },
+ {
+   "Kode Kemendagri": 82.04,
+   "Kabupaten": "Kabupaten Halmahera Selatan",
+   "Provinsi": "Maluku Utara",
+   "Ibu Kota": "Labuha",
+   "Kecamatan": 30,
+   "Kelurahan/Desa": 249
+ },
+ {
+   "Kode Kemendagri": 82.02,
+   "Kabupaten": "Kabupaten Halmahera Tengah",
+   "Provinsi": "Maluku Utara",
+   "Ibu Kota": "Weda",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 61
+ },
+ {
+   "Kode Kemendagri": 82.06,
+   "Kabupaten": "Kabupaten Halmahera Timur",
+   "Provinsi": "Maluku Utara",
+   "Ibu Kota": "Maba",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 102
+ },
+ {
+   "Kode Kemendagri": 82.03,
+   "Kabupaten": "Kabupaten Halmahera Utara",
+   "Provinsi": "Maluku Utara",
+   "Ibu Kota": "Tobelo",
+   "Kecamatan": 17,
+   "Kelurahan/Desa": 196
+ },
+ {
+   "Kode Kemendagri": 63.06,
+   "Kabupaten": "Kabupaten Hulu Sungai Selatan",
+   "Provinsi": "Kalimantan Selatan",
+   "Ibu Kota": "Kandangan",
+   "Kecamatan": 11,
+   "Kelurahan/Desa": 148
+ },
+ {
+   "Kode Kemendagri": 63.07,
+   "Kabupaten": "Kabupaten Hulu Sungai Tengah",
+   "Provinsi": "Kalimantan Selatan",
+   "Ibu Kota": "Barabai",
+   "Kecamatan": 11,
+   "Kelurahan/Desa": 169
+ },
+ {
+   "Kode Kemendagri": 63.08,
+   "Kabupaten": "Kabupaten Hulu Sungai Utara",
+   "Provinsi": "Kalimantan Selatan",
+   "Ibu Kota": "Amuntai",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 219
+ },
+ {
+   "Kode Kemendagri": 12.16,
+   "Kabupaten": "Kabupaten Humbang Hasundutan",
+   "Provinsi": "Sumatera Utara",
+   "Ibu Kota": "Dolok Sanggul",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 154
+ },
+ {
+   "Kode Kemendagri": 14.04,
+   "Kabupaten": "Kabupaten Indragiri Hilir",
+   "Provinsi": "Riau",
+   "Ibu Kota": "Tembilahan",
+   "Kecamatan": 20,
+   "Kelurahan/Desa": 236
+ },
+ {
+   "Kode Kemendagri": 14.02,
+   "Kabupaten": "Kabupaten Indragiri Hulu",
+   "Provinsi": "Riau",
+   "Ibu Kota": "Rengat",
+   "Kecamatan": 14,
+   "Kelurahan/Desa": 194
+ },
+ {
+   "Kode Kemendagri": 32.12,
+   "Kabupaten": "Kabupaten Indramayu",
+   "Provinsi": "Jawa Barat",
+   "Ibu Kota": "Indramayu",
+   "Kecamatan": 31,
+   "Kelurahan/Desa": 317
+ },
+ {
+   "Kode Kemendagri": 91.27,
+   "Kabupaten": "Kabupaten Intan Jaya",
+   "Provinsi": "Papua Tengah",
+   "Ibu Kota": "Sugapa",
+   "Kecamatan": 8,
+   "Kelurahan/Desa": 97
+ },
+ {
+   "Kode Kemendagri": 91.03,
+   "Kabupaten": "Kabupaten Jayapura",
+   "Provinsi": "Papua",
+   "Ibu Kota": "Sentani",
+   "Kecamatan": 19,
+   "Kelurahan/Desa": 144
+ },
+ {
+   "Kode Kemendagri": 91.02,
+   "Kabupaten": "Kabupaten Jayawijaya",
+   "Provinsi": "Papua Pegunungan",
+   "Ibu Kota": "Wamena",
+   "Kecamatan": 40,
+   "Kelurahan/Desa": 332
+ },
+ {
+   "Kode Kemendagri": 35.09,
+   "Kabupaten": "Kabupaten Jember",
+   "Provinsi": "Jawa Timur",
+   "Ibu Kota": "Jember",
+   "Kecamatan": 31,
+   "Kelurahan/Desa": 248
+ },
+ {
+   "Kode Kemendagri": 51.01,
+   "Kabupaten": "Kabupaten Jembrana",
+   "Provinsi": "Bali",
+   "Ibu Kota": "Negara",
+   "Kecamatan": 5,
+   "Kelurahan/Desa": 51
+ },
+ {
+   "Kode Kemendagri": 73.04,
+   "Kabupaten": "Kabupaten Jeneponto",
+   "Provinsi": "Sulawesi Selatan",
+   "Ibu Kota": "Jeneponto",
+   "Kecamatan": 11,
+   "Kelurahan/Desa": 113
+ },
+ {
+   "Kode Kemendagri": 33.2,
+   "Kabupaten": "Kabupaten Jepara",
+   "Provinsi": "Jawa Tengah",
+   "Ibu Kota": "Jepara",
+   "Kecamatan": 16,
+   "Kelurahan/Desa": 195
+ },
+ {
+   "Kode Kemendagri": 35.17,
+   "Kabupaten": "Kabupaten Jombang",
+   "Provinsi": "Jawa Timur",
+   "Ibu Kota": "Jombang",
+   "Kecamatan": 21,
+   "Kelurahan/Desa": 306
+ },
+ {
+   "Kode Kemendagri": 92.08,
+   "Kabupaten": "Kabupaten Kaimana",
+   "Provinsi": "Papua Barat",
+   "Ibu Kota": "Kaimana",
+   "Kecamatan": 7,
+   "Kelurahan/Desa": 86
+ },
+ {
+   "Kode Kemendagri": 14.01,
+   "Kabupaten": "Kabupaten Kampar",
+   "Provinsi": "Riau",
+   "Ibu Kota": "Bangkinang",
+   "Kecamatan": 21,
+   "Kelurahan/Desa": 250
+ },
+ {
+   "Kode Kemendagri": 61.06,
+   "Kabupaten": "Kabupaten Kapuas Hulu",
+   "Provinsi": "Kalimantan Barat",
+   "Ibu Kota": "Putussibau",
+   "Kecamatan": 23,
+   "Kelurahan/Desa": 282
+ },
+ {
+   "Kode Kemendagri": 62.03,
+   "Kabupaten": "Kabupaten Kapuas",
+   "Provinsi": "Kalimantan Tengah",
+   "Ibu Kota": "Kuala Kapuas",
+   "Kecamatan": 17,
+   "Kelurahan/Desa": 231
+ },
+ {
+   "Kode Kemendagri": 33.13,
+   "Kabupaten": "Kabupaten Karanganyar",
+   "Provinsi": "Jawa Tengah",
+   "Ibu Kota": "Karanganyar",
+   "Kecamatan": 17,
+   "Kelurahan/Desa": 177
+ },
+ {
+   "Kode Kemendagri": 51.07,
+   "Kabupaten": "Kabupaten Karangasem",
+   "Provinsi": "Bali",
+   "Ibu Kota": "Karangasem",
+   "Kecamatan": 8,
+   "Kelurahan/Desa": 78
+ },
+ {
+   "Kode Kemendagri": 32.15,
+   "Kabupaten": "Kabupaten Karawang",
+   "Provinsi": "Jawa Barat",
+   "Ibu Kota": "Karawang",
+   "Kecamatan": 30,
+   "Kelurahan/Desa": 309
+ },
+ {
+   "Kode Kemendagri": 21.02,
+   "Kabupaten": "Kabupaten Karimun",
+   "Provinsi": "Kepulauan Riau",
+   "Ibu Kota": "Tanjung Balai Karimun",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 71
+ },
+ {
+   "Kode Kemendagri": 12.06,
+   "Kabupaten": "Kabupaten Karo",
+   "Provinsi": "Sumatera Utara",
+   "Ibu Kota": "Kabanjahe",
+   "Kecamatan": 17,
+   "Kelurahan/Desa": 269
+ },
+ {
+   "Kode Kemendagri": 62.06,
+   "Kabupaten": "Kabupaten Katingan",
+   "Provinsi": "Kalimantan Tengah",
+   "Ibu Kota": "Kasongan",
+   "Kecamatan": 13,
+   "Kelurahan/Desa": 161
+ },
+ {
+   "Kode Kemendagri": 17.04,
+   "Kabupaten": "Kabupaten Kaur",
+   "Provinsi": "Bengkulu",
+   "Ibu Kota": "Bintuhan",
+   "Kecamatan": 15,
+   "Kelurahan/Desa": 195
+ },
+ {
+   "Kode Kemendagri": 61.11,
+   "Kabupaten": "Kabupaten Kayong Utara",
+   "Provinsi": "Kalimantan Barat",
+   "Ibu Kota": "Sukadana",
+   "Kecamatan": 6,
+   "Kelurahan/Desa": 43
+ },
+ {
+   "Kode Kemendagri": 33.05,
+   "Kabupaten": "Kabupaten Kebumen",
+   "Provinsi": "Jawa Tengah",
+   "Ibu Kota": "Kebumen",
+   "Kecamatan": 26,
+   "Kelurahan/Desa": 460
+ },
+ {
+   "Kode Kemendagri": 35.06,
+   "Kabupaten": "Kabupaten Kediri",
+   "Provinsi": "Jawa Timur",
+   "Ibu Kota": "Kediri",
+   "Kecamatan": 26,
+   "Kelurahan/Desa": 344
+ },
+ {
+   "Kode Kemendagri": 91.11,
+   "Kabupaten": "Kabupaten Keerom",
+   "Provinsi": "Papua",
+   "Ibu Kota": "Waris",
+   "Kecamatan": 11,
+   "Kelurahan/Desa": 91
+ },
+ {
+   "Kode Kemendagri": 33.24,
+   "Kabupaten": "Kabupaten Kendal",
+   "Provinsi": "Jawa Tengah",
+   "Ibu Kota": "Kendal",
+   "Kecamatan": 20,
+   "Kelurahan/Desa": 286
+ },
+ {
+   "Kode Kemendagri": 17.08,
+   "Kabupaten": "Kabupaten Kepahiang",
+   "Provinsi": "Bengkulu",
+   "Ibu Kota": "Kepahiang",
+   "Kecamatan": 8,
+   "Kelurahan/Desa": 117
+ },
+ {
+   "Kode Kemendagri": 21.05,
+   "Kabupaten": "Kabupaten Kepulauan Anambas",
+   "Provinsi": "Kepulauan Riau",
+   "Ibu Kota": "Terempa",
+   "Kecamatan": 7,
+   "Kelurahan/Desa": 54
+ },
+ {
+   "Kode Kemendagri": 81.07,
+   "Kabupaten": "Kabupaten Kepulauan Aru",
+   "Provinsi": "Maluku",
+   "Ibu Kota": "Dobo",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 119
+ },
+ {
+   "Kode Kemendagri": 13.09,
+   "Kabupaten": "Kabupaten Kepulauan Mentawai",
+   "Provinsi": "Sumatera Barat",
+   "Ibu Kota": "Tuapejat",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 43
+ },
+ {
+   "Kode Kemendagri": 14.1,
+   "Kabupaten": "Kabupaten Kepulauan Meranti",
+   "Provinsi": "Riau",
+   "Ibu Kota": "Selatpanjang",
+   "Kecamatan": 9,
+   "Kelurahan/Desa": 101
+ },
+ {
+   "Kode Kemendagri": 71.03,
+   "Kabupaten": "Kabupaten Kepulauan Sangihe",
+   "Provinsi": "Sulawesi Utara",
+   "Ibu Kota": "Tahuna",
+   "Kecamatan": 15,
+   "Kelurahan/Desa": 167
+ },
+ {
+   "Kode Kemendagri": 73.01,
+   "Kabupaten": "Kabupaten Kepulauan Selayar",
+   "Provinsi": "Sulawesi Selatan",
+   "Ibu Kota": "Benteng",
+   "Kecamatan": 11,
+   "Kelurahan/Desa": 88
+ },
+ {
+   "Kode Kemendagri": 31.01,
+   "Kabupaten": "Kabupaten Administrasi Kepulauan Seribu",
+   "Provinsi": "Jakarta",
+   "Ibu Kota": "Pulau Pramuka",
+   "Kecamatan": 2,
+   "Kelurahan/Desa": 6
+ },
+ {
+   "Kode Kemendagri": 71.09,
+   "Kabupaten": "Kabupaten Kepulauan Siau Tagulandang Biaro",
+   "Provinsi": "Sulawesi Utara",
+   "Ibu Kota": "Ondong Siau",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 93
+ },
+ {
+   "Kode Kemendagri": 82.05,
+   "Kabupaten": "Kabupaten Kepulauan Sula",
+   "Provinsi": "Maluku Utara",
+   "Ibu Kota": "Sanana",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 78
+ },
+ {
+   "Kode Kemendagri": 71.04,
+   "Kabupaten": "Kabupaten Kepulauan Talaud",
+   "Provinsi": "Sulawesi Utara",
+   "Ibu Kota": "Melonguane",
+   "Kecamatan": 19,
+   "Kelurahan/Desa": 153
+ },
+ {
+   "Kode Kemendagri": 91.05,
+   "Kabupaten": "Kabupaten Kepulauan Yapen",
+   "Provinsi": "Papua",
+   "Ibu Kota": "Serui",
+   "Kecamatan": 16,
+   "Kelurahan/Desa": 165
+ },
+ {
+   "Kode Kemendagri": 15.01,
+   "Kabupaten": "Kabupaten Kerinci",
+   "Provinsi": "Jambi",
+   "Ibu Kota": "Sungaipenuh",
+   "Kecamatan": 16,
+   "Kelurahan/Desa": 287
+ },
+ {
+   "Kode Kemendagri": 61.04,
+   "Kabupaten": "Kabupaten Ketapang",
+   "Provinsi": "Kalimantan Barat",
+   "Ibu Kota": "Ketapang",
+   "Kecamatan": 20,
+   "Kelurahan/Desa": 262
+ },
+ {
+   "Kode Kemendagri": 33.1,
+   "Kabupaten": "Kabupaten Klaten",
+   "Provinsi": "Jawa Tengah",
+   "Ibu Kota": "Klaten",
+   "Kecamatan": 26,
+   "Kelurahan/Desa": 401
+ },
+ {
+   "Kode Kemendagri": 51.05,
+   "Kabupaten": "Kabupaten Klungkung",
+   "Provinsi": "Bali",
+   "Ibu Kota": "Klungkung",
+   "Kecamatan": 4,
+   "Kelurahan/Desa": 59
+ },
+ {
+   "Kode Kemendagri": 74.01,
+   "Kabupaten": "Kabupaten Kolaka",
+   "Provinsi": "Sulawesi Tenggara",
+   "Ibu Kota": "Kolaka",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 135
+ },
+ {
+   "Kode Kemendagri": 74.11,
+   "Kabupaten": "Kabupaten Kolaka Timur",
+   "Provinsi": "Sulawesi Tenggara",
+   "Ibu Kota": "Tirawuta",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 133
+ },
+ {
+   "Kode Kemendagri": 74.08,
+   "Kabupaten": "Kabupaten Kolaka Utara",
+   "Provinsi": "Sulawesi Tenggara",
+   "Ibu Kota": "Lasusua",
+   "Kecamatan": 15,
+   "Kelurahan/Desa": 133
+ },
+ {
+   "Kode Kemendagri": 74.12,
+   "Kabupaten": "Kabupaten Konawe Kepulauan",
+   "Provinsi": "Sulawesi Tenggara",
+   "Ibu Kota": "Langara",
+   "Kecamatan": 7,
+   "Kelurahan/Desa": 96
+ },
+ {
+   "Kode Kemendagri": 74.05,
+   "Kabupaten": "Kabupaten Konawe Selatan",
+   "Provinsi": "Sulawesi Tenggara",
+   "Ibu Kota": "Andolo",
+   "Kecamatan": 25,
+   "Kelurahan/Desa": 351
+ },
+ {
+   "Kode Kemendagri": 74.09,
+   "Kabupaten": "Kabupaten Konawe Utara",
+   "Provinsi": "Sulawesi Tenggara",
+   "Ibu Kota": "Wanggudu",
+   "Kecamatan": 13,
+   "Kelurahan/Desa": 170
+ },
+ {
+   "Kode Kemendagri": 74.02,
+   "Kabupaten": "Kabupaten Konawe",
+   "Provinsi": "Sulawesi Tenggara",
+   "Ibu Kota": "Unaaha",
+   "Kecamatan": 27,
+   "Kelurahan/Desa": 354
+ },
+ {
+   "Kode Kemendagri": 63.02,
+   "Kabupaten": "Kabupaten Kotabaru",
+   "Provinsi": "Kalimantan Selatan",
+   "Ibu Kota": "Kotabaru",
+   "Kecamatan": 21,
+   "Kelurahan/Desa": 202
+ },
+ {
+   "Kode Kemendagri": 62.01,
+   "Kabupaten": "Kabupaten Kotawaringin Barat",
+   "Provinsi": "Kalimantan Tengah",
+   "Ibu Kota": "Pangkalan Bun",
+   "Kecamatan": 6,
+   "Kelurahan/Desa": 94
+ },
+ {
+   "Kode Kemendagri": 62.02,
+   "Kabupaten": "Kabupaten Kotawaringin Timur",
+   "Provinsi": "Kalimantan Tengah",
+   "Ibu Kota": "Sampit",
+   "Kecamatan": 17,
+   "Kelurahan/Desa": 185
+ },
+ {
+   "Kode Kemendagri": 14.09,
+   "Kabupaten": "Kabupaten Kuantan Singingi",
+   "Provinsi": "Riau",
+   "Ibu Kota": "Taluk Kuantan",
+   "Kecamatan": 15,
+   "Kelurahan/Desa": 229
+ },
+ {
+   "Kode Kemendagri": 61.12,
+   "Kabupaten": "Kabupaten Kubu Raya",
+   "Provinsi": "Kalimantan Barat",
+   "Ibu Kota": "Sungai Raya",
+   "Kecamatan": 9,
+   "Kelurahan/Desa": 117
+ },
+ {
+   "Kode Kemendagri": 33.19,
+   "Kabupaten": "Kabupaten Kudus",
+   "Provinsi": "Jawa Tengah",
+   "Ibu Kota": "Kudus",
+   "Kecamatan": 9,
+   "Kelurahan/Desa": 132
+ },
+ {
+   "Kode Kemendagri": 34.01,
+   "Kabupaten": "Kabupaten Kulon Progo",
+   "Provinsi": "Yogyakarta",
+   "Ibu Kota": "Kecamatan Wates",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 88
+ },
+ {
+   "Kode Kemendagri": 32.08,
+   "Kabupaten": "Kabupaten Kuningan",
+   "Provinsi": "Jawa Barat",
+   "Ibu Kota": "Kuningan",
+   "Kecamatan": 32,
+   "Kelurahan/Desa": 376
+ },
+ {
+   "Kode Kemendagri": 53.01,
+   "Kabupaten": "Kabupaten Kupang",
+   "Provinsi": "Nusa Tenggara Timur",
+   "Ibu Kota": "Kupang",
+   "Kecamatan": 24,
+   "Kelurahan/Desa": 177
+ },
+ {
+   "Kode Kemendagri": 64.07,
+   "Kabupaten": "Kabupaten Kutai Barat",
+   "Provinsi": "Kalimantan Timur",
+   "Ibu Kota": "Sendawar",
+   "Kecamatan": 16,
+   "Kelurahan/Desa": 194
+ },
+ {
+   "Kode Kemendagri": 64.02,
+   "Kabupaten": "Kabupaten Kutai Kartanegara",
+   "Provinsi": "Kalimantan Timur",
+   "Ibu Kota": "Tenggarong",
+   "Kecamatan": 18,
+   "Kelurahan/Desa": 237
+ },
+ {
+   "Kode Kemendagri": 64.08,
+   "Kabupaten": "Kabupaten Kutai Timur",
+   "Provinsi": "Kalimantan Timur",
+   "Ibu Kota": "Sangatta",
+   "Kecamatan": 18,
+   "Kelurahan/Desa": 141
+ },
+ {
+   "Kode Kemendagri": 12.22,
+   "Kabupaten": "Kabupaten Labuhanbatu Selatan",
+   "Provinsi": "Sumatera Utara",
+   "Ibu Kota": "Kota Pinang",
+   "Kecamatan": 5,
+   "Kelurahan/Desa": 54
+ },
+ {
+   "Kode Kemendagri": 12.23,
+   "Kabupaten": "Kabupaten Labuhanbatu Utara",
+   "Provinsi": "Sumatera Utara",
+   "Ibu Kota": "Aek Kanopan",
+   "Kecamatan": 8,
+   "Kelurahan/Desa": 90
+ },
+ {
+   "Kode Kemendagri": 12.1,
+   "Kabupaten": "Kabupaten Labuhanbatu",
+   "Provinsi": "Sumatera Utara",
+   "Ibu Kota": "Rantau Prapat",
+   "Kecamatan": 9,
+   "Kelurahan/Desa": 98
+ },
+ {
+   "Kode Kemendagri": 16.04,
+   "Kabupaten": "Kabupaten Lahat",
+   "Provinsi": "Sumatera Selatan",
+   "Ibu Kota": "Lahat",
+   "Kecamatan": 24,
+   "Kelurahan/Desa": 378
+ },
+ {
+   "Kode Kemendagri": 62.09,
+   "Kabupaten": "Kabupaten Lamandau",
+   "Provinsi": "Kalimantan Tengah",
+   "Ibu Kota": "Nanga Bulik",
+   "Kecamatan": 8,
+   "Kelurahan/Desa": 88
+ },
+ {
+   "Kode Kemendagri": 35.24,
+   "Kabupaten": "Kabupaten Lamongan",
+   "Provinsi": "Jawa Timur",
+   "Ibu Kota": "Lamongan",
+   "Kecamatan": 27,
+   "Kelurahan/Desa": 474
+ },
+ {
+   "Kode Kemendagri": 18.04,
+   "Kabupaten": "Kabupaten Lampung Barat",
+   "Provinsi": "Lampung",
+   "Ibu Kota": "Kota Liwa",
+   "Kecamatan": 15,
+   "Kelurahan/Desa": 136
+ },
+ {
+   "Kode Kemendagri": 18.01,
+   "Kabupaten": "Kabupaten Lampung Selatan",
+   "Provinsi": "Lampung",
+   "Ibu Kota": "Kalianda (kota)",
+   "Kecamatan": 17,
+   "Kelurahan/Desa": 260
+ },
+ {
+   "Kode Kemendagri": 18.02,
+   "Kabupaten": "Kabupaten Lampung Tengah",
+   "Provinsi": "Lampung",
+   "Ibu Kota": "Gunung Sugih",
+   "Kecamatan": 28,
+   "Kelurahan/Desa": 311
+ },
+ {
+   "Kode Kemendagri": 18.07,
+   "Kabupaten": "Kabupaten Lampung Timur",
+   "Provinsi": "Lampung",
+   "Ibu Kota": "Sukadana",
+   "Kecamatan": 24,
+   "Kelurahan/Desa": 264
+ },
+ {
+   "Kode Kemendagri": 18.03,
+   "Kabupaten": "Kabupaten Lampung Utara",
+   "Provinsi": "Lampung",
+   "Ibu Kota": "Kotabumi",
+   "Kecamatan": 23,
+   "Kelurahan/Desa": 247
+ },
+ {
+   "Kode Kemendagri": 61.08,
+   "Kabupaten": "Kabupaten Landak",
+   "Provinsi": "Kalimantan Barat",
+   "Ibu Kota": "Ngabang",
+   "Kecamatan": 13,
+   "Kelurahan/Desa": 156
+ },
+ {
+   "Kode Kemendagri": 12.05,
+   "Kabupaten": "Kabupaten Langkat",
+   "Provinsi": "Sumatera Utara",
+   "Ibu Kota": "Stabat",
+   "Kecamatan": 23,
+   "Kelurahan/Desa": 277
+ },
+ {
+   "Kode Kemendagri": 91.23,
+   "Kabupaten": "Kabupaten Lanny Jaya",
+   "Provinsi": "Papua Pegunungan",
+   "Ibu Kota": "Tiom",
+   "Kecamatan": 39,
+   "Kelurahan/Desa": 355
+ },
+ {
+   "Kode Kemendagri": 36.02,
+   "Kabupaten": "Kabupaten Lebak",
+   "Provinsi": "Banten",
+   "Ibu Kota": "Rangkasbitung",
+   "Kecamatan": 28,
+   "Kelurahan/Desa": 345
+ },
+ {
+   "Kode Kemendagri": 17.07,
+   "Kabupaten": "Kabupaten Lebong",
+   "Provinsi": "Bengkulu",
+   "Ibu Kota": "Muara Aman",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 104
+ },
+ {
+   "Kode Kemendagri": 53.13,
+   "Kabupaten": "Kabupaten Lembata",
+   "Provinsi": "Nusa Tenggara Timur",
+   "Ibu Kota": "Lewoleba",
+   "Kecamatan": 9,
+   "Kelurahan/Desa": 151
+ },
+ {
+   "Kode Kemendagri": 13.07,
+   "Kabupaten": "Kabupaten Lima Puluh Kota",
+   "Provinsi": "Sumatera Barat",
+   "Ibu Kota": "Sarilamak",
+   "Kecamatan": 13,
+   "Kelurahan/Desa": 79
+ },
+ {
+   "Kode Kemendagri": 21.04,
+   "Kabupaten": "Kabupaten Lingga",
+   "Provinsi": "Kepulauan Riau",
+   "Ibu Kota": "Daik, Lingga",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 82
+ },
+ {
+   "Kode Kemendagri": 52.01,
+   "Kabupaten": "Kabupaten Lombok Barat",
+   "Provinsi": "Nusa Tenggara Barat",
+   "Ibu Kota": "Mataram",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 122
+ },
+ {
+   "Kode Kemendagri": 52.02,
+   "Kabupaten": "Kabupaten Lombok Tengah",
+   "Provinsi": "Nusa Tenggara Barat",
+   "Ibu Kota": "Praya",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 139
+ },
+ {
+   "Kode Kemendagri": 52.03,
+   "Kabupaten": "Kabupaten Lombok Timur",
+   "Provinsi": "Nusa Tenggara Barat",
+   "Ibu Kota": "Selong",
+   "Kecamatan": 20,
+   "Kelurahan/Desa": 254
+ },
+ {
+   "Kode Kemendagri": 52.08,
+   "Kabupaten": "Kabupaten Lombok Utara",
+   "Provinsi": "Nusa Tenggara Barat",
+   "Ibu Kota": "Tanjung",
+   "Kecamatan": 5,
+   "Kelurahan/Desa": 33
+ },
+ {
+   "Kode Kemendagri": 35.08,
+   "Kabupaten": "Kabupaten Lumajang",
+   "Provinsi": "Jawa Timur",
+   "Ibu Kota": "Lumajang",
+   "Kecamatan": 21,
+   "Kelurahan/Desa": 205
+ },
+ {
+   "Kode Kemendagri": 73.17,
+   "Kabupaten": "Kabupaten Luwu",
+   "Provinsi": "Sulawesi Selatan",
+   "Ibu Kota": "Belopa",
+   "Kecamatan": 22,
+   "Kelurahan/Desa": 227
+ },
+ {
+   "Kode Kemendagri": 73.24,
+   "Kabupaten": "Kabupaten Luwu Timur",
+   "Provinsi": "Sulawesi Selatan",
+   "Ibu Kota": "Malili",
+   "Kecamatan": 11,
+   "Kelurahan/Desa": 127
+ },
+ {
+   "Kode Kemendagri": 73.22,
+   "Kabupaten": "Kabupaten Luwu Utara",
+   "Provinsi": "Sulawesi Selatan",
+   "Ibu Kota": "Masamba",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 173
+ },
+ {
+   "Kode Kemendagri": 35.19,
+   "Kabupaten": "Kabupaten Madiun",
+   "Provinsi": "Jawa Timur",
+   "Ibu Kota": "Madiun",
+   "Kecamatan": 15,
+   "Kelurahan/Desa": 206
+ },
+ {
+   "Kode Kemendagri": 33.08,
+   "Kabupaten": "Kabupaten Magelang",
+   "Provinsi": "Jawa Tengah",
+   "Ibu Kota": "Kota Mungkid",
+   "Kecamatan": 21,
+   "Kelurahan/Desa": 372
+ },
+ {
+   "Kode Kemendagri": 35.2,
+   "Kabupaten": "Kabupaten Magetan",
+   "Provinsi": "Jawa Timur",
+   "Ibu Kota": "Magetan",
+   "Kecamatan": 18,
+   "Kelurahan/Desa": 235
+ },
+ {
+   "Kode Kemendagri": 64.11,
+   "Kabupaten": "Kabupaten Mahakam Ulu",
+   "Provinsi": "Kalimantan Timur",
+   "Ibu Kota": "Batu Bulan",
+   "Kecamatan": 5,
+   "Kelurahan/Desa": 50
+ },
+ {
+   "Kode Kemendagri": 32.1,
+   "Kabupaten": "Kabupaten Majalengka",
+   "Provinsi": "Jawa Barat",
+   "Ibu Kota": "Majalengka",
+   "Kecamatan": 26,
+   "Kelurahan/Desa": 343
+ },
+ {
+   "Kode Kemendagri": 76.05,
+   "Kabupaten": "Kabupaten Majene",
+   "Provinsi": "Sulawesi Barat",
+   "Ibu Kota": "Majene",
+   "Kecamatan": 8,
+   "Kelurahan/Desa": 82
+ },
+ {
+   "Kode Kemendagri": 53.21,
+   "Kabupaten": "Kabupaten Malaka",
+   "Provinsi": "Nusa Tenggara Timur",
+   "Ibu Kota": "Betun",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 127
+ },
+ {
+   "Kode Kemendagri": 35.07,
+   "Kabupaten": "Kabupaten Malang",
+   "Provinsi": "Jawa Timur",
+   "Ibu Kota": "Kepanjen",
+   "Kecamatan": 33,
+   "Kelurahan/Desa": 390
+ },
+ {
+   "Kode Kemendagri": 65.02,
+   "Kabupaten": "Kabupaten Malinau",
+   "Provinsi": "Kalimantan Utara",
+   "Ibu Kota": "Malinau",
+   "Kecamatan": 15,
+   "Kelurahan/Desa": 109
+ },
+ {
+   "Kode Kemendagri": 81.08,
+   "Kabupaten": "Kabupaten Maluku Barat Daya",
+   "Provinsi": "Maluku",
+   "Ibu Kota": "Wonreli (de facto)",
+   "Kecamatan": 17,
+   "Kelurahan/Desa": 118
+ },
+ {
+   "Kode Kemendagri": 81.01,
+   "Kabupaten": "Kabupaten Maluku Tengah",
+   "Provinsi": "Maluku",
+   "Ibu Kota": "Masohi",
+   "Kecamatan": 18,
+   "Kelurahan/Desa": 192
+ },
+ {
+   "Kode Kemendagri": 81.03,
+   "Kabupaten": "Kabupaten Maluku Tenggara Barat",
+   "Provinsi": "Maluku",
+   "Ibu Kota": "Saumlaki",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 82
+ },
+ {
+   "Kode Kemendagri": 81.02,
+   "Kabupaten": "Kabupaten Maluku Tenggara",
+   "Provinsi": "Maluku",
+   "Ibu Kota": "Langgur",
+   "Kecamatan": 11,
+   "Kelurahan/Desa": 191
+ },
+ {
+   "Kode Kemendagri": 76.03,
+   "Kabupaten": "Kabupaten Mamasa",
+   "Provinsi": "Sulawesi Barat",
+   "Ibu Kota": "Mamasa",
+   "Kecamatan": 17,
+   "Kelurahan/Desa": 181
+ },
+ {
+   "Kode Kemendagri": 91.2,
+   "Kabupaten": "Kabupaten Mamberamo Raya",
+   "Provinsi": "Papua",
+   "Ibu Kota": "Burmeso",
+   "Kecamatan": 8,
+   "Kelurahan/Desa": 60
+ },
+ {
+   "Kode Kemendagri": 91.21,
+   "Kabupaten": "Kabupaten Mamberamo Tengah",
+   "Provinsi": "Papua Pegunungan",
+   "Ibu Kota": "Kobakma",
+   "Kecamatan": 5,
+   "Kelurahan/Desa": 59
+ },
+ {
+   "Kode Kemendagri": 76.02,
+   "Kabupaten": "Kabupaten Mamuju",
+   "Provinsi": "Sulawesi Barat",
+   "Ibu Kota": "Mamuju",
+   "Kecamatan": 11,
+   "Kelurahan/Desa": 101
+ },
+ {
+   "Kode Kemendagri": 76.06,
+   "Kabupaten": "Kabupaten Mamuju Tengah",
+   "Provinsi": "Sulawesi Barat",
+   "Ibu Kota": "Tobadak",
+   "Kecamatan": 5,
+   "Kelurahan/Desa": 54
+ },
+ {
+   "Kode Kemendagri": 76.01,
+   "Kabupaten": "Kabupaten Mamuju Utara",
+   "Provinsi": "Sulawesi Barat",
+   "Ibu Kota": "Pasangkayu",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 63
+ },
+ {
+   "Kode Kemendagri": 12.13,
+   "Kabupaten": "Kabupaten Mandailing Natal",
+   "Provinsi": "Sumatera Utara",
+   "Ibu Kota": "Panyabungan",
+   "Kecamatan": 23,
+   "Kelurahan/Desa": 404
+ },
+ {
+   "Kode Kemendagri": 53.15,
+   "Kabupaten": "Kabupaten Manggarai Barat",
+   "Provinsi": "Nusa Tenggara Timur",
+   "Ibu Kota": "Labuan Bajo",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 169
+ },
+ {
+   "Kode Kemendagri": 53.19,
+   "Kabupaten": "Kabupaten Manggarai Timur",
+   "Provinsi": "Nusa Tenggara Timur",
+   "Ibu Kota": "Borong",
+   "Kecamatan": 9,
+   "Kelurahan/Desa": 176
+ },
+ {
+   "Kode Kemendagri": 53.1,
+   "Kabupaten": "Kabupaten Manggarai",
+   "Provinsi": "Nusa Tenggara Timur",
+   "Ibu Kota": "Ruteng",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 171
+ },
+ {
+   "Kode Kemendagri": 92.02,
+   "Kabupaten": "Kabupaten Manokwari",
+   "Provinsi": "Papua Barat",
+   "Ibu Kota": "Manokwari",
+   "Kecamatan": 9,
+   "Kelurahan/Desa": 173
+ },
+ {
+   "Kode Kemendagri": 92.11,
+   "Kabupaten": "Kabupaten Manokwari Selatan",
+   "Provinsi": "Papua Barat",
+   "Ibu Kota": "Ransiki",
+   "Kecamatan": 6,
+   "Kelurahan/Desa": 57
+ },
+ {
+   "Kode Kemendagri": 91.17,
+   "Kabupaten": "Kabupaten Mappi",
+   "Provinsi": "Papua Selatan",
+   "Ibu Kota": "Kepi",
+   "Kecamatan": 15,
+   "Kelurahan/Desa": 164
+ },
+ {
+   "Kode Kemendagri": 73.09,
+   "Kabupaten": "Kabupaten Maros",
+   "Provinsi": "Sulawesi Selatan",
+   "Ibu Kota": "Turikale",
+   "Kecamatan": 14,
+   "Kelurahan/Desa": 103
+ },
+ {
+   "Kode Kemendagri": 92.1,
+   "Kabupaten": "Kabupaten Maybrat",
+   "Provinsi": "Papua Barat Daya",
+   "Ibu Kota": "Kumurkek",
+   "Kecamatan": 24,
+   "Kelurahan/Desa": 260
+ },
+ {
+   "Kode Kemendagri": 61.1,
+   "Kabupaten": "Kabupaten Melawi",
+   "Provinsi": "Kalimantan Barat",
+   "Ibu Kota": "Nanga Pinoh",
+   "Kecamatan": 11,
+   "Kelurahan/Desa": 169
+ },
+ {
+   "Kode Kemendagri": 15.02,
+   "Kabupaten": "Kabupaten Merangin",
+   "Provinsi": "Jambi",
+   "Ibu Kota": "Bangko",
+   "Kecamatan": 24,
+   "Kelurahan/Desa": 215
+ },
+ {
+   "Kode Kemendagri": 91.01,
+   "Kabupaten": "Kabupaten Merauke",
+   "Provinsi": "Papua Selatan",
+   "Ibu Kota": "Merauke",
+   "Kecamatan": 20,
+   "Kelurahan/Desa": 190
+ },
+ {
+   "Kode Kemendagri": 18.11,
+   "Kabupaten": "Kabupaten Mesuji",
+   "Provinsi": "Lampung",
+   "Ibu Kota": "Mesuji",
+   "Kecamatan": 7,
+   "Kelurahan/Desa": 105
+ },
+ {
+   "Kode Kemendagri": 91.09,
+   "Kabupaten": "Kabupaten Mimika",
+   "Provinsi": "Papua Tengah",
+   "Ibu Kota": "Timika",
+   "Kecamatan": 18,
+   "Kelurahan/Desa": 152
+ },
+ {
+   "Kode Kemendagri": 71.02,
+   "Kabupaten": "Kabupaten Minahasa",
+   "Provinsi": "Sulawesi Utara",
+   "Ibu Kota": "Tondano",
+   "Kecamatan": 25,
+   "Kelurahan/Desa": 270
+ },
+ {
+   "Kode Kemendagri": 71.05,
+   "Kabupaten": "Kabupaten Minahasa Selatan",
+   "Provinsi": "Sulawesi Utara",
+   "Ibu Kota": "Amurang",
+   "Kecamatan": 17,
+   "Kelurahan/Desa": 177
+ },
+ {
+   "Kode Kemendagri": 71.07,
+   "Kabupaten": "Kabupaten Minahasa Tenggara",
+   "Provinsi": "Sulawesi Utara",
+   "Ibu Kota": "Ratahan",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 144
+ },
+ {
+   "Kode Kemendagri": 71.06,
+   "Kabupaten": "Kabupaten Minahasa Utara",
+   "Provinsi": "Sulawesi Utara",
+   "Ibu Kota": "Airmadidi",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 131
+ },
+ {
+   "Kode Kemendagri": 35.16,
+   "Kabupaten": "Kabupaten Mojokerto",
+   "Provinsi": "Jawa Timur",
+   "Ibu Kota": "Mojokerto",
+   "Kecamatan": 18,
+   "Kelurahan/Desa": 304
+ },
+ {
+   "Kode Kemendagri": 72.06,
+   "Kabupaten": "Kabupaten Morowali",
+   "Provinsi": "Sulawesi Tengah",
+   "Ibu Kota": "Bungku",
+   "Kecamatan": 9,
+   "Kelurahan/Desa": 133
+ },
+ {
+   "Kode Kemendagri": 72.12,
+   "Kabupaten": "Kabupaten Morowali Utara",
+   "Provinsi": "Sulawesi Tengah",
+   "Ibu Kota": "Kolonodale",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 125
+ },
+ {
+   "Kode Kemendagri": 16.03,
+   "Kabupaten": "Kabupaten Muara Enim",
+   "Provinsi": "Sumatera Selatan",
+   "Ibu Kota": "Muara Enim",
+   "Kecamatan": 20,
+   "Kelurahan/Desa": 255
+ },
+ {
+   "Kode Kemendagri": 15.05,
+   "Kabupaten": "Kabupaten Muaro Jambi",
+   "Provinsi": "Jambi",
+   "Ibu Kota": "Sengeti",
+   "Kecamatan": 11,
+   "Kelurahan/Desa": 155
+ },
+ {
+   "Kode Kemendagri": 17.06,
+   "Kabupaten": "Kabupaten Mukomuko",
+   "Provinsi": "Bengkulu",
+   "Ibu Kota": "Mukomuko",
+   "Kecamatan": 15,
+   "Kelurahan/Desa": 151
+ },
+ {
+   "Kode Kemendagri": 74.03,
+   "Kabupaten": "Kabupaten Muna",
+   "Provinsi": "Sulawesi Tenggara",
+   "Ibu Kota": "Raha",
+   "Kecamatan": 22,
+   "Kelurahan/Desa": 151
+ },
+ {
+   "Kode Kemendagri": 74.13,
+   "Kabupaten": "Kabupaten Muna Barat",
+   "Provinsi": "Sulawesi Tenggara",
+   "Ibu Kota": "Laworo",
+   "Kecamatan": 11,
+   "Kelurahan/Desa": 86
+ },
+ {
+   "Kode Kemendagri": 62.12,
+   "Kabupaten": "Kabupaten Murung Raya",
+   "Provinsi": "Kalimantan Tengah",
+   "Ibu Kota": "Purukcahu",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 125
+ },
+ {
+   "Kode Kemendagri": 16.06,
+   "Kabupaten": "Kabupaten Musi Banyuasin",
+   "Provinsi": "Sumatera Selatan",
+   "Ibu Kota": "Sekayu",
+   "Kecamatan": 14,
+   "Kelurahan/Desa": 240
+ },
+ {
+   "Kode Kemendagri": 16.05,
+   "Kabupaten": "Kabupaten Musi Rawas",
+   "Provinsi": "Sumatera Selatan",
+   "Ibu Kota": "Muara Beliti Baru",
+   "Kecamatan": 14,
+   "Kelurahan/Desa": 199
+ },
+ {
+   "Kode Kemendagri": 16.13,
+   "Kabupaten": "Kabupaten Musi Rawas Utara",
+   "Provinsi": "Sumatera Selatan",
+   "Ibu Kota": "Rupit",
+   "Kecamatan": 7,
+   "Kelurahan/Desa": 89
+ },
+ {
+   "Kode Kemendagri": 91.04,
+   "Kabupaten": "Kabupaten Nabire",
+   "Provinsi": "Papua Tengah",
+   "Ibu Kota": "Nabire",
+   "Kecamatan": 15,
+   "Kelurahan/Desa": 81
+ },
+ {
+   "Kode Kemendagri": 11.15,
+   "Kabupaten": "Kabupaten Nagan Raya",
+   "Provinsi": "Aceh",
+   "Ibu Kota": "Suka Makmue",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 222
+ },
+ {
+   "Kode Kemendagri": 53.16,
+   "Kabupaten": "Kabupaten Nagekeo",
+   "Provinsi": "Nusa Tenggara Timur",
+   "Ibu Kota": "Mbay",
+   "Kecamatan": 7,
+   "Kelurahan/Desa": 113
+ },
+ {
+   "Kode Kemendagri": 21.03,
+   "Kabupaten": "Kabupaten Natuna",
+   "Provinsi": "Kepulauan Riau",
+   "Ibu Kota": "Ranai, Bunguran Timur",
+   "Kecamatan": 15,
+   "Kelurahan/Desa": 76
+ },
+ {
+   "Kode Kemendagri": 91.24,
+   "Kabupaten": "Kabupaten Nduga",
+   "Provinsi": "Papua Pegunungan",
+   "Ibu Kota": "Kenyam",
+   "Kecamatan": 32,
+   "Kelurahan/Desa": 248
+ },
+ {
+   "Kode Kemendagri": 53.09,
+   "Kabupaten": "Kabupaten Ngada",
+   "Provinsi": "Nusa Tenggara Timur",
+   "Ibu Kota": "Bajawa",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 151
+ },
+ {
+   "Kode Kemendagri": 35.18,
+   "Kabupaten": "Kabupaten Nganjuk",
+   "Provinsi": "Jawa Timur",
+   "Ibu Kota": "Nganjuk",
+   "Kecamatan": 20,
+   "Kelurahan/Desa": 284
+ },
+ {
+   "Kode Kemendagri": 35.21,
+   "Kabupaten": "Kabupaten Ngawi",
+   "Provinsi": "Jawa Timur",
+   "Ibu Kota": "Ngawi",
+   "Kecamatan": 19,
+   "Kelurahan/Desa": 217
+ },
+ {
+   "Kode Kemendagri": 12.25,
+   "Kabupaten": "Kabupaten Nias Barat",
+   "Provinsi": "Sumatera Utara",
+   "Ibu Kota": "Lahomi",
+   "Kecamatan": 8,
+   "Kelurahan/Desa": 105
+ },
+ {
+   "Kode Kemendagri": 12.14,
+   "Kabupaten": "Kabupaten Nias Selatan",
+   "Provinsi": "Sumatera Utara",
+   "Ibu Kota": "Teluk Dalam",
+   "Kecamatan": 35,
+   "Kelurahan/Desa": 461
+ },
+ {
+   "Kode Kemendagri": 12.24,
+   "Kabupaten": "Kabupaten Nias Utara",
+   "Provinsi": "Sumatera Utara",
+   "Ibu Kota": "Lotu",
+   "Kecamatan": 11,
+   "Kelurahan/Desa": 113
+ },
+ {
+   "Kode Kemendagri": 12.04,
+   "Kabupaten": "Kabupaten Nias",
+   "Provinsi": "Sumatera Utara",
+   "Ibu Kota": "Gunung Sitoli",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 170
+ },
+ {
+   "Kode Kemendagri": 65.03,
+   "Kabupaten": "Kabupaten Nunukan",
+   "Provinsi": "Kalimantan Utara",
+   "Ibu Kota": "Nunukan",
+   "Kecamatan": 19,
+   "Kelurahan/Desa": 240
+ },
+ {
+   "Kode Kemendagri": 16.1,
+   "Kabupaten": "Kabupaten Ogan Ilir",
+   "Provinsi": "Sumatera Selatan",
+   "Ibu Kota": "Indralaya",
+   "Kecamatan": 16,
+   "Kelurahan/Desa": 241
+ },
+ {
+   "Kode Kemendagri": 16.02,
+   "Kabupaten": "Kabupaten Ogan Komering Ilir",
+   "Provinsi": "Sumatera Selatan",
+   "Ibu Kota": "Kota Kayu Agung",
+   "Kecamatan": 18,
+   "Kelurahan/Desa": 327
+ },
+ {
+   "Kode Kemendagri": 16.09,
+   "Kabupaten": "Kabupaten Ogan Komering Ulu Selatan",
+   "Provinsi": "Sumatera Selatan",
+   "Ibu Kota": "Muaradua",
+   "Kecamatan": 19,
+   "Kelurahan/Desa": 259
+ },
+ {
+   "Kode Kemendagri": 16.08,
+   "Kabupaten": "Kabupaten Ogan Komering Ulu Timur",
+   "Provinsi": "Sumatera Selatan",
+   "Ibu Kota": "Martapura",
+   "Kecamatan": 20,
+   "Kelurahan/Desa": 312
+ },
+ {
+   "Kode Kemendagri": 16.01,
+   "Kabupaten": "Kabupaten Ogan Komering Ulu",
+   "Provinsi": "Sumatera Selatan",
+   "Ibu Kota": "Baturaja",
+   "Kecamatan": 13,
+   "Kelurahan/Desa": 157
+ },
+ {
+   "Kode Kemendagri": 35.01,
+   "Kabupaten": "Kabupaten Pacitan",
+   "Provinsi": "Jawa Timur",
+   "Ibu Kota": "Pacitan",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 171
+ },
+ {
+   "Kode Kemendagri": 12.2,
+   "Kabupaten": "Kabupaten Padang Lawas Utara",
+   "Provinsi": "Sumatera Utara",
+   "Ibu Kota": "Gunung Tua",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 388
+ },
+ {
+   "Kode Kemendagri": 12.21,
+   "Kabupaten": "Kabupaten Padang Lawas",
+   "Provinsi": "Sumatera Utara",
+   "Ibu Kota": "Sibuhuan",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 304
+ },
+ {
+   "Kode Kemendagri": 13.05,
+   "Kabupaten": "Kabupaten Padang Pariaman",
+   "Provinsi": "Sumatera Barat",
+   "Ibu Kota": "Parit Malintang",
+   "Kecamatan": 17,
+   "Kelurahan/Desa": 103
+ },
+ {
+   "Kode Kemendagri": 12.15,
+   "Kabupaten": "Kabupaten Pakpak Bharat",
+   "Provinsi": "Sumatera Utara",
+   "Ibu Kota": "Salak",
+   "Kecamatan": 8,
+   "Kelurahan/Desa": 52
+ },
+ {
+   "Kode Kemendagri": 35.28,
+   "Kabupaten": "Kabupaten Pamekasan",
+   "Provinsi": "Jawa Timur",
+   "Ibu Kota": "Pamekasan",
+   "Kecamatan": 13,
+   "Kelurahan/Desa": 189
+ },
+ {
+   "Kode Kemendagri": 36.01,
+   "Kabupaten": "Kabupaten Pandeglang",
+   "Provinsi": "Banten",
+   "Ibu Kota": "Pandeglang",
+   "Kecamatan": 35,
+   "Kelurahan/Desa": 339
+ },
+ {
+   "Kode Kemendagri": 36.18,
+   "Kabupaten": "Kabupaten Pangandaran",
+   "Provinsi": "Jawa Barat",
+   "Ibu Kota": "Parigi",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 93
+ },
+ {
+   "Kode Kemendagri": 73.1,
+   "Kabupaten": "Kabupaten Pangkajene dan Kepulauan",
+   "Provinsi": "Sulawesi Selatan",
+   "Ibu Kota": "Pangkajene",
+   "Kecamatan": 13,
+   "Kelurahan/Desa": 103
+ },
+ {
+   "Kode Kemendagri": 91.08,
+   "Kabupaten": "Kabupaten Paniai",
+   "Provinsi": "Papua Tengah",
+   "Ibu Kota": "Enarotali",
+   "Kecamatan": 23,
+   "Kelurahan/Desa": 221
+ },
+ {
+   "Kode Kemendagri": 72.08,
+   "Kabupaten": "Kabupaten Parigi Moutong",
+   "Provinsi": "Sulawesi Tengah",
+   "Ibu Kota": "Parigi",
+   "Kecamatan": 23,
+   "Kelurahan/Desa": 283
+ },
+ {
+   "Kode Kemendagri": 13.12,
+   "Kabupaten": "Kabupaten Pasaman Barat",
+   "Provinsi": "Sumatera Barat",
+   "Ibu Kota": "Simpang Ampek",
+   "Kecamatan": 11,
+   "Kelurahan/Desa": 19
+ },
+ {
+   "Kode Kemendagri": 13.08,
+   "Kabupaten": "Kabupaten Pasaman",
+   "Provinsi": "Sumatera Barat",
+   "Ibu Kota": "Lubuk Sikaping",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 37
+ },
+ {
+   "Kode Kemendagri": 64.01,
+   "Kabupaten": "Kabupaten Paser",
+   "Provinsi": "Kalimantan Timur",
+   "Ibu Kota": "Tanah Grogot",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 144
+ },
+ {
+   "Kode Kemendagri": 35.14,
+   "Kabupaten": "Kabupaten Pasuruan",
+   "Provinsi": "Jawa Timur",
+   "Ibu Kota": "Pasuruan",
+   "Kecamatan": 24,
+   "Kelurahan/Desa": 365
+ },
+ {
+   "Kode Kemendagri": 33.18,
+   "Kabupaten": "Kabupaten Pati",
+   "Provinsi": "Jawa Tengah",
+   "Ibu Kota": "Pati",
+   "Kecamatan": 21,
+   "Kelurahan/Desa": 406
+ },
+ {
+   "Kode Kemendagri": 92.12,
+   "Kabupaten": "Kabupaten Pegunungan Arfak",
+   "Provinsi": "Papua Barat",
+   "Ibu Kota": "Anggi",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 166
+ },
+ {
+   "Kode Kemendagri": 91.12,
+   "Kabupaten": "Kabupaten Pegunungan Bintang",
+   "Provinsi": "Papua Pegunungan",
+   "Ibu Kota": "Oksibil",
+   "Kecamatan": 34,
+   "Kelurahan/Desa": 277
+ },
+ {
+   "Kode Kemendagri": 33.26,
+   "Kabupaten": "Kabupaten Pekalongan",
+   "Provinsi": "Jawa Tengah",
+   "Ibu Kota": "Kajen",
+   "Kecamatan": 19,
+   "Kelurahan/Desa": 285
+ },
+ {
+   "Kode Kemendagri": 14.05,
+   "Kabupaten": "Kabupaten Pelalawan",
+   "Provinsi": "Riau",
+   "Ibu Kota": "Pangkalan Kerinci",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 118
+ },
+ {
+   "Kode Kemendagri": 33.27,
+   "Kabupaten": "Kabupaten Pemalang",
+   "Provinsi": "Jawa Tengah",
+   "Ibu Kota": "Pemalang",
+   "Kecamatan": 14,
+   "Kelurahan/Desa": 222
+ },
+ {
+   "Kode Kemendagri": 64.09,
+   "Kabupaten": "Kabupaten Penajam Paser Utara",
+   "Provinsi": "Kalimantan Timur",
+   "Ibu Kota": "Penajam",
+   "Kecamatan": 4,
+   "Kelurahan/Desa": 54
+ },
+ {
+   "Kode Kemendagri": 16.12,
+   "Kabupaten": "Kabupaten Penukal Abab Lematang Ilir",
+   "Provinsi": "Sumatera Selatan",
+   "Ibu Kota": "Talang Ubi",
+   "Kecamatan": 5,
+   "Kelurahan/Desa": 71
+ },
+ {
+   "Kode Kemendagri": 18.09,
+   "Kabupaten": "Kabupaten Pesawaran",
+   "Provinsi": "Lampung",
+   "Ibu Kota": "Gedong Tataan",
+   "Kecamatan": 11,
+   "Kelurahan/Desa": 144
+ },
+ {
+   "Kode Kemendagri": 18.13,
+   "Kabupaten": "Kabupaten Pesisir Barat",
+   "Provinsi": "Lampung",
+   "Ibu Kota": "Pasar Krui",
+   "Kecamatan": 11,
+   "Kelurahan/Desa": 118
+ },
+ {
+   "Kode Kemendagri": 13.01,
+   "Kabupaten": "Kabupaten Pesisir Selatan",
+   "Provinsi": "Sumatera Barat",
+   "Ibu Kota": "Painan",
+   "Kecamatan": 15,
+   "Kelurahan/Desa": 182
+ },
+ {
+   "Kode Kemendagri": 11.18,
+   "Kabupaten": "Kabupaten Pidie Jaya",
+   "Provinsi": "Aceh",
+   "Ibu Kota": "Meureudu",
+   "Kecamatan": 8,
+   "Kelurahan/Desa": 222
+ },
+ {
+   "Kode Kemendagri": 11.07,
+   "Kabupaten": "Kabupaten Pidie",
+   "Provinsi": "Aceh",
+   "Ibu Kota": "Sigli",
+   "Kecamatan": 23,
+   "Kelurahan/Desa": 730
+ },
+ {
+   "Kode Kemendagri": 73.15,
+   "Kabupaten": "Kabupaten Pinrang",
+   "Provinsi": "Sulawesi Selatan",
+   "Ibu Kota": "Pinrang",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 108
+ },
+ {
+   "Kode Kemendagri": 75.04,
+   "Kabupaten": "Kabupaten Pohuwato",
+   "Provinsi": "Gorontalo",
+   "Ibu Kota": "Marisa",
+   "Kecamatan": 13,
+   "Kelurahan/Desa": 104
+ },
+ {
+   "Kode Kemendagri": 76.04,
+   "Kabupaten": "Kabupaten Polewali Mandar",
+   "Provinsi": "Sulawesi Barat",
+   "Ibu Kota": "Polewali",
+   "Kecamatan": 16,
+   "Kelurahan/Desa": 167
+ },
+ {
+   "Kode Kemendagri": 35.02,
+   "Kabupaten": "Kabupaten Ponorogo",
+   "Provinsi": "Jawa Timur",
+   "Ibu Kota": "Ponorogo",
+   "Kecamatan": 21,
+   "Kelurahan/Desa": 307
+ },
+ {
+   "Kode Kemendagri": 61.02,
+   "Kabupaten": "Kabupaten Mempawah",
+   "Provinsi": "Kalimantan Barat",
+   "Ibu Kota": "Mempawah",
+   "Kecamatan": 9,
+   "Kelurahan/Desa": 67
+ },
+ {
+   "Kode Kemendagri": 72.02,
+   "Kabupaten": "Kabupaten Poso",
+   "Provinsi": "Sulawesi Tengah",
+   "Ibu Kota": "Poso",
+   "Kecamatan": 19,
+   "Kelurahan/Desa": 170
+ },
+ {
+   "Kode Kemendagri": 18.1,
+   "Kabupaten": "Kabupaten Pringsewu",
+   "Provinsi": "Lampung",
+   "Ibu Kota": "Pringsewu",
+   "Kecamatan": 9,
+   "Kelurahan/Desa": 131
+ },
+ {
+   "Kode Kemendagri": 35.13,
+   "Kabupaten": "Kabupaten Probolinggo",
+   "Provinsi": "Jawa Timur",
+   "Ibu Kota": "Kraksaan",
+   "Kecamatan": 24,
+   "Kelurahan/Desa": 330
+ },
+ {
+   "Kode Kemendagri": 62.11,
+   "Kabupaten": "Kabupaten Pulang Pisau",
+   "Provinsi": "Kalimantan Tengah",
+   "Ibu Kota": "Pulang Pisau",
+   "Kecamatan": 8,
+   "Kelurahan/Desa": 99
+ },
+ {
+   "Kode Kemendagri": 82.07,
+   "Kabupaten": "Kabupaten Pulau Morotai",
+   "Provinsi": "Maluku Utara",
+   "Ibu Kota": "Morotai Selatan",
+   "Kecamatan": 5,
+   "Kelurahan/Desa": 88
+ },
+ {
+   "Kode Kemendagri": 82.08,
+   "Kabupaten": "Kabupaten Pulau Taliabu",
+   "Provinsi": "Maluku Utara",
+   "Ibu Kota": "Bobong",
+   "Kecamatan": 8,
+   "Kelurahan/Desa": 71
+ },
+ {
+   "Kode Kemendagri": 91.07,
+   "Kabupaten": "Kabupaten Puncak Jaya",
+   "Provinsi": "Papua Tengah",
+   "Ibu Kota": "Kotamulia",
+   "Kecamatan": 26,
+   "Kelurahan/Desa": 305
+ },
+ {
+   "Kode Kemendagri": 91.25,
+   "Kabupaten": "Kabupaten Puncak",
+   "Provinsi": "Papua Tengah",
+   "Ibu Kota": "Ilaga",
+   "Kecamatan": 25,
+   "Kelurahan/Desa": 206
+ },
+ {
+   "Kode Kemendagri": 33.03,
+   "Kabupaten": "Kabupaten Purbalingga",
+   "Provinsi": "Jawa Tengah",
+   "Ibu Kota": "Purbalingga",
+   "Kecamatan": 18,
+   "Kelurahan/Desa": 239
+ },
+ {
+   "Kode Kemendagri": 32.14,
+   "Kabupaten": "Kabupaten Purwakarta",
+   "Provinsi": "Jawa Barat",
+   "Ibu Kota": "Purwakarta",
+   "Kecamatan": 17,
+   "Kelurahan/Desa": 192
+ },
+ {
+   "Kode Kemendagri": 33.06,
+   "Kabupaten": "Kabupaten Purworejo",
+   "Provinsi": "Jawa Tengah",
+   "Ibu Kota": "Purworejo",
+   "Kecamatan": 16,
+   "Kelurahan/Desa": 494
+ },
+ {
+   "Kode Kemendagri": 92.05,
+   "Kabupaten": "Kabupaten Raja Ampat",
+   "Provinsi": "Papua Barat Daya",
+   "Ibu Kota": "Waisai",
+   "Kecamatan": 24,
+   "Kelurahan/Desa": 121
+ },
+ {
+   "Kode Kemendagri": 17.02,
+   "Kabupaten": "Kabupaten Rejang Lebong",
+   "Provinsi": "Bengkulu",
+   "Ibu Kota": "Curup",
+   "Kecamatan": 15,
+   "Kelurahan/Desa": 156
+ },
+ {
+   "Kode Kemendagri": 33.17,
+   "Kabupaten": "Kabupaten Rembang",
+   "Provinsi": "Jawa Tengah",
+   "Ibu Kota": "Rembang",
+   "Kecamatan": 14,
+   "Kelurahan/Desa": 294
+ },
+ {
+   "Kode Kemendagri": 14.07,
+   "Kabupaten": "Kabupaten Rokan Hilir",
+   "Provinsi": "Riau",
+   "Ibu Kota": "Ujung Tanjung/Bagan Siapi-api",
+   "Kecamatan": 15,
+   "Kelurahan/Desa": 184
+ },
+ {
+   "Kode Kemendagri": 14.06,
+   "Kabupaten": "Kabupaten Rokan Hulu",
+   "Provinsi": "Riau",
+   "Ibu Kota": "Pasir Pengaraian",
+   "Kecamatan": 16,
+   "Kelurahan/Desa": 145
+ },
+ {
+   "Kode Kemendagri": 53.14,
+   "Kabupaten": "Kabupaten Rote Ndao",
+   "Provinsi": "Nusa Tenggara Timur",
+   "Ibu Kota": "Baa",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 119
+ },
+ {
+   "Kode Kemendagri": 53.2,
+   "Kabupaten": "Kabupaten Sabu Raijua",
+   "Provinsi": "Nusa Tenggara Timur",
+   "Ibu Kota": "Seba",
+   "Kecamatan": 6,
+   "Kelurahan/Desa": 63
+ },
+ {
+   "Kode Kemendagri": 61.01,
+   "Kabupaten": "Kabupaten Sambas",
+   "Provinsi": "Kalimantan Barat",
+   "Ibu Kota": "Sambas",
+   "Kecamatan": 19,
+   "Kelurahan/Desa": 193
+ },
+ {
+   "Kode Kemendagri": 12.17,
+   "Kabupaten": "Kabupaten Samosir",
+   "Provinsi": "Sumatera Utara",
+   "Ibu Kota": "Pangururan",
+   "Kecamatan": 9,
+   "Kelurahan/Desa": 134
+ },
+ {
+   "Kode Kemendagri": 35.27,
+   "Kabupaten": "Kabupaten Sampang",
+   "Provinsi": "Jawa Timur",
+   "Ibu Kota": "Sampang",
+   "Kecamatan": 14,
+   "Kelurahan/Desa": 186
+ },
+ {
+   "Kode Kemendagri": 61.03,
+   "Kabupaten": "Kabupaten Sanggau",
+   "Provinsi": "Kalimantan Barat",
+   "Ibu Kota": "Sanggau",
+   "Kecamatan": 15,
+   "Kelurahan/Desa": 169
+ },
+ {
+   "Kode Kemendagri": 91.1,
+   "Kabupaten": "Kabupaten Sarmi",
+   "Provinsi": "Papua",
+   "Ibu Kota": "Sarmi",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 94
+ },
+ {
+   "Kode Kemendagri": 15.03,
+   "Kabupaten": "Kabupaten Sarolangun",
+   "Provinsi": "Jambi",
+   "Ibu Kota": "Sarolangun",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 158
+ },
+ {
+   "Kode Kemendagri": 61.09,
+   "Kabupaten": "Kabupaten Sekadau",
+   "Provinsi": "Kalimantan Barat",
+   "Ibu Kota": "Sekadau",
+   "Kecamatan": 7,
+   "Kelurahan/Desa": 87
+ },
+ {
+   "Kode Kemendagri": 17.05,
+   "Kabupaten": "Kabupaten Seluma",
+   "Provinsi": "Bengkulu",
+   "Ibu Kota": "Tais",
+   "Kecamatan": 14,
+   "Kelurahan/Desa": 202
+ },
+ {
+   "Kode Kemendagri": 33.22,
+   "Kabupaten": "Kabupaten Semarang",
+   "Provinsi": "Jawa Tengah",
+   "Ibu Kota": "Ungaran",
+   "Kecamatan": 19,
+   "Kelurahan/Desa": 235
+ },
+ {
+   "Kode Kemendagri": 81.06,
+   "Kabupaten": "Kabupaten Seram Bagian Barat",
+   "Provinsi": "Maluku",
+   "Ibu Kota": "Piru (de facto)",
+   "Kecamatan": 11,
+   "Kelurahan/Desa": 92
+ },
+ {
+   "Kode Kemendagri": 81.05,
+   "Kabupaten": "Kabupaten Seram Bagian Timur",
+   "Provinsi": "Maluku",
+   "Ibu Kota": "Bula (de facto)",
+   "Kecamatan": 15,
+   "Kelurahan/Desa": 198
+ },
+ {
+   "Kode Kemendagri": 36.04,
+   "Kabupaten": "Kabupaten Serang",
+   "Provinsi": "Banten",
+   "Ibu Kota": "Ciruas",
+   "Kecamatan": 29,
+   "Kelurahan/Desa": 326
+ },
+ {
+   "Kode Kemendagri": 12.18,
+   "Kabupaten": "Kabupaten Serdang Bedagai",
+   "Provinsi": "Sumatera Utara",
+   "Ibu Kota": "Sei Rampah",
+   "Kecamatan": 17,
+   "Kelurahan/Desa": 243
+ },
+ {
+   "Kode Kemendagri": 62.07,
+   "Kabupaten": "Kabupaten Seruyan",
+   "Provinsi": "Kalimantan Tengah",
+   "Ibu Kota": "Kuala Pembuang",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 100
+ },
+ {
+   "Kode Kemendagri": 14.08,
+   "Kabupaten": "Kabupaten Siak",
+   "Provinsi": "Riau",
+   "Ibu Kota": "Siak Sri Indrapura",
+   "Kecamatan": 14,
+   "Kelurahan/Desa": 131
+ },
+ {
+   "Kode Kemendagri": 73.14,
+   "Kabupaten": "Kabupaten Sidenreng Rappang",
+   "Provinsi": "Sulawesi Selatan",
+   "Ibu Kota": "Pangkajene Sidenreng",
+   "Kecamatan": 11,
+   "Kelurahan/Desa": 106
+ },
+ {
+   "Kode Kemendagri": 35.15,
+   "Kabupaten": "Kabupaten Sidoarjo",
+   "Provinsi": "Jawa Timur",
+   "Ibu Kota": "Sidoarjo",
+   "Kecamatan": 18,
+   "Kelurahan/Desa": 353
+ },
+ {
+   "Kode Kemendagri": 72.1,
+   "Kabupaten": "Kabupaten Sigi",
+   "Provinsi": "Sulawesi Tengah",
+   "Ibu Kota": "Sigi Biromaru",
+   "Kecamatan": 15,
+   "Kelurahan/Desa": 176
+ },
+ {
+   "Kode Kemendagri": 13.03,
+   "Kabupaten": "Kabupaten Sijunjung",
+   "Provinsi": "Sumatera Barat",
+   "Ibu Kota": "Muaro Sijunjung",
+   "Kecamatan": 8,
+   "Kelurahan/Desa": 61
+ },
+ {
+   "Kode Kemendagri": 53.07,
+   "Kabupaten": "Kabupaten Sikka",
+   "Provinsi": "Nusa Tenggara Timur",
+   "Ibu Kota": "Maumere",
+   "Kecamatan": 21,
+   "Kelurahan/Desa": 160
+ },
+ {
+   "Kode Kemendagri": 12.08,
+   "Kabupaten": "Kabupaten Simalungun",
+   "Provinsi": "Sumatera Utara",
+   "Ibu Kota": "Raya",
+   "Kecamatan": 32,
+   "Kelurahan/Desa": 413
+ },
+ {
+   "Kode Kemendagri": 11.09,
+   "Kabupaten": "Kabupaten Simeulue",
+   "Provinsi": "Aceh",
+   "Ibu Kota": "Sinabang",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 138
+ },
+ {
+   "Kode Kemendagri": 73.07,
+   "Kabupaten": "Kabupaten Sinjai",
+   "Provinsi": "Sulawesi Selatan",
+   "Ibu Kota": "Sinjai",
+   "Kecamatan": 9,
+   "Kelurahan/Desa": 80
+ },
+ {
+   "Kode Kemendagri": 61.05,
+   "Kabupaten": "Kabupaten Sintang",
+   "Provinsi": "Kalimantan Barat",
+   "Ibu Kota": "Sintang",
+   "Kecamatan": 14,
+   "Kelurahan/Desa": 406
+ },
+ {
+   "Kode Kemendagri": 35.12,
+   "Kabupaten": "Kabupaten Situbondo",
+   "Provinsi": "Jawa Timur",
+   "Ibu Kota": "Situbondo",
+   "Kecamatan": 17,
+   "Kelurahan/Desa": 136
+ },
+ {
+   "Kode Kemendagri": 34.04,
+   "Kabupaten": "Kabupaten Sleman",
+   "Provinsi": "Yogyakarta",
+   "Ibu Kota": "Kecamatan Sleman",
+   "Kecamatan": 17,
+   "Kelurahan/Desa": 86
+ },
+ {
+   "Kode Kemendagri": 13.11,
+   "Kabupaten": "Kabupaten Solok Selatan",
+   "Provinsi": "Sumatera Barat",
+   "Ibu Kota": "Padang Aro",
+   "Kecamatan": 7,
+   "Kelurahan/Desa": 39
+ },
+ {
+   "Kode Kemendagri": 13.02,
+   "Kabupaten": "Kabupaten Solok",
+   "Provinsi": "Sumatera Barat",
+   "Ibu Kota": "Arosuka",
+   "Kecamatan": 14,
+   "Kelurahan/Desa": 74
+ },
+ {
+   "Kode Kemendagri": 73.12,
+   "Kabupaten": "Kabupaten Soppeng",
+   "Provinsi": "Sulawesi Selatan",
+   "Ibu Kota": "Watan Soppeng",
+   "Kecamatan": 8,
+   "Kelurahan/Desa": 70
+ },
+ {
+   "Kode Kemendagri": 92.01,
+   "Kabupaten": "Kabupaten Sorong",
+   "Provinsi": "Papua Barat Daya",
+   "Ibu Kota": "Sorong",
+   "Kecamatan": 30,
+   "Kelurahan/Desa": 252
+ },
+ {
+   "Kode Kemendagri": 92.04,
+   "Kabupaten": "Kabupaten Sorong Selatan",
+   "Provinsi": "Papua Barat Daya",
+   "Ibu Kota": "Teminabuan",
+   "Kecamatan": 15,
+   "Kelurahan/Desa": 123
+ },
+ {
+   "Kode Kemendagri": 33.14,
+   "Kabupaten": "Kabupaten Sragen",
+   "Provinsi": "Jawa Tengah",
+   "Ibu Kota": "Sragen",
+   "Kecamatan": 20,
+   "Kelurahan/Desa": 208
+ },
+ {
+   "Kode Kemendagri": 32.13,
+   "Kabupaten": "Kabupaten Subang",
+   "Provinsi": "Jawa Barat",
+   "Ibu Kota": "Subang",
+   "Kecamatan": 30,
+   "Kelurahan/Desa": 253
+ },
+ {
+   "Kode Kemendagri": 32.02,
+   "Kabupaten": "Kabupaten Sukabumi",
+   "Provinsi": "Jawa Barat",
+   "Ibu Kota": "Pelabuanratu",
+   "Kecamatan": 47,
+   "Kelurahan/Desa": 386
+ },
+ {
+   "Kode Kemendagri": 62.08,
+   "Kabupaten": "Kabupaten Sukamara",
+   "Provinsi": "Kalimantan Tengah",
+   "Ibu Kota": "Sukamara",
+   "Kecamatan": 5,
+   "Kelurahan/Desa": 32
+ },
+ {
+   "Kode Kemendagri": 33.11,
+   "Kabupaten": "Kabupaten Sukoharjo",
+   "Provinsi": "Jawa Tengah",
+   "Ibu Kota": "Sukoharjo",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 167
+ },
+ {
+   "Kode Kemendagri": 53.18,
+   "Kabupaten": "Kabupaten Sumba Barat Daya",
+   "Provinsi": "Nusa Tenggara Timur",
+   "Ibu Kota": "Tambolaka",
+   "Kecamatan": 11,
+   "Kelurahan/Desa": 175
+ },
+ {
+   "Kode Kemendagri": 53.12,
+   "Kabupaten": "Kabupaten Sumba Barat",
+   "Provinsi": "Nusa Tenggara Timur",
+   "Ibu Kota": "Waikabubak",
+   "Kecamatan": 6,
+   "Kelurahan/Desa": 74
+ },
+ {
+   "Kode Kemendagri": 53.17,
+   "Kabupaten": "Kabupaten Sumba Tengah",
+   "Provinsi": "Nusa Tenggara Timur",
+   "Ibu Kota": "Waibakul",
+   "Kecamatan": 5,
+   "Kelurahan/Desa": 65
+ },
+ {
+   "Kode Kemendagri": 53.11,
+   "Kabupaten": "Kabupaten Sumba Timur",
+   "Provinsi": "Nusa Tenggara Timur",
+   "Ibu Kota": "Waingapu",
+   "Kecamatan": 22,
+   "Kelurahan/Desa": 156
+ },
+ {
+   "Kode Kemendagri": 52.07,
+   "Kabupaten": "Kabupaten Sumbawa Barat",
+   "Provinsi": "Nusa Tenggara Barat",
+   "Ibu Kota": "Taliwang",
+   "Kecamatan": 8,
+   "Kelurahan/Desa": 64
+ },
+ {
+   "Kode Kemendagri": 52.04,
+   "Kabupaten": "Kabupaten Sumbawa",
+   "Provinsi": "Nusa Tenggara Barat",
+   "Ibu Kota": "Sumbawa Besar",
+   "Kecamatan": 24,
+   "Kelurahan/Desa": 165
+ },
+ {
+   "Kode Kemendagri": 32.11,
+   "Kabupaten": "Kabupaten Sumedang",
+   "Provinsi": "Jawa Barat",
+   "Ibu Kota": "Sumedang",
+   "Kecamatan": 26,
+   "Kelurahan/Desa": 277
+ },
+ {
+   "Kode Kemendagri": 35.29,
+   "Kabupaten": "Kabupaten Sumenep",
+   "Provinsi": "Jawa Timur",
+   "Ibu Kota": "Sumenep",
+   "Kecamatan": 27,
+   "Kelurahan/Desa": 334
+ },
+ {
+   "Kode Kemendagri": 91.19,
+   "Kabupaten": "Kabupaten Supiori",
+   "Provinsi": "Papua",
+   "Ibu Kota": "Sorendiweri",
+   "Kecamatan": 5,
+   "Kelurahan/Desa": 38
+ },
+ {
+   "Kode Kemendagri": 63.09,
+   "Kabupaten": "Kabupaten Tabalong",
+   "Provinsi": "Kalimantan Selatan",
+   "Ibu Kota": "Tanjung",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 131
+ },
+ {
+   "Kode Kemendagri": 51.02,
+   "Kabupaten": "Kabupaten Tabanan",
+   "Provinsi": "Bali",
+   "Ibu Kota": "Tabanan",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 133
+ },
+ {
+   "Kode Kemendagri": 73.05,
+   "Kabupaten": "Kabupaten Takalar",
+   "Provinsi": "Sulawesi Selatan",
+   "Ibu Kota": "Pattalassang",
+   "Kecamatan": 9,
+   "Kelurahan/Desa": 100
+ },
+ {
+   "Kode Kemendagri": 92.09,
+   "Kabupaten": "Kabupaten Tambrauw",
+   "Provinsi": "Papua Barat Daya",
+   "Ibu Kota": "Fef",
+   "Kecamatan": 29,
+   "Kelurahan/Desa": 216
+ },
+ {
+   "Kode Kemendagri": 65.04,
+   "Kabupaten": "Kabupaten Tana Tidung",
+   "Provinsi": "Kalimantan Utara",
+   "Ibu Kota": "Tideng Pale",
+   "Kecamatan": 5,
+   "Kelurahan/Desa": 32
+ },
+ {
+   "Kode Kemendagri": 73.18,
+   "Kabupaten": "Kabupaten Tana Toraja",
+   "Provinsi": "Sulawesi Selatan",
+   "Ibu Kota": "Makale",
+   "Kecamatan": 19,
+   "Kelurahan/Desa": 159
+ },
+ {
+   "Kode Kemendagri": 63.1,
+   "Kabupaten": "Kabupaten Tanah Bumbu",
+   "Provinsi": "Kalimantan Selatan",
+   "Ibu Kota": "Batulicin",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 149
+ },
+ {
+   "Kode Kemendagri": 13.04,
+   "Kabupaten": "Kabupaten Tanah Datar",
+   "Provinsi": "Sumatera Barat",
+   "Ibu Kota": "Batusangkar",
+   "Kecamatan": 14,
+   "Kelurahan/Desa": 75
+ },
+ {
+   "Kode Kemendagri": 63.01,
+   "Kabupaten": "Kabupaten Tanah Laut",
+   "Provinsi": "Kalimantan Selatan",
+   "Ibu Kota": "Pelaihari",
+   "Kecamatan": 11,
+   "Kelurahan/Desa": 135
+ },
+ {
+   "Kode Kemendagri": 36.03,
+   "Kabupaten": "Kabupaten Tangerang",
+   "Provinsi": "Banten",
+   "Ibu Kota": "Tigaraksa",
+   "Kecamatan": 29,
+   "Kelurahan/Desa": 274
+ },
+ {
+   "Kode Kemendagri": 18.06,
+   "Kabupaten": "Kabupaten Tanggamus",
+   "Provinsi": "Lampung",
+   "Ibu Kota": "Kota Agung",
+   "Kecamatan": 20,
+   "Kelurahan/Desa": 302
+ },
+ {
+   "Kode Kemendagri": 15.06,
+   "Kabupaten": "Kabupaten Tanjung Jabung Barat",
+   "Provinsi": "Jambi",
+   "Ibu Kota": "Kuala Tungkal",
+   "Kecamatan": 13,
+   "Kelurahan/Desa": 134
+ },
+ {
+   "Kode Kemendagri": 15.07,
+   "Kabupaten": "Kabupaten Tanjung Jabung Timur",
+   "Provinsi": "Jambi",
+   "Ibu Kota": "Muara Sabak",
+   "Kecamatan": 11,
+   "Kelurahan/Desa": 93
+ },
+ {
+   "Kode Kemendagri": 12.03,
+   "Kabupaten": "Kabupaten Tapanuli Selatan",
+   "Provinsi": "Sumatera Utara",
+   "Ibu Kota": "Sipirok, Tapanuli Selatan",
+   "Kecamatan": 14,
+   "Kelurahan/Desa": 248
+ },
+ {
+   "Kode Kemendagri": 12.01,
+   "Kabupaten": "Kabupaten Tapanuli Tengah",
+   "Provinsi": "Sumatera Utara",
+   "Ibu Kota": "Pandan, Tapanuli Tengah",
+   "Kecamatan": 20,
+   "Kelurahan/Desa": 215
+ },
+ {
+   "Kode Kemendagri": 12.02,
+   "Kabupaten": "Kabupaten Tapanuli Utara",
+   "Provinsi": "Sumatera Utara",
+   "Ibu Kota": "Tarutung",
+   "Kecamatan": 15,
+   "Kelurahan/Desa": 252
+ },
+ {
+   "Kode Kemendagri": 63.05,
+   "Kabupaten": "Kabupaten Tapin",
+   "Provinsi": "Kalimantan Selatan",
+   "Ibu Kota": "Rantau",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 135
+ },
+ {
+   "Kode Kemendagri": 32.06,
+   "Kabupaten": "Kabupaten Tasikmalaya",
+   "Provinsi": "Jawa Barat",
+   "Ibu Kota": "Singaparna",
+   "Kecamatan": 39,
+   "Kelurahan/Desa": 351
+ },
+ {
+   "Kode Kemendagri": 15.09,
+   "Kabupaten": "Kabupaten Tebo",
+   "Provinsi": "Jambi",
+   "Ibu Kota": "Muara Tebo",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 112
+ },
+ {
+   "Kode Kemendagri": 33.28,
+   "Kabupaten": "Kabupaten Tegal",
+   "Provinsi": "Jawa Tengah",
+   "Ibu Kota": "Slawi",
+   "Kecamatan": 18,
+   "Kelurahan/Desa": 287
+ },
+ {
+   "Kode Kemendagri": 92.06,
+   "Kabupaten": "Kabupaten Teluk Bintuni",
+   "Provinsi": "Papua Barat",
+   "Ibu Kota": "Bintuni",
+   "Kecamatan": 24,
+   "Kelurahan/Desa": 117
+ },
+ {
+   "Kode Kemendagri": 92.07,
+   "Kabupaten": "Kabupaten Teluk Wondama",
+   "Provinsi": "Papua Barat",
+   "Ibu Kota": "Rasiei",
+   "Kecamatan": 13,
+   "Kelurahan/Desa": 76
+ },
+ {
+   "Kode Kemendagri": 33.23,
+   "Kabupaten": "Kabupaten Temanggung",
+   "Provinsi": "Jawa Tengah",
+   "Ibu Kota": "Temanggung",
+   "Kecamatan": 20,
+   "Kelurahan/Desa": 289
+ },
+ {
+   "Kode Kemendagri": 53.02,
+   "Kabupaten": "Kabupaten Timor Tengah Selatan",
+   "Provinsi": "Nusa Tenggara Timur",
+   "Ibu Kota": "Soe",
+   "Kecamatan": 32,
+   "Kelurahan/Desa": 278
+ },
+ {
+   "Kode Kemendagri": 53.03,
+   "Kabupaten": "Kabupaten Timor Tengah Utara",
+   "Provinsi": "Nusa Tenggara Timur",
+   "Ibu Kota": "Kefamenanu",
+   "Kecamatan": 24,
+   "Kelurahan/Desa": 193
+ },
+ {
+   "Kode Kemendagri": 12.12,
+   "Kabupaten": "Kabupaten Toba Samosir",
+   "Provinsi": "Sumatera Utara",
+   "Ibu Kota": "Balige",
+   "Kecamatan": 16,
+   "Kelurahan/Desa": 244
+ },
+ {
+   "Kode Kemendagri": 72.09,
+   "Kabupaten": "Kabupaten Tojo Una-Una",
+   "Provinsi": "Sulawesi Tengah",
+   "Ibu Kota": "Ampana",
+   "Kecamatan": 12,
+   "Kelurahan/Desa": 146
+ },
+ {
+   "Kode Kemendagri": 72.04,
+   "Kabupaten": "Kabupaten Toli-Toli",
+   "Provinsi": "Sulawesi Tengah",
+   "Ibu Kota": "Toli-Toli",
+   "Kecamatan": 10,
+   "Kelurahan/Desa": 109
+ },
+ {
+   "Kode Kemendagri": 91.14,
+   "Kabupaten": "Kabupaten Tolikara",
+   "Provinsi": "Papua Pegunungan",
+   "Ibu Kota": "Karubaga",
+   "Kecamatan": 46,
+   "Kelurahan/Desa": 545
+ },
+ {
+   "Kode Kemendagri": 73.26,
+   "Kabupaten": "Kabupaten Toraja Utara",
+   "Provinsi": "Sulawesi Selatan",
+   "Ibu Kota": "Rantepao",
+   "Kecamatan": 21,
+   "Kelurahan/Desa": 151
+ },
+ {
+   "Kode Kemendagri": 35.03,
+   "Kabupaten": "Kabupaten Trenggalek",
+   "Provinsi": "Jawa Timur",
+   "Ibu Kota": "Trenggalek",
+   "Kecamatan": 14,
+   "Kelurahan/Desa": 157
+ },
+ {
+   "Kode Kemendagri": 35.23,
+   "Kabupaten": "Kabupaten Tuban",
+   "Provinsi": "Jawa Timur",
+   "Ibu Kota": "Tuban",
+   "Kecamatan": 20,
+   "Kelurahan/Desa": 328
+ },
+ {
+   "Kode Kemendagri": 18.12,
+   "Kabupaten": "Kabupaten Tulang Bawang Barat",
+   "Provinsi": "Lampung",
+   "Ibu Kota": "Tulang Bawang Tengah",
+   "Kecamatan": 9,
+   "Kelurahan/Desa": 96
+ },
+ {
+   "Kode Kemendagri": 18.05,
+   "Kabupaten": "Kabupaten Tulang Bawang",
+   "Provinsi": "Lampung",
+   "Ibu Kota": "Menggala",
+   "Kecamatan": 15,
+   "Kelurahan/Desa": 151
+ },
+ {
+   "Kode Kemendagri": 35.04,
+   "Kabupaten": "Kabupaten Tulungagung",
+   "Provinsi": "Jawa Timur",
+   "Ibu Kota": "Tulungagung",
+   "Kecamatan": 19,
+   "Kelurahan/Desa": 271
+ },
+ {
+   "Kode Kemendagri": 73.13,
+   "Kabupaten": "Kabupaten Wajo",
+   "Provinsi": "Sulawesi Selatan",
+   "Ibu Kota": "Sengkang",
+   "Kecamatan": 14,
+   "Kelurahan/Desa": 190
+ },
+ {
+   "Kode Kemendagri": 74.07,
+   "Kabupaten": "Kabupaten Wakatobi",
+   "Provinsi": "Sulawesi Tenggara",
+   "Ibu Kota": "Wangi-Wangi",
+   "Kecamatan": 8,
+   "Kelurahan/Desa": 101
+ },
+ {
+   "Kode Kemendagri": 91.15,
+   "Kabupaten": "Kabupaten Waropen",
+   "Provinsi": "Papua",
+   "Ibu Kota": "Botawa",
+   "Kecamatan": 11,
+   "Kelurahan/Desa": 100
+ },
+ {
+   "Kode Kemendagri": 18.08,
+   "Kabupaten": "Kabupaten Way Kanan",
+   "Provinsi": "Lampung",
+   "Ibu Kota": "Blambangan Umpu",
+   "Kecamatan": 14,
+   "Kelurahan/Desa": 227
+ },
+ {
+   "Kode Kemendagri": 33.12,
+   "Kabupaten": "Kabupaten Wonogiri",
+   "Provinsi": "Jawa Tengah",
+   "Ibu Kota": "Wonogiri",
+   "Kecamatan": 25,
+   "Kelurahan/Desa": 294
+ },
+ {
+   "Kode Kemendagri": 33.07,
+   "Kabupaten": "Kabupaten Wonosobo",
+   "Provinsi": "Jawa Tengah",
+   "Ibu Kota": "Wonosobo",
+   "Kecamatan": 15,
+   "Kelurahan/Desa": 265
+ },
+ {
+   "Kode Kemendagri": 91.13,
+   "Kabupaten": "Kabupaten Yahukimo",
+   "Provinsi": "Papua Pegunungan",
+   "Ibu Kota": "Sumohai",
+   "Kecamatan": 51,
+   "Kelurahan/Desa": 511
+ },
+ {
+   "Kode Kemendagri": 91.22,
+   "Kabupaten": "Kabupaten Yalimo",
+   "Provinsi": "Papua Pegunungan",
+   "Ibu Kota": "Elelim",
+   "Kecamatan": 5,
+   "Kelurahan/Desa": 300
+ }
+]
