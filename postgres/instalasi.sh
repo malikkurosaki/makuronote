@@ -20,3 +20,9 @@ nano /usr/local/var/postgres/pg_hba.conf
 # "local" is for Unix domain socket connections only
 local   all             all                                     md5
 brew services restart postgresql
+
+
+sudo su - postgres
+psql
+
+sudo -u postgres psql
