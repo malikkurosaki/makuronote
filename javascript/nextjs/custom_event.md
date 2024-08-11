@@ -31,7 +31,15 @@ import { decode } from "js-base64";
 import { useCallback, useEffect } from "react";
 
 // Hook untuk digunakan pada komponen React
-export function useEventClient(config: string, subscribe: string) {
+export function useEventClient({
+  config,
+  projectId,
+  subscribe,
+}: {
+  config: string;
+  projectId: string;
+  subscribe: string;
+}) {
   if (!config) {
     throw new Error("config not found");
   }
@@ -47,7 +55,7 @@ export function useEventClient(config: string, subscribe: string) {
   }
 
   const db = getDatabase(app);
-  const eventRef = ref(db, `wibu/${subscribe}`);
+  const eventRef = ref(db, `wibu/${projectId}/${subscribe}`);
 
   // Gunakan useCallback untuk mencegah fungsi berubah antara render
   const onRefresh = useCallback(
@@ -70,10 +78,11 @@ export function useEventClient(config: string, subscribe: string) {
 
     // Cleanup listener on unmount
     return () => unsubscribe();
-  }, [onRefresh]); 
+  }, [onRefresh]);
 
   return [onRefresh, setRefresh, onChange] as const;
 }
+
 ```
 
 eventServer.ts
@@ -107,9 +116,15 @@ if (!admin.apps.length) {
 
 const realtimeDB = admin.database();
 
-function eventServer({ id }: { id: string }) {
+function eventServer({
+  subscribe,
+  projectId,
+}: {
+  projectId: string;
+  subscribe: string;
+}) {
   function onUpdate(event: () => void) {
-    const ref = realtimeDB.ref(`wibu/${id}`);
+    const ref = realtimeDB.ref(`wibu/${projectId}/${subscribe}`);
 
     ref.on("value", (snapshot) => {
       event();
@@ -120,7 +135,7 @@ function eventServer({ id }: { id: string }) {
   }
 
   function update(onSuccess?: () => void) {
-    const ref = realtimeDB.ref(`wibu/${id}`);
+    const ref = realtimeDB.ref(`wibu/${projectId}/${subscribe}`);
     ref.set({ data: Math.random() }, (err) => {
       if (err) {
         console.log("Error setting value:", err);
@@ -131,7 +146,7 @@ function eventServer({ id }: { id: string }) {
   }
 
   function onChange(event: () => void) {
-    const ref = realtimeDB.ref(`wibu/${id}`);
+    const ref = realtimeDB.ref(`wibu/${projectId}/${subscribe}`);
     ref.on("child_changed", (snapshot) => {
       event();
     });
@@ -141,4 +156,5 @@ function eventServer({ id }: { id: string }) {
 }
 
 export { eventServer };
+
 ```
