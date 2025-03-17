@@ -31,6 +31,7 @@ interface ShellPromise extends Promise<ShellResult> {
   lines(): Promise<string[]>;
   buffer(): Promise<Buffer>;
   exec(): Promise<ShellResult>;
+  exitCode(): Promise<number>; // Ditambahkan
 }
 
 /**
@@ -156,6 +157,10 @@ class ShellCommand {
 
     promise.exec = () => this.resultPromise;
 
+    promise.exitCode = () => { // Ditambahkan
+      return this.resultPromise.then(result => result.exitCode);
+    };
+
     return promise;
   }
 
@@ -197,3 +202,4 @@ export const $ = Object.assign(
     }
   }
 );
+
