@@ -1,5 +1,7 @@
 ## FRPS
 
+### SERVER
+
 docker-compose.yml
 
 ```yml
@@ -54,4 +56,47 @@ log_max_days = 3
 max_pool_count = 5
 heartbeat_timeout = 90
 
+```
+
+
+### CLIENT
+
+docker-compose.yml
+
+```yml
+services:
+  frpc:
+    image: snowdreamtech/frpc:latest
+    container_name: frpc
+    command: -c /etc/frp/frpc.ini
+    volumes:
+      - ./data/frpc.ini:/etc/frp/frpc.ini
+    restart: unless-stopped
+    networks:
+      - makuro-network
+
+networks:
+  makuro-network:
+    external: true
+```
+
+data/frpc.ini
+
+```ini
+[common]
+server_addr = 85.31.224.193
+server_port = 7000
+auth_token = secure_token_2025
+
+[ssh]
+type = tcp
+local_ip = 127.0.0.1
+local_port = 22
+remote_port = 6000
+
+[web]
+type = http
+local_ip = webrtc
+local_port = 3000
+custom_domains = app.wibudev.com
 ```
