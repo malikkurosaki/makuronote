@@ -16,7 +16,8 @@ services:
       - GITEA_CUSTOM=/data/gitea/custom
       - GITEA__server__HTTP_PORT=3000 
       - GITEA__mailer__ENABLED=true
-      - GITEA__mailer__HOST=smtp.gmail.com:587
+      - GITEA__mailer__SMTP_ADDR=smtp.gmail.com
+      - GITEA__mailer__SMTP_PORT=587
       - GITEA__mailer__FROM=bip.production.js@gmail.com
       - GITEA__mailer__USER=bip.production.js@gmail.com
       - GITEA__mailer__PASS=${GITEA_MAILER_PASS}
