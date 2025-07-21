@@ -58,6 +58,40 @@ heartbeat_timeout = 90
 
 ```
 
+default.conf
+
+```txt
+# Mapping subdomain ke container:port
+map $subdomain $upstream_url {
+    # container langsung
+    wibugit     wibugit:3000;
+
+    # semua subdomain lain ke FRP reverse proxy
+    default  frps:4080;
+}
+
+server {
+    listen 80;
+    server_name ~^(?<subdomain>[^.]+)\.wibudev\.com$;
+
+    resolver 127.0.0.11 valid=10s;
+    client_max_body_size 200M;
+
+    location / {
+        proxy_pass http://$upstream_url;
+        proxy_http_version 1.1;
+
+        proxy_set_header Host $host;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+
+```
+
 
 ### CLIENT
 
