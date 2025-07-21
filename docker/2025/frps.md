@@ -63,7 +63,7 @@ heartbeat_timeout = 90
 
 default.conf
 
-```txt
+```conf
 # Mapping subdomain ke container:port
 map $subdomain $upstream_url {
     # container langsung
@@ -93,19 +93,44 @@ server {
 
         proxy_intercept_errors on;  # <- penting
 
-        error_page 502 503 504 = /custom_error.html;  # tangani error proxy
+        error_page 502 503 504 = /err_5x.html;
+        error_page 404 = /err_404.html;
     }
-
-    location = /custom_error.html {
-        root /usr/share/nginx/html;  # letakkan HTML di sini
+    
+    location = /err_5x.html {
+        root /usr/share/nginx/html;
         internal;
     }
-}
 
+    location = /err_404.html {
+        root /usr/share/nginx/html;
+        internal;
+    }
+
+}
+```
+
+html/err_404.html
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Service Unavailable</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; margin-top: 50px; }
+    </style>
+</head>
+<body>
+    <h1>Oops! Service unavailable.</h1>
+    <p>The service is currently down or not responding.</p>
+    <p><em>404 | Not Found</em></p>
+</body>
+</html>
 
 ```
 
-html/custom_error.html
+html/err_5x.html
 
 ```html
 <!DOCTYPE html>
@@ -122,9 +147,7 @@ html/custom_error.html
     <p><em>Faithfully yours, nginx.</em></p>
 </body>
 </html>
-
 ```
-
 
 ### CLIENT
 
