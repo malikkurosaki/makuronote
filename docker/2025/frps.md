@@ -67,7 +67,7 @@ map $subdomain $upstream_url {
     wibugit     wibugit:3000;
 
     # semua subdomain lain ke FRP reverse proxy
-    default  frps:4080;
+    default     frps:4080;
 }
 
 server {
@@ -87,8 +87,18 @@ server {
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_cache_bypass $http_upgrade;
+
+        proxy_intercept_errors on;  # <- penting
+
+        error_page 502 503 504 = /custom_error.html;  # tangani error proxy
+    }
+
+    location = /custom_error.html {
+        root /usr/share/nginx/html;  # letakkan HTML di sini
+        internal;
     }
 }
+
 
 ```
 
