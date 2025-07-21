@@ -59,6 +59,8 @@ heartbeat_timeout = 90
 
 ```
 
+### Custom Default Page
+
 default.conf
 
 ```txt
