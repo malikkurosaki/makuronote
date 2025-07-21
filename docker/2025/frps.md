@@ -14,6 +14,7 @@ services:
       - "7000:7000"     # hanya ini yang wajib
       - "7500:7500"     # dashboard jika diperlukan
     volumes:
+      - ./html:/usr/share/nginx/html
       - ./data/frps.ini:/etc/frp/frps.ini
       - ./data/logs:/var/log/frp
     restart: unless-stopped
@@ -99,6 +100,26 @@ server {
     }
 }
 
+
+```
+
+html/custom_error.html
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Service Unavailable</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; margin-top: 50px; }
+    </style>
+</head>
+<body>
+    <h1>Oops! Service unavailable.</h1>
+    <p>The service is currently down or not responding.</p>
+    <p><em>Faithfully yours, nginx.</em></p>
+</body>
+</html>
 
 ```
 
