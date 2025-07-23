@@ -13,8 +13,8 @@ services:
     ports:
       - "7000:7000"     # hanya ini yang wajib
       - "7500:7500"     # dashboard jika diperlukan
+      - "6000:6000"     # untuk ssh
     volumes:
-      - ./html:/usr/share/nginx/html
       - ./data/frps.ini:/etc/frp/frps.ini
       - ./data/logs:/var/log/frp
     restart: unless-stopped
@@ -59,7 +59,28 @@ heartbeat_timeout = 90
 
 ```
 
-### Custom Default Page
+### Custom Default Page Nginx
+
+docker-compose.yml
+
+```conf
+services:
+  nginx:
+    image: nginx:latest
+    container_name: nginx-router
+    restart: always
+    ports:
+      - "4000:80"  
+    volumes:
+       - ./default.conf:/etc/nginx/conf.d/default.conf:ro
+       - ./html:/usr/share/nginx/html:ro
+    networks:
+      - makuro-network
+
+networks:
+  makuro-network:
+    external: true
+```
 
 default.conf
 
@@ -149,7 +170,7 @@ html/err_5x.html
 </html>
 ```
 
-### CLIENT
+## CLIENT
 
 docker-compose.yml
 
@@ -164,7 +185,29 @@ services:
     restart: unless-stopped
     networks:
       - makuro-network
-
+  ssh-server:
+    image: linuxserver/openssh-server:latest
+    container_name: ssh-server
+    restart: unless-stopped
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Makassar
+      - USER_NAME=makuro
+      - SUDO_ACCESS=false
+      - PASSWORD_ACCESS=false 
+      - LISTEN_PORT=2222
+      - PUBLIC_KEY=${SSH_PUBLIC_KEY}
+    volumes:
+      - ./ssh-config:/config
+    networks:
+      - makuro-network
+    healthcheck:
+      test: ["CMD", "nc", "-z", "localhost", "22"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
 networks:
   makuro-network:
     external: true
@@ -180,8 +223,8 @@ auth_token = secure_token_2025
 
 [ssh]
 type = tcp
-local_ip = 127.0.0.1
-local_port = 22
+local_ip = ssh-server
+local_port = 2222
 remote_port = 6000
 
 [web]
@@ -189,4 +232,20 @@ type = http
 local_ip = webrtc
 local_port = 3000
 custom_domains = app.wibudev.com
+```
+
+### ssh
+
+generate key
+
+```sh
+ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519
+```
+
+yang diambil adalah `id_ed25519.pub` paste ke SSH_PUBLIC_KEY
+
+.env
+
+```ini
+SSH_PUBLIC_KEY=
 ```
