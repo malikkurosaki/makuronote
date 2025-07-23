@@ -261,3 +261,13 @@ yang diambil adalah `id_ed25519.pub` paste ke SSH_PUBLIC_KEY
 ```ini
 SSH_PUBLIC_KEY=
 ```
+
+~/.ssh/config
+
+```sh
+Host bip-local
+  HostName 85.31.xxx.xxx
+  User makuro
+  Port 6000
+  IdentityFile ~/.ssh/id_ed25519_frpc
+```
