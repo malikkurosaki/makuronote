@@ -20,6 +20,18 @@ services:
     restart: unless-stopped
     networks:
       - makuro-network  # hanya satu network
+  nginx:
+    image: nginx:latest
+    container_name: nginx-router
+    restart: always
+    ports:
+      - "4000:80"  
+    volumes:
+       - ./default.conf:/etc/nginx/conf.d/default.conf:ro
+       - ./html:/usr/share/nginx/html:ro
+    networks:
+      - makuro-network
+
 
 networks:
   makuro-network:
