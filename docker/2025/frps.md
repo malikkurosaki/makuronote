@@ -37,7 +37,7 @@ bind_port = 7000
 bind_addr = 0.0.0.0
 
 # Autentikasi token, harus sama dengan frpc
-auth_token = secure_token_2025
+auth_token = xxxxxxxxxx
 
 # Dashboard web untuk memantau status frp (opsional)
 dashboard_port = 7500
@@ -217,9 +217,9 @@ data/frpc.ini
 
 ```ini
 [common]
-server_addr = 85.31.224.193
+server_addr = 85.31.xxx.xxx
 server_port = 7000
-auth_token = secure_token_2025
+auth_token = xxxxxxxxxxxxxx
 
 [ssh]
 type = tcp
