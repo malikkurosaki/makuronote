@@ -1,3 +1,1 @@
-transport.tcp_mux = true
-transport.pool_count = 5
-transport.tls.enable = true
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDfXPd7ab21qdKtKKdv2bLxIa9hEqq2oLLj7c3i/rN2f bip@bips-Air
