@@ -161,5 +161,49 @@ sudo chown root:wheel /Library/LaunchDaemons/com.bip.frpc.plist
 sudo launchctl load -w /Library/LaunchDaemons/com.bip.frpc.plist
 `
 
+## Client Docker
+
+frpc.toml
+
+```toml
+[common]
+server_addr = "85.31.224.193"
+server_port = 7000
+transport.tcp_mux = true
+transport.pool_count = 5
+transport.tls.enable = true
+
+auth_token = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+
+[web-nextjs]
+type = http
+local_ip = "sistem-desa-mandiri"
+local_port = 3000
+custom_domains = "sdm.wibudev.com"
+
+[db]
+type = tcp
+local_ip = "db"
+local_port = 5432
+remote_port = 6002
+```
+
+docker-compose.yml
+
+```yml
+services:
+  frpc:
+    image: snowdreamtech/frpc:latest
+    container_name: frpc
+    command: -c /etc/frp/frpc.toml
+    volumes:
+      - ./frpc.toml:/etc/frp/frpc.toml
+    restart: unless-stopped
+    networks:
+      - makuro-network
+networks:
+  makuro-network:
+    external: true
+```
 
 
