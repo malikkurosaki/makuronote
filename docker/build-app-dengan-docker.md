@@ -25,6 +25,7 @@ fi
   source .env.config
 
   docker run --rm \
+    --platform "linux/${ARCH}" \
     --name "releases-${APP_NAME}" \
     --env APP_NAME="${APP_NAME}" \
     --env ARCH="${ARCH}" \
