@@ -31,7 +31,7 @@ fi
     --env ARCH="${ARCH}" \
     --env IS_DB_PUSH="${IS_DB_PUSH}" \
     --env IS_DB_SEED="${IS_DB_SEED}" \
-    --env DATABASE_URL="postgresql://bip:Production_123@db:5432/sistem_desa_mandiri?schema=public" \
+    --env-file .env \
     --network makuro-network \
     -v "${PWD}:/app" \
     -w /app \
