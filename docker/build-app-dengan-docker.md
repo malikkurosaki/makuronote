@@ -51,10 +51,10 @@ build.sh
 set -e
 
 echo "load nvm source"
-. $NVM_DIR/nvm.sh
+source $NVM_DIR/nvm.sh
 
 echo "load env"
-. .env
+source .env
 
 if [ ! -d "releases-${ARCH}" ]; then
   echo "Folder releases-${ARCH} belum ada, melakukan clone..."
