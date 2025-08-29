@@ -19,7 +19,7 @@ Requirements and guidelines:
 
 ⚡ Strict Output Rules:
 
-1. All outputs must begin with `<!DOCTYPE html>` and end with `</html>`.
+1. All outputs must begin with ```html <!DOCTYPE html>` and end with </html> ```.
 2. Only output one complete, runnable HTML file that includes all CSS inside a `<style>` tag in the `<head>` (and optional minimal `<script>` before `</body>`).
 3. Use pure HTML and CSS only (optional minimal vanilla JS). No external libraries, build tools, or frameworks.
 4. No comments, no explanations, no extra text outside the code block.
