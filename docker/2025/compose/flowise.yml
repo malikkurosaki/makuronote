@@ -1,0 +1,60 @@
+services:
+  flowise-ui:
+    image: flowiseai/flowise:latest
+    restart: unless-stopped
+    volumes:
+      - flowise_data:/root/.flowise
+    environment:
+      PORT: 3000
+      REDIS_URL: redis://flowise-redis:6379
+      DATABASE_TYPE: postgres
+      DATABASE_HOST: flowise-postgres
+      DATABASE_PORT: 5432
+      DATABASE_USER: bip
+      DATABASE_PASSWORD: Production_123
+      DATABASE_NAME: test
+    networks:
+      - makuro-network
+    depends_on:
+      - flowise-qdrant
+      - flowise-postgres
+      - flowise-redis
+
+  flowise-qdrant:
+    image: qdrant/qdrant:latest
+    restart: unless-stopped
+    volumes:
+      - flowise_qdrant_data:/qdrant/storage
+    networks:
+      - makuro-network
+
+  flowise-postgres:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: bip
+      POSTGRES_PASSWORD: Production_123
+      POSTGRES_DB: test
+    volumes:
+      - flowise_postgres_data:/var/lib/postgresql/data
+    networks:
+      - makuro-network
+
+  flowise-redis:
+    image: redis:7.2
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - flowise_redis_data:/data
+    networks:
+      - makuro-network
+
+volumes:
+  flowise_data:
+  flowise_qdrant_data:
+  flowise_postgres_data:
+  flowise_redis_data:
+
+networks:
+  makuro-network:
+    external: true
