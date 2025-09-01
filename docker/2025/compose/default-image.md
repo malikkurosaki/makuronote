@@ -54,28 +54,68 @@ services:
       timeout: 5s
       retries: 5
     volumes:
-      - ./jenna-wa:/app
+      - ./jenna-wa_data:/app
     command: >
       sh -c '
         set -e
+        : $${APP_NAME:=jenna-wa}
 
-        if [ ! -f package.json ]; then
-          git clone --depth 1 --branch main https://wibugit.wibudev.com/bip/whatsapp-server.git .
+        if [ -d /app/$$APP_NAME-new ]; then
+          echo "Cloning repository..."
+          rm -rf /app/$$APP_NAME-new
         fi
 
-        bun install --frozen-lockfile
+        git clone --depth 1 --branch main https://wibugit.wibudev.com/bip/whatsapp-server.git $$APP_NAME-new
 
-        # Jalankan Prisma migrate & seed sekali saja
-        if [ ! -f /app/.init_done ]; then
-          
+        if [ -d /app/$$APP_NAME/.auth ]; then
+          echo "Moving .auth..."
+          cp -r /app/$$APP_NAME/.auth /app/$$APP_NAME-new/.auth
+        fi
+
+        if [ -d /app/$$APP_NAME/node_modules ]; then
+          echo "Moving node_modules..."
+          cp -r /app/$$APP_NAME/node_modules /app/$$APP_NAME-new/node_modules
+        fi
+
+        if [ -d /app/$$APP_NAME/generated/prisma ]; then
+          mkdir -p /app/$$APP_NAME-new/generated/prisma
+          echo "Moving generated/prisma..."
+          cp -r /app/$$APP_NAME/generated/prisma /app/$$APP_NAME-new/generated/prisma
+        fi
+
+        if [ -f /app/$$APP_NAME/bun.lock ]; then
+          echo "Moving bun.lock..."
+          cp /app/$$APP_NAME/bun.lock /app/$$APP_NAME-new/bun.lock
+        fi
+
+        if [ -f /app/$$APP_NAME/seed.lock ]; then
+          echo "Moving seed.lock..."
+          cp /app/$$APP_NAME/seed.lock /app/$$APP_NAME-new/seed.lock
+        fi
+
+        cd /app/$$APP_NAME-new
+
+        echo "📦 Installing dependencies..."
+        bun install --frozen-lockfile || { echo "❌ Bun install gagal"; exit 1; }
+
+        bun x prisma db push
+
+        if [ ! -f /app/$$APP_NAME-new/seed.lock ]; then
           echo "⏳ Menjalankan Prisma migrate & seed..."
-          bun x prisma db push
           bun x prisma db seed
-          touch /app/.init_done
+          touch /app/$$APP_NAME-new/seed.lock
           echo "✅ Prisma migration & seeding selesai"
         else
-          echo "⚡ Init sudah pernah dijalankan, skip migrate & seed"
+          echo "⚡ Init sudah pernah dijalankan, skip migrate & seed , hapus seed.lock jika perlu seeding ulang"
         fi
+
+        echo "Moving new files..."
+        if [ -d /app/$$APP_NAME ]; then
+          mv /app/$$APP_NAME /app/$$APP_NAME-old
+          rm -rf /app/$$APP_NAME-old
+        fi
+        mv /app/$$APP_NAME-new /app/$$APP_NAME
+        cd /app/$$APP_NAME
 
         echo "🚀 Menjalankan Bun..."
         bun run start
