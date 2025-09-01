@@ -12,8 +12,7 @@ services:
     networks:
       - makuro-network
     healthcheck:
-      test: >
-        CMD-SHELL pg_isready -U bip -d jenna-wa
+      test: ["CMD-SHELL", "pg_isready -U bip -d jenna-wa"]
       interval: 5s
       timeout: 5s
       retries: 5
