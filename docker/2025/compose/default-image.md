@@ -26,10 +26,6 @@ services:
 
         WORKDIR /app
 
-        # Install dependencies untuk git, curl
-        RUN apt-get update && apt-get install -y git \
-            && rm -rf /var/lib/apt/lists/*
-
         # Install Bun
         RUN curl -fsSL https://bun.sh/install | bash \
             && mv /root/.bun/bin/bun /usr/local/bin/bun \
