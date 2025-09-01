@@ -38,7 +38,6 @@ services:
     environment:
       - DATABASE_URL=postgresql://bip:Production_123@jenna-wa-postgres:5432/jenna-wa
       - BUN_PUBLIC_BASE_URL=http://jenna-wa:3000
-      - PORT=3000
       - JWT_SECRET=super_sangat_rahasia_sekali
       - WA_AUTH_DIR=.auth
     ports:
