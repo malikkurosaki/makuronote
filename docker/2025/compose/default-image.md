@@ -40,8 +40,7 @@ services:
       - BUN_PUBLIC_BASE_URL=http://jenna-wa:3000
       - JWT_SECRET=super_sangat_rahasia_sekali
       - WA_AUTH_DIR=.auth
-    ports:
-      - "3000:3000"
+      - PORT=3000
     networks:
       - makuro-network
     depends_on:
