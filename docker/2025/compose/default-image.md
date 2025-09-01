@@ -84,8 +84,6 @@ services:
 networks:
   makuro-network:
     external: true
-
-
 ```
 
 
