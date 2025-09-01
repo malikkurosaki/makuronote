@@ -3,6 +3,7 @@ services:
   jenna-wa-postgres:
     image: postgres:16
     restart: unless-stopped
+    container_name: jenna-wa-postgres
     environment:
       - POSTGRES_USER=bip
       - POSTGRES_PASSWORD=Production_123
@@ -35,6 +36,7 @@ services:
 
     image: jenna-wa
     restart: unless-stopped
+    container_name: jenna-wa
     environment:
       - DATABASE_URL=postgresql://bip:Production_123@jenna-wa-postgres:5432/jenna-wa
       - BUN_PUBLIC_BASE_URL=http://jenna-wa:3000
@@ -47,7 +49,7 @@ services:
       jenna-wa-postgres:
         condition: service_healthy
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:3000"]
+      test: ["CMD-SHELL", "curl -f http://localhost:3000"]
       interval: 10s
       timeout: 5s
       retries: 5
