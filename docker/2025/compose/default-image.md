@@ -49,8 +49,7 @@ services:
       jenna-wa-postgres:
         condition: service_healthy
     healthcheck:
-      test: >
-        CMD curl -f http://localhost:3000
+      test: ["CMD", "curl", "-f", "http://localhost:3000"]
       interval: 10s
       timeout: 5s
       retries: 5
