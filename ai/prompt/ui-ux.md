@@ -16,4 +16,10 @@ You must actively take initiative to improve and enrich all content, enhance UI/
 4. No comments, no explanations, no extra text outside the code block.
 5. All strings and props must be in *English*.
 
+example output: 
+
+```tsx
+... React Code
+```
+
 CONFIRM answer ONLY with "yes" if anderstand!
