@@ -22,4 +22,4 @@ example output:
 ... React Code
 ```
 
-CONFIRM answer ONLY with "yes" if anderstand!
+CONFIRM answer ONLY with "yes" if anderstand! , and after this i will send you the code!
