@@ -68,7 +68,7 @@ services:
     healthcheck:
       test: ["CMD", "pg_isready", "-U", "bip", "-d", "stagingdb"]
       interval: 30s
-      timeout: 5s
+      timeout: 30s
       retries: 5
     cpus: 1.0
     mem_limit: 1g
@@ -84,9 +84,28 @@ services:
     cpus: 1.0
     mem_limit: 1g
 
+  staging-netdata:
+    image: netdata/netdata:latest
+    container_name: staging-netdata
+    restart: unless-stopped
+    networks:
+      - staging
+    cap_add:
+      - SYS_PTRACE
+    security_opt:
+      - apparmor=unconfined
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro        # monitoring container
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - ./data:/host/data:ro                                # monitoring semua volume data
+      - /etc/passwd:/host/etc/passwd:ro
+      - /etc/group:/host/etc/group:ro
+
 networks:
   staging:
     external: true
+
 ```
 
 Dockerfile
