@@ -154,3 +154,9 @@ EXPOSE 22
 
 CMD ["/usr/sbin/sshd", "-D"]
 ```
+atur permisi untuk ssh `authorized_keys` `chmod 6000 ./data.../authorized_keys`
+
+semua dir bind volume harus dibuat manual terlebih dahulu
+
+dan juga untuk frpc
+`./data/frpc/frpc.toml`
