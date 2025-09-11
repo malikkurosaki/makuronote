@@ -72,6 +72,9 @@ unregister
 
 `systemctl --user disable --now frps.service`
 
+# NOTE : Gunakan pm2 lebih simple , 
+`./frps -c frps.toml`
+`./frpc -c frpc.toml`
 
 
 ## client mac
@@ -97,7 +100,26 @@ local_port = 22
 remote_port = 6001
 ```
 
-### service
+generate ssh di ssh-keygen 
+
+pada ssh tujuan tambahkan ~/.ssh/authorized_keys
+dengan  idEd25519_frp.pub => pub artinya public ) dari pengguna
+
+lalu  di ~/.ssh/config
+
+```
+Host office-malik
+  HostName 85.31.224.xxx
+  User bip
+  Port 6001
+  IdentityFile ~/.ssh/id_ed25519_frpc
+```
+
+
+
+### service 
+
+genakan pm2 lebih simple
 
 ~/Library/LaunchAgents/com.bip.frpc.plist
 
@@ -208,5 +230,7 @@ networks:
   makuro-network:
     external: true
 ```
+
+jalankan pake pm2 `./frpc -c frpc.toml`
 
 
