@@ -21,8 +21,11 @@ dashboard_user = "admin"
 dashboard_pwd = "admin123"
 
 # Port virtual host untuk mode http/https reverse proxy (internal only)
+# di nginx aragkan default ke 4080
 vhost_http_port = 4080
 # vhost_https_port = 4443
+
+custom_404_page = /opt/frps/err404.html
 ```
 
 ### Service
