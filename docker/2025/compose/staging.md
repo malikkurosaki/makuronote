@@ -2,10 +2,10 @@ compose.yml
 
 ```yml
 x-memory: &default-memory
-  mem_limit: 2g
-  memswap_limit: 16g
+  mem_limit: 4g
+  memswap_limit: 20g
   environment:
-    NODE_OPTIONS: "--max-old-space-size=3072"
+    NODE_OPTIONS: "--max-old-space-size=4029"
 
 services:
   staging-bagas:
