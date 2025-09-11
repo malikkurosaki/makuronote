@@ -1,6 +1,12 @@
 compose.yml
 
 ```yml
+x-memory: &default-memory
+  mem_limit: 2g
+  memswap_limit: 16g
+  environment:
+    NODE_OPTIONS: "--max-old-space-size=3072"
+
 services:
   staging-bagas:
     image: bip/staging:latest
@@ -17,7 +23,7 @@ services:
       timeout: 5s
       retries: 3
     cpus: 1.0
-    mem_limit: 1g 
+    <<: *default-memory
 
   staging-amel:
     image: bip/staging:latest
@@ -34,7 +40,7 @@ services:
       timeout: 5s
       retries: 3
     cpus: 1.0
-    mem_limit: 1g
+    <<: *default-memory
 
   staging-nico:
     image: bip/staging:latest
@@ -51,7 +57,7 @@ services:
       timeout: 5s
       retries: 3
     cpus: 1.0
-    mem_limit: 1g
+    <<: *default-memory
 
   staging-postgres:
     image: postgres:16
@@ -71,7 +77,7 @@ services:
       timeout: 30s
       retries: 5
     cpus: 1.0
-    mem_limit: 1g
+    <<: *default-memory
 
   staging-frpc:
     image: snowdreamtech/frpc:latest
@@ -82,7 +88,7 @@ services:
     networks:
       - staging
     cpus: 1.0
-    mem_limit: 1g
+    <<: *default-memory
 
   staging-netdata:
     image: netdata/netdata:latest
@@ -94,17 +100,27 @@ services:
       - SYS_PTRACE
     security_opt:
       - apparmor=unconfined
+    environment:
+      NETDATA_CREDENTIAL_USER: wibu
+      NETDATA_CREDENTIAL_PASSWORD: Production_123
+      POSTGRES_USER: bip
+      POSTGRES_PASSWORD: Production_123
+      POSTGRES_HOST: staging-postgres
+      POSTGRES_PORT: 5432
+      POSTGRES_DB: stagingdb
     volumes:
-      - /var/run/docker.sock:/var/run/docker.sock:ro        # monitoring container
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
       - /proc:/host/proc:ro
       - /sys:/host/sys:ro
-      - ./data:/host/data:ro                                # monitoring semua volume data
+      - ./data:/host/data:ro 
       - /etc/passwd:/host/etc/passwd:ro
       - /etc/group:/host/etc/group:ro
+    <<: *default-memory
 
 networks:
   staging:
     external: true
+
 
 ```
 
@@ -123,18 +139,16 @@ RUN apt-get update && apt-get install -y \
     unzip \
     build-essential \
     openssh-server \
-    sudo \
     ca-certificates \
     bash \
     netcat \
+    vim \
     && rm -rf /var/lib/apt/lists/*
 
 # Setup SSH
 RUN mkdir /var/run/sshd \
     && useradd -ms /bin/bash staging \
-    && echo "staging:Production_123" | chpasswd \
-    && usermod -aG sudo staging \
-    && echo "staging ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
+    && echo "staging:Production_123" | chpasswd
 
 # Configure SSH: disable password, allow only key-based
 RUN sed -i 's/#PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config \
