@@ -53,13 +53,49 @@ networks:
     external: true
 ```
 
-#penanganann error  403
-# Enter the seafile container
-# `docker exec -it seafile bash`
+penanganann error  403
+Enter the seafile container
+`docker exec -it seafile bash`
 
-# Edit the seahub_settings.py file
-# `vi /opt/seafile/conf/seahub_settings.py`
+Edit the seahub_settings.py file
+`vi /opt/seafile/conf/seahub_settings.py`
 
-# tambahkan
-#ALLOWED_HOSTS = ['office2-seafile.wibudev.com', 'localhost', '127.0.0.1']
-#CSRF_TRUSTED_ORIGINS = ['https://office2-seafile.wibudev.com']
+tambahkan
+ALLOWED_HOSTS = ['office2-seafile.wibudev.com', 'localhost', '127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://office2-seafile.wibudev.com']
+
+lengkapnya:
+
+```py
+# -*- coding: utf-8 -*-
+SECRET_KEY = "5&&(7eh_&-r^5ap4n#he+j=9&%(^!y)vi-g-hqx9!rl31xvx-l"
+SERVICE_URL = "http://office2-seafile.wibudev.com"
+ALLOWED_HOSTS = ['office2-seafile.wibudev.com', 'localhost', '127.0.0.1', 'seafile']
+CSRF_TRUSTED_ORIGINS = ['https://office2-seafile.wibudev.com']
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'seahub_db',
+        'USER': 'seafile',
+        'PASSWORD': 'c10ea05e-65f4-48d5-a211-84529be9a627',
+        'HOST': 'seafile-mysql',
+        'PORT': '3306',
+        'OPTIONS': {'charset': 'utf8mb4'},
+    }
+}
+
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django_pylibmc.memcached.PyLibMCCache',
+        'LOCATION': 'memcached:11211',
+    },
+    'locmem': {
+        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+    },
+}
+COMPRESS_CACHE_BACKEND = 'locmem'
+TIME_ZONE = 'Asia/Jakarta'
+FILE_SERVER_ROOT = "https://office2-seafile.wibudev.com/seafhttp"
+```
