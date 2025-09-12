@@ -42,6 +42,11 @@ services:
       - FORCE_HTTPS_IN_CONF=true
       - TIME_ZONE=Asia/Makassar
       - SERVICE_URL=https://office2-seafile.wibudev.com
+      # Fix mixed content issues
+      - FILE_SERVER_ROOT=https://office2-seafile.wibudev.com/seafhttp
+      - SEAFILE_SERVER_PROTOCOL=https
+      # Additional environment variables to fix CSRF issues
+      - ALLOWED_HOSTS=office2-seafile.wibudev.com,localhost,127.0.0.1
     depends_on:
       - seafile-mysql
       - seafile-memcached
@@ -69,7 +74,7 @@ lengkapnya:
 ```py
 # -*- coding: utf-8 -*-
 SECRET_KEY = "5&&(7eh_&-r^5ap4n#he+j=9&%(^!y)vi-g-hqx9!rl31xvx-l"
-SERVICE_URL = "http://office2-seafile.wibudev.com"
+SERVICE_URL = "https://office2-seafile.wibudev.com"
 ALLOWED_HOSTS = ['office2-seafile.wibudev.com', 'localhost', '127.0.0.1', 'seafile']
 CSRF_TRUSTED_ORIGINS = ['https://office2-seafile.wibudev.com']
 
@@ -96,6 +101,6 @@ CACHES = {
     },
 }
 COMPRESS_CACHE_BACKEND = 'locmem'
-TIME_ZONE = 'Asia/Jakarta'
+TIME_ZONE = 'Asia/Makassar'
 FILE_SERVER_ROOT = "https://office2-seafile.wibudev.com/seafhttp"
 ```
