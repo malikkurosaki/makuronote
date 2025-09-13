@@ -345,3 +345,15 @@ fi
 
 log "✅ Deployment complete for $APP_NAME on branch '$BRANCH' at port $PORT! (USE_CACHE=$USE_CACHE)"
 ```
+
+.env.deploy
+
+```.ini
+APP_NAME=desa-plus
+GIT_URL=https://wibugit.wibudev.com/bip/sistem-desa-mandiri.git
+BRANCH=staging
+PORT=3000
+DB_PUSH=true
+DB_SEED=true
+USE_CACHE=true
+```
