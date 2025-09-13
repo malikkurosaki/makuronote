@@ -174,7 +174,7 @@ mv "$NEW_DIR" "$CURR_DIR"
 
 # --- Restart service ---
 log "restart service $SERVICE_NAME via docker compose ..."
-docker compose restart "$SERVICE_NAME"
+docker restart "$SERVICE_NAME"
 
 log "✅ Deploy selesai!"
 
