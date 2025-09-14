@@ -60,4 +60,4 @@ Mantine new version params :
 - leftIcon = leftSection
 - sx = style
 
-confirm with only YES ! , i will send you the code soon
+confirm with only YES ! , i will send you the json soon
