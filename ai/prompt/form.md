@@ -60,4 +60,7 @@ Mantine new version params :
 - leftIcon = leftSection
 - sx = style
 
+Note:
+- Nextjs No need import React , it wi be automaticly
+
 confirm with only YES ! , i will send you the json soon
