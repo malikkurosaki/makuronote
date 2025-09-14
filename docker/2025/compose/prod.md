@@ -6,7 +6,6 @@ FROM ubuntu:22.04
 # Install dependencies + vi + docker cli
 RUN apt-get update && apt-get install -y \
     curl unzip ca-certificates git vim \
-    docker.io docker-compose-plugin \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Node.js 22
@@ -39,8 +38,6 @@ services:
     restart: unless-stopped
     volumes:
       - ./data/prod:/app
-      # mount docker.sock kalau mau jalankan docker cli di dalam container
-      - /var/run/docker.sock:/var/run/docker.sock
     networks:
       - makuro-network
     depends_on:
@@ -174,8 +171,5 @@ mv "$NEW_DIR" "$CURR_DIR"
 
 # --- Restart service ---
 log "restart service $SERVICE_NAME via docker compose ..."
-docker restart "$SERVICE_NAME"
-
-log "✅ Deploy selesai!"
 
 ```
