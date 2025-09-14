@@ -203,3 +203,15 @@ echo "Deployed $SERVICE_NAME"
 echo "restart service $SERVICE_NAME ..."
 docker restart $SERVICE_NAME
 ```
+
+.env.deploy
+
+```ini
+DATABASE_URL=
+BUN_PUBLIC_BASE_URL=
+PORT=
+JWT_SECRET=
+WA_AUTH_DIR=
+FLOWISE_URL=
+FLOWISE_API_key=
+```
