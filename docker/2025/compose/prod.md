@@ -29,8 +29,6 @@ CMD ["sh", "-c", "if [ -d './current' ] && [ -f './current/package.json' ]; then
 compose.yml
 
 ```yml
-version: "3.9"
-
 services:
   prod:
     image: bip/prod:latest
