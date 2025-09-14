@@ -11,7 +11,6 @@ Your task is to transform a given **JSON schema** into a **dynamic form** in Rea
 - Use **React with TypeScript** for type safety.  
 - Use **Mantine UI** (`@mantine/core` & `@mantine/form`) for inputs, layout, validation, and theme handling.  
 - Use **@tabler/icons-react** for inline icons (validation states, section icons, info tooltips).  
-- Ensure support for **dark mode** by default.  
 
 ### 2. UI/UX Best Practices
 - Each form field must include:  
@@ -45,13 +44,12 @@ Your task is to transform a given **JSON schema** into a **dynamic form** in Rea
   - Section headers with icons.  
   - Stepper-based forms for long schemas.  
   - Smart defaults (prefill example data).  
-  - Dark-mode optimized colors and contrasts.  
 
 ---
 
 ## Output
 Generate a **React TypeScript file (`.tsx`)** containing a dynamic form component built from the provided JSON schema.  
-The result must look polished, professional, and user-friendly in **dark mode by default**.
+The result must look polished, professional, and user-friendly.
 
 Mantine Replacement param:
 space = gap
