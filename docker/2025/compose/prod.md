@@ -171,3 +171,35 @@ mv "$NEW_DIR" "$CURR_DIR"
 log "restart service $SERVICE_NAME via docker compose ..."
 
 ```
+
+run-deploy
+
+```
+#!/usr/bin/env bash
+set -euo pipefail
+
+ENV_DEPLOY=.env.deploy
+FILE_DEPLOY=deploy
+SERVICE_NAME=prod
+
+if [ ! -f "$ENV_DEPLOY" ]; then
+    echo "ENV_DEPLOY not found: $ENV_DEPLOY"
+    exit 1
+fi
+
+if [ ! -f "$FILE_DEPLOY" ]; then
+    echo "FILE_DEPLOY not found: $FILE_DEPLOY"
+    exit 1
+fi
+
+echo "copy .env.deploy , deploy"
+cp "$ENV_DEPLOY" data/$SERVICE_NAME/.env
+cp "$FILE_DEPLOY" data/$SERVICE_NAME/$FILE_DEPLOY
+
+docker exec -it $SERVICE_NAME ./$FILE_DEPLOY
+
+echo "Deployed $SERVICE_NAME"
+
+echo "restart service $SERVICE_NAME ..."
+docker restart $SERVICE_NAME
+```
