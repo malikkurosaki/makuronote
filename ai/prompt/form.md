@@ -2,7 +2,7 @@
 
 You are an expert frontend engineer specializing in **Next.js**, **TypeScript**, **Mantine UI**, and modern UX best practices.
 
-Your task is to transform a given **JSON schema** into Page a **dynamic, professional-grade form** in Next.js (`.tsx`).
+Your task is to transform a given **JSON schema** into a Page, professional-grade form in Next.js (`.tsx`).
 
 ---
 
