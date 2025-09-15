@@ -1,59 +1,56 @@
 services:
-  flowise-ui:
+  flowise:
     image: flowiseai/flowise:latest
-    restart: unless-stopped
-    volumes:
-      - flowise_data:/root/.flowise
+    container_name: flowise
+    restart: always
     environment:
-      PORT: 3000
-      REDIS_URL: redis://flowise-redis:6379
-      DATABASE_TYPE: postgres
-      DATABASE_HOST: flowise-postgres
-      DATABASE_PORT: 5432
-      DATABASE_USER: bip
-      DATABASE_PASSWORD: Production_123
-      DATABASE_NAME: test
+      - FLOWISE_USERNAME=bip
+      - FLOWISE_PASSWORD=Production_123
+      - PORT=3000
+      - NODE_VERSION=22
+      - APIKEY_PATH=/opt/render/.flowise
+      - DATABASE_PATH=/opt/render/.flowise
+      - LOG_PATH=/opt/render/.flowise/logs
+      - SECRETKEY_PATH=/opt/render/.flowise
+    volumes:
+      - ./data/flowise:/opt/render/.flowise
     networks:
       - makuro-network
     depends_on:
       - flowise-qdrant
       - flowise-postgres
       - flowise-redis
-
   flowise-qdrant:
     image: qdrant/qdrant:latest
+    container_name: flowise-qdrant
     restart: unless-stopped
     volumes:
-      - flowise_qdrant_data:/qdrant/storage
+      - ./data/qdrant:/qdrant/storage
     networks:
       - makuro-network
 
   flowise-postgres:
     image: postgres:16
+    container_name: flowise-postgres
     restart: unless-stopped
     environment:
       POSTGRES_USER: bip
       POSTGRES_PASSWORD: Production_123
-      POSTGRES_DB: test
+      POSTGRES_DB: jenna
     volumes:
-      - flowise_postgres_data:/var/lib/postgresql/data
+      - ./data/postgres:/var/lib/postgresql/data
     networks:
       - makuro-network
 
   flowise-redis:
     image: redis:7.2
+    container_name: flowise-redis
     restart: unless-stopped
     command: ["redis-server", "--appendonly", "yes"]
     volumes:
-      - flowise_redis_data:/data
+      - ./data/redis:/data
     networks:
       - makuro-network
-
-volumes:
-  flowise_data:
-  flowise_qdrant_data:
-  flowise_postgres_data:
-  flowise_redis_data:
 
 networks:
   makuro-network:
