@@ -21,45 +21,62 @@ RUN curl -fsSL https://bun.sh/install | bash \
 
 WORKDIR /app
 
+# Copy deploy script ke PATH global
+COPY deploy /usr/local/bin/deploy
+RUN chmod +x /usr/local/bin/deploy
+
 # Use exec form (better signal handling)
 CMD ["sh", "-c", "if [ -d './current' ] && [ -f './current/package.json' ]; then cd current && bun start; else echo 'No ./current with package.json found, container idle...' && tail -f /dev/null; fi"]
-
 ```
 
 compose.yml
 
 ```yml
 services:
-  prod:
+  jenna-wa:
     image: bip/prod:latest
-    container_name: prod
+    container_name: jenna-wa
     restart: unless-stopped
     volumes:
-      - ./data/prod:/app
+      - ./data/jenna-wa:/app
     networks:
       - makuro-network
     depends_on:
-      prod-postgres: 
+      jenna-wa-postgres: 
         condition: service_healthy
     environment:
-      # contoh env tambahan (opsional, bisa ditaruh di ./data/prod/.env juga)
-      NODE_ENV: production
-      DATABASE_URL: postgres://bip:Production_123@prod-postgres:5432/prod
+      # container env
+      - GIT_URL=https://wibugit.wibudev.com/bip/whatsapp-server.git
+      - BRANCH=main
+      - IS_DB_PUSH=true
+      - IS_DB_SEED=true
+      - IS_BUILD=true
+      - IS_CACHE=true
+      # app env
+      - NODE_ENV=production
+      - DATABASE_URL=postgres://bip:Production_123@jenna-wa-postgres:5432/jenna-wa
+      - BUN_PUBLIC_BASE_URL=https://cld-dkr-makuro-jenna-wa2.wibudev.com
+      - PORT=3000
+      - JWT_SECRET=
+      - WA_AUTH_DIR=/app/.auth
+      - FLOWISE_API_URL=https://cloud-aiflow.wibudev.com/api/v1
+      - FLOWISE_API_KEY=
+      - GROQ_API_KEY=
 
-  prod-postgres:
+  jenna-wa-postgres:
     image: postgres:16
-    container_name: prod-postgres
+    container_name: jenna-wa-postgres
     restart: unless-stopped
     environment:
-      POSTGRES_USER: bip
-      POSTGRES_PASSWORD: Production_123
-      POSTGRES_DB: prod
+      - POSTGRES_USER=bip
+      - POSTGRES_PASSWORD=Production_123
+      - POSTGRES_DB=jenna-wa
     volumes:
       - ./data/postgres:/var/lib/postgresql/data
     networks:
       - makuro-network
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U bip -d prod"]
+      test: ["CMD-SHELL", "pg_isready -U bip -d jenna-wa"]
       interval: 5s
       timeout: 5s
       retries: 5
@@ -84,17 +101,6 @@ log() {
     echo "[ $(date '+%Y-%m-%d %H:%M:%S') ] $*"
 }
 
-# --- Konfigurasi ---
-GIT_URL="https://wibugit.wibudev.com/bip/whatsapp-server.git"
-ENV_FILE="/app/.env"
-BRANCH="main"
-SERVICE_NAME="prod"   # nama service di docker-compose.yml
-
-IS_DB_PUSH=true
-IS_DB_SEED=true
-IS_BUILD=true
-IS_CACHE=true
-
 # --- Persiapan ---
 WORKDIR="/app"
 NEW_DIR="$WORKDIR/current-new"
@@ -109,16 +115,8 @@ if [ -d "$NEW_DIR" ]; then
     rm -rf "$NEW_DIR"
 fi
 
-if [ ! -f "$ENV_FILE" ]; then
-    log "❌ ENV_FILE tidak ditemukan: $ENV_FILE"
-    exit 1
-fi
-
 log "git clone $BRANCH ..."
 git clone --depth 1 --branch "$BRANCH" "$GIT_URL" "$NEW_DIR"
-
-log "copy .env ..."
-cp "$ENV_FILE" "$NEW_DIR/.env"
 
 # --- Cache node_modules ---
 if [ "$IS_CACHE" = "true" ] && [ -d "$OLD_DIR/node_modules" ]; then
@@ -168,50 +166,12 @@ log "deploy current-new -> current ..."
 mv "$NEW_DIR" "$CURR_DIR"
 
 # --- Restart service ---
-log "restart service $SERVICE_NAME via docker compose ..."
-
+log "restart service via docker compose ..."
 ```
 
 run-deploy
 
 ```
-#!/usr/bin/env bash
-set -euo pipefail
-
-ENV_DEPLOY=.env.deploy
-FILE_DEPLOY=deploy
-SERVICE_NAME=prod
-
-if [ ! -f "$ENV_DEPLOY" ]; then
-    echo "ENV_DEPLOY not found: $ENV_DEPLOY"
-    exit 1
-fi
-
-if [ ! -f "$FILE_DEPLOY" ]; then
-    echo "FILE_DEPLOY not found: $FILE_DEPLOY"
-    exit 1
-fi
-
-echo "copy .env.deploy , deploy"
-cp "$ENV_DEPLOY" data/$SERVICE_NAME/.env
-cp "$FILE_DEPLOY" data/$SERVICE_NAME/$FILE_DEPLOY
-
-docker exec -it $SERVICE_NAME ./$FILE_DEPLOY
-
-echo "Deployed $SERVICE_NAME"
-
-echo "restart service $SERVICE_NAME ..."
-docker restart $SERVICE_NAME
+docker exec jenna-wa deploy
 ```
 
-.env.deploy
-
-```ini
-DATABASE_URL=
-BUN_PUBLIC_BASE_URL=
-PORT=
-JWT_SECRET=
-WA_AUTH_DIR=
-FLOWISE_URL=
-FLOWISE_API_key=
-```
