@@ -64,10 +64,11 @@ RUN curl -fsSL https://deb.nodesource.com/setup_22.x | bash - \
     && apt-get install -y nodejs \
     && rm -rf /var/lib/apt/lists/*
 
-# --- Install Bun ---
+# Install Bun
 RUN curl -fsSL https://bun.sh/install | bash \
-    && ln -s /root/.bun/bin/bun /usr/local/bin/bun \
-    && ln -s /root/.bun/bin/bun /usr/bin/bun
+    && cp /root/.bun/bin/bun /usr/local/bin/bun \
+    && cp /root/.bun/bin/bunx /usr/local/bin/bunx \
+    && bun --version
 
 # --- Set working dir ---
 WORKDIR /app/current
@@ -247,6 +248,10 @@ show_env() {
     fi
 }
 
+show_log() {
+   docker -H "$DOCKER_HOST_PROXY" logs "$SERVICE-prod"
+}
+
 # =====================================================
 # Direktori Deploy
 # =====================================================
@@ -303,6 +308,12 @@ deploy_start() {
   if [ "$IS_CACHE" = "true" ] && [ -d "$OLD_DIR/node_modules" ]; then
       log "copy node_modules ..."
       cp -r "$OLD_DIR/node_modules" "$NEW_DIR/"
+  fi
+
+  if [ "$IS_CACHE" = "true" ] && [ -d "$OLD_DIR/generated/prisma" ]; then
+      log "copy prisma ..."
+      mkdir -p "$NEW_DIR/generated"
+      cp -r "$OLD_DIR/generated/prisma" "$NEW_DIR/generated/"
   fi
 
   cd "$NEW_DIR"
@@ -370,6 +381,9 @@ case "$COMMAND" in
     ;;
   env)
     edit_env
+    ;;
+  log)
+    show_log
     ;;
   show-env)
     show_env
