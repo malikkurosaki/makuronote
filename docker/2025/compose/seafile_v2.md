@@ -54,3 +54,13 @@ networks:
   makuro-network:
     external: true
 ```
+
+frpc.toml
+
+```toml
+[office2-seafile]
+type = http
+local_ip = seafile
+local_port = 80
+custom_domains = office2-seafile.wibudev.com
+```
