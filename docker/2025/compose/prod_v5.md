@@ -23,7 +23,7 @@ services:
     container_name: sort-dev
     restart: unless-stopped
     volumes:
-      - ./data/dev:/app
+      - ./data/app:/app
       - ./data/ssh/authorized_keys:/home/bip/.ssh/authorized_keys:ro
     networks:
       - sort
@@ -36,7 +36,7 @@ services:
     container_name: sort-prod
     restart: unless-stopped
     volumes:
-      - ./data/prod:/app
+      - ./data/app:/app
     networks:
       - sort
   sort-frpc:
