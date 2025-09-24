@@ -2,9 +2,9 @@ compose.yml
 
 ```yml
 services:
-  hipmi-proxy:
+  sort-docker-proxy:
     image: tecnativa/docker-socket-proxy
-    container_name: hipmi-proxy
+    container_name: sort-proxy
     restart: unless-stopped
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
@@ -13,65 +13,42 @@ services:
       POST: 1
       PING: 1
     networks:
-      - hipmi
-  hipmi-dev:
+      - sort
+  sort-dev:
     image: bip/dev:latest
     build:
       dockerfile: Dockerfile
       context: .
       target: dev
-    container_name: hipmi-dev
+    container_name: sort-dev
     restart: unless-stopped
     volumes:
       - ./data/dev:/app
       - ./data/ssh/authorized_keys:/home/bip/.ssh/authorized_keys:ro
     networks:
-      - hipmi
-    depends_on:
-      hipmi-postgres:
-        condition: service_healthy
-  hipmi-prod:
+      - sort
+  sort-prod:
     build:
       dockerfile: Dockerfile
       context: .
       target: prod
     image: bip/prod:latest
-    container_name: hipmi-prod
+    container_name: sort-prod
     restart: unless-stopped
     volumes:
       - ./data/prod:/app
     networks:
-      - hipmi
-    depends_on:
-      hipmi-postgres:
-        condition: service_healthy
-  hipmi-postgres:
-    image: postgres:16
-    container_name: hipmi-postgres
-    restart: unless-stopped
-    environment:
-      - POSTGRES_USER=bip
-      - POSTGRES_PASSWORD=Production_123
-      - POSTGRES_DB=hipmi
-    volumes:
-      - ./data/postgres:/var/lib/postgresql/data
-    networks:
-      - hipmi
-    healthcheck:
-      test: ['CMD-SHELL', 'pg_isready -U bip -d hipmi']
-      interval: 5s
-      timeout: 5s
-      retries: 5
-  hipmi-frpc:
+      - sort
+  sort-frpc:
     image: snowdreamtech/frpc:latest
-    container_name: hipmi-frpc
+    container_name: sort-frpc
     restart: always
     volumes:
       - ./data/frpc/frpc.toml:/etc/frp/frpc.toml:ro
     networks:
-      - hipmi
+      - sort
 networks:
-  hipmi:
+  sort:
     driver: bridge
 ```
 
@@ -326,7 +303,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 # --- Install runtime dependencies ---
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    curl git unzip ca-certificates openssh-server bash tini vim docker.io \
+    curl git unzip ca-certificates openssh-server bash tini vim docker.io tmux \
     && rm -rf /var/lib/apt/lists/*
 
 # --- Install Node.js 22 ---
@@ -399,6 +376,7 @@ EXPOSE 3000
 ENTRYPOINT ["/usr/bin/tini", "--"]
 
 CMD ["bun", "run", "start"]
+
 
 ```
 
