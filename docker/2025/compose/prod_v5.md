@@ -376,8 +376,6 @@ EXPOSE 3000
 ENTRYPOINT ["/usr/bin/tini", "--"]
 
 CMD ["bun", "run", "start"]
-
-
 ```
 
 gen
