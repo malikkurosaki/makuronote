@@ -384,7 +384,7 @@ gen
 #!/bin/bash
 
 echo "Generating directory..."
-mkdir -p data data/dev data/prod data/postgres data/frpc data/ssh
+mkdir -p data data/app data/postgres data/frpc data/ssh
 
 echo "Generating authorized_keys..."
 touch data/ssh/authorized_keys
