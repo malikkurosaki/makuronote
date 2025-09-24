@@ -2,9 +2,9 @@ compose.yml
 
 ```yml
 services:
-  sort-docker-proxy:
+  hipmi-docker-proxy:
     image: tecnativa/docker-socket-proxy
-    container_name: sort-proxy
+    container_name: hipmi-docker-proxy
     restart: unless-stopped
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
@@ -13,43 +13,67 @@ services:
       POST: 1
       PING: 1
     networks:
-      - sort
-  sort-dev:
+      - hipmi
+  hipmi-dev:
     image: bip/dev:latest
     build:
       dockerfile: Dockerfile
       context: .
       target: dev
-    container_name: sort-dev
+    container_name: hipmi-dev
     restart: unless-stopped
     volumes:
       - ./data/app:/app
       - ./data/ssh/authorized_keys:/home/bip/.ssh/authorized_keys:ro
     networks:
-      - sort
-  sort-prod:
+      - hipmi
+    depends_on:
+      hipmi-postgres:
+        condition: service_healthy
+  hipmi-prod:
     build:
       dockerfile: Dockerfile
       context: .
       target: prod
     image: bip/prod:latest
-    container_name: sort-prod
+    container_name: hipmi-prod
     restart: unless-stopped
     volumes:
       - ./data/app:/app
     networks:
-      - sort
-  sort-frpc:
+      - hipmi
+    depends_on:
+      hipmi-postgres:
+        condition: service_healthy
+  hipmi-postgres:
+    image: postgres:16
+    container_name: hipmi-postgres
+    restart: unless-stopped
+    environment:
+      - POSTGRES_USER=bip
+      - POSTGRES_PASSWORD=Production_123
+      - POSTGRES_DB=hipmi
+    volumes:
+      - ./data/postgres:/var/lib/postgresql/data
+    networks:
+      - hipmi
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U bip -d hipmi']
+      interval: 5s
+      timeout: 5s
+      retries: 5
+  hipmi-frpc:
     image: snowdreamtech/frpc:latest
-    container_name: sort-frpc
+    container_name: hipmi-frpc
     restart: always
     volumes:
       - ./data/frpc/frpc.toml:/etc/frp/frpc.toml:ro
     networks:
-      - sort
+      - hipmi
 networks:
-  sort:
+  hipmi:
     driver: bridge
+
 ```
 
 deploy
