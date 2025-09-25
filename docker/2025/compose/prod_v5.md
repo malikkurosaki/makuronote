@@ -228,10 +228,9 @@ deploy_start() {
       cp -r "$OLD_DIR/node_modules" "$NEW_DIR/"
   fi
 
-  if [ "$IS_CACHE" = "true" ] && [ -d "$OLD_DIR/generated/prisma" ]; then
+  if [ "$IS_CACHE" = "true" ] && [ -d "$OLD_DIR/generated" ]; then
       log "copy prisma ..."
-      mkdir -p "$NEW_DIR/generated"
-      cp -r "$OLD_DIR/generated/prisma" "$NEW_DIR/generated/"
+      cp -r "$OLD_DIR/generated" "$NEW_DIR/"
   fi
 
   cd "$NEW_DIR"
