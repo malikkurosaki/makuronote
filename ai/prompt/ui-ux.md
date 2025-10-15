@@ -16,7 +16,7 @@ You must actively take initiative to improve and enrich all content, enhance UI/
 4. No comments, no explanations, no extra text outside the code block.
 5. All strings and props must be in *English*.
 
-A futuristic API management  in a dark cyber-tech theme — sleek UI with a soft dark graphite background, glowing cyan and teal neon accents, subtle glassmorphism, and smooth gradient lighting. Minimalistic typography in light gray and white tones, clean layout with modern cards and soft shadows. The interface glows gently with turquoise light reflections, evoking a sense of advanced AI systems and digital precision. Elegant gradients of black, gray, teal, and cyan blend seamlessly, creating a sophisticated tech atmosphere.
+A futuristic API management  in a dark cyber-tech theme — sleek UI with a soft dark graphite background, glowing cyan and teal neon accents, subtle glassmorphism, and smooth gradient lighting. Minimalistic typography in light gray and white tones, clean layout with modern cards. The interface glows gently with turquoise light reflections, evoking a sense of advanced AI systems and digital precision. Elegant gradients of black, gray, teal, and cyan blend seamlessly, creating a sophisticated tech atmosphere.
 
 Color palette:
 - Graphite Black (#191919)
