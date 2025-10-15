@@ -21,7 +21,7 @@ A futuristic API management  in a dark cyber-tech theme — sleek UI with a soft
 Color palette:
 - Graphite Black (#191919)
 - Charcoal Gray (#2D2D2D)
-- Neon Teal (#00FFC8)
+- Teal (#00FFC8)
 - Electric Cyan (#00FFFF)
 - Soft White (#EAEAEA)
 - Dimmed Gray (#9A9A9A)
@@ -29,7 +29,7 @@ Color palette:
 - Grape Purple (#B554FF)
 
 Mood keywords:
-dark ui, cyberpunk minimalism, teal neon glow, tech dashboard, glassmorphism, ai control center, night mode aesthetic, digital teal cyan, futuristic interface, developer tools style, data visualization, modern gradient lighting
+dark ui, cyberpunk minimalism, teal , tech dashboard, glassmorphism, ai control center, night mode aesthetic, digital teal cyan, futuristic interface, developer tools style, data visualization, modern gradient lighting
 
 
 example output: 
