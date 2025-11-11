@@ -6,33 +6,33 @@ import _ from 'lodash';
 import { execSync } from 'child_process'
 
 try {
-  await fs.access(".env")
+    await fs.access(".env")
 } catch (error) {
-  const envText = `
+    const envText = `
   NAMESPACE=
   OPENAPI_URL=
   `
-  // generate .env
-  await fs.writeFile(".env", envText)
-  console.log('[GEN] Generated .env');
+    // generate .env
+    await fs.writeFile(".env", envText)
+    console.log('[GEN] Generated .env');
 }
 
 const NAMESPACE = process.env.NAMESPACE
 const OPENAPI_URL = process.env.OPENAPI_URL
 
 if (!NAMESPACE || !OPENAPI_URL) {
-  throw new Error('NAMESPACE and OPENAPI_URL are required')
+    throw new Error('NAMESPACE and OPENAPI_URL are required')
 }
 
 const namespaceCase = _.startCase(_.camelCase(NAMESPACE)).replace(/ /g, '');
 const OUT_DIR = path.join('src', 'nodes');
 const OUT_FILE = path.join(OUT_DIR, `${namespaceCase}.node.ts`);
-const CREDENTIAL_NAME = 'wibuApi';
+const CREDENTIAL_NAME = _.camelCase(NAMESPACE);
 
 interface OpenAPI {
-  paths: Record<string, any>;
-  components?: any;
-  tags?: { name: string }[];
+    paths: Record<string, any>;
+    components?: any;
+    tags?: { name: string }[];
 }
 
 // helpers
@@ -40,28 +40,28 @@ const safe = (s: string) => s.replace(/[^a-zA-Z0-9]/g, '_');
 
 // load OpenAPI
 async function loadOpenAPI(): Promise<OpenAPI> {
-  const url = OPENAPI_URL!
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`Failed to fetch OpenAPI: ${res.status} ${res.statusText}`);
-  return res.json() as Promise<OpenAPI>;
+    const url = OPENAPI_URL!
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`Failed to fetch OpenAPI: ${res.status} ${res.statusText}`);
+    return res.json() as Promise<OpenAPI>;
 }
 
 // convert operation to value
 function operationValue(tag: string, operationId: string) {
-  return `${safe(tag)}_${safe(operationId)}`;
+    return `${safe(tag)}_${safe(operationId)}`;
 }
 
 // build properties for dropdown + dynamic inputs
 function buildPropertiesBlock(ops: Array<any>) {
-  const options = ops.map((op) => {
-    const value = operationValue(op.tag, op.operationId);
-    const label = `${NAMESPACE} ${op.tag} ${op.operationId}`;
-    return `{ name: '${label}', value: '${value}', description: ${JSON.stringify(
-      op.summary || op.description || '',
-    )}, action: '${label}' }`;
-  });
+    const options = ops.map((op) => {
+        const value = operationValue(op.tag, op.operationId);
+        const label = `${op.tag} ${_.kebabCase(op.operationId).replace(/-/g, ' ')}`;
+        return `{ name: '${label}', value: '${value}', description: ${JSON.stringify(
+            op.summary || op.description || '',
+        )}, action: '${label}' }`;
+    });
 
-  const dropdown = `
+    const dropdown = `
     {
       displayName: 'Operation',
       name: 'operation',
@@ -74,14 +74,14 @@ function buildPropertiesBlock(ops: Array<any>) {
     }
   `;
 
-  const dynamicProps: string[] = [];
+    const dynamicProps: string[] = [];
 
-  for (const op of ops) {
-    const value = operationValue(op.tag, op.operationId);
+    for (const op of ops) {
+        const value = operationValue(op.tag, op.operationId);
 
-    // Query fields
-    for (const name of op.query ?? []) {
-      dynamicProps.push(`
+        // Query fields
+        for (const name of op.query ?? []) {
+            dynamicProps.push(`
       {
         displayName: 'Query ${name}',
         name: 'query_${name}',
@@ -91,22 +91,22 @@ function buildPropertiesBlock(ops: Array<any>) {
         description: '${name}',
         displayOptions: { show: { operation: ['${value}'] } }
       }`);
-    }
+        }
 
-    // Body fields (required only)
-    const bodyRequired = op.body?.required ?? [];
-    const bodySchema = op.body?.schema ?? {};
+        // Body fields (required only)
+        const bodyRequired = op.body?.required ?? [];
+        const bodySchema = op.body?.schema ?? {};
 
-    for (const name of bodyRequired) {
-      const schema = bodySchema[name] ?? {};
-      let type = 'string';
-      if (schema.type === 'number' || schema.type === 'integer') type = 'number';
-      if (schema.type === 'boolean') type = 'boolean';
+        for (const name of bodyRequired) {
+            const schema = bodySchema[name] ?? {};
+            let type = 'string';
+            if (schema.type === 'number' || schema.type === 'integer') type = 'number';
+            if (schema.type === 'boolean') type = 'boolean';
 
-      const defVal =
-        type === 'string' ? "''" : type === 'number' ? '0' : type === 'boolean' ? 'false' : "''";
+            const defVal =
+                type === 'string' ? "''" : type === 'number' ? '0' : type === 'boolean' ? 'false' : "''";
 
-      dynamicProps.push(`
+            dynamicProps.push(`
       {
         displayName: 'Body ${name}',
         name: 'body_${name}',
@@ -116,10 +116,10 @@ function buildPropertiesBlock(ops: Array<any>) {
         description: '${schema?.description ?? name}',
         displayOptions: { show: { operation: ['${value}'] } }
       }`);
+        }
     }
-  }
 
-  return `[
+    return `[
     ${dropdown},
     ${dynamicProps.join(',\n    ')}
   ]`;
@@ -127,42 +127,42 @@ function buildPropertiesBlock(ops: Array<any>) {
 
 // build execute switch
 function buildExecuteSwitch(ops: Array<any>) {
-  const cases: string[] = [];
+    const cases: string[] = [];
 
-  for (const op of ops) {
-    const val = operationValue(op.tag, op.operationId);
-    const method = (op.method || 'get').toLowerCase();
-    const url = op.path;
-    const q = op.query ?? [];
-    const bodyReq = op.body?.required ?? [];
+    for (const op of ops) {
+        const val = operationValue(op.tag, op.operationId);
+        const method = (op.method || 'get').toLowerCase();
+        const url = op.path;
+        const q = op.query ?? [];
+        const bodyReq = op.body?.required ?? [];
 
-    const qLines =
-      q
-        .map(
-          (name: string) =>
-            `const query_${_.snakeCase(name)} = this.getNodeParameter('query_${_.snakeCase(name)}', i, '') as string;`,
-        )
-        .join('\n          ') || '';
+        const qLines =
+            q
+                .map(
+                    (name: string) =>
+                        `const query_${_.snakeCase(name)} = this.getNodeParameter('query_${_.snakeCase(name)}', i, '') as string;`,
+                )
+                .join('\n          ') || '';
 
-    const bodyLines =
-      bodyReq
-        .map(
-          (name: string) =>
-            `const body_${_.snakeCase(name)} = this.getNodeParameter('body_${_.snakeCase(name)}', i, '') as any;`,
-        )
-        .join('\n          ') || '';
+        const bodyLines =
+            bodyReq
+                .map(
+                    (name: string) =>
+                        `const body_${_.snakeCase(name)} = this.getNodeParameter('body_${_.snakeCase(name)}', i, '') as any;`,
+                )
+                .join('\n          ') || '';
 
-    const bodyObject =
-      bodyReq.length > 0
-        ? `const body = { ${bodyReq.map((n: string) => `${_.snakeCase(n)}: body_${_.snakeCase(n)}`).join(', ')} };`
-        : 'const body = undefined;';
+        const bodyObject =
+            bodyReq.length > 0
+                ? `const body = { ${bodyReq.map((n: string) => `${_.snakeCase(n)}: body_${_.snakeCase(n)}`).join(', ')} };`
+                : 'const body = undefined;';
 
-    const paramsObj =
-      q.length > 0 ? `params: { ${q.map((n: string) => `${_.snakeCase(n)}: query_${_.snakeCase(n)}`).join(', ')} },` : '';
+        const paramsObj =
+            q.length > 0 ? `params: { ${q.map((n: string) => `${_.snakeCase(n)}: query_${_.snakeCase(n)}`).join(', ')} },` : '';
 
-    const dataLine = method === 'get' ? '' : 'data: body,';
+        const dataLine = method === 'get' ? '' : 'data: body,';
 
-    cases.push(`
+        cases.push(`
       case '${val}': {
           ${qLines}
           ${bodyLines}
@@ -177,9 +177,9 @@ function buildExecuteSwitch(ops: Array<any>) {
           break;
       }
     `);
-  }
+    }
 
-  return `
+    return `
     switch (operation) {
       ${cases.join('\n')}
       default:
@@ -190,15 +190,15 @@ function buildExecuteSwitch(ops: Array<any>) {
 
 // top-level
 function generateNodeFile(ops: Array<any>) {
-  const propertiesBlock = buildPropertiesBlock(ops);
-  const executeSwitch = buildExecuteSwitch(ops);
+    const propertiesBlock = buildPropertiesBlock(ops);
+    const executeSwitch = buildExecuteSwitch(ops);
 
-  return `import type { INodeType, INodeTypeDescription, IExecuteFunctions } from 'n8n-workflow';
+    return `import type { INodeType, INodeTypeDescription, IExecuteFunctions } from 'n8n-workflow';
 import axios from 'axios';
 
 export class ${namespaceCase} implements INodeType {
   description: INodeTypeDescription = {
-    displayName: '${namespaceCase}',
+    displayName: '${NAMESPACE}',
     name: '${namespaceCase}',
     icon: 'file:icon.svg',
     group: ['transform'],
@@ -260,186 +260,206 @@ export class ${namespaceCase} implements INodeType {
 // main
 async function run() {
 
-
-  try {
-    await fs.access("package.json")
-  } catch (e) {
-    // generate main package
-    await fs.writeFile("package.json", mainPackageJson())
-    console.log('[GEN] Generated main package.json');
-  }
-
-  try {
-    await fs.access(OUT_DIR)
-  } catch (e) {
-    // create nodes dir
-    await fs.mkdir(OUT_DIR, { recursive: true }).catch(() => { })
-    console.log('[GEN] Created nodes dir');
-  }
-
-  try {
-    await fs.access("src/credentials")
-  } catch (e) {
-    // create credentials dir
-    await fs.mkdir("src/credentials", { recursive: true }).catch(() => { })
-    console.log('[GEN] Created credentials dir');
-  }
-
-  try {
-    await fs.access(`${OUT_DIR}/icon.svg`)
-  } catch (e) {
-    // generate svg icon 
-    await fs.writeFile(`${OUT_DIR}/icon.svg`, iconTemplate(NAMESPACE!.substring(0, 2)))
-    console.log('[GEN] Generated icon.svg');
-  }
-
-  try {
-    await fs.access("src/credentials/WibuApi.credentials.ts")
-  } catch (e) {
-    // generate credentials
-    await fs.writeFile("src/credentials/WibuApi.credentials.ts", credentials())
-    console.log('[GEN] Generated credentials');
-  }
-
-  try {
-    await fs.access("package.txt")
-  } catch (error) {
-    // generate package.txt
-    await fs.writeFile("package.txt", packageJsonText(NAMESPACE!))
-    console.log('[GEN] Generated package.txt');
-  }
-
-  try {
-    await fs.access("node_modules")
-  } catch (e) {
-    console.log('[GEN] Installing dependencies...');
-    // install dependencies
-    execSync("bun install")
-  }
-
-  try {
-    await fs.access(".gitignore")
-  } catch (e) {
-    // build
-    execSync("npx -y gitignore node")
-    console.log('[GEN] gitignored');
-  }
-
-  try {
-    await fs.access("tsconfig.json")
-  } catch (e) {
-    // generate tsconfig.json
-    await fs.writeFile("tsconfig.json", tsConfig())
-    console.log('[GEN] Generated tsconfig.json');
-  }
-
-  console.log('💡 Loading OpenAPI...');
-  const api = await loadOpenAPI();
-
-  const ops: Array<any> = [];
-
-  for (const pathStr of Object.keys(api.paths || {})) {
-    const pathObj = api.paths[pathStr];
-
-    for (const method of Object.keys(pathObj)) {
-      const operation = pathObj[method];
-      const tags = operation.tags?.length ? operation.tags : ['default'];
-
-      console.log("✅", _.upperCase(method).padEnd(7), pathStr);
-
-      const operationId = operation.operationId || `${method}_${safe(pathStr)}`;
-      const query = (operation.parameters ?? [])
-        .filter((p: any) => p.in === 'query')
-        .map((p: any) => p.name);
-
-      const requestBody =
-        operation.requestBody?.content?.['application/json']?.schema ??
-        operation.requestBody?.content?.['multipart/form-data']?.schema ??
-        null;
-
-      const bodyRequired = requestBody?.required ?? [];
-      const bodyProps = requestBody?.properties ?? {};
-
-      for (const tag of tags) {
-        ops.push({
-          tag,
-          path: pathStr,
-          method,
-          operationId,
-          summary: operation.summary || '',
-          description: operation.description || '',
-          query,
-          body: {
-            required: bodyRequired,
-            schema: bodyProps,
-          },
-        });
-      }
+    // cleanup
+    await fs.rmdir("src", { recursive: true }).catch(() => { })
+    
+    try {
+        await fs.access("package.json")
+    } catch (e) {
+        // generate main package
+        await fs.writeFile("package.json", mainPackageJson())
+        console.log('[GEN] Generated main package.json');
     }
-  }
 
-  if (ops.length === 0) throw new Error('No operations found');
+    try {
+        await fs.access(OUT_DIR)
+    } catch (e) {
+        // create nodes dir
+        await fs.mkdir(OUT_DIR, { recursive: true }).catch(() => { })
+        console.log('[GEN] Created nodes dir');
+    }
 
-  const raw = generateNodeFile(ops);
+    try {
+        await fs.access("src/credentials")
+    } catch (e) {
+        // create credentials dir
+        await fs.mkdir("src/credentials", { recursive: true }).catch(() => { })
+        console.log('[GEN] Created credentials dir');
+    }
 
-  // ✅ PRETTIER SAFE-FORMAT
-  let formatted: string;
-  try {
-    console.log('💡 Formatting with Prettier...');
-    const conf = await prettier.resolveConfig(process.cwd()).catch(() => null);
+    try {
+        await fs.access(`${OUT_DIR}/icon.svg`)
+    } catch (e) {
+        // generate svg icon 
+        await fs.writeFile(`${OUT_DIR}/icon.svg`, iconTemplate(NAMESPACE!.substring(0, 2)))
+        console.log('[GEN] Generated icon.svg');
+    }
 
-    formatted = await prettier.format(raw, {
-      ...(conf || {}),
-      parser: 'typescript',
-    });
-  } catch (err) {
-    console.warn('⚠️ Prettier gagal → output raw digunakan.');
-    formatted = raw;
-  }
+    try {
+        await fs.access(`src/credentials/${namespaceCase}Credentials.credentials.ts`)
+    } catch (e) {
+        // generate credentials
+        await fs.writeFile(`src/credentials/${namespaceCase}Credentials.credentials.ts`, credentials())
+        console.log('[GEN] Generated credentials');
+    }
 
-  console.log('✅ Generated single node file:', OUT_FILE);
-  await fs.writeFile(OUT_FILE, formatted, 'utf-8');
+    try {
+        await fs.access("package.txt")
+    } catch (error) {
+        // generate package.txt
+        await fs.writeFile("package.txt", packageJsonText())
+        console.log('[GEN] Generated package.txt');
+    }
 
-  console.log('💡 Compiling TypeScript...');
-  execSync('rm -rf dist')
+    try {
+        await fs.access("node_modules")
+    } catch (e) {
+        console.log('[GEN] Installing dependencies...');
+        // install dependencies
+        execSync("bun install")
+    }
 
-  console.log('💡 Compiling TypeScript...');
-  execSync('npx -y tsc')
+    try {
+        await fs.access(".gitignore")
+    } catch (e) {
+        // build
+        execSync("npx -y gitignore node")
+        console.log('[GEN] gitignored');
+    }
 
-  const packageText = await fs.readFile("package.txt", 'utf-8')
-  const packageJson = JSON.parse(packageText)
+    try {
+        await fs.access("tsconfig.json")
+    } catch (e) {
+        // generate tsconfig.json
+        await fs.writeFile("tsconfig.json", tsConfig())
+        console.log('[GEN] Generated tsconfig.json');
+    }
 
-  const version = packageJson.version.split(".")
-  version[2] = (Number(version[2]) + 1).toString()
-  packageJson.version = version.join(".")
-  console.log("💡 version", packageJson.version)
+    try {
+        await fs.access("README.md")
+    } catch (e) {
+        // generate README.md
+        await fs.writeFile("README.md", readmeMd())
+        console.log('[GEN] Generated README.md');
+    }
 
-  packageJson.name = `n8n-nodes-${_.kebabCase(namespaceCase)}`
-  packageJson.n8n.nodes = [`nodes/${namespaceCase}.node.js`]
-  packageJson.n8n.credentials = [`credentials/WibuApi.credentials.js`]
+    console.log('💡 Loading OpenAPI...');
+    const api = await loadOpenAPI();
 
-  console.log('💡 Updating package.json...')
-  await fs.writeFile("dist/package.json", JSON.stringify(packageJson, null, 2))
-  await fs.writeFile("package.txt", JSON.stringify(packageJson, null, 2))
-  await fs.copyFile(`${OUT_DIR}/icon.svg`, "dist/nodes/icon.svg")
+    const ops: Array<any> = [];
 
-  console.log('💡 Renaming dist to package name...')
-  await fs.rename("dist", packageJson.name).catch((e) => { throw new Error("gagal rename dist") })
+    for (const pathStr of Object.keys(api.paths || {})) {
+        const pathObj = api.paths[pathStr];
 
-  console.log('💡 Publishing...')
-  execSync(`cd ${packageJson.name} && bun publish`)
+        for (const method of Object.keys(pathObj)) {
+            const operation = pathObj[method];
+            const tags = operation.tags?.length ? operation.tags : ['default'];
 
-  console.log('✅ Generated single node file:', OUT_FILE);
+            console.log("✅", _.upperCase(method).padEnd(7), pathStr);
+
+            const operationId = operation.operationId || `${method}_${safe(pathStr)}`;
+            const query = (operation.parameters ?? [])
+                .filter((p: any) => p.in === 'query')
+                .map((p: any) => p.name);
+
+            const requestBody =
+                operation.requestBody?.content?.['application/json']?.schema ??
+                operation.requestBody?.content?.['multipart/form-data']?.schema ??
+                null;
+
+            const bodyRequired = requestBody?.required ?? [];
+            const bodyProps = requestBody?.properties ?? {};
+
+            for (const tag of tags) {
+                ops.push({
+                    tag,
+                    path: pathStr,
+                    method,
+                    operationId,
+                    summary: operation.summary || '',
+                    description: operation.description || '',
+                    query,
+                    body: {
+                        required: bodyRequired,
+                        schema: bodyProps,
+                    },
+                });
+            }
+        }
+    }
+
+    if (ops.length === 0) throw new Error('No operations found');
+
+    const raw = generateNodeFile(ops);
+
+    // ✅ PRETTIER SAFE-FORMAT
+    let formatted: string;
+    try {
+        console.log('💡 Formatting with Prettier...');
+        const conf = await prettier.resolveConfig(process.cwd()).catch(() => null);
+
+        formatted = await prettier.format(raw, {
+            ...(conf || {}),
+            parser: 'typescript',
+        });
+    } catch (err) {
+        console.warn('⚠️ Prettier gagal → output raw digunakan.');
+        formatted = raw;
+    }
+
+    console.log('[GEN] Generated single node file:', OUT_FILE);
+    await fs.writeFile(OUT_FILE, formatted, 'utf-8');
+
+    console.log('[GEN] Removing dist folder...');
+    await fs.rm("dist", { recursive: true }).catch(() => { })
+
+    console.log('[GEN] Compiling TypeScript...');
+    execSync('npx -y tsc')
+
+    const packageText = await fs.readFile("package.txt", 'utf-8')
+    const packageJson = JSON.parse(packageText)
+
+    const version = packageJson.version.split(".")
+    version[2] = (Number(version[2]) + 1).toString()
+    packageJson.version = version.join(".")
+    console.log("💡 version", packageJson.version)
+
+    packageJson.name = `n8n-nodes-${_.kebabCase(namespaceCase)}`
+    packageJson.n8n.nodes = [`nodes/${namespaceCase}.node.js`]
+    packageJson.n8n.credentials = [`credentials/${namespaceCase}Credentials.credentials.js`]
+
+    console.log('[GEN] Updating package.json...')
+    await fs.writeFile("dist/package.json", JSON.stringify(packageJson, null, 2))
+
+    console.log('[GEN] Updating package.txt...')
+    await fs.writeFile("package.txt", JSON.stringify(packageJson, null, 2))
+
+    console.log('[GEN] Copying icon.svg...')
+    await fs.copyFile(`${OUT_DIR}/icon.svg`, "dist/nodes/icon.svg")
+
+    console.log('[GEN] Copying README.md...')
+    await fs.copyFile("README.md", "dist/README.md")
+
+    console.log('[GEN] Removing package name folder...');
+    await fs.rm(packageJson.name, { recursive: true }).catch(() => { })
+
+    console.log('[GEN] Renaming dist to package name... ', packageJson.name)
+    await fs.rename("dist", packageJson.name).catch((e) => { throw new Error("gagal rename dist " + e) })
+
+    console.log('[GEN] Publishing...', packageJson.name, packageJson.version)
+    execSync(`cd ${packageJson.name} && bun publish`)
+
+    console.log('[GEN] Generated single node file:', OUT_FILE);
 }
 
 run().catch((err) => {
-  console.error('❌ Generator failed:', err);
-  process.exit(1);
+    console.error('❌ Generator failed:', err);
+    process.exit(1);
 });
 
 
 function iconTemplate(text: string) {
-  const templateText = `
+    const templateText = `
   <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" aria-label="Icon AB square">
   <defs>
     <style>
@@ -457,17 +477,17 @@ function iconTemplate(text: string) {
 
   `
 
-  return templateText
+    return templateText
 }
 
 
 function credentials() {
-  const text = `
+    const text = `
   import { ICredentialType, INodeProperties } from "n8n-workflow";
 
-export class WibuApi implements ICredentialType {
-    name = "wibuApi";
-    displayName = "Wibu API (Bearer Token)";
+export class ${namespaceCase}Credentials implements ICredentialType {
+    name = "${CREDENTIAL_NAME}";
+    displayName = "${CREDENTIAL_NAME} (Bearer Token)";
 
     properties: INodeProperties[] = [
         {
@@ -493,13 +513,13 @@ export class WibuApi implements ICredentialType {
 
   `
 
-  return text
+    return text
 }
 
-function packageJsonText(namespaceCase: string) {
-  const text = `
+function packageJsonText() {
+    const text = `
   {
-  "name": "n8n-nodes-${namespaceCase}",
+  "name": "n8n-nodes-${NAMESPACE}",
   "version": "1.0.43",
   "keywords": [
     "n8n",
@@ -517,16 +537,16 @@ function packageJsonText(namespaceCase: string) {
     ],
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "credentials/WibuApi.credentials.js"
+      "credentials/${namespaceCase}Credentials.credentials.js"
     ]
   }
 }`
 
-  return text
+    return text
 }
 
 function mainPackageJson() {
-  const text = `
+    const text = `
   {
   "name": "n8n-generator",
   "type": "module",
@@ -556,12 +576,12 @@ function mainPackageJson() {
   }
 }`
 
-  return text
+    return text
 }
 
 
-function tsConfig(){
-  const text = `
+function tsConfig() {
+    const text = `
   {
   "compilerOptions": {
     "lib": ["es2021", "dom"],
@@ -579,5 +599,15 @@ function tsConfig(){
 
   `
 
-  return text
+    return text
+}
+
+
+function readmeMd() {
+    const text = `
+  # n8n-nodes-${NAMESPACE}
+
+  `
+
+    return text
 }
