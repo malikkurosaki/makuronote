@@ -427,7 +427,7 @@ async function run() {
   await fs.rename("dist", packageJson.name).catch((e) => { throw new Error("gagal rename dist") })
 
   console.log('💡 Publishing...')
-  // execSync(`cd ${packageJson.name} && bun publish`)
+  execSync(`cd ${packageJson.name} && bun publish`)
 
   console.log('✅ Generated single node file:', OUT_FILE);
 }
