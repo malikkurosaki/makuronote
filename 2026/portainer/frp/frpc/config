@@ -1,0 +1,6 @@
+Host office1
+    HostName office1.ssh.wibudev.com
+    User bip
+    ProxyCommand ncat --proxy direct.wibudev.com:2222 --proxy-type http %h %p
+    ServerAliveInterval 60
+    ServerAliveCountMax 3
