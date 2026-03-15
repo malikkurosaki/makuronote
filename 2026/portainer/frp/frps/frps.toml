@@ -1,0 +1,28 @@
+bindAddr = "0.0.0.0"
+bindPort = 7001
+
+transport.maxPoolCount = 50
+
+auth.method = "token"
+auth.token = "xxx"
+
+vhostHTTPPort = 7080
+tcpmuxHTTPConnectPort = 7082
+
+# subdomainHost dihapus — plugin yang handle whitelist domain
+
+webServer.addr = "0.0.0.0"
+webServer.port = 7500
+webServer.user = "admin"
+webServer.password = "admin123"
+
+log.to = "/dev/stdout"
+log.level = "info"
+
+maxPortsPerClient = 5
+
+[[httpPlugins]]
+name = "domain-whitelist"
+addr = "frps-plugin:7200"
+path = "/"
+ops = ["NewProxy"]
