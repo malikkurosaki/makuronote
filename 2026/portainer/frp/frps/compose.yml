@@ -68,7 +68,7 @@ services:
     cpu_shares: 256
     pids_limit: 64
     working_dir: /app
-    command: ["bun", "run", "index.ts"]
+    command: ["bun", "--hot", "run", "index.ts"]
     volumes:
       - /srv/docker/volumes/infra/frps/plugin:/app
     networks:
