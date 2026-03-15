@@ -1,0 +1,23 @@
+serverAddr = "connect.wibudev.com"
+serverPort = 443
+auth.token = "xxx"
+transport.protocol = "wss"
+
+# ✅ Naikkan heartbeat supaya koneksi stabil
+transport.heartbeatInterval = 30
+transport.heartbeatTimeout = 90
+
+[[proxies]]
+name = "ssh-pc-a"
+type = "tcpmux"
+multiplexer = "httpconnect"
+localIP = "127.0.0.1"
+localPort = 22
+customDomains = ["office1.ssh.wibudev.com"]
+
+[[proxies]]
+name = "web-office1"
+type = "http"
+localIP = "127.0.0.1"
+localPort = 3000
+customDomains = ["office1.wibudev.com"]
