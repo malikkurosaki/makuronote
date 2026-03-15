@@ -16,8 +16,8 @@ services:
       - "7082"  # tcpmux ssh
       - "7500"  # dashboard
     volumes:
-      - /srv/docker/volumes/infra/frps/frps.ini:/etc/frp/frps.ini
-    command: ["frps", "-c", "/etc/frp/frps.ini"]
+      - /srv/docker/volumes/infra/frps/frps.toml:/etc/frp/frps.toml
+    command: ["frps", "-c", "/etc/frp/frps.toml"]
     healthcheck:
       test: ["CMD-SHELL", "netstat -tln | grep -E ':(7001|7080|7500)' || exit 1"]
       interval: 30s
@@ -26,7 +26,6 @@ services:
       start_period: 10s
     labels:
       - "traefik.enable=true"
-
       # frpc connect via WSS
       - "traefik.http.routers.frp-connect.rule=Host(`connect.wibudev.com`)"
       - "traefik.http.routers.frp-connect.entrypoints=websecure"
@@ -34,7 +33,6 @@ services:
       - "traefik.http.routers.frp-connect.priority=300"
       - "traefik.http.routers.frp-connect.service=frp-connect-svc"
       - "traefik.http.services.frp-connect-svc.loadbalancer.server.port=7001"
-
       # Dashboard
       - "traefik.http.routers.frps-dashboard.rule=Host(`frp.wibudev.com`)"
       - "traefik.http.routers.frps-dashboard.entrypoints=websecure"
@@ -45,9 +43,8 @@ services:
       - "traefik.http.middlewares.frps-dashboard-ratelimit.ratelimit.average=10"
       - "traefik.http.middlewares.frps-dashboard-ratelimit.ratelimit.burst=20"
       - "traefik.http.routers.frps-dashboard.middlewares=frps-dashboard-ratelimit"
-
       # HTTP vhost catch-all → frps:7080
-      - "traefik.http.routers.frps-catchall.rule=HostRegexp(`{host:.+}`)"
+      - "traefik.http.routers.frps-catchall.rule=HostRegexp(`.+`)"
       - "traefik.http.routers.frps-catchall.entrypoints=websecure"
       - "traefik.http.routers.frps-catchall.tls.certresolver=letsencrypt"
       - "traefik.http.routers.frps-catchall.priority=1"
@@ -56,12 +53,33 @@ services:
       - "traefik.http.services.frps-http-svc.loadbalancer.passhostheader=true"
       - "traefik.http.middlewares.frps-compress.compress=true"
       - "traefik.http.routers.frps-catchall.middlewares=frps-compress"
-
       # TCP SSH (port 2222) → frps:7082
       - "traefik.tcp.routers.ssh-wildcard.rule=HostSNI(`*`)"
       - "traefik.tcp.routers.ssh-wildcard.entrypoints=ssh"
       - "traefik.tcp.routers.ssh-wildcard.service=ssh-tcpmux-svc"
       - "traefik.tcp.services.ssh-tcpmux-svc.loadbalancer.server.port=7082"
+
+  frps-plugin:
+    image: oven/bun:alpine
+    container_name: frps-plugin
+    restart: always
+    mem_limit: 128m
+    mem_reservation: 64m
+    cpu_shares: 256
+    pids_limit: 64
+    working_dir: /app
+    command: ["bun", "run", "index.ts"]
+    volumes:
+      - /srv/docker/volumes/infra/frps/plugin:/app
+    networks:
+      - public-net          # ← sama dengan frps
+    depends_on:
+      - frps
+    logging:
+      driver: json-file
+      options:
+        max-size: 5m
+        max-file: "3"
 
 networks:
   public-net:
