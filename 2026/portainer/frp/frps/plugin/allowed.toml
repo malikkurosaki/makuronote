@@ -1,0 +1,15 @@
+[[clients]]
+ssh = "office1.ssh.wibudev.com"
+web = ["office1.wibudev.com"]
+
+[[clients]]
+ssh = "office2.ssh.wibudev.com"
+web = ["office2.wibudev.com"]
+
+[[clients]]
+ssh = "siswa1.ssh.wibudev.com"
+web = []
+
+[[clients]]
+ssh = "siswa2.ssh.wibudev.com"
+web = []
