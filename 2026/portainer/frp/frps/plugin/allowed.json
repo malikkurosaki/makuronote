@@ -1,0 +1,20 @@
+{
+  "clients": [
+    {
+      "ssh": "office1.ssh.wibudev.com",
+      "web": ["office1.wibudev.com"]
+    },
+    {
+      "ssh": "office2.ssh.wibudev.com",
+      "web": ["office2.wibudev.com"]
+    },
+    {
+      "ssh": "siswa1.ssh.wibudev.com",
+      "web": []
+    },
+    {
+      "ssh": "siswa2.ssh.wibudev.com",
+      "web": []
+    }
+  ]
+}
