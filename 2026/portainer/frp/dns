@@ -1,0 +1,10 @@
++-------+-------------+----------------+--------------+------+
+| Type  | Name        | Content        | Proxy status | TTL  |
++-------+-------------+----------------+--------------+------+
+| A     | direct      | 85.31.224.xxx  | DNS only     | Auto |
+| A     | *.ssh       | 85.31.224.xxx  | DNS only     | Auto |
+| A     | tcpmux      | 85.31.224.xxx  | DNS only     | Auto |
+| A     | *           | 85.31.224.xxx  | Proxied      | Auto |
+| A     | wibudev.com | 85.31.224.xxx  | Proxied      | Auto |
+| CNAME | www         | wibudev.com    | Proxied      | Auto |
++-------+-------------+----------------+--------------+------+
