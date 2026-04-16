@@ -1,0 +1,124 @@
+services:
+  frpc:
+    image: snowdreamtech/frpc:latest
+    container_name: frpc
+    restart: unless-stopped
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    networks:
+      - public-net
+    configs:
+      - source: frpc_config
+        target: /etc/frp/frpc.toml
+    mem_limit: 64m
+    cpus: "0.25"
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "3"
+
+  multi-proxy:
+    image: oven/bun:1-alpine
+    container_name: multi-proxy
+    restart: unless-stopped
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    networks:
+      - public-net
+    environment:
+      ROUTE_claude-local.wibudev.com: "rahasiat|http://host.docker.internal:8317|rahasia"
+      ROUTE_ollama.wibudev.com: "rahasia|http://host.docker.internal:11434"
+      ROUTE_openweb-ui.wibudev.com: "|http://host.docker.internal:3080"
+    command:
+      - bun
+      - -e
+      - |
+        const routes = {};
+        for (const [key, val] of Object.entries(process.env)) {
+          if (!key.startsWith("ROUTE_")) continue;
+          const host = key.slice(6);
+          const [token, upstream, upstreamToken] = val.split("|");
+          routes[host] = {
+            token: token || null,
+            upstream,
+            upstreamToken: upstreamToken || null,
+          };
+        }
+        console.log("Routes loaded:", Object.keys(routes));
+
+        Bun.serve({
+          port: 8080,
+          async fetch(req) {
+            const host = req.headers.get("host")?.split(":")[0] ?? "";
+            const route = routes[host];
+
+            if (!route) {
+              return new Response("Not Found", { status: 404 });
+            }
+
+            if (route.token) {
+              const auth = req.headers.get("authorization");
+              if (auth !== "Bearer " + route.token) {
+                return new Response("Unauthorized", { status: 401 });
+              }
+            }
+
+            const url = new URL(req.url);
+            const target = route.upstream + url.pathname + url.search;
+
+            const headers = new Headers(req.headers);
+            if (route.upstreamToken) {
+              headers.set("authorization", "Bearer " + route.upstreamToken);
+            }
+
+            return fetch(target, {
+              method: req.method,
+              headers,
+              body: ["GET", "HEAD"].includes(req.method) ? undefined : req.body,
+              duplex: "half",
+            });
+          },
+        });
+    mem_limit: 64m
+    cpus: "0.25"
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "3"
+
+configs:
+  frpc_config:
+    content: |
+      serverAddr = "connect.wibudev.com"
+      serverPort = 443
+      auth.token = "rahasia"
+      transport.protocol = "wss"
+      transport.heartbeatInterval = 30
+      transport.heartbeatTimeout = 90
+
+      [[proxies]]
+      name = "claude-local"
+      type = "http"
+      localIP = "multi-proxy"
+      localPort = 8080
+      customDomains = ["claude-local.wibudev.com"]
+
+      [[proxies]]
+      name = "ollama"
+      type = "http"
+      localIP = "multi-proxy"
+      localPort = 8080
+      customDomains = ["ollama.wibudev.com"]
+
+      [[proxies]]
+      name = "openweb"
+      type = "http"
+      localIP = "multi-proxy"
+      localPort = 8080
+      customDomains = ["openweb-ui.wibudev.com"]
+
+networks:
+  public-net:
+    external: true
