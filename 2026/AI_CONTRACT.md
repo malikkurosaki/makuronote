@@ -235,7 +235,84 @@ tanpa dependency eksternal.
 
 ---
 
-## 11. Aturan Emas
+## 11. Hygiene Dokumen Panduan AI
+
+Dokumen panduan AI (`CLAUDE.md`, `AI-CONTRACT.md`, `.cursorrules`,
+`.github/copilot-instructions.md`, dll) di-load **setiap turn** percakapan.
+Semakin gemuk file utamanya, semakin banyak token terbuang setiap turn —
+dan ironisnya, AI jadi lebih sulit menemukan info penting karena tertimbun
+detail. File panduan yang gemuk **bukan** tanda dokumentasi yang baik;
+sering justru sebaliknya.
+
+### Pecah, jangan tumpuk
+
+Gunakan **referensi file** alih-alih menumpuk semua di satu file. Banyak
+AI agent (termasuk Claude Code) auto-load file yang di-reference dengan
+sintaks `@path/to/file.md`. Contoh struktur `CLAUDE.md` yang sehat:
+
+````markdown
+## Architecture
+See @docs/ARCHITECTURE.md
+
+## Agent Specs
+See @docs/AGENTIC_OVERVIEW.md
+
+## ADR History
+See @docs/adr/README.md
+````
+
+`CLAUDE.md` utama tetap ramping, tapi info detail tetap accessible saat
+dibutuhkan.
+
+### Apa yang WAJIB tetap di CLAUDE.md (load setiap turn)
+
+- Konvensi coding inti (naming, formatting, import order)
+- Perintah build/test/lint yang sering dipakai
+- Aturan komunikasi (bahasa, gaya, format response)
+- Struktur folder high-level (1-2 level)
+- Larangan absolut (jangan commit ke main, jangan touch folder X, dll)
+- **Pointer** (`@path/...`) ke file detail lainnya
+
+### Apa yang DIPINDAH ke file terpisah
+
+- Spec arsitektur lengkap → `docs/ARCHITECTURE.md`
+- Detail flow / sequence diagram → `docs/flows/*.md`
+- ADR history (Architecture Decision Records) → `docs/adr/`
+- Contoh kode panjang → `docs/examples/`
+- API/interface reference lengkap → `docs/api/`
+- Onboarding & setup detail → `docs/SETUP.md`
+- Glossary domain terminology → `docs/GLOSSARY.md`
+- Catatan investigasi/post-mortem → `docs/incidents/`
+
+Lokasi alternatif: `.claude/` atau `.ai/` kalau tim ingin memisahkan
+khusus untuk AI tooling, di luar dokumentasi developer biasa.
+
+### Cek duplikasi secara rutin
+
+Info yang sama sering muncul di beberapa section seiring waktu — biasanya
+karena ditambahkan saat debugging tanpa cek file dulu. Audit berkala:
+
+- [ ] Sama-sama dijelaskan di `README.md` dan `CLAUDE.md`? Pilih satu,
+      yang lain referensikan.
+- [ ] Aturan yang sama disebut di 2-3 section? Konsolidasi ke satu section
+      kanonik, section lain tinggal pointer.
+- [ ] Contoh kode panjang muncul inline? Pindah ke `docs/examples/`.
+- [ ] Konvensi yang sudah jadi default di linter/formatter masih ditulis
+      manual? Hapus — biarkan tooling yang jaga, dokumen tidak perlu
+      mengulang.
+- [ ] Info yang sudah usang (refer ke file/fitur yang dihapus)? Bersihkan
+      — dokumen yang setengah benar lebih merusak daripada tidak ada.
+
+### Rule of thumb ukuran
+
+Kalau `CLAUDE.md` (atau equivalent) sudah > 300 baris, itu **sinyal kuat**
+untuk pecah file. Dokumen panduan AI yang ideal: cukup pendek untuk dibaca
+ulang dalam 1 menit oleh manusia, dengan pointer ke detail untuk AI yang
+butuh konteks lebih dalam.
+
+---
+
+## 12. Aturan Emas
 
 > **Lebih baik tidak melakukan apa-apa daripada memperburuk kode.**
 >
