@@ -1,0 +1,123 @@
+services:
+  frps:
+    image: snowdreamtech/frps
+    container_name: frps
+    restart: always
+    cpus: "0.5"
+    mem_limit: 1g
+    mem_reservation: 512m
+    pids_limit: 512
+    cpu_shares: 512
+    networks:
+      - public-net
+    expose:
+      - "7001"
+      - "7080"
+      - "7082"
+      - "7500"
+    volumes:
+      - /srv/docker/volumes/infra/frps/frps.toml:/etc/frp/frps.toml
+    command: ["frps", "-c", "/etc/frp/frps.toml"]
+    healthcheck:
+      test: ["CMD-SHELL", "netstat -tln | grep -E ':(7001|7080|7500)' || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.frp-connect.rule=Host(`connect.wibudev.com`)"
+      - "traefik.http.routers.frp-connect.entrypoints=websecure"
+      - "traefik.http.routers.frp-connect.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.frp-connect.priority=300"
+      - "traefik.http.routers.frp-connect.service=frp-connect-svc"
+      - "traefik.http.services.frp-connect-svc.loadbalancer.server.port=7001"
+      - "traefik.http.routers.frps-dashboard.rule=Host(`frp.wibudev.com`)"
+      - "traefik.http.routers.frps-dashboard.entrypoints=websecure"
+      - "traefik.http.routers.frps-dashboard.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.frps-dashboard.priority=200"
+      - "traefik.http.routers.frps-dashboard.service=frps-dashboard-svc"
+      - "traefik.http.services.frps-dashboard-svc.loadbalancer.server.port=7500"
+      - "traefik.http.middlewares.frps-dashboard-ratelimit.ratelimit.average=10"
+      - "traefik.http.middlewares.frps-dashboard-ratelimit.ratelimit.burst=20"
+      - "traefik.http.routers.frps-dashboard.middlewares=frps-dashboard-ratelimit"
+      - "traefik.http.routers.frps-catchall.rule=HostRegexp(`.+`)"
+      - "traefik.http.routers.frps-catchall.entrypoints=websecure"
+      - "traefik.http.routers.frps-catchall.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.frps-catchall.priority=1"
+      - "traefik.http.routers.frps-catchall.service=frps-http-svc"
+      - "traefik.http.services.frps-http-svc.loadbalancer.server.port=7080"
+      - "traefik.http.services.frps-http-svc.loadbalancer.passhostheader=true"
+      - "traefik.http.middlewares.frps-compress.compress=true"
+      - "traefik.http.routers.frps-catchall.middlewares=frps-compress,frps-errors"
+      - "traefik.tcp.routers.ssh-wildcard.rule=HostSNI(`*`)"
+      - "traefik.tcp.routers.ssh-wildcard.entrypoints=ssh"
+      - "traefik.tcp.routers.ssh-wildcard.service=ssh-tcpmux-svc"
+      - "traefik.tcp.services.ssh-tcpmux-svc.loadbalancer.server.port=7082"
+
+  frps-plugin:
+    image: oven/bun:alpine
+    container_name: frps-plugin
+    restart: always
+    mem_limit: 128m
+    mem_reservation: 64m
+    cpu_shares: 256
+    pids_limit: 64
+    working_dir: /app
+    command: ["bun", "--hot", "run", "index.ts"]
+    volumes:
+      - /srv/docker/volumes/infra/frps/plugin:/app
+    configs:
+      - source: frps_allowed
+        target: /app/allowed.toml
+    networks:
+      - public-net
+    depends_on:
+      - frps
+    logging:
+      driver: json-file
+      options:
+        max-size: 5m
+        max-file: "3"
+
+  frps-errors:
+    image: ghcr.io/tarampampam/error-pages:3
+    container_name: frps-errors
+    restart: always
+    mem_limit: 64m
+    mem_reservation: 32m
+    cpu_shares: 128
+    pids_limit: 32
+    networks:
+      - public-net
+    environment:
+      TEMPLATE_NAME: ghost
+      DEFAULT_HTTP_CODE: "404"
+      SHOW_DETAILS: "false"
+      DISABLE_L10N: "false"
+      LISTEN_PORT: "8080"
+    logging:
+      driver: json-file
+      options:
+        max-size: 5m
+        max-file: "3"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.services.frps-errors-svc.loadbalancer.server.port=8080"
+      - "traefik.http.middlewares.frps-errors.errors.status=400-599"
+      - "traefik.http.middlewares.frps-errors.errors.service=frps-errors-svc"
+      - "traefik.http.middlewares.frps-errors.errors.query=/{status}.html"
+
+configs:
+  frps_allowed:
+    content: |
+      [[clients]]
+      ssh = jenna-desa.ssh.wibudev.com"
+      web = ["desa-platform-local.wibudev.com","claude-local.wibudev.com","openweb-ui.wibudev.com", "project-local.wibudev.com", "ollama.wibudev.com", "bagas-local.wibudev.com"]
+
+      [[clients]]
+      ssh = "office1.ssh.wibudev.com"
+
+networks:
+  public-net:
+    external: true
