@@ -1,6 +1,7 @@
 https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
 
 https://github.com/hkuds/rag-anything
+https://github.com/RyanCodrai/turbovec
 
 https://github.com/debpalash/OmniVoice-Studio
 
