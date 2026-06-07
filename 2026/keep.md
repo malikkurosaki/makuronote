@@ -10,3 +10,5 @@ https://github.com/yt-dlp/yt-dlp
 https://github.com/penpot/penpot
 
 https://github.com/lyogavin/airllm
+
+https://github.com/JCodesMore/ai-website-cloner-template
