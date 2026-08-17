@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📡 Pengirim Stream</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: sans-serif;
+      background: #0f0f0f;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      gap: 16px;
+      padding: 20px;
+    }
+    h1 { font-size: 1.4rem; color: #aaa; }
+    video {
+      width: 100%;
+      max-width: 720px;
+      border-radius: 12px;
+      background: #1a1a1a;
+      border: 2px solid #333;
+    }
+    .controls {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    input {
+      padding: 10px 14px;
+      border-radius: 8px;
+      border: 1px solid #444;
+      background: #1e1e1e;
+      color: #fff;
+      font-size: 0.95rem;
+      width: 220px;
+    }
+    button {
+      padding: 10px 24px;
+      border-radius: 8px;
+      border: none;
+      font-size: 0.95rem;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+    #btnStart { background: #22c55e; color: #000; }
+    #btnStart:hover { background: #16a34a; }
+    #btnStop { background: #ef4444; color: #fff; display: none; }
+    #btnStop:hover { background: #dc2626; }
+    .status {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+      border-radius: 20px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+    }
+    .status.live { border-color: #22c55e; color: #22c55e; }
+    .status.error { border-color: #ef4444; color: #ef4444; }
+  </style>
+</head>
+<body>
+  <h1>📡 Pengirim Stream</h1>
+
+  <video id="preview" autoplay muted playsinline></video>
+
+  <div class="controls">
+    <input id="server" value="http://100.64.0.8:1984" placeholder="go2rtc server URL" />
+    <input id="streamName" value="macbook" placeholder="Nama stream" />
+    <button id="btnStart" onclick="startStream()">▶ Mulai Kirim</button>
+    <button id="btnStop" onclick="stopStream()">⏹ Stop</button>
+  </div>
+
+  <div class="status" id="status">⏸ Belum terhubung</div>
+
+  <script>
+    let pc = null
+    let localStream = null
+
+    async function startStream() {
+      const server = document.getElementById('server').value.replace(/\/$/, '')
+      const name = document.getElementById('streamName').value.trim()
+      if (!name) return alert('Isi nama stream dulu!')
+
+      setStatus('⏳ Meminta akses kamera...', '')
+
+      try {
+        localStream = await navigator.mediaDevices.getUserMedia({ video: true, audio: true })
+        document.getElementById('preview').srcObject = localStream
+
+        pc = new RTCPeerConnection({
+          iceServers: [{ urls: 'stun:stun.l.google.com:19302' }]
+        })
+
+        localStream.getTracks().forEach(track => pc.addTrack(track, localStream))
+
+        const offer = await pc.createOffer()
+        await pc.setLocalDescription(offer)
+
+        // Tunggu ICE gathering selesai
+        await waitICE(pc)
+
+        setStatus('⏳ Menghubungi server...', '')
+
+        const res = await fetch(`${server}/api/webrtc?dst=${name}`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/sdp' },
+          body: pc.localDescription.sdp
+        })
+
+        if (!res.ok) throw new Error(`Server error: ${res.status}`)
+
+        const answer = await res.text()
+        await pc.setRemoteDescription({ type: 'answer', sdp: answer })
+
+        setStatus('🔴 LIVE — sedang mengirim stream', 'live')
+        document.getElementById('btnStart').style.display = 'none'
+        document.getElementById('btnStop').style.display = 'inline-block'
+
+      } catch (err) {
+        setStatus('❌ Error: ' + err.message, 'error')
+        stopStream()
+      }
+    }
+
+    function stopStream() {
+      if (pc) { pc.close(); pc = null }
+      if (localStream) { localStream.getTracks().forEach(t => t.stop()); localStream = null }
+      document.getElementById('preview').srcObject = null
+      document.getElementById('btnStart').style.display = 'inline-block'
+      document.getElementById('btnStop').style.display = 'none'
+      setStatus('⏸ Belum terhubung', '')
+    }
+
+    function waitICE(pc) {
+      return new Promise(resolve => {
+        if (pc.iceGatheringState === 'complete') return resolve()
+        pc.onicegatheringstatechange = () => {
+          if (pc.iceGatheringState === 'complete') resolve()
+        }
+        setTimeout(resolve, 3000) // timeout 3 detik
+      })
+    }
+
+    function setStatus(msg, cls) {
+      const el = document.getElementById('status')
+      el.textContent = msg
+      el.className = 'status ' + cls
+    }
+  </script>
+</body>
+</html>
