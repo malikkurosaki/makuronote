@@ -1,0 +1,27 @@
+services:
+  go2rtc:
+    image: alexxit/go2rtc
+    container_name: go2rtc
+    restart: unless-stopped
+    ports:
+      - "1984:1984"      # Web UI & HTTP API
+      - "8554:8554"      # RTSP server
+      - "8555:8555/tcp"  # WebRTC TCP
+      - "8555:8555/udp"  # WebRTC UDP
+    environment:
+      - TZ=Asia/Makassar
+    configs:
+      - source: go2rtc_config
+        target: /config/go2rtc.yaml
+
+configs:
+  go2rtc_config:
+    content: |
+      streams:
+        macbook:
+      api:
+        origin: "*"
+      webrtc:
+        listen: ":8555/tcp"
+        candidates:
+          - 100.64.0.8:8555 # tailscale ganti ip jika tidak menggunakan tailscale
