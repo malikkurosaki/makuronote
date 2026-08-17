@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📺 Penerima Stream</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: sans-serif;
+      background: #0f0f0f;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      gap: 16px;
+      padding: 20px;
+    }
+    h1 { font-size: 1.4rem; color: #aaa; }
+    video {
+      width: 100%;
+      max-width: 720px;
+      border-radius: 12px;
+      background: #1a1a1a;
+      border: 2px solid #333;
+    }
+    .controls {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    input {
+      padding: 10px 14px;
+      border-radius: 8px;
+      border: 1px solid #444;
+      background: #1e1e1e;
+      color: #fff;
+      font-size: 0.95rem;
+      width: 220px;
+    }
+    button {
+      padding: 10px 24px;
+      border-radius: 8px;
+      border: none;
+      font-size: 0.95rem;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+    #btnWatch { background: #3b82f6; color: #fff; }
+    #btnWatch:hover { background: #2563eb; }
+    #btnStop { background: #ef4444; color: #fff; display: none; }
+    #btnStop:hover { background: #dc2626; }
+    .status {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+      border-radius: 20px;
+      background: #1e1e1e;
+      border: 1px solid #333;
+    }
+    .status.watching { border-color: #3b82f6; color: #3b82f6; }
+    .status.error { border-color: #ef4444; color: #ef4444; }
+  </style>
+</head>
+<body>
+  <h1>📺 Penerima Stream</h1>
+
+  <video id="player" autoplay playsinline controls></video>
+
+  <div class="controls">
+    <input id="server" value="http://100.64.0.8:1984" placeholder="go2rtc server URL" />
+    <input id="streamName" value="macbook" placeholder="Nama stream" />
+    <button id="btnWatch" onclick="watchStream()">▶ Tonton</button>
+    <button id="btnStop" onclick="stopStream()">⏹ Stop</button>
+  </div>
+
+  <div class="status" id="status">⏸ Belum terhubung</div>
+
+  <script>
+    let pc = null
+
+    async function watchStream() {
+      const server = document.getElementById('server').value.replace(/\/$/, '')
+      const name = document.getElementById('streamName').value.trim()
+      if (!name) return alert('Isi nama stream dulu!')
+
+      setStatus('⏳ Menghubungi server...', '')
+
+      try {
+        pc = new RTCPeerConnection({
+          iceServers: [{ urls: 'stun:stun.l.google.com:19302' }]
+        })
+
+        // Siapkan untuk menerima video & audio
+        pc.addTransceiver('video', { direction: 'recvonly' })
+        pc.addTransceiver('audio', { direction: 'recvonly' })
+
+        pc.ontrack = (event) => {
+          const video = document.getElementById('player')
+          if (!video.srcObject) {
+            video.srcObject = event.streams[0]
+          }
+        }
+
+        const offer = await pc.createOffer()
+        await pc.setLocalDescription(offer)
+
+        // Tunggu ICE gathering selesai
+        await waitICE(pc)
+
+        const res = await fetch(`${server}/api/webrtc?src=${name}`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/sdp' },
+          body: pc.localDescription.sdp
+        })
+
+        if (!res.ok) throw new Error(`Server error: ${res.status} — stream belum ada?`)
+
+        const answer = await res.text()
+        await pc.setRemoteDescription({ type: 'answer', sdp: answer })
+
+        setStatus('📺 Menonton stream: ' + name, 'watching')
+        document.getElementById('btnWatch').style.display = 'none'
+        document.getElementById('btnStop').style.display = 'inline-block'
+
+      } catch (err) {
+        setStatus('❌ Error: ' + err.message, 'error')
+        stopStream()
+      }
+    }
+
+    function stopStream() {
+      if (pc) { pc.close(); pc = null }
+      document.getElementById('player').srcObject = null
+      document.getElementById('btnWatch').style.display = 'inline-block'
+      document.getElementById('btnStop').style.display = 'none'
+      setStatus('⏸ Belum terhubung', '')
+    }
+
+    function waitICE(pc) {
+      return new Promise(resolve => {
+        if (pc.iceGatheringState === 'complete') return resolve()
+        pc.onicegatheringstatechange = () => {
+          if (pc.iceGatheringState === 'complete') resolve()
+        }
+        setTimeout(resolve, 3000)
+      })
+    }
+
+    function setStatus(msg, cls) {
+      const el = document.getElementById('status')
+      el.textContent = msg
+      el.className = 'status ' + cls
+    }
+  </script>
+</body>
+</html>
