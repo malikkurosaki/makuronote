@@ -1,12 +1,9 @@
-name: Update All README TOC
+name: Update README TOC
 
 on:
   push:
     branches:
       - master
-    paths:
-      - "**/README.md"
-      - ".github/workflows/toc.yml"
 
   workflow_dispatch:
 
@@ -14,57 +11,17 @@ permissions:
   contents: write
 
 jobs:
-  toc:
-    name: Update README TOCs
+  generateTOC:
+    name: Generate TOC
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Install markdown-toc
-        run: npm install -g markdown-toc
-
-      - name: Update all README.md files
-        shell: bash
-        run: |
-          set -e
-
-          echo "Searching for README.md files..."
-
-          find . \
-            -type f \
-            -iname "README.md" \
-            -not -path "./.git/*" \
-            -print0 |
-          while IFS= read -r -d '' file; do
-            echo ""
-            echo "Processing: $file"
-
-            if grep -q "<!-- toc -->" "$file" &&
-               grep -q "<!-- tocstop -->" "$file"; then
-
-              markdown-toc -i "$file"
-
-              echo "TOC updated: $file"
-            else
-              echo "Skipped: $file"
-              echo "  Missing <!-- toc --> / <!-- tocstop --> markers"
-            fi
-          done
-
-      - name: Commit changes
-        shell: bash
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add -- '**/README.md'
-
-          if git diff --cached --quiet; then
-            echo "No TOC changes."
-            exit 0
-          fi
-
-          git commit -m "docs: update README TOCs"
-          git push
+      - name: Generate TOC
+        uses: technote-space/toc-generator@v4
+        with:
+          TARGET_PATHS: "."
+          MAX_HEADER_LEVEL: 3
+          OPENING_COMMENT: "<!-- toc"
+          CLOSING_COMMENT: "<!-- tocstop"
+          COMMIT_MESSAGE: "docs: update README TOC"
+          GITHUB_TOKEN: ${{ github.token }}
