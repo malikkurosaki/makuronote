@@ -30,3 +30,7 @@
 
 ### Pake 
 [![](https://github.com/user-attachments/assets/efbdd868-592a-4d01-ab73-4fae0efbef41)](https://github.com/tw93/Pake)
+
+### Tambo
+
+[![tambo](https://github.com/user-attachments/assets/6df65764-16ee-4c2b-8132-161f6388250d)](https://github.com/tambo-ai/tambo)
