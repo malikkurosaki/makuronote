@@ -14,3 +14,8 @@
 ### OpenShip
 
 [![open ship](https://github.com/oblien/openship/raw/main/docs/screenshots/screen.png)](https://github.com/oblien/openship)
+
+
+### Treg (OpenRouter for Tools)
+
+[![](https://github.com/superdesigndev/treg/raw/main/docs/assets/treg-hero.png)](https://github.com/superdesigndev/treg)
