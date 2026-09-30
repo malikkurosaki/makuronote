@@ -5,25 +5,24 @@ on:
     branches:
       - master
     paths:
-      - "**/README.md"
+      - "**/*.md"
+      - ".github/workflows/toc.yml"
+
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
   toc:
+    name: Generate TOC
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Update TOC
+      - name: Generate TOC
         uses: technote-space/toc-generator@v4
         with:
-          TARGET_PATHS: README.md
-          TOC_TITLE: "## Table of Contents"
+          TARGET_PATHS: "."
           MAX_HEADER_LEVEL: 3
+          TOC_TITLE: "## Table of Contents"
           COMMIT_MESSAGE: "docs: update README TOC"
