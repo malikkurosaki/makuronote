@@ -1,4 +1,3 @@
-
 # GIT NOTE
 
 ## Table of Contents
