@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-## Table of Contents
+**Table of Contents**
 
 - [Skill: Dev Inspector — Click-to-Source untuk Bun + Elysia + Vite + React](#skill-dev-inspector--click-to-source-untuk-bun--elysia--vite--react)
   - [Ringkasan](#ringkasan)

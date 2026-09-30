@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-## Table of Contents
+**Table of Contents**
 
 - [Click-to-Source (Dev Inspector)](#click-to-source-dev-inspector)
   - [Cara Kerja](#cara-kerja)

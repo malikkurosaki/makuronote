@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-## Table of Contents
+**Table of Contents**
 
 - [Default server configuration](#default-server-configuration)
 - [Virtual Host/SSL/Reverse proxy configuration for example.com](#virtual-hostsslreverse-proxy-configuration-for-examplecom)

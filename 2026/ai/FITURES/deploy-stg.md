@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-## Table of Contents
+**Table of Contents**
 
 - [MCP Deploy Server — Pola Umum](#mcp-deploy-server--pola-umum)
   - [`.mcp.json` — Apa & Bagaimana](#mcpjson--apa--bagaimana)

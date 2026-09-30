@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-## Table of Contents
+**Table of Contents**
 
 - [flutter firebase database](#flutter-firebase-database)
     - [setting di build.gradle android/build.gradle](#setting-di-buildgradle-androidbuildgradle)
