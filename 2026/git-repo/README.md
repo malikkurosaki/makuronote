@@ -12,6 +12,7 @@
 - [edge0](#edge0)
 - [OpenShip](#openship)
 - [Treg (OpenRouter for Tools)](#treg-openrouter-for-tools)
+- [Pake](#pake)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
