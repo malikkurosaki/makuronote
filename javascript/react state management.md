@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [React State Management](#react-state-management)
+  - [Rx.js](#rxjs)
+  - [val.js](#valjs)
+  - [app.js](#appjs)
+  - [index.js](#indexjs)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## React State Management
 
 ### Rx.js

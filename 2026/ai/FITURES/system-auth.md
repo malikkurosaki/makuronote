@@ -1,3 +1,53 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [Better Auth + Google OAuth — Pola Umum](#better-auth--google-oauth--pola-umum)
+  - [Pilihan Teknologi](#pilihan-teknologi)
+    - [Kenapa Better Auth?](#kenapa-better-auth)
+    - [Kenapa Google OAuth saja (bukan email/password)?](#kenapa-google-oauth-saja-bukan-emailpassword)
+  - [Arsitektur Auth — Pola Universal](#arsitektur-auth--pola-universal)
+  - [Better Auth — Setup Agnostik](#better-auth--setup-agnostik)
+    - [Instalasi & konfigurasi minimal](#instalasi--konfigurasi-minimal)
+    - [Mount ke framework HTTP](#mount-ke-framework-http)
+    - [Environment variables minimum](#environment-variables-minimum)
+    - [Google Cloud Console setup](#google-cloud-console-setup)
+  - [Google OAuth — Alur Universal](#google-oauth--alur-universal)
+    - [Redirect decision after login (pola umum)](#redirect-decision-after-login-pola-umum)
+  - [Model User — Pola yang Bisa Di-extend](#model-user--pola-yang-bisa-di-extend)
+    - [Schema minimum](#schema-minimum)
+    - [Field yang WAJIB ada (Better Auth requirement)](#field-yang-wajib-ada-better-auth-requirement)
+    - [Custom fields — sesuaikan dengan bisnis](#custom-fields--sesuaikan-dengan-bisnis)
+    - [Session & Account schema (standard Better Auth)](#session--account-schema-standard-better-auth)
+  - [Role & RBAC — Pola Hierarki](#role--rbac--pola-hierarki)
+    - [Definisi role hierarchy](#definisi-role-hierarchy)
+    - [Status lifecycle](#status-lifecycle)
+    - [Pattern: `requireRole()` middleware factory](#pattern-requirerole-middleware-factory)
+    - [Pattern: Flag spesial (QC, reviewer, auditor)](#pattern-flag-spesial-qc-reviewer-auditor)
+  - [Tenant Middleware — Pola Multi-tenant](#tenant-middleware--pola-multi-tenant)
+    - [Masalah](#masalah)
+    - [Solusi: Middleware + Row-Level Security](#solusi-middleware--row-level-security)
+    - [Pola resolve tenant](#pola-resolve-tenant)
+    - [PostgreSQL RLS (opsional tapi direkomendasikan)](#postgresql-rls-opsional-tapi-direkomendasikan)
+  - [Auth Middleware — Pola Optional vs Required](#auth-middleware--pola-optional-vs-required)
+    - [Kapan pakai yang mana?](#kapan-pakai-yang-mana)
+  - [Auth Sekunder — JWT untuk End-User](#auth-sekunder--jwt-untuk-end-user)
+    - [Kapan butuh auth terpisah?](#kapan-butuh-auth-terpisah)
+  - [Dev Auth Bypass — Pola Testing](#dev-auth-bypass--pola-testing)
+    - [Masalah](#masalah-1)
+    - [Solusi: Endpoint dev-only](#solusi-endpoint-dev-only)
+    - [Tiga endpoint standar](#tiga-endpoint-standar)
+    - [Security: pastikan 404 di production](#security-pastikan-404-di-production)
+  - [Session — Cache vs No-Cache](#session--cache-vs-no-cache)
+  - [Checklist Implementasi](#checklist-implementasi)
+  - [Contoh Konkret — Aplikasi Multi-Tenant SaaS](#contoh-konkret--aplikasi-multi-tenant-saas)
+    - [Role hierarchy (5 tingkat)](#role-hierarchy-5-tingkat)
+    - [Middleware stack di route](#middleware-stack-di-route)
+    - [Auto-promote admin](#auto-promote-admin)
+    - [Scoped admin (admin terbatas)](#scoped-admin-admin-terbatas)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Better Auth + Google OAuth — Pola Umum
 
 Panduan agnostik untuk membangun sistem autentikasi dengan Better Auth,

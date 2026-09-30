@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [floor database](#floor-database)
+    - [database](#database)
+    - [table](#table)
+    - [dao](#dao)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # floor database
 
 ```dart

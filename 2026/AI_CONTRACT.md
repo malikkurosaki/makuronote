@@ -1,3 +1,33 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [AI-CONTRACT.md](#ai-contractmd)
+  - [1. Prinsip Dasar](#1-prinsip-dasar)
+  - [2. Sebelum Menulis Kode](#2-sebelum-menulis-kode)
+  - [3. Saat Fix Bug](#3-saat-fix-bug)
+  - [4. Yang Dilarang (Akar Bug Eksponensial)](#4-yang-dilarang-akar-bug-eksponensial)
+  - [5. Saat Menambah Fitur](#5-saat-menambah-fitur)
+  - [6. Saat Ragu](#6-saat-ragu)
+  - [7. Saat Selesai](#7-saat-selesai)
+  - [8. Eskalasi](#8-eskalasi)
+  - [9. Tools sebagai Mata dan Tangan AI](#9-tools-sebagai-mata-dan-tangan-ai)
+  - [10. Kontrak Public API / Interface (Wajib Dijaga)](#10-kontrak-public-api--interface-wajib-dijaga)
+    - [Apa yang dianggap kontrak (freeze)](#apa-yang-dianggap-kontrak-freeze)
+    - [Apa yang boleh berubah (additive)](#apa-yang-boleh-berubah-additive)
+    - [Cara kerja penjaga kontrak](#cara-kerja-penjaga-kontrak)
+    - [Larangan spesifik](#larangan-spesifik)
+    - [Apa yang BUKAN tugas contract test](#apa-yang-bukan-tugas-contract-test)
+  - [11. Hygiene Dokumen Panduan AI](#11-hygiene-dokumen-panduan-ai)
+    - [Pecah, jangan tumpuk](#pecah-jangan-tumpuk)
+    - [Apa yang WAJIB tetap di CLAUDE.md (load setiap turn)](#apa-yang-wajib-tetap-di-claudemd-load-setiap-turn)
+    - [Apa yang DIPINDAH ke file terpisah](#apa-yang-dipindah-ke-file-terpisah)
+    - [Cek duplikasi secara rutin](#cek-duplikasi-secara-rutin)
+    - [Rule of thumb ukuran](#rule-of-thumb-ukuran)
+  - [12. Aturan Emas](#12-aturan-emas)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # AI-CONTRACT.md
 
 Kontrak kerja antara **manusia (developer)** dan **AI assistant** (Claude Code,

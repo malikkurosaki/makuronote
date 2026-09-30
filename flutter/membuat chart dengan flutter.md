@@ -1,3 +1,13 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [membuat chart dengan flutter](#membuat-chart-dengan-flutter)
+    - [pojo objecknya](#pojo-objecknya)
+    - [ambil data dari api](#ambil-data-dari-api)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # membuat chart dengan flutter
 
 

@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [mengambil data sari future  dan merubahnya kedalam list](#mengambil-data-sari-future--dan-merubahnya-kedalam-list)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # mengambil data sari future  dan merubahnya kedalam list
 
 ```dart

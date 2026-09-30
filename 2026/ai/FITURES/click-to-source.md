@@ -1,3 +1,32 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [Click-to-Source (Dev Inspector)](#click-to-source-dev-inspector)
+  - [Cara Kerja](#cara-kerja)
+  - [File](#file)
+    - [1. `src/inspector-plugin.ts` — Vite plugin `inspectorPlugin()`](#1-srcinspector-plugints--vite-plugin-inspectorplugin)
+    - [2. `src/DevInspector.tsx` — Client-side inspector component](#2-srcdevinspectortsx--client-side-inspector-component)
+    - [3. Entry point React — Wrap app dengan DevInspector (dev only)](#3-entry-point-react--wrap-app-dengan-devinspector-dev-only)
+    - [4. Backend — Endpoint `POST /__open-in-editor`](#4-backend--endpoint-post-__open-in-editor)
+  - [Environment Variable](#environment-variable)
+  - [Dependency](#dependency)
+  - [Catatan Teknis](#catatan-teknis)
+    - [Kenapa baca file dari disk di plugin?](#kenapa-baca-file-dari-disk-di-plugin)
+    - [`enforce: 'pre'`](#enforce-pre)
+    - [Windows path normalization](#windows-path-normalization)
+  - [Verifikasi](#verifikasi)
+    - [1. Vite Plugin — Build Time](#1-vite-plugin--build-time)
+    - [2. Hotkey — Toggle Mode](#2-hotkey--toggle-mode)
+    - [3. Hover — Overlay & Tooltip](#3-hover--overlay--tooltip)
+    - [4. Klik — Buka Editor](#4-klik--buka-editor)
+    - [5. Akurasi Line Number](#5-akurasi-line-number)
+    - [6. Production — Tidak Aktif](#6-production--tidak-aktif)
+    - [7. Klik Normal Tidak Terganggu](#7-klik-normal-tidak-terganggu)
+    - [Ringkasan Cepat](#ringkasan-cepat)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Click-to-Source (Dev Inspector)
 
 Fitur yang memungkinkan developer mengklik elemen di browser dan langsung membuka file sumber di editor. Hanya aktif di mode development.

@@ -1,3 +1,13 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [catatan tentang my.cnf di mac os / osx](#catatan-tentang-mycnf-di-mac-os--osx)
+    - [start stop mysql](#start-stop-mysql)
+    - [update](#update)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # catatan tentang my.cnf di mac os / osx
 
 If you are using macOS Sierra and the file doesn't exists, run

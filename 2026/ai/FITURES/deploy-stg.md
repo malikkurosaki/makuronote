@@ -1,3 +1,52 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [MCP Deploy Server — Pola Umum](#mcp-deploy-server--pola-umum)
+  - [`.mcp.json` — Apa & Bagaimana](#mcpjson--apa--bagaimana)
+    - [Apa itu `.mcp.json`?](#apa-itu-mcpjson)
+    - [Format](#format)
+    - [Dua jenis transport](#dua-jenis-transport)
+    - [Cara Claude Code membaca `.mcp.json`](#cara-claude-code-membaca-mcpjson)
+    - [Environment variable interpolation](#environment-variable-interpolation)
+    - [Konfigurasi per-project via env](#konfigurasi-per-project-via-env)
+  - [Arsitektur MCP Deploy Server](#arsitektur-mcp-deploy-server)
+    - [Prinsip desain](#prinsip-desain)
+    - [Mengapa MCP server terpisah, bukan skill?](#mengapa-mcp-server-terpisah-bukan-skill)
+    - [Server harus standalone](#server-harus-standalone)
+  - [Pola Pipeline: Preflight → Mutate → Push → Deploy → Verify](#pola-pipeline-preflight-%E2%86%92-mutate-%E2%86%92-push-%E2%86%92-deploy-%E2%86%92-verify)
+    - [Flow umum](#flow-umum)
+    - [Prinsip kunci: preflight sebelum mutasi](#prinsip-kunci-preflight-sebelum-mutasi)
+  - [Empat Tool Standar](#empat-tool-standar)
+    - [1. `deploy` — Deploy penuh](#1-deploy--deploy-penuh)
+    - [2. `check_version` — Bandingkan versi lokal vs target](#2-check_version--bandingkan-versi-lokal-vs-target)
+    - [3. `deploy_status` — Cek status CI/CD terakhir](#3-deploy_status--cek-status-cicd-terakhir)
+    - [4. `preflight` — Scan tanpa deploy](#4-preflight--scan-tanpa-deploy)
+  - [Credential Scan — Pola Agnostik](#credential-scan--pola-agnostik)
+    - [Pattern regex (diimplementasikan di `scripts/mcp/deploy.ts`)](#pattern-regex-diimplementasikan-di-scriptsmcpdeployts)
+    - [File sensitif (diblok jika masuk diff)](#file-sensitif-diblok-jika-masuk-diff)
+    - [Cara scan](#cara-scan)
+    - [Output saat blocked](#output-saat-blocked)
+    - [Redaksi output](#redaksi-output)
+  - [Migration / Schema Check — Pola Adaptif](#migration--schema-check--pola-adaptif)
+    - [Pola umum untuk ORM apapun](#pola-umum-untuk-orm-apapun)
+    - [Adaptasi per ORM](#adaptasi-per-orm)
+    - [SQL-first vs Code-first](#sql-first-vs-code-first)
+  - [Deploy Target — Pola Adaptif](#deploy-target--pola-adaptif)
+    - [Docker + GitHub Actions (pola referensi)](#docker--github-actions-pola-referensi)
+    - [Docker + SSH (VPS manual)](#docker--ssh-vps-manual)
+    - [VPS langsung (no Docker)](#vps-langsung-no-docker)
+    - [Platform as a Service (Vercel, Railway, Fly.io)](#platform-as-a-service-vercel-railway-flyio)
+    - [Serverless / Edge (Cloudflare Workers, AWS Lambda)](#serverless--edge-cloudflare-workers-aws-lambda)
+    - [Pola verifikasi umum](#pola-verifikasi-umum)
+  - [Timeout & Retry](#timeout--retry)
+  - [Checkpoint Commit — Opsional tapi Direkomendasikan](#checkpoint-commit--opsional-tapi-direkomendasikan)
+  - [Keamanan](#keamanan)
+    - [Pattern anti-leak tambahan](#pattern-anti-leak-tambahan)
+  - [Checklist Implementasi](#checklist-implementasi)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # MCP Deploy Server — Pola Umum
 
 Panduan agnostik untuk membangun MCP server deploy otomatis di project

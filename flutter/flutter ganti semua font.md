@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [flutter ganti semua font](#flutter-ganti-semua-font)
+    - [settingan di pubspec.yaml](#settingan-di-pubspecyaml)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # flutter ganti semua font 
 
 ```dart

@@ -1,3 +1,22 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [Setup Multipass + FRP — Catatan Pribadi](#setup-multipass--frp--catatan-pribadi)
+  - [Tujuan](#tujuan)
+  - [Arsitektur](#arsitektur)
+  - [Step 1 — Install & buat VM Ubuntu di Multipass](#step-1--install--buat-vm-ubuntu-di-multipass)
+  - [Step 2 — Aktifkan SSH di dalam Multipass](#step-2--aktifkan-ssh-di-dalam-multipass)
+  - [Step 3 — Forward port Mac ke Multipass (socat)](#step-3--forward-port-mac-ke-multipass-socat)
+  - [Step 4 — Setup FRP Client (frpc) via Docker](#step-4--setup-frp-client-frpc-via-docker)
+  - [Step 5 — Tambahkan SSH key Mac ke Multipass](#step-5--tambahkan-ssh-key-mac-ke-multipass)
+  - [Step 6 — Setup SSH config di Mac](#step-6--setup-ssh-config-di-mac)
+  - [Step 7 — Test koneksi](#step-7--test-koneksi)
+  - [Troubleshooting](#troubleshooting)
+  - [Perintah berguna sehari-hari](#perintah-berguna-sehari-hari)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Setup Multipass + FRP — Catatan Pribadi
 > Berhasil dilakukan: 30 Mei 2026
 

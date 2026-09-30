@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [FRPS](#frps)
+  - [SERVER](#server)
+  - [Custom Default Page Nginx](#custom-default-page-nginx)
+- [CLIENT](#client)
+  - [ssh](#ssh)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## FRPS
 
 ### SERVER

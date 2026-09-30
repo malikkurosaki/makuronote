@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [click span text flutter](#click-span-text-flutter)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # click span text flutter
 
 ```dart

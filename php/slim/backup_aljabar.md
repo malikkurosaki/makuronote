@@ -1,3 +1,21 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [backup al-jabar](#backup-al-jabar)
+    - [composer.json](#composerjson)
+    - [index.php](#indexphp)
+    - [rest_api.http](#rest_apihttp)
+    - [public/indexs.php](#publicindexsphp)
+    - [public/.htaccess](#publichtaccess)
+    - [.htaccess](#htaccess)
+    - [controller/admin.php](#controlleradminphp)
+    - [controller/auth.php](#controllerauthphp)
+    - [controller/database.php](#controllerdatabasephp)
+    - [controller/home.php](#controllerhomephp)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # backup al-jabar
 
 ### composer.json

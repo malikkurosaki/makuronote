@@ -1,3 +1,20 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [Setup SSH ke Ubuntu (proot) di Termux Android](#setup-ssh-ke-ubuntu-proot-di-termux-android)
+  - [Environment](#environment)
+  - [1. Buat user `makuro` di dalam proot](#1-buat-user-makuro-di-dalam-proot)
+  - [2. Install package di dalam proot](#2-install-package-di-dalam-proot)
+  - [3. JANGAN jalankan sshd di DALAM proot (dead-end)](#3-jangan-jalankan-sshd-di-dalam-proot-dead-end)
+  - [4. Jalankan sshd NATIVE di Termux (cara yang berhasil)](#4-jalankan-sshd-native-di-termux-cara-yang-berhasil)
+  - [5. Auto-masuk proot sebagai `makuro` saat SSH login](#5-auto-masuk-proot-sebagai-makuro-saat-ssh-login)
+  - [6. Persistensi (sshd hidup setelah reboot)](#6-persistensi-sshd-hidup-setelah-reboot)
+  - [7. (BELUM) Expose keluar via FRP](#7-belum-expose-keluar-via-frp)
+  - [Ringkasan jaringan](#ringkasan-jaringan)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Setup SSH ke Ubuntu (proot) di Termux Android
 
 Catatan langkah yang **berhasil** untuk SSH masuk ke environment Ubuntu yang

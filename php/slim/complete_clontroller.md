@@ -1,3 +1,17 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [complete controller](#complete-controller)
+    - [CONTROLLER](#controller)
+    - [REST](#rest)
+    - [INDEX](#index)
+    - [DATABASE](#database)
+    - [HTACCESS](#htaccess)
+    - [COMPOSER](#composer)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # complete controller 
 
 ### CONTROLLER

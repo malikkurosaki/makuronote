@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [simpel input validate and post](#simpel-input-validate-and-post)
+    - [update](#update)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # simpel input validate and post 
 
 __HTML__

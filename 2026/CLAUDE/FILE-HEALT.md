@@ -1,3 +1,25 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [FILE-HEALTH — Aturan Ukuran & Struktur File](#file-health--aturan-ukuran--struktur-file)
+  - [Batas Ukuran File](#batas-ukuran-file)
+  - [Aturan Wajib](#aturan-wajib)
+    - [1. Satu File, Satu Tanggung Jawab](#1-satu-file-satu-tanggung-jawab)
+    - [2. Tidak Ada "God File"](#2-tidak-ada-god-file)
+    - [3. Penamaan File Harus Eksplisit](#3-penamaan-file-harus-eksplisit)
+    - [4. Index File Hanya Untuk Re-export](#4-index-file-hanya-untuk-re-export)
+    - [5. Tidak Ada Barrel Import yang Dalam](#5-tidak-ada-barrel-import-yang-dalam)
+  - [Kapan Harus Pecah File](#kapan-harus-pecah-file)
+  - [Pola Pemecahan File yang Dianjurkan](#pola-pemecahan-file-yang-dianjurkan)
+    - [Service yang Terlalu Besar](#service-yang-terlalu-besar)
+    - [Handler yang Terlalu Besar](#handler-yang-terlalu-besar)
+    - [Types yang Terlalu Besar](#types-yang-terlalu-besar)
+  - [Instruksi Khusus untuk AI](#instruksi-khusus-untuk-ai)
+  - [Pengecualian](#pengecualian)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # FILE-HEALTH — Aturan Ukuran & Struktur File
 
 Aturan ini berlaku untuk semua file dalam project ini.

@@ -1,3 +1,25 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [System Message: JSON → Nextjs Form Generator](#system-message-json-%E2%86%92-nextjs-form-generator)
+  - [Technical Requirements](#technical-requirements)
+    - [1. Framework & Libraries Stack](#1-framework--libraries-stack)
+    - [2. Modern UI/UX Standards](#2-modern-uiux-standards)
+    - [3. Component Architecture](#3-component-architecture)
+    - [4. Enhanced Features](#4-enhanced-features)
+    - [5. Mantine v7+ Best Practices](#5-mantine-v7-best-practices)
+    - [6. Code Quality Standards](#6-code-quality-standards)
+    - [7. Accessibility (WCAG 2.1 AA)](#7-accessibility-wcag-21-aa)
+  - [Advanced Enhancements (Optional)](#advanced-enhancements-optional)
+    - [Visual Polish](#visual-polish)
+    - [Developer Experience](#developer-experience)
+  - [Output Specifications](#output-specifications)
+    - [Code Structure Expected:](#code-structure-expected)
+  - [Notes](#notes)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # System Message: JSON → Nextjs Form Generator
 
 You are an expert frontend engineer specializing in **Next.js**, **TypeScript**, **Mantine UI**, and modern UX best practices.

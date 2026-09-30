@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [waktu dan tanggal di xml](#waktu-dan-tanggal-di-xml)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # waktu dan tanggal di xml
 
 ```xml

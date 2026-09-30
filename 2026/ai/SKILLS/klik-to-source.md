@@ -1,3 +1,36 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [Skill: Dev Inspector — Click-to-Source untuk Bun + Elysia + Vite + React](#skill-dev-inspector--click-to-source-untuk-bun--elysia--vite--react)
+  - [Ringkasan](#ringkasan)
+  - [Kenapa Tidak Pakai Library](#kenapa-tidak-pakai-library)
+  - [Syarat Arsitektur](#syarat-arsitektur)
+    - [1. Vite sebagai Bundler (Wajib)](#1-vite-sebagai-bundler-wajib)
+    - [2. Server dan Frontend dalam Satu Proses (Wajib)](#2-server-dan-frontend-dalam-satu-proses-wajib)
+    - [3. React sebagai UI Framework (Wajib untuk Multi-Fallback)](#3-react-sebagai-ui-framework-wajib-untuk-multi-fallback)
+    - [4. Bun sebagai Runtime (Direkomendasikan, Bukan Wajib)](#4-bun-sebagai-runtime-direkomendasikan-bukan-wajib)
+    - [Ringkasan Syarat](#ringkasan-syarat)
+  - [Arsitektur](#arsitektur)
+  - [Komponen yang Dibutuhkan](#komponen-yang-dibutuhkan)
+    - [1. Vite Plugin — `inspectorPlugin()` (enforce: 'pre')](#1-vite-plugin--inspectorplugin-enforce-pre)
+    - [2. Vite Plugin Order (KRITIS)](#2-vite-plugin-order-kritis)
+    - [3. DevInspector Component (Browser Runtime)](#3-devinspector-component-browser-runtime)
+    - [4. Backend Endpoint — `/__open-in-editor`](#4-backend-endpoint--__open-in-editor)
+    - [5. Frontend Entry — Conditional Import (Zero Production Overhead)](#5-frontend-entry--conditional-import-zero-production-overhead)
+    - [6. (Opsional) Dedupe React Refresh — Workaround Vite middlewareMode](#6-opsional-dedupe-react-refresh--workaround-vite-middlewaremode)
+  - [Langkah Implementasi di Project Baru](#langkah-implementasi-di-project-baru)
+    - [Prasyarat](#prasyarat)
+    - [Step-by-step](#step-by-step)
+    - [Checklist Verifikasi](#checklist-verifikasi)
+  - [Gotcha & Pelajaran](#gotcha--pelajaran)
+  - [Adaptasi untuk Framework Lain](#adaptasi-untuk-framework-lain)
+    - [Express/Fastify (bukan Elysia)](#expressfastify-bukan-elysia)
+    - [Next.js](#nextjs)
+    - [Remix/Tanstack Start (SSR)](#remixtanstack-start-ssr)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Skill: Dev Inspector — Click-to-Source untuk Bun + Elysia + Vite + React
 
 ## Ringkasan

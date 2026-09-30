@@ -1,3 +1,24 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [The finished app](#the-finished-app)
+- [Starting out](#starting-out)
+- [Adding dependencies](#adding-dependencies)
+- [Platform-specific setup](#platform-specific-setup)
+- [Defining the entities](#defining-the-entities)
+- [Creating a Store](#creating-a-store)
+- [Setting customers & adding orders](#setting-customers--adding-orders)
+- [Watching the data](#watching-the-data)
+  - [Displaying the data](#displaying-the-data)
+- [Sorting the orders](#sorting-the-orders)
+- [Deleting orders](#deleting-orders)
+- [Show orders of a specific customer](#show-orders-of-a-specific-customer)
+- [Cross-device Sync](#cross-device-sync)
+- [Conclusion](#conclusion)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 source : https://resocoder.com/2021/05/18/objectbox-fast-local-database-for-flutter-with-optional-sync-across-devices/
 
 

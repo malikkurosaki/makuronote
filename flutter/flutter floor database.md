@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [flutter floor database](#flutter-floor-database)
+    - [main dart](#main-dart)
+    - [database dart](#database-dart)
+    - [pojo](#pojo)
+    - [dao](#dao)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # flutter floor database
 
 

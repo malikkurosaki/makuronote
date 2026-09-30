@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [beberapa pngaturan untuk flutter web](#beberapa-pngaturan-untuk-flutter-web)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # beberapa pngaturan untuk flutter web
 
 

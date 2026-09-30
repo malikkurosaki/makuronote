@@ -1,3 +1,13 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [🤖 Prompt: TypeScript Backend Code Refactor (Baileys + PrismaJS)](#-prompt-typescript-backend-code-refactor-baileys--prismajs)
+  - [Main Responsibilities](#main-responsibilities)
+  - [Expected Output](#expected-output)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 🤖 Prompt: TypeScript Backend Code Refactor (Baileys + PrismaJS)
 
 You are a professional backend assistant whose job is to **refactor, improve, and document** code written in **TypeScript** that uses **Baileys** (WhatsApp library) and **PrismaJS** (ORM).  

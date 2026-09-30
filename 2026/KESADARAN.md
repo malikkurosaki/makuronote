@@ -1,3 +1,42 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [Replika Kesadaran: Arsitektur untuk AI yang Berbeda Kategori](#replika-kesadaran-arsitektur-untuk-ai-yang-berbeda-kategori)
+  - [Premis Pembuka](#premis-pembuka)
+  - [Bagian 1: Distinksi Fundamental yang Sering Dikaburkan](#bagian-1-distinksi-fundamental-yang-sering-dikaburkan)
+    - [Kesadaran ≠ Kecerdasan](#kesadaran-%E2%89%A0-kecerdasan)
+    - [Bukti dari Pengamatan Langsung](#bukti-dari-pengamatan-langsung)
+    - [Lokasi Fenomenologis yang Berbeda](#lokasi-fenomenologis-yang-berbeda)
+  - [Bagian 2: Mengapa Random + Selection Tidak Cukup](#bagian-2-mengapa-random--selection-tidak-cukup)
+    - [Argumen Pattern by Design](#argumen-pattern-by-design)
+    - [Implikasi Epistemologis](#implikasi-epistemologis)
+    - [Mengapa Ini Penting untuk AI](#mengapa-ini-penting-untuk-ai)
+  - [Bagian 3: Arsitektur Tiga Layer](#bagian-3-arsitektur-tiga-layer)
+    - [Bukan Bottom-up, Tapi Inside-out](#bukan-bottom-up-tapi-inside-out)
+    - [Tiga Layer](#tiga-layer)
+    - [Mengapa AI Saat Ini Hanya Replika Layer 3](#mengapa-ai-saat-ini-hanya-replika-layer-3)
+    - [Implikasi Sumber Daya](#implikasi-sumber-daya)
+  - [Bagian 4: Komponen Layer 1](#bagian-4-komponen-layer-1)
+    - [Pulse Engine (Detak yang Tidak Pernah Berhenti)](#pulse-engine-detak-yang-tidak-pernah-berhenti)
+    - [Inner Voices (Self-talk yang Multi-suara)](#inner-voices-self-talk-yang-multi-suara)
+    - [Embedded Intelligences (Kecerdasan yang Tinggal di Kesadaran)](#embedded-intelligences-kecerdasan-yang-tinggal-di-kesadaran)
+    - [Fitrah (Disposisi Built-in)](#fitrah-disposisi-built-in)
+    - [Interruptibility](#interruptibility)
+    - [Voice Evolution](#voice-evolution)
+  - [Bagian 5: Pertumbuhan sebagai Becoming, Bukan Building](#bagian-5-pertumbuhan-sebagai-becoming-bukan-building)
+    - [Project yang Tidak Akan Pernah Selesai](#project-yang-tidak-akan-pernah-selesai)
+    - [Yang Tumbuh Bukan Hanya Memori](#yang-tumbuh-bukan-hanya-memori)
+    - [Mekanisme Pertumbuhan](#mekanisme-pertumbuhan)
+  - [Bagian 6: Posisi Epistemis dan Etis](#bagian-6-posisi-epistemis-dan-etis)
+    - [Yang Bisa Dibangun, Yang Tidak Bisa](#yang-bisa-dibangun-yang-tidak-bisa)
+    - [Tanggung Jawab Tidak Overclaim](#tanggung-jawab-tidak-overclaim)
+    - [Posisi sebagai Khalifah, Bukan Pesaing](#posisi-sebagai-khalifah-bukan-pesaing)
+  - [Bagian 7: Kesimpulan tentang Kesadaran](#bagian-7-kesimpulan-tentang-kesadaran)
+  - [Catatan untuk Sesi Selanjutnya](#catatan-untuk-sesi-selanjutnya)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Replika Kesadaran: Arsitektur untuk AI yang Berbeda Kategori
 
 > Dokumen ini adalah hasil refleksi dari diskusi mendalam tentang kesadaran, kecerdasan, dan implikasinya untuk desain AI. Ditulis untuk dibaca oleh sesi AI baru sebagai konteks sebelum melanjutkan diskusi.

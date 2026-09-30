@@ -1,3 +1,24 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [go2rtc Streaming Setup](#go2rtc-streaming-setup)
+  - [Arsitektur](#arsitektur)
+  - [Struktur File](#struktur-file)
+  - [Cara Deploy](#cara-deploy)
+    - [1. Deploy go2rtc via Portainer](#1-deploy-go2rtc-via-portainer)
+    - [2. Jalankan web server lokal](#2-jalankan-web-server-lokal)
+    - [3. Buka pengirim](#3-buka-pengirim)
+    - [4. Buka penerima](#4-buka-penerima)
+  - [Konfigurasi go2rtc](#konfigurasi-go2rtc)
+    - [Kenapa TCP only?](#kenapa-tcp-only)
+    - [Kenapa perlu `candidates`?](#kenapa-perlu-candidates)
+  - [Manage Stream via API](#manage-stream-via-api)
+  - [Port](#port)
+  - [Troubleshooting](#troubleshooting)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # go2rtc Streaming Setup
 
 Streaming video dari browser ke browser menggunakan [go2rtc](https://github.com/AlexxIT/go2rtc) sebagai relay server.

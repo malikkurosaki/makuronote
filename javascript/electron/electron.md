@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [electron](#electron)
+    - [main.js](#mainjs)
+    - [package.json](#packagejson)
+    - [app.js](#appjs)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # electron
 
 ### main.js

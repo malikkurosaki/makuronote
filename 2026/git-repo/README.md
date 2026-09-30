@@ -4,9 +4,15 @@
 ## Table of Contents
 
 
-<!-- toc -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
 
-<!-- tocstop -->
+- [edge0](#edge0)
+- [OpenShip](#openship)
+- [Treg (OpenRouter for Tools)](#treg-openrouter-for-tools)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ### edge0
 

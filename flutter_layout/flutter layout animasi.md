@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [flutter layout animasi](#flutter-layout-animasi)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # flutter layout animasi
 
 > membuat animasi saal tombol ditekan

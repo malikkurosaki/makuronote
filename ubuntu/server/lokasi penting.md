@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [memantau penggunaan memory](#memantau-penggunaan-memory)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 sudo vim /etc/nginx/conf.d/app.conf 
 
 sudo ln -s /usr/share/phpmyadmin /var/www/your_domain/phpmyadmin

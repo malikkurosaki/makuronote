@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [App.js](#appjs)
+- [index.html](#indexhtml)
+- [index.js](#indexjs)
+- [Rx.js](#rxjs)
+- [Store.js](#storejs)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### App.js
 
 ```js

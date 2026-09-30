@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [Image Operations](#image-operations)
+- [Container Operations](#container-operations)
+- [Container Logs and Monitoring](#container-logs-and-monitoring)
+- [Networking](#networking)
+- [Docker Compose](#docker-compose)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Tentu! Berikut adalah cheat sheet Docker lengkap dengan contoh-contoh dan penjelasan untuk berbagai operasi dan perintah yang umum digunakan:
 
 ## Image Operations

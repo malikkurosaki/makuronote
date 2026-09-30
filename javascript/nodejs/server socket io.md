@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [server socket io](#server-socket-io)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # server socket io
 
 package.json

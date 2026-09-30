@@ -1,3 +1,30 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [AI-CONTRACT.md](#ai-contractmd)
+  - [1. Prinsip Dasar](#1-prinsip-dasar)
+  - [2. Sebelum Menulis Kode](#2-sebelum-menulis-kode)
+  - [2a. Cara Membaca Kode (Ketetapan Hemat Context)](#2a-cara-membaca-kode-ketetapan-hemat-context)
+    - [Urutan baca yang benar (dari murah ke mahal)](#urutan-baca-yang-benar-dari-murah-ke-mahal)
+    - [Larangan](#larangan)
+  - [3. Saat Fix Bug](#3-saat-fix-bug)
+  - [4. Yang Dilarang (Akar Bug Eksponensial)](#4-yang-dilarang-akar-bug-eksponensial)
+  - [5. Saat Menambah Fitur](#5-saat-menambah-fitur)
+  - [6. Saat Ragu](#6-saat-ragu)
+  - [7. Saat Selesai](#7-saat-selesai)
+  - [8. Eskalasi](#8-eskalasi)
+  - [9. Tools sebagai Mata dan Tangan AI](#9-tools-sebagai-mata-dan-tangan-ai)
+  - [10. Kontrak Public API / Interface (Wajib Dijaga)](#10-kontrak-public-api--interface-wajib-dijaga)
+    - [Apa yang dianggap kontrak (freeze)](#apa-yang-dianggap-kontrak-freeze)
+    - [Apa yang boleh berubah (additive)](#apa-yang-boleh-berubah-additive)
+    - [Cara kerja penjaga kontrak](#cara-kerja-penjaga-kontrak)
+    - [Larangan spesifik](#larangan-spesifik)
+    - [Apa yang BUKAN tugas contract test](#apa-yang-bukan-tugas-contract-test)
+  - [11. Aturan Emas](#11-aturan-emas)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # AI-CONTRACT.md
 
 Kontrak kerja antara **manusia (developer)** dan **AI assistant** (Claude Code,

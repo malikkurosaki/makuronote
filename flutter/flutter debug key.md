@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [flutterdebug key](#flutterdebug-key)
+- [contoh mac dan linux](#contoh-mac-dan-linux)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # flutterdebug key 
 
 mac

@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [Upload image](#upload-image)
+  - [Use Multer and Fetch](#use-multer-and-fetch)
+    - [server](#server)
+    - [client](#client)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Upload image
 
 ## Use Multer and Fetch

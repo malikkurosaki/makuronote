@@ -1,3 +1,54 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [Sistem Tiket Internal](#sistem-tiket-internal)
+  - [Ringkasan](#ringkasan)
+  - [Arsitektur](#arsitektur)
+  - [Model Data](#model-data)
+    - [`Ticket` (tabel `ticket`)](#ticket-tabel-ticket)
+    - [`TicketComment` (tabel `ticket_comment`)](#ticketcomment-tabel-ticket_comment)
+  - [State Machine Tiket](#state-machine-tiket)
+  - [Akses & Otorisasi](#akses--otorisasi)
+    - [Role hierarchy](#role-hierarchy)
+    - [Siapa yang bisa akses?](#siapa-yang-bisa-akses)
+    - [Batasan operasi](#batasan-operasi)
+    - [Frontend guard](#frontend-guard)
+    - [Visibility di sidebar](#visibility-di-sidebar)
+  - [API Endpoints](#api-endpoints)
+    - [List & Detail](#list--detail)
+    - [Mutasi](#mutasi)
+    - [Komentar](#komentar)
+    - [Upload & Gambar](#upload--gambar)
+    - [Query params untuk list](#query-params-untuk-list)
+  - [Komponen Frontend](#komponen-frontend)
+    - [`TiketPage.tsx` — Orchestrator](#tiketpagetsx--orchestrator)
+    - [`TiketList.tsx` — Tabel & Filter](#tiketlisttsx--tabel--filter)
+    - [`TiketDetail.tsx` — Detail & Edit](#tiketdetailtsx--detail--edit)
+    - [`TiketForm.tsx` — Buat Tiket](#tiketformtsx--buat-tiket)
+    - [`MarkdownEditor.tsx` — Editor + Preview](#markdowneditortsx--editor--preview)
+    - [`constants.ts` — Shared Constants](#constantsts--shared-constants)
+  - [Layanan Gambar (Upload & Proxy)](#layanan-gambar-upload--proxy)
+    - [Alur upload](#alur-upload)
+    - [Proxy URL stabil](#proxy-url-stabil)
+  - [Infrastruktur MCP — Cara Koneksi ke Staging](#infrastruktur-mcp--cara-koneksi-ke-staging)
+    - [`.mcp.json` — Dua server, dua transport](#mcpjson--dua-server-dua-transport)
+    - [Cara kerja `desa-platform-stg` (HTTP transport)](#cara-kerja-desa-platform-stg-http-transport)
+    - [Syarat koneksi](#syarat-koneksi)
+    - [Session lifecycle](#session-lifecycle)
+    - [Perbedaan local vs staging](#perbedaan-local-vs-staging)
+  - [Empat MCP Tool Tiket](#empat-mcp-tool-tiket)
+    - [`list_tickets`](#list_tickets)
+    - [`get_ticket`](#get_ticket)
+    - [`update_ticket`](#update_ticket)
+    - [`add_ticket_comment`](#add_ticket_comment)
+    - [Perbedaan MCP vs API](#perbedaan-mcp-vs-api)
+  - [Hooks (TanStack Query)](#hooks-tanstack-query)
+  - [Format Nomor Tiket](#format-nomor-tiket)
+  - [Rangkuman File](#rangkuman-file)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Sistem Tiket Internal
 
 ## Ringkasan

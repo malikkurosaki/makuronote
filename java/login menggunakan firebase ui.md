@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [login menggunakan firebase ui](#login-menggunakan-firebase-ui)
+    - [on activity result](#on-activity-result)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # login menggunakan firebase ui 
 
 ```java

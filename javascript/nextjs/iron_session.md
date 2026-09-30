@@ -1,3 +1,26 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [pages/login.tsx](#pageslogintsx)
+- [pages/profile-sg.tsx](#pagesprofile-sgtsx)
+- [pages/profile-ssr.tsx](#pagesprofile-ssrtsx)
+- [pages/_app.tsx](#pages_apptsx)
+- [pages/api/events.ts](#pagesapieventsts)
+- [pages/api/login.ts](#pagesapilogints)
+- [pages/api/logout.ts](#pagesapilogoutts)
+- [pages/aapi/user.ts](#pagesaapiuserts)
+- [lib/db.ts](#libdbts)
+- [lib/fetch_json.ts](#libfetch_jsonts)
+- [lib/session.ts](#libsessionts)
+- [lib/use_events.ts](#libuse_eventsts)
+- [lib/use_user.ts](#libuse_userts)
+- [components/form.tsx](#componentsformtsx)
+- [components/header.tsx](#componentsheadertsx)
+- [components/layout.tsx](#componentslayouttsx)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 install 
 
 ```bash

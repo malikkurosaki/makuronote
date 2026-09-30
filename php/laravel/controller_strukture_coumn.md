@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [controller strukture column](#controller-strukture-column)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # controller strukture column
 
 ```php

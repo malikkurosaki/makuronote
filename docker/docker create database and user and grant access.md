@@ -1,3 +1,10 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Untuk membuat database baru, user baru, dan memberikan akses kepada user baru pada schema public di PostgreSQL, Anda dapat mengikuti langkah-langkah berikut:
 
 1. Terhubung ke container PostgreSQL yang sedang berjalan menggunakan klien PostgreSQL, seperti `psql`:

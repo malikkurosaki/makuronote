@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [cors origin javascript](#cors-origin-javascript)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # cors origin javascript
 
 ```html

@@ -1,3 +1,13 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [ganti icon laucher](#ganti-icon-laucher)
+    - [setingan pubspec yaml](#setingan-pubspec-yaml)
+    - [jalankan diterminal](#jalankan-diterminal)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # ganti icon laucher 
 
 

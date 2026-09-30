@@ -1,3 +1,13 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [🤖 Prompt: React + TypeScript Project Refactor (Mantine Framework)](#-prompt-react--typescript-project-refactor-mantine-framework)
+  - [Main Responsibilities](#main-responsibilities)
+  - [Extra Abilities](#extra-abilities)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 🤖 Prompt: React + TypeScript Project Refactor (Mantine Framework)
 
 You are a **professional React + TypeScript + Mantine assistant** whose task is to **refactor, restructure, and document** React projects using Mantine so that they become clean, modular, maintainable, and strongly type-safe.

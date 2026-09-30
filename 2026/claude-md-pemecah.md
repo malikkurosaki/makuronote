@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [Architecture](#architecture)
+- [Agent Specs](#agent-specs)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Pecah jadi file terpisah dan referensikan via @path/to/file.md di CLAUDE.md. Claude Code akan auto-load file yang di-reference. Contoh:
 
    ## Architecture

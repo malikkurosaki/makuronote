@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [simpan multiple json ke mysql tanpa looping](#simpan-multiple-json-ke-mysql-tanpa-looping)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # simpan multiple json ke mysql tanpa looping
 
 ```javascript

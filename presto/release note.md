@@ -1,3 +1,13 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [presto mobile release note](#presto-mobile-release-note)
+    - [mobile version](#mobile-version)
+    - [Fitur PRESTO](#fitur-presto)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # presto mobile release note
 
 ### mobile version

@@ -1,3 +1,26 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [pipeline project](#pipeline-project)
+  - [1. struktur](#1-struktur)
+  - [2. flow dan alur](#2-flow-dan-alur)
+    - [front flow](#front-flow)
+    - [backend flow](#backend-flow)
+    - [3. wireframe](#3-wireframe)
+    - [back wireframe](#back-wireframe)
+    - [front wireframe](#front-wireframe)
+  - [4. mockup](#4-mockup)
+    - [backuend mockup](#backuend-mockup)
+    - [frontend mockup](#frontend-mockup)
+  - [5. pengerjaan project](#5-pengerjaan-project)
+  - [Struktural](#struktural)
+    - [TEAM](#team)
+  - [bonus - prototype](#bonus---prototype)
+  - [note](#note)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # pipeline project
 
 ## 1. struktur

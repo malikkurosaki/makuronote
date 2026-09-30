@@ -1,3 +1,13 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [Mengelola Database](#mengelola-database)
+- [Mengelola Tabel](#mengelola-tabel)
+- [Operasi Lainnya](#operasi-lainnya)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Berikut adalah cheat sheet lengkap untuk PostgreSQL dengan contoh-contoh dan penjelasan:
 
 ## Mengelola Database

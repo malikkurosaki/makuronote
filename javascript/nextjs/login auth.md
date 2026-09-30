@@ -1,3 +1,24 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [_app.tsx](#_apptsx)
+- [pages/login.tsx](#pageslogintsx)
+- [pages/login-sg.tsx](#pageslogin-sgtsx)
+- [pages/profile-ssr.tsx](#pagesprofile-ssrtsx)
+- [pages/api/events.ts](#pagesapieventsts)
+- [pages/api/login.ts](#pagesapilogints)
+- [pages/api/logout.ts](#pagesapilogoutts)
+- [pages/api/user.ts](#pagesapiuserts)
+- [lib/fetch_json.ts](#libfetch_jsonts)
+- [lib/session.ts](#libsessionts)
+- [lib/use_events.ts](#libuse_eventsts)
+- [lib/use_user.ts](#libuse_userts)
+- [.env](#env)
+- [.env.development / .env.production](#envdevelopment--envproduction)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### _app.tsx
 
 ```tsx

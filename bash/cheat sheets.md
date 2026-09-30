@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [bash cheat sheets](#bash-cheat-sheets)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # bash cheat sheets
 source : https://github.com/LeCoupa/awesome-cheatsheets/edit/master/languages/bash.sh
 

@@ -1,3 +1,13 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [setup ftp](#setup-ftp)
+- [setup ssh](#setup-ssh)
+- [setup ip table ubuntu](#setup-ip-table-ubuntu)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### setup ftp 
 
 source : https://www.digitalocean.com/community/tutorials/how-to-set-up-vsftpd-for-a-user-s-directory-on-ubuntu-18-04

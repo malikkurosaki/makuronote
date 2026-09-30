@@ -1,3 +1,17 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [app/api/login/route.ts](#appapiloginroutets)
+- [app/api/logout/route.ts](#appapilogoutroutets)
+- [app/api/user/route.ts](#appapiuserroutets)
+- [app/login/page.tsx](#apploginpagetsx)
+- [app/login/login.tsx](#apploginlogintsx)
+- [lib/db.ts](#libdbts)
+- [lib/check_auth.ts](#libcheck_authts)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### app/api/login/route.ts
 ```ts
 import { NextRequest, NextResponse } from 'next/server'

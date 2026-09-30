@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [menangani gak mau install saat debug](#menangani-gak-mau-install-saat-debug)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # menangani gak mau install saat debug
 
 

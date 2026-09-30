@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [membuat dependency flutter](#membuat-dependency-flutter)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # membuat dependency flutter
 
 1. buat folder comtoh : makuro

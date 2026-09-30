@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [flutter firebase database](#flutter-firebase-database)
+    - [setting di build.gradle android/build.gradle](#setting-di-buildgradle-androidbuildgradle)
+    - [setting build gradle android/app/build.gradle](#setting-build-gradle-androidappbuildgradle)
+    - [tambahkan dependency diflutter](#tambahkan-dependency-diflutter)
+- [sempet error di goole play sercvice classpath](#sempet-error-di-goole-play-sercvice-classpath)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # flutter firebase database
 
 

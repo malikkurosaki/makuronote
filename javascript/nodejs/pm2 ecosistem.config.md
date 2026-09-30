@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [pm2 ecosystem](#pm2-ecosystem)
+    - [version 2](#version-2)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # pm2 ecosystem
 
 ecosystem.config.js

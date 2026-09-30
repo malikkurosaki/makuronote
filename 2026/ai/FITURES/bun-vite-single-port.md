@@ -1,3 +1,21 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [Bun + Vite Single-Port Architecture](#bun--vite-single-port-architecture)
+  - [Konsep Inti](#konsep-inti)
+  - [Cara Kerja](#cara-kerja)
+    - [1. Vite dijalankan dalam `middlewareMode`](#1-vite-dijalankan-dalam-middlewaremode)
+    - [2. Bun.serve dengan `fetch` + `routes`](#2-bunserve-dengan-fetch--routes)
+    - [3. `serveFrontend()` — Dev vs Production](#3-servefrontend--dev-vs-production)
+  - [Port yang Terlibat](#port-yang-terlibat)
+  - [Lifecycle Dev Server (`src/serve.ts`)](#lifecycle-dev-server-srcservets)
+  - [Production Mode: Static Files](#production-mode-static-files)
+  - [Dependency](#dependency)
+  - [Verifikasi](#verifikasi)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Bun + Vite Single-Port Architecture
 
 Pola untuk menjalankan backend (Bun.serve) dan frontend (React + Vite) pada **satu port** tanpa reverse proxy, menggunakan Vite `middlewareMode`. Referensi file path (`src/index.tsx`, `src/serve.ts`, dll) adalah konvensi — ganti sesuai struktur project kamu.

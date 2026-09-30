@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [firebase hosting function](#firebase-hosting-function)
+    - [buat project dulu difirebase](#buat-project-dulu-difirebase)
+    - [menambahkan function](#menambahkan-function)
+    - [install expressjs](#install-expressjs)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # firebase hosting function
 
 ### buat project dulu difirebase

@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [main.dart](#maindart)
+- [nodejs](#nodejs)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### main.dart
 ```dart
 import 'package:flutter/material.dart';

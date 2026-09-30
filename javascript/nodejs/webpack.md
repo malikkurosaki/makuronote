@@ -1,3 +1,13 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [webpack.config.js](#webpackconfigjs)
+- [package.json](#packagejson)
+- [src/index.js](#srcindexjs)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 
 ### webpack.config.js

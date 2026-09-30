@@ -1,3 +1,33 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [File Health Panel](#file-health-panel)
+  - [Nama Fitur](#nama-fitur)
+  - [Tujuan](#tujuan)
+  - [Fitur-Fitur](#fitur-fitur)
+    - [1. Scan Otomatis Seluruh Source File](#1-scan-otomatis-seluruh-source-file)
+    - [2. Kategorisasi File Otomatis](#2-kategorisasi-file-otomatis)
+    - [3. Status Health per File](#3-status-health-per-file)
+    - [4. Tampilan Panel](#4-tampilan-panel)
+    - [5. Highlight File Paling Kritis](#5-highlight-file-paling-kritis)
+    - [6. Copy File Path](#6-copy-file-path)
+    - [7. Pagination](#7-pagination)
+  - [Stack yang Dibutuhkan](#stack-yang-dibutuhkan)
+    - [Backend](#backend)
+    - [Frontend](#frontend)
+    - [Endpoint Baru yang Perlu Dibuat](#endpoint-baru-yang-perlu-dibuat)
+  - [Cara Membuat Ulang di Project Lain](#cara-membuat-ulang-di-project-lain)
+    - [Langkah 1 — Definisikan Limit per Kategori](#langkah-1--definisikan-limit-per-kategori)
+    - [Langkah 2 — Buat Endpoint Backend](#langkah-2--buat-endpoint-backend)
+    - [Langkah 3 — Buat Frontend Panel](#langkah-3--buat-frontend-panel)
+    - [Langkah 4 — Daftarkan ke Dev Console](#langkah-4--daftarkan-ke-dev-console)
+  - [Checklist Implementasi](#checklist-implementasi)
+  - [Contoh Output Endpoint](#contoh-output-endpoint)
+  - [Catatan Khusus Project envman](#catatan-khusus-project-envman)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # File Health Panel
 
 ## Nama Fitur

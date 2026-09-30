@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [flutter release android](#flutter-release-android)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # flutter release android
 
 buat file dalam folder android key.properties dalam folder android

@@ -1,3 +1,13 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [mengadakan cors pada nodejs](#mengadakan-cors-pada-nodejs)
+    - [install](#install)
+    - [adakan semua cors](#adakan-semua-cors)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # mengadakan cors pada nodejs
 
 ### install

@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [AndroidManifest.xml](#androidmanifestxml)
+- [network_security_config.xml](#network_security_configxml)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 ### AndroidManifest.xml
 

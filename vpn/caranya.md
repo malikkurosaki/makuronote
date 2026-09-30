@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [START OPENVPN RULES](#start-openvpn-rules)
+- [NAT table rules](#nat-table-rules)
+- [Allow traffic from OpenVPN client to eth0 (change to the interface you discovered!)](#allow-traffic-from-openvpn-client-to-eth0-change-to-the-interface-you-discovered)
+- [END OPENVPN RULES](#end-openvpn-rules)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 sumber : https://www.kangarif.net/2020/07/cara-install-openvpn-di-vps-debian-10.html
 

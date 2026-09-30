@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [shopee scraper v2](#shopee-scraper-v2)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # shopee scraper v2
 
 ```js

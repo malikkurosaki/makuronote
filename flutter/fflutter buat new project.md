@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [flutter new project](#flutter-new-project)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # flutter new project
 
 If you are someone like me, who uses Visual Studio Code to work with Flutter, you would most likely be using Flutter CLI to create new flutter projects.

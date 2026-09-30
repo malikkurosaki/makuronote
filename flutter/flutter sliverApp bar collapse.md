@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [flutter sliver appbar collapse](#flutter-sliver-appbar-collapse)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # flutter sliver appbar collapse
 
 ```dart

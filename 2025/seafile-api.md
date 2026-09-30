@@ -1,3 +1,10 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ```sh
 # curl -X POST https://cld-dkr-makuro-seafile.wibudev.com/api2/auth-token/ \
 #   -d "username=wibu@bip.com" \

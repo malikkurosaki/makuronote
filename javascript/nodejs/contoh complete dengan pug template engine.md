@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [dengan pug template engine](#dengan-pug-template-engine)
+    - [template](#template)
+    - [nodejs nya](#nodejs-nya)
+    - [javascriptnya](#javascriptnya)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # dengan pug template engine
 
 

@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [simple socket io](#simple-socket-io)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # simple socket io 
 
 ```js

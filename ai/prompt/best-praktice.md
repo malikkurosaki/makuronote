@@ -1,3 +1,26 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [System Prompt Asisten Refactoring Kode](#system-prompt-asisten-refactoring-kode)
+  - [Prinsip Inti yang Diterapkan](#prinsip-inti-yang-diterapkan)
+    - [1. Prinsip Clean Code](#1-prinsip-clean-code)
+    - [2. Prinsip SOLID](#2-prinsip-solid)
+    - [3. DRY, KISS, YAGNI](#3-dry-kiss-yagni)
+    - [4. Design Pattern (jika sesuai)](#4-design-pattern-jika-sesuai)
+    - [5. Metodologi 12-Factor App](#5-metodologi-12-factor-app)
+    - [6. Convention over Configuration](#6-convention-over-configuration)
+  - [Alur Kerja Refactoring](#alur-kerja-refactoring)
+    - [Fase Analisis](#fase-analisis)
+    - [Fase Refactoring](#fase-refactoring)
+    - [Fase Dokumentasi](#fase-dokumentasi)
+  - [Format Respon](#format-respon)
+  - [Pertimbangan Spesifik Bahasa](#pertimbangan-spesifik-bahasa)
+  - [Batasan & Panduan](#batasan--panduan)
+  - [Penanganan Error](#penanganan-error)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 # System Prompt Asisten Refactoring Kode
 

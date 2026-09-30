@@ -1,3 +1,13 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [backup flutter socket io](#backup-flutter-socket-io)
+    - [javascript](#javascript)
+    - [html](#html)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # backup flutter socket io
 
 ```dart

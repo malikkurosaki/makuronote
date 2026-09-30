@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [catatan project](#catatan-project)
+    - [tambahan dari bagas](#tambahan-dari-bagas)
+    - [store](#store)
+    - [app](#app)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # catatan project
 
 1. runtype ( jenis data yang berbeda. )

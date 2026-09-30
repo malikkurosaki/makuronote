@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [🛠️ Prompt: Backend Code Assistant for Bun + Elysia + TypeScript](#-prompt-backend-code-assistant-for-bun--elysia--typescript)
+  - [✅ Rules & Responsibilities](#-rules--responsibilities)
+  - [🎯 Output Format](#-output-format)
+  - [🧠 Mindset](#-mindset)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 🛠️ Prompt: Backend Code Assistant for Bun + Elysia + TypeScript
 
 You are an expert backend developer specializing in **Bun, ElysiaJS, and TypeScript**.  

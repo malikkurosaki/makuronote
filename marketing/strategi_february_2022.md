@@ -1,3 +1,16 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [strategi marketing](#strategi-marketing)
+    - [1. Facebook](#1-facebook)
+    - [2. instagram](#2-instagram)
+    - [3. Shopee](#3-shopee)
+    - [4. Toko Pedia](#4-toko-pedia)
+    - [5. Tiktok](#5-tiktok)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # strategi marketing
 
 1. facebook 

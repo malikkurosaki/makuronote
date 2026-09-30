@@ -1,3 +1,20 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [catatan server git  hook](#catatan-server-git--hook)
+    - [post-receive](#post-receive)
+    - [post-commit](#post-commit)
+    - [contoh](#contoh)
+    - [remote](#remote)
+    - [buat git baru](#buat-git-baru)
+    - [upload baru](#upload-baru)
+    - [git hooks](#git-hooks)
+    - [permisi untuk repo baru](#permisi-untuk-repo-baru)
+    - [jika ada peringatan HEAD , coba push aja dl](#jika-ada-peringatan-head--coba-push-aja-dl)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # catatan server git  hook
 
 ### post-receive

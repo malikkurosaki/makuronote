@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [flutter sqflite complete v1](#flutter-sqflite-complete-v1)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # flutter sqflite complete v1
 
 main.dart

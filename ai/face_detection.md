@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [main.py](#mainpy)
+- [templates/index.html](#templatesindexhtml)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### main.py
 
 ```py

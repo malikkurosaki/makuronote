@@ -1,3 +1,13 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [task.tsx](#tasktsx)
+- [document.tsx](#documenttsx)
+- [next.config.js](#nextconfigjs)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 ### task.tsx
 ```js

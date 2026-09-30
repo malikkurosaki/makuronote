@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [OPEN API TO MCP TOOL](#open-api-to-mcp-tool)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # OPEN API TO MCP TOOL
 
 ```ts

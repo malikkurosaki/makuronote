@@ -1,3 +1,10 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Berikut adalah cheat sheet untuk beberapa perintah utama dalam Docker CLI, lengkap dengan penjelasan, contoh penggunaan, keterangan opsi (flag), dan deskripsi singkat:
 
 **Perintah: `docker run`**

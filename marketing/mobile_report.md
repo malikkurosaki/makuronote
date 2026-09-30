@@ -1,3 +1,19 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [mobile report](#mobile-report)
+    - [Mobile Report Alpha V001](#mobile-report-alpha-v001)
+    - [mobile report alpha V002 (comming soon )](#mobile-report-alpha-v002-comming-soon-)
+    - [note](#note)
+    - [teknology](#teknology)
+    - [flutter](#flutter)
+    - [web / desktop view](#web--desktop-view)
+    - [mobile view](#mobile-view)
+    - [demo APK](#demo-apk)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # mobile report
 
 ### Mobile Report Alpha V001

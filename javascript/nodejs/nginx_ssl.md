@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [Default server configuration](#default-server-configuration)
+- [Virtual Host/SSL/Reverse proxy configuration for example.com](#virtual-hostsslreverse-proxy-configuration-for-examplecom)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 from: https://gist.github.com/basharovV/e25989cc918f0b21ded26c8bf3be8400
 
 How to configure HTTPS with Lets Encrypt, Nginx reverse proxy, Express and Node

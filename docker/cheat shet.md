@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [Image Operations](#image-operations)
+- [Container Operations](#container-operations)
+- [Container Logs and Monitoring](#container-logs-and-monitoring)
+- [Networking](#networking)
+- [Docker Compose](#docker-compose)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Certainly! Here's a Docker cheat sheet with commonly used commands and operations:
 
 ## Image Operations
