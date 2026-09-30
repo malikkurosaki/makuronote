@@ -5,7 +5,7 @@ on:
     branches:
       - master
     paths:
-      - "README.md"
+      - "**/README.md"
 
 permissions:
   contents: write
