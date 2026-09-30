@@ -1,4 +1,6 @@
 
+# GIT NOTE
+
 <!-- TOC -->
 
 ### https://github.com/Edge0-AI/edge0
