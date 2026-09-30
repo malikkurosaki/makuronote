@@ -27,3 +27,6 @@
 ### Treg (OpenRouter for Tools)
 
 [![](https://github.com/superdesigndev/treg/raw/main/docs/assets/treg-hero.png)](https://github.com/superdesigndev/treg)
+
+### Pake 
+[![](https://github.com/user-attachments/assets/efbdd868-592a-4d01-ab73-4fae0efbef41)](https://github.com/tw93/Pake)
